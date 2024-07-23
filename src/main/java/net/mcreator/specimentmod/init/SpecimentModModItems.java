@@ -171,7 +171,7 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> PNEU_INTERMEDIAIRE_SPAWN_EGG = REGISTRY.register("pneu_intermediaire_spawn_egg",
 			() -> new DeferredSpawnEggItem(SpecimentModModEntities.PNEU_INTERMEDIAIRE, -16777216, -13369600, new Item.Properties()));
 	public static final DeferredHolder<Item, Item> PNEUWET_SPAWN_EGG = REGISTRY.register("pneuwet_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.PNEUWET, -16777216, -16750849, new Item.Properties()));
-	public static final DeferredHolder<Item, Item> F_1_SPAWN_EGG = REGISTRY.register("f_1_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.F_1, -16777216, -16750849, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> F_1_SPAWN_EGG = REGISTRY.register("f_1_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.F_1, -65536, -256, new Item.Properties()));
 	public static final DeferredHolder<Item, Item> FEMIROKO_WOOD = block(SpecimentModModBlocks.FEMIROKO_WOOD);
 	public static final DeferredHolder<Item, Item> FEMIROKO_LOG = block(SpecimentModModBlocks.FEMIROKO_LOG);
 	public static final DeferredHolder<Item, Item> FEMIROKO_PLANKS = block(SpecimentModModBlocks.FEMIROKO_PLANKS);

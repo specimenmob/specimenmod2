@@ -43,6 +43,16 @@ public class MinitelBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return switch (state.getValue(FACING)) {
+			default -> box(4, 0, 3, 12, 6, 13);
+			case NORTH -> box(4, 0, 3, 12, 6, 13);
+			case EAST -> box(3, 0, 4, 13, 6, 12);
+			case WEST -> box(3, 0, 4, 13, 6, 12);
+		};
+	}
+
+	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		builder.add(FACING);
 	}

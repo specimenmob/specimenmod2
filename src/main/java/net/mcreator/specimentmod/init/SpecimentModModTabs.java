@@ -128,36 +128,36 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.KAILONITE_ARMOR_CHESTPLATE.get());
 				tabData.accept(SpecimentModModItems.KAILONITE_ARMOR_LEGGINGS.get());
 				tabData.accept(SpecimentModModItems.KAILONITE_ARMOR_BOOTS.get());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_WOOD.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_LOG.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_LEAVES.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_PLANKS.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_STAIRS.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_SLAB.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_DOOR.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_FENCE.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_FENCE_GATE.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_PRESSURE_PLATE.get().asItem());
+				tabData.accept(SpecimentModModBlocks.KAILONEA_BUTTON.get().asItem());
 				tabData.accept(SpecimentModModBlocks.KAILONISETUM.get().asItem());
 				tabData.accept(SpecimentModModItems.POUDREDEKAILONISETUM.get());
-				tabData.accept(SpecimentModModItems.LERAPDELAF_1.get());
 				tabData.accept(SpecimentModModItems.PIERREDU_KAILON_KALEIDOSCOPE.get());
+				tabData.accept(SpecimentModModItems.LERAPDELAF_1.get());
 				tabData.accept(SpecimentModModItems.BIDONESSENCE.get());
-				tabData.accept(SpecimentModModItems.PNEUMEDIUM_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModItems.F_1_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEUSOFT_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModItems.PNEUMEDIUM_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEUHARD_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEU_INTERMEDIAIRE_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEUWET_SPAWN_EGG.get());
-				tabData.accept(SpecimentModModItems.F_1_SPAWN_EGG.get());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_BUTTON.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_FENCE.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_FENCE_GATE.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_LEAVES.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_LOG.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_PLANKS.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_PRESSURE_PLATE.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_SLAB.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_STAIRS.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_WOOD.get().asItem());
-				tabData.accept(SpecimentModModBlocks.KAILONEA_DOOR.get().asItem());
 			})
 
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SPECIMEN = REGISTRY.register("specimen",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.specimen")).icon(() -> new ItemStack(SpecimentModModItems.CATALYSEURVIDE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(SpecimentModModItems.CATALYSEURVIDE.get());
-				tabData.accept(SpecimentModModItems.LESSPECIMEN.get());
 				tabData.accept(SpecimentModModItems.LAFIN.get());
+				tabData.accept(SpecimentModModItems.LESSPECIMEN.get());
 				tabData.accept(SpecimentModModBlocks.MINITEL.get().asItem());
 			})
 
@@ -173,6 +173,10 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.FEMIUM_AXE.get());
 				tabData.accept(SpecimentModModItems.FEMIUM_SHOVEL.get());
 				tabData.accept(SpecimentModModItems.FEMIUM_HOE.get());
+				tabData.accept(SpecimentModModItems.FEMIUM_ARMOR_HELMET.get());
+				tabData.accept(SpecimentModModItems.FEMIUM_ARMOR_CHESTPLATE.get());
+				tabData.accept(SpecimentModModItems.FEMIUM_ARMOR_LEGGINGS.get());
+				tabData.accept(SpecimentModModItems.FEMIUM_ARMOR_BOOTS.get());
 				tabData.accept(SpecimentModModBlocks.FEMIROKO_WOOD.get().asItem());
 				tabData.accept(SpecimentModModBlocks.FEMIROKO_LOG.get().asItem());
 				tabData.accept(SpecimentModModBlocks.FEMIROKO_LEAVES.get().asItem());
@@ -184,10 +188,6 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModBlocks.FEMIROKO_FENCE_GATE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.FEMIROKO_PRESSURE_PLATE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.FEMIROKO_BUTTON.get().asItem());
-				tabData.accept(SpecimentModModItems.FEMIUM_ARMOR_HELMET.get());
-				tabData.accept(SpecimentModModItems.FEMIUM_ARMOR_CHESTPLATE.get());
-				tabData.accept(SpecimentModModItems.FEMIUM_ARMOR_LEGGINGS.get());
-				tabData.accept(SpecimentModModItems.FEMIUM_ARMOR_BOOTS.get());
 				tabData.accept(SpecimentModModBlocks.FEMILIS.get().asItem());
 				tabData.accept(SpecimentModModItems.POUDREDEFEMILIS.get());
 				tabData.accept(SpecimentModModItems.PIERREDELAFEMIFOREST.get());

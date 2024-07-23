@@ -20,11 +20,11 @@
     "stepHeight": 0.6,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -16777216,
+      "value": -65536,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16750849,
+      "value": -256,
       "falpha": 0.0
     },
     "creativeTab": {
