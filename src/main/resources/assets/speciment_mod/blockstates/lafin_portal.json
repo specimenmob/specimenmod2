@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "speciment_mod:block/lafin_portal_ew"
+    },
+    "axis=x": {
+      "model": "speciment_mod:block/lafin_portal_ns"
+    }
+  }
+}

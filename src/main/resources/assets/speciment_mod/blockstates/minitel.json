@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "speciment_mod:block/minitel"
+    },
+    "facing=east": {
+      "model": "speciment_mod:block/minitel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "speciment_mod:block/minitel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "speciment_mod:block/minitel",
+      "y": 270
+    }
+  }
+}

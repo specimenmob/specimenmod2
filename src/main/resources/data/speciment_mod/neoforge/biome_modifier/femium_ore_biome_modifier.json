@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "speciment_mod:biome_femi",
+  "features": "speciment_mod:femium_ore",
+  "step": "underground_ores"
+}

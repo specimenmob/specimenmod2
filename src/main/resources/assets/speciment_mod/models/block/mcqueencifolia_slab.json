@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "speciment_mod:block/mcqueencifolia_planks",
+    "bottom": "speciment_mod:block/mcqueencifolia_planks",
+    "top": "speciment_mod:block/mcqueencifolia_planks",
+    "side": "speciment_mod:block/mcqueencifolia_planks"
+  },
+  "render_type": "solid"
+}

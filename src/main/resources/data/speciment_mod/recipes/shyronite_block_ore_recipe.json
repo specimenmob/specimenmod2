@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "speciment_mod:shyronite_block"
+    }
+  ],
+  "result": {
+    "id": "speciment_mod:shyronite",
+    "count": 9
+  }
+}

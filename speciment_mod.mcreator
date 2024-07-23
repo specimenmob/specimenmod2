@@ -1,0 +1,4941 @@
+{
+  "mod_elements": [
+    {
+      "name": "FemiMars",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femi_mars",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "BiomeFemi",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome_femi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/worldgen/biome/biome_femi.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biome_femi_tree.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biome_femi_tree.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Femium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/femium.json",
+          "src/main/java/net/mcreator/specimentmod/item/FemiumItem.java"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/femium_ore.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/femium_ore.json",
+          "src/main/resources/assets/speciment_mod/models/block/femium_ore.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femium_ore.json",
+          "src/main/resources/assets/speciment_mod/models/item/femium_ore.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemiumOreBlock.java",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/femium_ore_biome_modifier.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/femium_ore.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/femium_block.json",
+          "src/main/resources/assets/speciment_mod/models/item/femium_block.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femium_block.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femium_block.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemiumBlockBlock.java"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_ore_smelting.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/femium_pickaxe.json",
+          "src/main/java/net/mcreator/specimentmod/item/FemiumPickaxeItem.java"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/FemiumAxeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/femium_axe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/FemiumSwordItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/femium_sword.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/FemiumShovelItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/femium_shovel.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/femium_hoe.json",
+          "src/main/java/net/mcreator/specimentmod/item/FemiumHoeItem.java"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_axe_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_sword_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_shovel_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_hoe_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/femium_armor_boots.json",
+          "src/main/java/net/mcreator/specimentmod/item/FemiumArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/femium_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/femium_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/femium_armor_chestplate.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "FemiumArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femium_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Lerapdelaf1",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lerapdelaf_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/Lerapdelaf1Item.java",
+          "src/main/resources/assets/speciment_mod/models/item/lerapdelaf_1.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Kailon",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailon",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Kailonite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/kailonite.json",
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteItem.java"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/kailonite_ore.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/kailonite_ore.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonite_ore.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoniteOreBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonite_ore.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_ore.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/kailonite_ore_biome_modifier.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonite_ore.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_block.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonite_block.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoniteBlockBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonite_block.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonite_block.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailonitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_pickaxe.json",
+          "src/main/java/net/mcreator/specimentmod/item/KailonitePickaxeItem.java"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteAxeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_axe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteSwordItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_sword.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteShovelItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_shovel.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteHoeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_hoe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailonitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_boots.json",
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "KailoniteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "BiomeKailon",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome_kailon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biome_kailon_tree.json",
+          "src/main/resources/data/speciment_mod/worldgen/biome/biome_kailon.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biome_kailon_tree.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Femilis",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femilis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/femilis_biome_modifier.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/femilis.json",
+          "src/main/resources/assets/speciment_mod/models/block/femilis.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/femilis.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femilis.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemilisBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/femilis.json",
+          "src/main/resources/assets/speciment_mod/models/item/femilis.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Catalyseurvide",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyseurvide",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/CatalyseurvideItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/catalyseurvide.json"
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "Specimen",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "specimen",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "Catalyseurvidecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyseurvidecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/catalyseur_vide.json"
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "FemiForest",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femi_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/FemiForestItem.java",
+          "src/main/resources/assets/speciment_mod/blockstates/femi_forest_portal.json",
+          "src/main/resources/assets/speciment_mod/models/block/femi_forest_portal_ns.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemiForestPortalBlock.java",
+          "src/main/java/net/mcreator/specimentmod/world/dimension/FemiForestDimension.java",
+          "src/main/resources/data/speciment_mod/dimension/femi_forest.json",
+          "src/main/resources/assets/speciment_mod/models/item/femi_forest.json",
+          "src/main/resources/data/speciment_mod/dimension_type/femi_forest.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/FemiForestTeleporter.java",
+          "src/main/resources/assets/speciment_mod/models/block/femi_forest_portal_ew.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/FemiForestPortalShape.java"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "KailonKaleidoscope",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailon_kaleidoscope",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/dimension_type/kailon_kaleidoscope.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailonKaleidoscopePortalBlock.java",
+          "src/main/java/net/mcreator/specimentmod/item/KailonKaleidoscopeItem.java",
+          "src/main/java/net/mcreator/specimentmod/world/dimension/KailonKaleidoscopeDimension.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailon_kaleidoscope_portal_ns.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailon_kaleidoscope_portal_ew.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/KailonKaleidoscopePortalShape.java",
+          "src/main/resources/assets/speciment_mod/blockstates/kailon_kaleidoscope_portal.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/KailonKaleidoscopeTeleporter.java",
+          "src/main/resources/data/speciment_mod/dimension/kailon_kaleidoscope.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailon_kaleidoscope.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Poudredefemilis",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poudredefemilis",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/poudredefemilis.json",
+          "src/main/java/net/mcreator/specimentmod/item/PoudredefemilisItem.java"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Poudredefemiliscraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poudredefemiliscraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/poudredefemiliscraft.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Pierredelafemiforestcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierredelafemiforestcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/pierredelafemiforestcraft.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Pierredelafemiforest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierredelafemiforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/pierredelafemiforest.json",
+          "src/main/java/net/mcreator/specimentmod/item/PierredelafemiforestItem.java"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Catalyseurfemicraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyseurfemicraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/catalyseurfemicraft.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Shyro",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyro",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroSkyland",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyro_skyland",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/shyro_skyland_portal.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyro_skyland_portal_ns.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyroSkylandPortalBlock.java",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/ShyroSkylandTeleporter.java",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroSkylandItem.java",
+          "src/main/resources/data/speciment_mod/dimension/shyro_skyland.json",
+          "src/main/resources/data/speciment_mod/dimension_type/shyro_skyland.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyro_skyland_portal_ew.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/ShyroSkylandPortalShape.java",
+          "src/main/java/net/mcreator/specimentmod/world/dimension/ShyroSkylandDimension.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyro_skyland.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Shyronite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyronite.json",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroniteItem.java"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/shyronite_ore.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/shyronite_ore.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/shyronite_ore.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyronite_ore.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyronite_ore.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyroniteOreBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_ore.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/shyronite_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/ShyroniteBlockBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/shyronite_block.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_block.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyronite_block.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyronite_block.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyronitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/ShyronitePickaxeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_pickaxe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_axe.json",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroniteAxeItem.java"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_sword.json",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroniteSwordItem.java"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/ShyroniteShovelItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_shovel.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_hoe.json",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroniteHoeItem.java"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyronitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_boots.json",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroniteArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "ShyroniteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyronite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyronite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Biomeshyro",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomeshyro",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biomeshyro_tree.json",
+          "src/main/resources/data/speciment_mod/worldgen/biome/biomeshyro.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biomeshyro_tree.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "SteakdeMimircrue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steakde_mimircrue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/SteakdeMimircrueItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/steakde_mimircrue.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "SteakdeMimir",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steakde_mimir",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/SteakdeMimirItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/steakde_mimir.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "CuissonMimir",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuisson_mimir",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/cuisson_mimir.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Mimir",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mimir",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/mimir_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/entity/MimirEntity.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/MimirRenderer.java",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/mimir_biome_modifier.json"
+        ]
+      },
+      "path": "~/FemiMarsMob"
+    },
+    {
+      "name": "Mcqueenium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium.json",
+          "src/main/java/net/mcreator/specimentmod/item/McqueeniumItem.java"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueenium_ore.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueenium_ore.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueenium_ore.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueeniumOreBlock.java",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/mcqueenium_ore.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/mcqueenium_ore_biome_modifier.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_ore.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/mcqueenium_ore.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueenium_block.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueeniumBlockBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_block.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueenium_block.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueenium_block.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_ore_smelting.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/McqueeniumPickaxeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_pickaxe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/McqueeniumAxeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_axe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_sword.json",
+          "src/main/java/net/mcreator/specimentmod/item/McqueeniumSwordItem.java"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_shovel.json",
+          "src/main/java/net/mcreator/specimentmod/item/McqueeniumShovelItem.java"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/McqueeniumHoeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_hoe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_axe_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_sword_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_shovel_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_hoe_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/McqueeniumArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_chestplate.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_boots.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McqueeniumArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueenium_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "Minox",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/minox.json",
+          "src/main/java/net/mcreator/specimentmod/item/MinoxItem.java"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/minox_ore.json",
+          "src/main/resources/assets/speciment_mod/models/item/minox_ore.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/minox_ore_biome_modifier.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/minox_ore.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/minox_ore.json",
+          "src/main/resources/assets/speciment_mod/models/block/minox_ore.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoxOreBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minox_ore.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/minox_block.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoxBlockBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/minox_block.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minox_block.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minox_block.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_ore_smelting.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/MinoxPickaxeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/minox_pickaxe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/MinoxAxeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/minox_axe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/minox_sword.json",
+          "src/main/java/net/mcreator/specimentmod/item/MinoxSwordItem.java"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/MinoxShovelItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/minox_shovel.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/MinoxHoeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/minox_hoe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_axe_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_sword_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/minox_armor_leggings.json",
+          "src/main/java/net/mcreator/specimentmod/item/MinoxArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/minox_armor_boots.json",
+          "src/main/resources/assets/speciment_mod/models/item/minox_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/minox_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "MinoxArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minox_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minox_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "McQueen",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_queen",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "McQueenManor",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_queen_manor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/mc_queen_manor_portal_ew.json",
+          "src/main/resources/assets/speciment_mod/models/item/mc_queen_manor.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/McQueenManorTeleporter.java",
+          "src/main/java/net/mcreator/specimentmod/block/McQueenManorPortalBlock.java",
+          "src/main/java/net/mcreator/specimentmod/item/McQueenManorItem.java",
+          "src/main/java/net/mcreator/specimentmod/world/dimension/McQueenManorDimension.java",
+          "src/main/resources/assets/speciment_mod/blockstates/mc_queen_manor_portal.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/McQueenManorPortalShape.java",
+          "src/main/resources/data/speciment_mod/dimension_type/mc_queen_manor.json",
+          "src/main/resources/data/speciment_mod/dimension/mc_queen_manor.json",
+          "src/main/resources/assets/speciment_mod/models/block/mc_queen_manor_portal_ns.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "MinoMysteria",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mino_mysteria",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/MinoMysteriaTeleporter.java",
+          "src/main/resources/data/speciment_mod/dimension_type/mino_mysteria.json",
+          "src/main/java/net/mcreator/specimentmod/item/MinoMysteriaItem.java",
+          "src/main/resources/assets/speciment_mod/models/block/mino_mysteria_portal_ns.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/MinoMysteriaPortalShape.java",
+          "src/main/resources/assets/speciment_mod/models/block/mino_mysteria_portal_ew.json",
+          "src/main/resources/assets/speciment_mod/models/item/mino_mysteria.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mino_mysteria_portal.json",
+          "src/main/java/net/mcreator/specimentmod/world/dimension/MinoMysteriaDimension.java",
+          "src/main/resources/data/speciment_mod/dimension/mino_mysteria.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoMysteriaPortalBlock.java"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "Poudredekailonisetum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poudredekailonisetum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/PoudredekailonisetumItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/poudredekailonisetum.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Kailonisetum",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonisetum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/KailonisetumBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonisetum.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonisetum.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonisetum.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonisetum.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Cuissonkailonisetum",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuissonkailonisetum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/cuissonkailonisetum.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Poudredeminolia",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poudredeminolia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/poudredeminolia.json",
+          "src/main/java/net/mcreator/specimentmod/item/PoudredeminoliaItem.java"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "Minolia",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minolia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minolia.json",
+          "src/main/resources/assets/speciment_mod/models/block/minolia.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoliaBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/minolia.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minolia.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "Cuissonminolia",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuissonminolia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/cuissonminolia.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "Mino",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mino",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "Pierredumacqueenmanor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierredumacqueenmanor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/pierredumacqueenmanor.json",
+          "src/main/java/net/mcreator/specimentmod/item/PierredumacqueenmanorItem.java"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "Pierredeminomysteria",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierredeminomysteria",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/pierredeminomysteria.json",
+          "src/main/java/net/mcreator/specimentmod/item/PierredeminomysteriaItem.java"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "PierreduKailonKaleidoscope",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierredu_kailon_kaleidoscope",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/PierreduKailonKaleidoscopeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/pierredu_kailon_kaleidoscope.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Pierredeshyroskyland",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierredeshyroskyland",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/PierredeshyroskylandItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/pierredeshyroskyland.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Craftcatalyseurultime",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftcatalyseurultime",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/craftcatalyseurultime.json"
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "Bidonessence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bidonessence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/bidonessence.json",
+          "src/main/java/net/mcreator/specimentmod/item/BidonessenceItem.java"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Lesspecimen",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lesspecimen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/LesspecimenItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/lesspecimen.json"
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "BidonessenceLeJoueurTermineDutiliserLitem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bidonessence_le_joueur_termine_dutiliser_litem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/BidonessenceLeJoueurTermineDutiliserLitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Cuissonmcqueenelle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuissonmcqueenelle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/cuissonmcqueenelle.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "PoudredeMcqueenium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poudrede_mcqueenium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/poudrede_mcqueenium.json",
+          "src/main/java/net/mcreator/specimentmod/item/PoudredeMcqueeniumItem.java"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "Mcqueenelle",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueenelle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenelle.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueenelle.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueenelleBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueenelle.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueenelle.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "Shyrosa",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrosa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/shyrosa.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrosa.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrosa.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrosa.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrosaBlock.java"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Poudredeshyrosa",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poudredeshyrosa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/PoudredeshyrosaItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/poudredeshyrosa.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Cuissonshyrosa",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuissonshyrosa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/cuisson_shyrosa.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Pierredeshyroskylandcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierredeshyroskylandcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/pierredeshyroskylandcraft.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Shyrocatalyseurcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocatalyseurcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocatalyseurcraft.json"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Pierredukailonkaleidoscopecraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierredukailonkaleidoscopecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/pierredukailonkaleidoscopecraft.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Catalyseurkailoncraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyseurkailoncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/catalyseurkailoncraft.json"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Pierredeminomysteriacraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierredeminomysteriacraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/pierredeminomysteriacraft.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "Catalyseurminocraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyseurminocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/catalyseurminocraft.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "Biomemino",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomemino",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/worldgen/biome/biomemino.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biomemino_tree.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biomemino_tree.json"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "Biomemcqueen",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biomemcqueen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biomemcqueen_tree.json",
+          "src/main/resources/data/speciment_mod/worldgen/biome/biomemcqueen.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biomemcqueen_tree.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "Lafin",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lafin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/dimension/lafin.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/LafinPortalShape.java",
+          "src/main/resources/assets/speciment_mod/blockstates/lafin_portal.json",
+          "src/main/java/net/mcreator/specimentmod/block/LafinPortalBlock.java",
+          "src/main/java/net/mcreator/specimentmod/item/LafinItem.java",
+          "src/main/resources/assets/speciment_mod/models/block/lafin_portal_ns.json",
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/LafinTeleporter.java",
+          "src/main/resources/assets/speciment_mod/models/block/lafin_portal_ew.json",
+          "src/main/java/net/mcreator/specimentmod/world/dimension/LafinDimension.java",
+          "src/main/resources/assets/speciment_mod/models/item/lafin.json",
+          "src/main/resources/data/speciment_mod/dimension_type/lafin.json"
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "Minitel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minitel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/minitel.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinitelBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/minitel.json",
+          "src/main/resources/assets/speciment_mod/models/item/minitel.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minitel.json"
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "Rocky",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/entity/RockyEntity.java",
+          "src/main/resources/assets/speciment_mod/models/item/rocky_spawn_egg.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/rocky_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/RockyRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/entity/model/RockyModel.java"
+        ]
+      },
+      "path": "~/McQueenMob"
+    },
+    {
+      "name": "Pneusoft",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pneusoft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/entity/PneusoftEntity.java",
+          "src/main/resources/assets/speciment_mod/models/item/pneusoft_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneusoftRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/entity/model/PneusoftModel.java",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneusoft_biome_modifier.json"
+        ]
+      },
+      "path": "~/KailonMob"
+    },
+    {
+      "name": "Pneumedium",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pneumedium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneumediumRenderer.java",
+          "src/main/resources/assets/speciment_mod/models/item/pneumedium_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/entity/model/PneumediumModel.java",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneumedium_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/entity/PneumediumEntity.java"
+        ]
+      },
+      "path": "~/KailonMob"
+    },
+    {
+      "name": "Pneuhard",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pneuhard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/pneuhard_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/entity/model/PneuhardModel.java",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneuhard_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/entity/PneuhardEntity.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneuhardRenderer.java"
+        ]
+      },
+      "path": "~/KailonMob"
+    },
+    {
+      "name": "PneuIntermediaire",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pneu_intermediaire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/entity/PneuIntermediaireEntity.java",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneu_intermediaire_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneuIntermediaireRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/entity/model/PneuIntermediaireModel.java",
+          "src/main/resources/assets/speciment_mod/models/item/pneu_intermediaire_spawn_egg.json"
+        ]
+      },
+      "path": "~/KailonMob"
+    },
+    {
+      "name": "Pneuwet",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pneuwet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/entity/model/PneuwetModel.java",
+          "src/main/java/net/mcreator/specimentmod/entity/PneuwetEntity.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneuwetRenderer.java",
+          "src/main/resources/assets/speciment_mod/models/item/pneuwet_spawn_egg.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneuwet_biome_modifier.json"
+        ]
+      },
+      "path": "~/KailonMob"
+    },
+    {
+      "name": "F1",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/f_1_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/entity/model/F1Model.java",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/f_1_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/entity/F1Entity.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/F1Renderer.java"
+        ]
+      },
+      "path": "~/KailonMob"
+    },
+    {
+      "name": "FemirokoWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_wood.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_wood.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_wood.json",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_wood.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoWoodBlock.java"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_log.json",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_log.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_log.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_log.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoLogBlock.java"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_planks.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_planks.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_planks.json",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_planks.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoPlanksBlock.java"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoLeavesBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_leaves.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_leaves.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_leaves.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_leaves.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_stairs_inner.json",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_stairs_outer.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoStairsBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_stairs.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_stairs.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_slab.json",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_slab.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_slab_full.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoSlabBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_slab_top.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_slab.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoFenceBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_post.json",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_inventory.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_fence.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_fence_gate.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoFenceGateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate_wall_open.json",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate_wall.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate_open.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_pressure_plate_down.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_pressure_plate.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoPressurePlateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_pressure_plate.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_button.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_button_inventory.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_button_pressed.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoButtonBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_button.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_wood_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_stairs_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_slab_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_fence_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_button_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "FemirokoStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_stick_recipe.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "KailoneaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_wood.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_wood.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaWoodBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_wood.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_wood.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_log.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaLogBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_log.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_log.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_log.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_planks.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_planks.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaPlanksBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_planks.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_planks.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_leaves.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_leaves.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_leaves.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaLeavesBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_leaves.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs_outer.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs_inner.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_stairs.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_stairs.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaStairsBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_slab_top.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaSlabBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_slab_full.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_slab.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_fence.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_fence.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaFenceBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_post.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_inventory.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_wall.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_open.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaFenceGateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_pressure_plate.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_pressure_plate_down.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaPressurePlateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_pressure_plate.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_button_inventory.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaButtonBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_button_pressed.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_button.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_wood_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_stairs_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_slab_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_fence_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_button_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "KailoneaStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_stick_recipe.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "Stuffdedepart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stuffdedepart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/StuffdedepartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "FemirokoDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_right.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_door.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoDoorBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_left.json",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_left_open.json"
+        ]
+      },
+      "path": "~/FemiMarsBois"
+    },
+    {
+      "name": "KailoneaDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_right.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_door.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaDoorBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_left_open.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_door.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_left_open.json"
+        ]
+      },
+      "path": "~/KailonBois"
+    },
+    {
+      "name": "ShyrociaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_wood.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_wood.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaWoodBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_wood.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_wood.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaLogBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_log.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_log.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_log.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_log.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_planks.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_planks.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_planks.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaPlanksBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_planks.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_leaves.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_leaves.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_leaves.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaLeavesBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_leaves.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_stairs.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaStairsBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_stairs_inner.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_stairs_outer.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_slab_top.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_slab_full.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_slab.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaSlabBlock.java"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaFenceBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_post.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_fence.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_inventory.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaFenceGateBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_pressure_plate.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_pressure_plate.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaPressurePlateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_pressure_plate_down.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_pressure_plate.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_button.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_button_inventory.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_button_pressed.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaButtonBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_button.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_wood_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_stairs_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_slab_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_fence_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_button_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "ShyrociaStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_stick_recipe.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "MinoriaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_wood.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_wood.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_wood.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaWoodBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_wood.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_log.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_log.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaLogBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_log.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_log.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_planks.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_planks.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaPlanksBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_planks.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_planks.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_leaves.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_leaves.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaLeavesBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_leaves.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_leaves.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaStairsBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_stairs_outer.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_stairs.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_stairs.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_stairs_inner.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_slab.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaSlabBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_slab.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_slab_full.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_slab_top.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_fence.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_fence.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_fence.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaFenceBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_post.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_inventory.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaFenceGateBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_wall.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_open.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/minoria_pressure_plate_down.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaPressurePlateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_pressure_plate.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_pressure_plate.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaButtonBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_button_inventory.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_button_pressed.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_button.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_wood_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_stairs_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_slab_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_fence_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_button_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "MinoriaStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_stick_recipe.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "ShyrociaDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaDoorBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_left_open.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_right.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_left.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_right_open.json"
+        ]
+      },
+      "path": "~/ShyroBois"
+    },
+    {
+      "name": "MinoriaDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/minoria_door.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_right.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_door.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaDoorBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_left_open.json"
+        ]
+      },
+      "path": "~/MinoBois"
+    },
+    {
+      "name": "McqueencifoliaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaWoodBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_wood.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_wood.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_wood.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_wood.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_log.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_log.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaLogBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_log.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_log.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaPlanksBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_planks.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_planks.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_planks.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_planks.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_leaves.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_leaves.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaLeavesBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_leaves.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_leaves.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_stairs_inner.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_stairs_outer.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaStairsBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_stairs.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_slab.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_slab.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_slab.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaSlabBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_slab_full.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_slab_top.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_inventory.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_fence.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_post.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaFenceBlock.java"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_fence_gate.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaFenceGateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate_wall.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate_open.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_pressure_plate_down.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_pressure_plate.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_pressure_plate.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaPressurePlateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_pressure_plate.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaButtonBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_button_inventory.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_button_pressed.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_button.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_button.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_wood_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_stairs_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_slab_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_fence_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_button_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_stick_recipe.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    },
+    {
+      "name": "McqueencifoliaDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_left_open.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_door.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_door.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_right_open.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaDoorBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_left.json"
+        ]
+      },
+      "path": "~/McQueenBois"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "kit",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "lerapdelaf1",
+      "files": [
+        "le-rap-de-la-f1-kailon"
+      ],
+      "category": "music",
+      "subtitle": "Kailon"
+    },
+    {
+      "name": "twitch",
+      "files": [
+        "twitch"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "leclerc",
+      "files": [
+        "charles-leclerc-scream-noooo"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "boxbox",
+      "files": [
+        "box-box-f1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "degatf1",
+      "files": [
+        "degatf1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mimir_death",
+      "files": [
+        "46711698972-offset-5714-_1_"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "specimen",
+      "files": [
+        "presentation"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:McqueencifoliaFence",
+      "~CUSTOM:MinoriaFence",
+      "~CUSTOM:ShyrociaFence",
+      "~CUSTOM:KailoneaFence",
+      "~CUSTOM:FemirokoFence"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:MinoxArmor.body",
+      "~CUSTOM:McqueeniumArmor.body",
+      "~CUSTOM:ShyroniteArmor.body",
+      "~CUSTOM:KailoniteArmor.body",
+      "~CUSTOM:FemiumArmor.body"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:McqueencifoliaLeaves",
+      "~CUSTOM:MinoriaLeaves",
+      "~CUSTOM:ShyrociaLeaves",
+      "~CUSTOM:KailoneaLeaves",
+      "~CUSTOM:FemirokoLeaves"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MinoxBlock",
+      "~CUSTOM:MinoxOre",
+      "~CUSTOM:McqueeniumBlock",
+      "~CUSTOM:McqueeniumOre",
+      "~CUSTOM:ShyroniteBlock",
+      "~CUSTOM:ShyroniteOre",
+      "~CUSTOM:KailoniteBlock",
+      "~CUSTOM:KailoniteOre",
+      "~CUSTOM:FemiumBlock",
+      "~CUSTOM:FemiumOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:MinoxPickaxe",
+      "~CUSTOM:McqueeniumPickaxe",
+      "~CUSTOM:ShyronitePickaxe",
+      "~CUSTOM:KailonitePickaxe",
+      "~CUSTOM:FemiumPickaxe"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:McqueencifoliaSlab",
+      "~CUSTOM:MinoriaSlab",
+      "~CUSTOM:ShyrociaSlab",
+      "~CUSTOM:KailoneaSlab",
+      "~CUSTOM:FemirokoSlab"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:FemirokoLog",
+      "CUSTOM:KailoneaLog",
+      "CUSTOM:ShyrociaLog",
+      "CUSTOM:MinoriaLog"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MinoxBlock",
+      "~CUSTOM:MinoxOre",
+      "~CUSTOM:McqueeniumBlock",
+      "~CUSTOM:McqueeniumOre",
+      "~CUSTOM:ShyroniteBlock",
+      "~CUSTOM:ShyroniteOre",
+      "~CUSTOM:KailoniteBlock",
+      "~CUSTOM:KailoniteOre",
+      "~CUSTOM:FemiumBlock",
+      "~CUSTOM:FemiumOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:McqueencifoliaPlanks",
+      "~CUSTOM:McqueencifoliaLog",
+      "~CUSTOM:McqueencifoliaWood",
+      "~CUSTOM:MinoriaPlanks",
+      "~CUSTOM:MinoriaLog",
+      "~CUSTOM:MinoriaWood",
+      "~CUSTOM:ShyrociaPlanks",
+      "~CUSTOM:ShyrociaLog",
+      "~CUSTOM:ShyrociaWood",
+      "~CUSTOM:KailoneaPlanks",
+      "~CUSTOM:KailoneaLog",
+      "~CUSTOM:KailoneaWood",
+      "~CUSTOM:FemirokoPlanks",
+      "~CUSTOM:FemirokoLog",
+      "~CUSTOM:FemirokoWood"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:MinoxHoe",
+      "~CUSTOM:McqueeniumHoe",
+      "~CUSTOM:ShyroniteHoe",
+      "~CUSTOM:KailoniteHoe",
+      "~CUSTOM:FemiumHoe"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:SteakdeMimir",
+      "~CUSTOM:SteakdeMimircrue"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Lesspecimen",
+      "~CUSTOM:Lerapdelaf1"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:McqueencifoliaStairs",
+      "~CUSTOM:MinoriaStairs",
+      "~CUSTOM:ShyrociaStairs",
+      "~CUSTOM:KailoneaStairs",
+      "~CUSTOM:FemirokoStairs"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.MOSS_BLOCK",
+      "~Blocks.STONE#0",
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:MinoxAxe",
+      "~CUSTOM:McqueeniumAxe",
+      "~CUSTOM:ShyroniteAxe",
+      "~CUSTOM:KailoniteAxe",
+      "~CUSTOM:FemiumAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:MinoxSword",
+      "~CUSTOM:McqueeniumSword",
+      "~CUSTOM:ShyroniteSword",
+      "~CUSTOM:KailoniteSword",
+      "~CUSTOM:FemiumSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:MinoxShovel",
+      "~CUSTOM:McqueeniumShovel",
+      "~CUSTOM:ShyroniteShovel",
+      "~CUSTOM:KailoniteShovel",
+      "~CUSTOM:FemiumShovel"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:MinoxArmor.helmet",
+      "~CUSTOM:McqueeniumArmor.helmet",
+      "~CUSTOM:ShyroniteArmor.helmet",
+      "~CUSTOM:KailoniteArmor.helmet",
+      "~CUSTOM:FemiumArmor.helmet"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:MinoxArmor.boots",
+      "~CUSTOM:McqueeniumArmor.boots",
+      "~CUSTOM:ShyroniteArmor.boots",
+      "~CUSTOM:KailoniteArmor.boots",
+      "~CUSTOM:FemiumArmor.boots"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:MinoxArmor.legs",
+      "~CUSTOM:McqueeniumArmor.legs",
+      "~CUSTOM:ShyroniteArmor.legs",
+      "~CUSTOM:KailoniteArmor.legs",
+      "~CUSTOM:FemiumArmor.legs"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:Mino": [
+      "MinoMysteria",
+      "Minox",
+      "MinoxOre",
+      "MinoxBlock",
+      "MinoxPickaxe",
+      "MinoxAxe",
+      "MinoxSword",
+      "MinoxShovel",
+      "MinoxHoe",
+      "MinoxArmor",
+      "Minolia",
+      "Poudredeminolia",
+      "Pierredeminomysteria",
+      "MinoriaButton",
+      "MinoriaDoor",
+      "MinoriaFence",
+      "MinoriaFenceGate",
+      "MinoriaLeaves",
+      "MinoriaLog",
+      "MinoriaPlanks",
+      "MinoriaPressurePlate",
+      "MinoriaSlab",
+      "MinoriaStairs",
+      "MinoriaWood"
+    ],
+    "CUSTOM:McQueen": [
+      "McQueenManor",
+      "Mcqueenium",
+      "McqueeniumOre",
+      "McqueeniumBlock",
+      "McqueeniumPickaxe",
+      "McqueeniumAxe",
+      "McqueeniumSword",
+      "McqueeniumShovel",
+      "McqueeniumHoe",
+      "McqueeniumArmor",
+      "Pierredumacqueenmanor",
+      "PoudredeMcqueenium",
+      "Mcqueenelle",
+      "Rocky",
+      "McqueencifoliaButton",
+      "McqueencifoliaFence",
+      "McqueencifoliaFenceGate",
+      "McqueencifoliaLeaves",
+      "McqueencifoliaLog",
+      "McqueencifoliaPlanks",
+      "McqueencifoliaPressurePlate",
+      "McqueencifoliaSlab",
+      "McqueencifoliaStairs",
+      "McqueencifoliaWood",
+      "McqueencifoliaDoor"
+    ],
+    "CUSTOM:Kailon": [
+      "KailonKaleidoscope",
+      "Kailonite",
+      "KailoniteOre",
+      "KailoniteBlock",
+      "KailonitePickaxe",
+      "KailoniteAxe",
+      "KailoniteSword",
+      "KailoniteShovel",
+      "KailoniteHoe",
+      "KailoniteArmor",
+      "Kailonisetum",
+      "Poudredekailonisetum",
+      "Lerapdelaf1",
+      "PierreduKailonKaleidoscope",
+      "Bidonessence",
+      "Pneumedium",
+      "Pneusoft",
+      "Pneuhard",
+      "PneuIntermediaire",
+      "Pneuwet",
+      "F1",
+      "KailoneaButton",
+      "KailoneaFence",
+      "KailoneaFenceGate",
+      "KailoneaLeaves",
+      "KailoneaLog",
+      "KailoneaPlanks",
+      "KailoneaPressurePlate",
+      "KailoneaSlab",
+      "KailoneaStairs",
+      "KailoneaWood",
+      "KailoneaDoor"
+    ],
+    "CUSTOM:FemiMars": [
+      "FemiForest",
+      "Femium",
+      "FemiumOre",
+      "FemiumBlock",
+      "FemiumSword",
+      "FemiumPickaxe",
+      "FemiumAxe",
+      "FemiumShovel",
+      "FemiumHoe",
+      "FemirokoWood",
+      "FemirokoLog",
+      "FemirokoLeaves",
+      "FemirokoPlanks",
+      "FemirokoStairs",
+      "FemirokoSlab",
+      "FemirokoDoor",
+      "FemirokoFence",
+      "FemirokoFenceGate",
+      "FemirokoPressurePlate",
+      "FemirokoButton",
+      "FemiumArmor",
+      "Femilis",
+      "Poudredefemilis",
+      "Pierredelafemiforest",
+      "SteakdeMimircrue",
+      "SteakdeMimir",
+      "Mimir"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.speciment_mod.shyrocia_slab": "Shyrocia Slab",
+      "subtitles.twitch": "",
+      "block.speciment_mod.mcqueencifolia_door": "Mcqueencifolia Door",
+      "item.speciment_mod.lerapdelaf_1": "Disque",
+      "item.speciment_mod.mcqueenium_armor_chestplate": "Mcqueenium Chestplate",
+      "block.speciment_mod.femiroko_fence_gate": "Femiroko Fence Gate",
+      "item.speciment_mod.steakde_mimircrue": "Steak de Mimir crue",
+      "item.speciment_mod.kailonite_hoe": "Kailonite Hoe",
+      "item.speciment_mod.femium": "Femium",
+      "subtitles.degatf1": "",
+      "item.speciment_mod.mcqueenium_axe": "Mcqueenium Axe",
+      "item.speciment_mod.pneuwet_spawn_egg": "Pneu Pluie Spawn Egg",
+      "item.speciment_mod.femi_forest": "Catalyst of Fémi\u0027s Forest",
+      "item.speciment_mod.steakde_mimir": "Steak de Mimir",
+      "item_group.speciment_mod.mc_queen": "McQueen",
+      "biome.speciment_mod.biome_femi": "Femiland",
+      "item.speciment_mod.shyronite_armor_helmet": "Shyronite Helmet",
+      "block.speciment_mod.kailonea_fence": "Kailonea Fence",
+      "item.speciment_mod.pneuhard_spawn_egg": "Pneu Hard Spawn Egg",
+      "entity.speciment_mod.pneumedium": "Pneu Medium",
+      "entity.speciment_mod.pneuwet": "Pneu Pluie",
+      "item.speciment_mod.poudredeshyrosa": "Poudre de shyrosa",
+      "item.speciment_mod.shyronite_pickaxe": "Shyronite Pickaxe",
+      "item.speciment_mod.minox_axe": "Minox Axe",
+      "block.speciment_mod.mcqueencifolia_wood": "Mcqueencifolia Wood",
+      "block.speciment_mod.mcqueenium_ore": "Mcqueenium Ore",
+      "item.speciment_mod.minox_armor_chestplate": "Minox Chestplate",
+      "entity.speciment_mod.f_1": "F1",
+      "item.speciment_mod.femium_armor_helmet": "Femium Helmet",
+      "subtitles.stupid": "",
+      "block.speciment_mod.minoria_wood": "Minoria Wood",
+      "block.speciment_mod.shyrocia_leaves": "Shyrocia Leaves",
+      "subtitles.specimen": "",
+      "item.speciment_mod.femium_sword": "Femium Sword",
+      "block.speciment_mod.femium_block": "Block of Femium",
+      "block.speciment_mod.femiroko_button": "Femiroko Button",
+      "entity.speciment_mod.pneuhard": "Pneu Hard",
+      "item.speciment_mod.shyronite_armor_leggings": "Shyronite Leggings",
+      "item.speciment_mod.mcqueenium": "Mcqueenium",
+      "item.speciment_mod.lerapdelaf_1.desc": "Le rap de la F1",
+      "biome.speciment_mod.biome_kailon": "Kailonland",
+      "item.speciment_mod.mc_queen_manor": "Catalyst of McQueen\u0027s Manor",
+      "item.speciment_mod.kailonite_pickaxe": "Kailonite Pickaxe",
+      "item.speciment_mod.mino_mysteria": "Catalyst of Mino\u0027s Mysteria",
+      "item.speciment_mod.bidonessence": "Bidon d\u0027essence",
+      "block.speciment_mod.femiroko_log": "Femiroko Log",
+      "item.speciment_mod.kailon_kaleidoscope": "Catalyst of Kailon\u0027s Kaleidoscope",
+      "block.speciment_mod.femiroko_planks": "Femiroko Planks",
+      "block.speciment_mod.minoria_fence": "Minoria Fence",
+      "item.speciment_mod.shyronite_axe": "Shyronite Axe",
+      "item.speciment_mod.mcqueenium_armor_leggings": "Mcqueenium Leggings",
+      "block.speciment_mod.kailonea_log": "Kailonea Log",
+      "item.speciment_mod.minox_armor_boots": "Minox Boots",
+      "block.speciment_mod.minoria_pressure_plate": "Minoria Pressure Plate",
+      "item.speciment_mod.femium_axe": "Femium Axe",
+      "item.speciment_mod.shyro_skyland": "Catalyst of Shyro\u0027s Skyland",
+      "item.speciment_mod.minox_hoe": "Minox Hoe",
+      "subtitles.lerapdelaf1": "Kailon",
+      "block.speciment_mod.shyrocia_stairs": "Shyrocia Stairs",
+      "block.speciment_mod.femium_ore": "Femium Ore",
+      "item.speciment_mod.catalyseurvide": "Empty catalyst",
+      "block.speciment_mod.shyrocia_fence": "Shyrocia Fence",
+      "block.speciment_mod.minoria_slab": "Minoria Slab",
+      "block.speciment_mod.mcqueenium_block": "Block of Mcqueenium",
+      "block.speciment_mod.shyronite_block": "Block of Shyronite",
+      "item.speciment_mod.pneumedium_spawn_egg": "Pneu Medium Spawn Egg",
+      "block.speciment_mod.kailonea_leaves": "Kailonea Leaves",
+      "item.speciment_mod.shyronite_armor_boots": "Shyronite Boots",
+      "block.speciment_mod.femiroko_slab": "Femiroko Slab",
+      "block.speciment_mod.mcqueencifolia_fence_gate": "Mcqueencifolia Fence Gate",
+      "block.speciment_mod.shyrosa": "Shyrosa",
+      "block.speciment_mod.mcqueenelle": "Mcqueenelle",
+      "item.speciment_mod.poudredekailonisetum": "Poudre de kailonisetum",
+      "item.speciment_mod.mcqueenium_sword": "Mcqueenium Sword",
+      "item.speciment_mod.lesspecimen": "Les specimen",
+      "block.speciment_mod.shyrocia_button": "Shyrocia Button",
+      "item.speciment_mod.pierredeshyroskyland": "Shyro\u0027s Skyland Stone",
+      "block.speciment_mod.mcqueencifolia_stairs": "Mcqueencifolia Stairs",
+      "entity.speciment_mod.pneu_intermediaire": "Pneu Intermédiaire",
+      "block.speciment_mod.kailonea_pressure_plate": "Kailonea Pressure Plate",
+      "block.speciment_mod.shyronite_ore": "Shyronite Ore",
+      "item.speciment_mod.minox_armor_helmet": "Minox Helmet",
+      "item.speciment_mod.mcqueenium_pickaxe": "Mcqueenium Pickaxe",
+      "block.speciment_mod.minoria_button": "Minoria Button",
+      "item.speciment_mod.femium_armor_boots": "Femium Boots",
+      "block.speciment_mod.kailonite_block": "Block of Kailonite",
+      "entity.speciment_mod.rocky": "Rocky",
+      "block.speciment_mod.kailonea_planks": "Kailonea Planks",
+      "item.speciment_mod.pneusoft_spawn_egg": "Pneu Soft Spawn Egg",
+      "block.speciment_mod.minoria_stairs": "Minoria Stairs",
+      "block.speciment_mod.mcqueencifolia_button": "Mcqueencifolia Button",
+      "block.speciment_mod.minitel": "Minitel",
+      "item.speciment_mod.kailonite_armor_leggings": "Kailonite Leggings",
+      "item.speciment_mod.kailonite_shovel": "Kailonite Shovel",
+      "block.speciment_mod.kailonea_wood": "Kailonea Wood",
+      "item_group.speciment_mod.femi_mars": "Fémi-Mars",
+      "block.speciment_mod.kailonisetum": "Kailonisetum",
+      "item.speciment_mod.minox_shovel": "Minox Shovel",
+      "block.speciment_mod.kailonite_ore": "Kailonite Ore",
+      "block.speciment_mod.shyrocia_door": "Shyrocia Door",
+      "block.speciment_mod.kailonea_door": "Kailonea Door",
+      "block.speciment_mod.mcqueencifolia_slab": "Mcqueencifolia Slab",
+      "item.speciment_mod.lafin": "Ultimate Catalyst",
+      "item_group.speciment_mod.kailon": "Kailon",
+      "item.speciment_mod.pierredeminomysteria": "Mino\u0027s Mysteria Stone",
+      "item_group.speciment_mod.specimen": "Specimen",
+      "item.speciment_mod.femium_hoe": "Femium Hoe",
+      "item.speciment_mod.poudredefemilis": "Femilis powder",
+      "item.speciment_mod.catalyseurultime": "Catalyseur ultime",
+      "block.speciment_mod.kailonea_fence_gate": "Kailonea Fence Gate",
+      "subtitles.leclerc": "",
+      "block.speciment_mod.minoria_fence_gate": "Minoria Fence Gate",
+      "block.speciment_mod.minox_block": "Block of Minox",
+      "item_group.speciment_mod.shyro": "Shyro",
+      "item.speciment_mod.mcqueenium_armor_helmet": "Mcqueenium Helmet",
+      "block.speciment_mod.femiroko_leaves": "Femiroko Leaves",
+      "block.speciment_mod.femiroko_pressure_plate": "Femiroko Pressure Plate",
+      "item.speciment_mod.kailonite_armor_boots": "Kailonite Boots",
+      "biome.speciment_mod.biomemcqueen": "Biomemcqueen",
+      "block.speciment_mod.femiroko_fence": "Femiroko Fence",
+      "block.speciment_mod.minoria_log": "Minoria Log",
+      "item.speciment_mod.shyronite_hoe": "Shyronite Hoe",
+      "block.speciment_mod.femiroko_stairs": "Femiroko Stairs",
+      "subtitles.boxbox": "",
+      "item.speciment_mod.minox_sword": "Minox Sword",
+      "block.speciment_mod.shyrocia_wood": "Shyrocia Wood",
+      "item.speciment_mod.f_1_spawn_egg": "F1 Spawn Egg",
+      "block.speciment_mod.shyrocia_log": "Shyrocia Log",
+      "item.speciment_mod.kailonite_armor_helmet": "Kailonite Helmet",
+      "item.speciment_mod.femium_pickaxe": "Femium Pickaxe",
+      "item_group.speciment_mod.mino": "Mino",
+      "entity.speciment_mod.mimir": "Mimir",
+      "biome.speciment_mod.biomeshyro": "Shyroland",
+      "item.speciment_mod.minox_armor_leggings": "Minox Leggings",
+      "item.speciment_mod.pierredu_kailon_kaleidoscope": "Kailon\u0027s Kaleidoscope Stone",
+      "item.speciment_mod.femium_shovel": "Femium Shovel",
+      "block.speciment_mod.mcqueencifolia_fence": "Mcqueencifolia Fence",
+      "block.speciment_mod.mcqueencifolia_pressure_plate": "Mcqueencifolia Pressure Plate",
+      "item.speciment_mod.shyronite_sword": "Shyronite Sword",
+      "item.speciment_mod.femium_armor_leggings": "Femium Leggings",
+      "biome.speciment_mod.biomemino": "Biomemino",
+      "block.speciment_mod.shyrocia_pressure_plate": "Shyrocia Pressure Plate",
+      "block.speciment_mod.minoria_leaves": "Minoria Leaves",
+      "item.speciment_mod.pierredumacqueenmanor": "Mcqueen\u0027s Manor Stone",
+      "item.speciment_mod.kailonite_armor_chestplate": "Kailonite Chestplate",
+      "block.speciment_mod.femiroko_wood": "Femiroko Wood",
+      "item.speciment_mod.shyronite_shovel": "Shyronite Shovel",
+      "item.speciment_mod.kailonite": "Kailonite",
+      "block.speciment_mod.minoria_door": "Minoria Door",
+      "item.speciment_mod.minox_pickaxe": "Minox Pickaxe",
+      "block.speciment_mod.minolia": "Minolia",
+      "item.speciment_mod.pneu_intermediaire_spawn_egg": "Pneu Intermédiaire Spawn Egg",
+      "item.speciment_mod.kailonite_axe": "Kailonite Axe",
+      "item.speciment_mod.mimir_spawn_egg": "Mimir Spawn Egg",
+      "item.speciment_mod.mcqueenium_hoe": "Mcqueenium Hoe",
+      "block.speciment_mod.kailonea_stairs": "Kailonea Stairs",
+      "block.speciment_mod.shyrocia_planks": "Shyrocia Planks",
+      "item.speciment_mod.mcqueenium_shovel": "Mcqueenium Shovel",
+      "item.speciment_mod.rocky_spawn_egg": "Rocky Spawn Egg",
+      "block.speciment_mod.mcqueencifolia_planks": "Mcqueencifolia Planks",
+      "item.speciment_mod.femium_armor_chestplate": "Femium Chestplate",
+      "block.speciment_mod.shyrocia_fence_gate": "Shyrocia Fence Gate",
+      "block.speciment_mod.mcqueencifolia_leaves": "Mcqueencifolia Leaves",
+      "block.speciment_mod.femiroko_door": "Femiroko Door",
+      "item.speciment_mod.kailonite_sword": "Kailonite Sword",
+      "subtitles.mimir_death": "",
+      "item.speciment_mod.mcqueenium_armor_boots": "Mcqueenium Boots",
+      "item.speciment_mod.poudrede_mcqueenium": "Poudre de Mcqueenelle",
+      "biome.speciment_mod.biomegrottefemi": "Biomegrottefemi",
+      "entity.speciment_mod.pneusoft": "Pneu Soft",
+      "item.speciment_mod.poudredeminolia": "Poudre de minolia",
+      "block.speciment_mod.kailonea_button": "Kailonea Button",
+      "item.speciment_mod.pierredelafemiforest": "Femi\u0027s Forest Stone",
+      "block.speciment_mod.femilis": "Femilis",
+      "block.speciment_mod.minox_ore": "Minox Ore",
+      "block.speciment_mod.kailonea_slab": "Kailonea Slab",
+      "item.speciment_mod.minox": "Minox",
+      "block.speciment_mod.minoria_planks": "Minoria Planks",
+      "item.speciment_mod.lesspecimen.desc": "presentation de l\u0027unite d\u0027elite",
+      "item.speciment_mod.shyronite": "Shyronite",
+      "item.speciment_mod.shyronite_armor_chestplate": "Shyronite Chestplate",
+      "block.speciment_mod.mcqueencifolia_log": "Mcqueencifolia Log"
+    },
+    "fr_fr": {
+      "block.speciment_mod.shyrocia_slab": "Dalle en shyrocia",
+      "subtitles.twitch": "",
+      "block.speciment_mod.mcqueencifolia_door": "Porte en mcqueencifolia",
+      "item.speciment_mod.lerapdelaf_1": "Disque",
+      "block.speciment_mod.femiroko_fence_gate": "Portillon en fémiroko",
+      "item.speciment_mod.mcqueenium_armor_chestplate": "Plastron en Mcqueenium",
+      "item.speciment_mod.steakde_mimircrue": "Steak de Mimir cru",
+      "item.speciment_mod.kailonite_hoe": "Houe en Kailonite",
+      "item.speciment_mod.femium": "Fémium",
+      "subtitles.degatf1": "",
+      "item.speciment_mod.mcqueenium_axe": "Hache en Mcqueenium",
+      "item.speciment_mod.pneuwet_spawn_egg": "Oeuf de pneu pluie",
+      "item.speciment_mod.femi_forest": "Catalyseur de la Femi\u0027s Forest",
+      "item.speciment_mod.steakde_mimir": "Steak de Mimir cuit",
+      "item_group.speciment_mod.mc_queen": "McQueen",
+      "biome.speciment_mod.biome_femi": "Femiland",
+      "item.speciment_mod.shyronite_armor_helmet": "Casque en Shyronite",
+      "block.speciment_mod.kailonea_fence": "Barrière en kailonéa",
+      "item.speciment_mod.pneuhard_spawn_egg": "Oeuf de pneu dur",
+      "entity.speciment_mod.pneumedium": "Pneu moyen",
+      "entity.speciment_mod.pneuwet": "Pneu pluie",
+      "item.speciment_mod.shyronite_pickaxe": "Pioche en Shyronite",
+      "item.speciment_mod.poudredeshyrosa": "Poudre de shyrosa",
+      "item.speciment_mod.minox_axe": "Hache en Minox",
+      "block.speciment_mod.mcqueencifolia_wood": "Bois de mcqueencifolia",
+      "block.speciment_mod.mcqueenium_ore": "Minerai de Mcqueenium",
+      "item.speciment_mod.minox_armor_chestplate": "Plastron en Minox",
+      "entity.speciment_mod.f_1": "Formule 1",
+      "item.speciment_mod.femium_armor_helmet": "Casque en Fémium",
+      "subtitles.stupid": "",
+      "block.speciment_mod.minoria_wood": "Bois de minoria",
+      "block.speciment_mod.shyrocia_leaves": "Feuilles de shyrocia",
+      "subtitles.specimen": "",
+      "item.speciment_mod.femium_sword": "Épée en Fémium",
+      "block.speciment_mod.femium_block": "Bloc de Fémium",
+      "block.speciment_mod.femiroko_button": "Bouton en fémiroko",
+      "entity.speciment_mod.pneuhard": "Pneu dur",
+      "item.speciment_mod.shyronite_armor_leggings": "Jambières en Shyronite",
+      "item.speciment_mod.mcqueenium": "Mcqueenium",
+      "item.speciment_mod.lerapdelaf_1.desc": "Le rap de la F1",
+      "biome.speciment_mod.biome_kailon": "Kailonland",
+      "item.speciment_mod.mc_queen_manor": "Catalyseur du McQueen\u0027s Manor",
+      "item.speciment_mod.kailonite_pickaxe": "Pioche en Kailonite",
+      "item.speciment_mod.mino_mysteria": "Catalyseur de Mino\u0027s Mysteria",
+      "item.speciment_mod.bidonessence": "Bidon d\u0027essence",
+      "block.speciment_mod.femiroko_log": "Bûche de fémiroko",
+      "item.speciment_mod.kailon_kaleidoscope": "Catalyseur du Kailon\u0027s Kaleidoscope",
+      "block.speciment_mod.femiroko_planks": "Planches en fémiroko",
+      "block.speciment_mod.minoria_fence": "Barrière en minoria",
+      "item.speciment_mod.shyronite_axe": "Hache en Shyronite",
+      "item.speciment_mod.mcqueenium_armor_leggings": "Jambières en Mcqueenium",
+      "block.speciment_mod.kailonea_log": "Bûche de kailonéa",
+      "item.speciment_mod.minox_armor_boots": "Bottes en Minox",
+      "block.speciment_mod.minoria_pressure_plate": "Plaque de pression en minoria",
+      "item.speciment_mod.femium_axe": "Hache en Fémium",
+      "item.speciment_mod.shyro_skyland": "Catalyseur de Shyro\u0027s Skyland",
+      "item.speciment_mod.minox_hoe": "Houe en Minox",
+      "subtitles.lerapdelaf1": "Kailon",
+      "block.speciment_mod.shyrocia_stairs": "Escalier en shyrocia",
+      "block.speciment_mod.femium_ore": "Minerai de Fémium",
+      "item.speciment_mod.catalyseurvide": "Catalyseur vide",
+      "block.speciment_mod.shyrocia_fence": "Clôture en shyrocia",
+      "block.speciment_mod.minoria_slab": "Dalle en minoria",
+      "block.speciment_mod.mcqueenium_block": "Bloc de Mcqueenium",
+      "block.speciment_mod.shyronite_block": "Block of Shyronite",
+      "item.speciment_mod.pneumedium_spawn_egg": "Oeuf de pneu moyen",
+      "block.speciment_mod.kailonea_leaves": "Feuilles de kailonéa",
+      "item.speciment_mod.shyronite_armor_boots": "Bottes en Shyronite",
+      "block.speciment_mod.femiroko_slab": "Dalle en fémiroko",
+      "block.speciment_mod.mcqueencifolia_fence_gate": "Portillon en mcqueencifolia",
+      "block.speciment_mod.shyrosa": "Shyrosa",
+      "block.speciment_mod.mcqueenelle": "Mcqueenelle",
+      "item.speciment_mod.poudredekailonisetum": "Poudre de kailonisetum",
+      "item.speciment_mod.mcqueenium_sword": "Épée en Mcqueenium",
+      "item.speciment_mod.lesspecimen": "Les specimen",
+      "block.speciment_mod.shyrocia_button": "Bouton en shyrocia",
+      "item.speciment_mod.pierredeshyroskyland": "Pierre de Shyro\u0027s Skyland",
+      "block.speciment_mod.mcqueencifolia_stairs": "Escalier en mcqueencifolia",
+      "entity.speciment_mod.pneu_intermediaire": "Pneu intermédiaire",
+      "block.speciment_mod.kailonea_pressure_plate": "Plaque de pression en kailonéa",
+      "block.speciment_mod.shyronite_ore": "Minerai de Shyronite",
+      "item.speciment_mod.minox_armor_helmet": "Minox Helmet",
+      "item.speciment_mod.mcqueenium_pickaxe": "Pioche en Mcqueenium",
+      "block.speciment_mod.minoria_button": "Bouton en minoria",
+      "block.speciment_mod.kailonite_block": "Bloc de Kailonite",
+      "item.speciment_mod.femium_armor_boots": "Bottes en Fémium",
+      "entity.speciment_mod.rocky": "Rocky",
+      "block.speciment_mod.kailonea_planks": "Planches en kailonéa",
+      "item.speciment_mod.pneusoft_spawn_egg": "Oeuf de pneu tendre",
+      "block.speciment_mod.minoria_stairs": "Escalier en minoria",
+      "block.speciment_mod.mcqueencifolia_button": "Bouton en mcqueencifolia",
+      "block.speciment_mod.minitel": "Minitel",
+      "item.speciment_mod.kailonite_armor_leggings": "Jambières en Kailonite",
+      "item.speciment_mod.kailonite_shovel": "Pelle en Kailonite",
+      "block.speciment_mod.kailonea_wood": "Bois de kailonéa",
+      "item_group.speciment_mod.femi_mars": "Fémi-Mars",
+      "block.speciment_mod.kailonisetum": "Kailonisetum",
+      "item.speciment_mod.minox_shovel": "Minox Shovel",
+      "block.speciment_mod.kailonite_ore": "Minerai de Kailonite",
+      "block.speciment_mod.shyrocia_door": "Porte en shyrocia",
+      "block.speciment_mod.kailonea_door": "Porte en kailonéa",
+      "block.speciment_mod.mcqueencifolia_slab": "Dalle en mcqueencifolia",
+      "item.speciment_mod.lafin": "Catalyseur Ultime",
+      "item_group.speciment_mod.kailon": "Kailon",
+      "item.speciment_mod.pierredeminomysteria": "Pierre de Mino\u0027s Mysteria",
+      "item_group.speciment_mod.specimen": "Specimen",
+      "item.speciment_mod.poudredefemilis": "Poudre de fémilis",
+      "item.speciment_mod.femium_hoe": "Houe en Fémium",
+      "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
+      "item.speciment_mod.catalyseurultime": "Catalyseurultime",
+      "subtitles.leclerc": "",
+      "block.speciment_mod.minoria_fence_gate": "Portillon en minoria",
+      "block.speciment_mod.minox_block": "Bloc de Minox",
+      "item_group.speciment_mod.shyro": "Shyro",
+      "item.speciment_mod.mcqueenium_armor_helmet": "Mcqueenium Helmet",
+      "block.speciment_mod.femiroko_leaves": "Feuilles de fémiroko",
+      "block.speciment_mod.femiroko_pressure_plate": "Plaque de pression en fémiroko",
+      "item.speciment_mod.kailonite_armor_boots": "Bottes en Kailonite",
+      "biome.speciment_mod.biomemcqueen": "Biomemcqueen",
+      "block.speciment_mod.femiroko_fence": "Barrière en fémiroko",
+      "block.speciment_mod.minoria_log": "Bûche de minoria",
+      "item.speciment_mod.shyronite_hoe": "Houe en Shyronite",
+      "block.speciment_mod.femiroko_stairs": "Escalier en fémiroko",
+      "subtitles.boxbox": "",
+      "item.speciment_mod.minox_sword": "Épée en Minox",
+      "block.speciment_mod.shyrocia_wood": "Bois de shyrocia",
+      "item.speciment_mod.f_1_spawn_egg": "Oeuf de Formule 1",
+      "block.speciment_mod.shyrocia_log": "Bûche de shyrocia",
+      "item.speciment_mod.kailonite_armor_helmet": "Casque en Kailonite",
+      "item.speciment_mod.femium_pickaxe": "Pioche en Fémium",
+      "item_group.speciment_mod.mino": "Mino",
+      "entity.speciment_mod.mimir": "Mimir",
+      "biome.speciment_mod.biomeshyro": "Shyroland",
+      "item.speciment_mod.minox_armor_leggings": "Jambières en Minox",
+      "item.speciment_mod.pierredu_kailon_kaleidoscope": "Pierre du Kailon\u0027s Kaleidoscope",
+      "item.speciment_mod.femium_shovel": "Pelle en Fémium",
+      "block.speciment_mod.mcqueencifolia_fence": "Barrière en mcqueencifolia",
+      "block.speciment_mod.mcqueencifolia_pressure_plate": "Plaque de pression en mcqueencifolia",
+      "item.speciment_mod.shyronite_sword": "Épée en Shyronite",
+      "item.speciment_mod.femium_armor_leggings": "Jambières en Fémium",
+      "biome.speciment_mod.biomemino": "Biomemino",
+      "block.speciment_mod.shyrocia_pressure_plate": "Plaque de pression en shyrocia",
+      "block.speciment_mod.minoria_leaves": "Feuilles de minoria",
+      "item.speciment_mod.pierredumacqueenmanor": "Pierre du Macqueen\u0027s Manor",
+      "item.speciment_mod.kailonite_armor_chestplate": "Plastron en Kailonite",
+      "block.speciment_mod.femiroko_wood": "Bois de fémiroko",
+      "item.speciment_mod.shyronite_shovel": "Pelle en Shyronite",
+      "item.speciment_mod.kailonite": "Kailonite",
+      "block.speciment_mod.minoria_door": "Porte en minoria",
+      "item.speciment_mod.minox_pickaxe": "Pioche en Minox",
+      "block.speciment_mod.minolia": "Minolia",
+      "item.speciment_mod.pneu_intermediaire_spawn_egg": "Oeuf de pneu intermédiaire",
+      "item.speciment_mod.kailonite_axe": "Hache en Kailonite",
+      "item.speciment_mod.mimir_spawn_egg": "Oeuf de Mimir",
+      "item.speciment_mod.mcqueenium_hoe": "Houe en Mcqueenium",
+      "block.speciment_mod.kailonea_stairs": "Escalier en kailonéa",
+      "block.speciment_mod.shyrocia_planks": "Planches en shyrocia",
+      "item.speciment_mod.mcqueenium_shovel": "Mcqueenium Shovel",
+      "item.speciment_mod.rocky_spawn_egg": "Oeuf de rocky",
+      "block.speciment_mod.mcqueencifolia_planks": "Planches en mcqueencifolia",
+      "item.speciment_mod.femium_armor_chestplate": "Plastron en Fémium",
+      "block.speciment_mod.shyrocia_fence_gate": "Portillon en shyrocia",
+      "block.speciment_mod.mcqueencifolia_leaves": "Feuilles de mcqueencifolia",
+      "block.speciment_mod.femiroko_door": "Porte en fémiroko",
+      "item.speciment_mod.kailonite_sword": "Épée en Kailonite",
+      "subtitles.mimir_death": "",
+      "item.speciment_mod.mcqueenium_armor_boots": "Bottes en Mcqueenium",
+      "item.speciment_mod.poudrede_mcqueenium": "Poudre de mcqueenelle",
+      "biome.speciment_mod.biomegrottefemi": "Biomegrottefemi",
+      "entity.speciment_mod.pneusoft": "Pneu tendre",
+      "item.speciment_mod.poudredeminolia": "Poudre de minolia",
+      "block.speciment_mod.kailonea_button": "Bouton en kailonéa",
+      "item.speciment_mod.pierredelafemiforest": "Pierre de la Femi\u0027s Forest",
+      "block.speciment_mod.femilis": "Fémilis",
+      "block.speciment_mod.minox_ore": "Minerai de Minox",
+      "block.speciment_mod.kailonea_slab": "Dalle en kailonéa",
+      "item.speciment_mod.minox": "Minox",
+      "block.speciment_mod.minoria_planks": "Planches en minoria",
+      "item.speciment_mod.lesspecimen.desc": "presentation de l\u0027unite d\u0027elite",
+      "item.speciment_mod.shyronite": "Shyronite",
+      "item.speciment_mod.shyronite_armor_chestplate": "Plastron en Shyronite",
+      "block.speciment_mod.mcqueencifolia_log": "Bûche de mcqueencifolia"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "McQueen",
+        "children": []
+      },
+      {
+        "name": "FemiMarsMob",
+        "children": []
+      },
+      {
+        "name": "McQueenBois",
+        "children": []
+      },
+      {
+        "name": "KailonMob",
+        "children": []
+      },
+      {
+        "name": "ShyroMob",
+        "children": []
+      },
+      {
+        "name": "MinoMob",
+        "children": []
+      },
+      {
+        "name": "MinoBois",
+        "children": []
+      },
+      {
+        "name": "FemiMars",
+        "children": []
+      },
+      {
+        "name": "ShyroBois",
+        "children": []
+      },
+      {
+        "name": "KailonBois",
+        "children": []
+      },
+      {
+        "name": "Mino",
+        "children": []
+      },
+      {
+        "name": "McQueenMob",
+        "children": []
+      },
+      {
+        "name": "Kailon",
+        "children": []
+      },
+      {
+        "name": "Specimen",
+        "children": []
+      },
+      {
+        "name": "Shyro",
+        "children": []
+      },
+      {
+        "name": "FemiMarsBois",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "speciment_mod",
+    "modName": "speciment mod",
+    "version": "0.0.6",
+    "description": "Un mod fait pour des specimen",
+    "author": "JOYKIX, Pakoro, D3monDark",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "specimen",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.specimentmod"
+  },
+  "mcreatorVersion": 202400229712
+}

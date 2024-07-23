@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "speciment_mod:block/mcqueencifolia_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "speciment_mod:block/mcqueencifolia_log"
+    },
+    "axis=z": {
+      "model": "speciment_mod:block/mcqueencifolia_log",
+      "x": 90
+    }
+  }
+}

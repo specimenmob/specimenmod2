@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Mcqueenium"
+      },
+      {
+        "value": "CUSTOM:Mcqueenium"
+      },
+      {
+        "value": "CUSTOM:Mcqueenium"
+      },
+      {
+        "value": "CUSTOM:Mcqueenium"
+      },
+      {
+        "value": "CUSTOM:Mcqueenium"
+      },
+      {
+        "value": "CUSTOM:Mcqueenium"
+      },
+      {
+        "value": "CUSTOM:Mcqueenium"
+      },
+      {
+        "value": "CUSTOM:Mcqueenium"
+      },
+      {
+        "value": "CUSTOM:Mcqueenium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:McqueeniumBlock"
+    },
+    "name": "mcqueenium_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

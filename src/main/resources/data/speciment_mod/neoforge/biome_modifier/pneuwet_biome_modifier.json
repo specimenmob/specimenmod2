@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "speciment_mod:biome_kailon",
+  "spawners": {
+    "type": "speciment_mod:pneuwet",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "speciment_mod:kailonea_wood"
+    }
+  ],
+  "result": {
+    "id": "speciment_mod:kailonea_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "speciment_mod:block/shyrocia_planks",
+    "particle": "speciment_mod:block/shyrocia_planks"
+  },
+  "render_type": "solid"
+}

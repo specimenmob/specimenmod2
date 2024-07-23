@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "speciment_mod:block/kailonea_leaves",
+    "particle": "speciment_mod:block/kailonea_leaves"
+  }
+}

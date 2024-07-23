@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "speciment_mod:biomemino",
+  "features": "speciment_mod:minox_ore",
+  "step": "underground_ores"
+}

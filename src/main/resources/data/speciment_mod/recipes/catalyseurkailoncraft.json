@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "catalyseurkailoncraft",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:pierredu_kailon_kaleidoscope"
+    },
+    "b": {
+      "item": "speciment_mod:catalyseurvide"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:kailon_kaleidoscope",
+    "count": 1
+  }
+}

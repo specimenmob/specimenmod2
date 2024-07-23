@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pierredumcqueenmanorcraft",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "speciment_mod:poudrede_mcqueenium"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:pierredumacqueenmanor",
+    "count": 1
+  }
+}

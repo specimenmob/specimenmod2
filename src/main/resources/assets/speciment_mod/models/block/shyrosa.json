@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "speciment_mod:block/shyrosa",
+    "particle": "speciment_mod:block/shyrosa"
+  },
+  "render_type": "cutout"
+}

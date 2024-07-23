@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:shyronite"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:shyronite_block",
+    "count": 1
+  }
+}

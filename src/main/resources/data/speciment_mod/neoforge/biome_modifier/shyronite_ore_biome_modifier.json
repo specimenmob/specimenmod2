@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "speciment_mod:biomeshyro",
+  "features": "speciment_mod:shyronite_ore",
+  "step": "underground_ores"
+}

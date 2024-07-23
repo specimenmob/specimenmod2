@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "speciment_mod:mcqueenium_block"
+    }
+  ],
+  "result": {
+    "id": "speciment_mod:mcqueenium",
+    "count": 9
+  }
+}

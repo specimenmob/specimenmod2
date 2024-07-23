@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "speciment_mod:block/kailonea_planks",
+    "particle": "speciment_mod:block/kailonea_planks"
+  },
+  "render_type": "solid"
+}

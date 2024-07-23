@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "speciment_mod:blocks/shyrocia_log",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "speciment_mod:shyrocia_log"
+        }
+      ]
+    }
+  ]
+}

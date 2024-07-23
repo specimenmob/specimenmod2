@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "speciment_mod:block/mc_queen_manor_portal_ew"
+    },
+    "axis=x": {
+      "model": "speciment_mod:block/mc_queen_manor_portal_ns"
+    }
+  }
+}

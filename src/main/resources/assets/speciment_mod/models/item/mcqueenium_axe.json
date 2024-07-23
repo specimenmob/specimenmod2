@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "speciment_mod:item/mcqueenium_axe"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:kailonite"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:kailonite_armor_helmet",
+    "count": 1
+  }
+}

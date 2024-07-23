@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:minox"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:minox_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Les specimen",
+    "rarity": "UNCOMMON",
+    "texture": "les_specimen",
+    "description": "presentation de l'unite d'elite",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Specimen"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:specimen"
+    },
+    "lengthInTicks": 520,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "speciment_mod:block/femiroko_planks",
+    "particle": "speciment_mod:block/femiroko_planks"
+  },
+  "render_type": "solid"
+}

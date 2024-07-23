@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "speciment_mod:minox_ore"
+  },
+  "result": {
+    "id": "speciment_mod:minox"
+  }
+}

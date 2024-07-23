@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "speciment_mod:minox_armor_boots",
+    "speciment_mod:mcqueenium_armor_boots",
+    "speciment_mod:shyronite_armor_boots",
+    "speciment_mod:kailonite_armor_boots",
+    "speciment_mod:femium_armor_boots"
+  ]
+}

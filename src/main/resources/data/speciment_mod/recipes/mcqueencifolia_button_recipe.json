@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "speciment_mod:mcqueencifolia_planks"
+    }
+  ],
+  "result": {
+    "id": "speciment_mod:mcqueencifolia_button",
+    "count": 1
+  }
+}

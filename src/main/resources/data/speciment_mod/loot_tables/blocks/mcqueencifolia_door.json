@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "speciment_mod:blocks/mcqueencifolia_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "speciment_mod:mcqueencifolia_door",
+          "conditions": [
+            {
+              "block": "speciment_mod:mcqueencifolia_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

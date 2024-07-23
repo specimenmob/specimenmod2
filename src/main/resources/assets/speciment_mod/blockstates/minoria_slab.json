@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "speciment_mod:block/minoria_slab"
+    },
+    "type=top": {
+      "model": "speciment_mod:block/minoria_slab_top"
+    },
+    "type=double": {
+      "model": "speciment_mod:block/minoria_slab_full"
+    }
+  }
+}

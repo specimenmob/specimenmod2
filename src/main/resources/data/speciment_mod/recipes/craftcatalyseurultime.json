@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "craftcatalyseurultime",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "ebf"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:mino_mysteria"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "speciment_mod:kailon_kaleidoscope"
+    },
+    "d": {
+      "item": "speciment_mod:femi_forest"
+    },
+    "e": {
+      "item": "speciment_mod:mc_queen_manor"
+    },
+    "f": {
+      "item": "speciment_mod:shyro_skyland"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:lafin",
+    "count": 1
+  }
+}

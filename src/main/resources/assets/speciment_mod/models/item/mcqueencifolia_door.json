@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "speciment_mod:item/mcquercus_door"
+  },
+  "render_type": "translucent"
+}

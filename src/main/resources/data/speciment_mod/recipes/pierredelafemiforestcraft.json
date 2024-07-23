@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pierredelafemiforest",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "speciment_mod:poudredefemilis"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:pierredelafemiforest",
+    "count": 1
+  }
+}

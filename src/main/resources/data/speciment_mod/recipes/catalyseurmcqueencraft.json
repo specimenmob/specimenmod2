@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "catalyseurmcqueencraft",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:pierredumacqueenmanor"
+    },
+    "b": {
+      "item": "speciment_mod:catalyseurvide"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:mc_queen_manor",
+    "count": 1
+  }
+}

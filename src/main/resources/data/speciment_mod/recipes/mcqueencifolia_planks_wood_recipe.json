@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "speciment_mod:mcqueencifolia_wood"
+    }
+  ],
+  "result": {
+    "id": "speciment_mod:mcqueencifolia_planks",
+    "count": 4
+  }
+}

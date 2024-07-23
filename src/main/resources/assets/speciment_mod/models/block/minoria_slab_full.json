@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "speciment_mod:block/minoria_planks",
+    "bottom": "speciment_mod:block/minoria_planks",
+    "top": "speciment_mod:block/minoria_planks",
+    "side": "speciment_mod:block/minoria_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Minox"
+      },
+      {
+        "value": "CUSTOM:Minox"
+      },
+      {
+        "value": "CUSTOM:Minox"
+      },
+      {
+        "value": "CUSTOM:Minox"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Minox"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MinoxArmor.helmet"
+    },
+    "name": "minox_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

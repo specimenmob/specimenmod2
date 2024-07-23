@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "speciment_mod:block/femiroko_slab"
+    },
+    "type=top": {
+      "model": "speciment_mod:block/femiroko_slab_top"
+    },
+    "type=double": {
+      "model": "speciment_mod:block/femiroko_slab_full"
+    }
+  }
+}

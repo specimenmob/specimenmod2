@@ -1,0 +1,59 @@
+{
+  "lerapdelaf1": {
+    "subtitle": "subtitles.lerapdelaf1",
+    "sounds": [
+      {
+        "name": "speciment_mod:le-rap-de-la-f1-kailon",
+        "stream": true
+      }
+    ]
+  },
+  "twitch": {
+    "sounds": [
+      {
+        "name": "speciment_mod:twitch",
+        "stream": false
+      }
+    ]
+  },
+  "leclerc": {
+    "sounds": [
+      {
+        "name": "speciment_mod:charles-leclerc-scream-noooo",
+        "stream": false
+      }
+    ]
+  },
+  "boxbox": {
+    "sounds": [
+      {
+        "name": "speciment_mod:box-box-f1",
+        "stream": false
+      }
+    ]
+  },
+  "degatf1": {
+    "sounds": [
+      {
+        "name": "speciment_mod:degatf1",
+        "stream": false
+      }
+    ]
+  },
+  "mimir_death": {
+    "sounds": [
+      {
+        "name": "speciment_mod:46711698972-offset-5714-_1_",
+        "stream": false
+      }
+    ]
+  },
+  "specimen": {
+    "sounds": [
+      {
+        "name": "speciment_mod:presentation",
+        "stream": true
+      }
+    ]
+  }
+}

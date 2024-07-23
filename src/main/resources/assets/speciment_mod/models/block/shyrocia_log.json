@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "speciment_mod:block/shyrocia_log_top",
+    "up": "speciment_mod:block/shyrocia_log_top",
+    "north": "speciment_mod:block/shyrocia_log_side",
+    "east": "speciment_mod:block/shyrocia_log_side",
+    "south": "speciment_mod:block/shyrocia_log_side",
+    "west": "speciment_mod:block/shyrocia_log_side",
+    "particle": "speciment_mod:block/shyrocia_log_top"
+  },
+  "render_type": "solid"
+}

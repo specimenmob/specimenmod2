@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "speciment_mod:block/shyrocia_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "speciment_mod:block/shyrocia_wood"
+    },
+    "axis=z": {
+      "model": "speciment_mod:block/shyrocia_wood",
+      "x": 90
+    }
+  }
+}

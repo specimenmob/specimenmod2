@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KailoneaStairs"
+    },
+    "name": "kailonea_stairs_recipe",
+    "namespace": "mod"
+  }
+}

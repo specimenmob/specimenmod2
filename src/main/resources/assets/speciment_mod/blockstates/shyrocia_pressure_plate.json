@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "speciment_mod:block/shyrocia_pressure_plate"
+    },
+    "powered=true": {
+      "model": "speciment_mod:block/shyrocia_pressure_plate_down"
+    }
+  }
+}

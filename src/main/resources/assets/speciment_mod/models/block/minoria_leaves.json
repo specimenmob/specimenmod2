@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "speciment_mod:block/minoria_leaves",
+    "particle": "speciment_mod:block/minoria_leaves"
+  }
+}

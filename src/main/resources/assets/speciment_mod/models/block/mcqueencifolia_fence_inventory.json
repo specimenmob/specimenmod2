@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "speciment_mod:block/mcqueencifolia_planks",
+    "particle": "speciment_mod:block/mcqueencifolia_planks"
+  },
+  "render_type": "solid"
+}

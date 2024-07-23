@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Fémi-Mars",
+    "icon": {
+      "value": "CUSTOM:FemiForest"
+    },
+    "showSearch": false
+  }
+}

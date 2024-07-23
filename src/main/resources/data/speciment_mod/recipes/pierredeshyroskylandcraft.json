@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pierredeshyroskylandcraft",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "speciment_mod:poudredeshyrosa"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:pierredeshyroskyland",
+    "count": 1
+  }
+}

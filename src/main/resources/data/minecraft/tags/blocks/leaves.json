@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "speciment_mod:mcqueencifolia_leaves",
+    "speciment_mod:minoria_leaves",
+    "speciment_mod:shyrocia_leaves",
+    "speciment_mod:kailonea_leaves",
+    "speciment_mod:femiroko_leaves"
+  ]
+}

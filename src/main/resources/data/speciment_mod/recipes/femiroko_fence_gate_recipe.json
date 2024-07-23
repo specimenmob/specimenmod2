@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "speciment_mod:femiroko_planks"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:femiroko_fence_gate",
+    "count": 1
+  }
+}

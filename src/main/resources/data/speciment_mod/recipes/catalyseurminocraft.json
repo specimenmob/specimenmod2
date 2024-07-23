@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "catalyseurminocraft",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:pierredeminomysteria"
+    },
+    "b": {
+      "item": "speciment_mod:catalyseurvide"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:mino_mysteria",
+    "count": 1
+  }
+}

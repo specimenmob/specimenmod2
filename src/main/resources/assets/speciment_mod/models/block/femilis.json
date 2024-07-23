@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "speciment_mod:block/femilis",
+    "particle": "speciment_mod:block/femilis"
+  },
+  "render_type": "cutout"
+}

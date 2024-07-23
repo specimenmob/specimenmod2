@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "speciment_mod:femium_block"
+    }
+  ],
+  "result": {
+    "id": "speciment_mod:femium",
+    "count": 9
+  }
+}

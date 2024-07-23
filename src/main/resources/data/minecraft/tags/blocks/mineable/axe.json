@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "speciment_mod:mcqueencifolia_planks",
+    "speciment_mod:mcqueencifolia_log",
+    "speciment_mod:mcqueencifolia_wood",
+    "speciment_mod:minoria_planks",
+    "speciment_mod:minoria_log",
+    "speciment_mod:minoria_wood",
+    "speciment_mod:shyrocia_planks",
+    "speciment_mod:shyrocia_log",
+    "speciment_mod:shyrocia_wood",
+    "speciment_mod:kailonea_planks",
+    "speciment_mod:kailonea_log",
+    "speciment_mod:kailonea_wood",
+    "speciment_mod:femiroko_planks",
+    "speciment_mod:femiroko_log",
+    "speciment_mod:femiroko_wood"
+  ]
+}

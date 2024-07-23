@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ShyrociaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ShyrociaPlanks"
+      },
+      {
+        "value": "CUSTOM:ShyrociaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ShyrociaPlanks"
+      },
+      {
+        "value": "CUSTOM:ShyrociaPlanks"
+      },
+      {
+        "value": "CUSTOM:ShyrociaPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ShyrociaStairs"
+    },
+    "name": "shyrocia_stairs_recipe",
+    "namespace": "mod"
+  }
+}

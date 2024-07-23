@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "speciment_mod:biome_femi",
+  "spawners": {
+    "type": "speciment_mod:mimir",
+    "weight": 4,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

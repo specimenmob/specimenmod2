@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pierredukailonkaleidoscopecraft",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "speciment_mod:poudredekailonisetum"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:pierredu_kailon_kaleidoscope",
+    "count": 1
+  }
+}

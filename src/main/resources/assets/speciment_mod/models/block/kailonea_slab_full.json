@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "speciment_mod:block/kailonea_planks",
+    "bottom": "speciment_mod:block/kailonea_planks",
+    "top": "speciment_mod:block/kailonea_planks",
+    "side": "speciment_mod:block/kailonea_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "speciment_mod:block/minoria_door_bottom",
+    "bottom": "speciment_mod:block/minoria_door_bottom",
+    "top": "speciment_mod:block/minoria_door_top"
+  },
+  "render_type": "cutout"
+}

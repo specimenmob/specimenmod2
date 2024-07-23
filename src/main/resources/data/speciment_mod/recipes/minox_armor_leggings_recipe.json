@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:minox"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:minox_armor_leggings",
+    "count": 1
+  }
+}

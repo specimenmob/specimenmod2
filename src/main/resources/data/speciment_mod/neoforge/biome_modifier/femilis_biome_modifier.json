@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "speciment_mod:biome_femi",
+    "plains"
+  ],
+  "features": "speciment_mod:femilis",
+  "step": "vegetal_decoration"
+}

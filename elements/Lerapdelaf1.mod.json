@@ -1,0 +1,26 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Disque",
+    "rarity": "RARE",
+    "texture": "lerapdelaf1disque",
+    "description": "Le rap de la F1",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Kailon"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:lerapdelaf1"
+    },
+    "lengthInTicks": 3160,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "particle": "speciment_mod:block/femiroko_planks",
+    "texture": "speciment_mod:block/femiroko_planks"
+  },
+  "render_type": "solid"
+}

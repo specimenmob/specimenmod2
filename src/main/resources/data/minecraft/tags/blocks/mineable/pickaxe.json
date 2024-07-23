@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "speciment_mod:minox_block",
+    "speciment_mod:minox_ore",
+    "speciment_mod:mcqueenium_block",
+    "speciment_mod:mcqueenium_ore",
+    "speciment_mod:shyronite_block",
+    "speciment_mod:shyronite_ore",
+    "speciment_mod:kailonite_block",
+    "speciment_mod:kailonite_ore",
+    "speciment_mod:femium_block",
+    "speciment_mod:femium_ore"
+  ]
+}

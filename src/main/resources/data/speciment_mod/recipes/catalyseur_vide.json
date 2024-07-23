@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "catalyseur_vide",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ender_pearl"
+    },
+    "b": {
+      "item": "minecraft:blaze_rod"
+    },
+    "c": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:catalyseurvide",
+    "count": 1
+  }
+}

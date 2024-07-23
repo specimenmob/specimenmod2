@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "speciment_mod:block/kailonisetum",
+    "particle": "speciment_mod:block/kailonisetum"
+  },
+  "render_type": "cutout"
+}

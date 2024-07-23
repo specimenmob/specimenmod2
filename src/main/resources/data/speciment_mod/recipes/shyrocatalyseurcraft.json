@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shyrocatalyseurcraft",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:pierredeshyroskyland"
+    },
+    "b": {
+      "item": "speciment_mod:catalyseurvide"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:shyro_skyland",
+    "count": 1
+  }
+}

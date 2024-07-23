@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "speciment_mod:block/femiroko_planks",
+    "bottom": "speciment_mod:block/femiroko_planks",
+    "top": "speciment_mod:block/femiroko_planks",
+    "side": "speciment_mod:block/femiroko_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "speciment_mod:block/femiroko_planks",
+    "particle": "speciment_mod:block/femiroko_planks"
+  },
+  "render_type": "solid"
+}

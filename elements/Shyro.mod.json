@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Shyro",
+    "icon": {
+      "value": "CUSTOM:ShyroSkyland"
+    },
+    "showSearch": false
+  }
+}

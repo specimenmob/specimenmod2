@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "speciment_mod:block/mcqueenium",
+    "particle": "speciment_mod:block/mcqueenium"
+  },
+  "render_type": "cutout"
+}

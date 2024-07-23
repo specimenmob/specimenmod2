@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pierredeminomysteriacraft",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "speciment_mod:poudredeminolia"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:pierredeminomysteria",
+    "count": 1
+  }
+}

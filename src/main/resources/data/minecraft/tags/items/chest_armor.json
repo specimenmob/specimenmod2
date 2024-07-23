@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "speciment_mod:minox_armor_chestplate",
+    "speciment_mod:mcqueenium_armor_chestplate",
+    "speciment_mod:shyronite_armor_chestplate",
+    "speciment_mod:kailonite_armor_chestplate",
+    "speciment_mod:femium_armor_chestplate"
+  ]
+}

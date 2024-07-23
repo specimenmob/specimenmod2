@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "speciment_mod:block/shyrocia_log_side",
+    "particle": "speciment_mod:block/shyrocia_log_side"
+  },
+  "render_type": "solid"
+}

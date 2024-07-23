@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "speciment_mod:minox_pickaxe",
+    "speciment_mod:mcqueenium_pickaxe",
+    "speciment_mod:shyronite_pickaxe",
+    "speciment_mod:kailonite_pickaxe",
+    "speciment_mod:femium_pickaxe"
+  ]
+}

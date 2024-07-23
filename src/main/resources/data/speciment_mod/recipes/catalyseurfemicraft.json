@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "catalyseurfemicraft",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "speciment_mod:pierredelafemiforest"
+    },
+    "b": {
+      "item": "speciment_mod:catalyseurvide"
+    }
+  },
+  "result": {
+    "id": "speciment_mod:femi_forest",
+    "count": 1
+  }
+}

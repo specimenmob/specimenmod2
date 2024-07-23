@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "speciment_mod:biomemcqueen",
+  "features": "speciment_mod:mcqueenium_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "speciment_mod:biome_kailon",
+  "features": "speciment_mod:kailonite_ore",
+  "step": "underground_ores"
+}

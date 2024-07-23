@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "speciment_mod:minox_armor_leggings",
+    "speciment_mod:mcqueenium_armor_leggings",
+    "speciment_mod:shyronite_armor_leggings",
+    "speciment_mod:kailonite_armor_leggings",
+    "speciment_mod:femium_armor_leggings"
+  ]
+}

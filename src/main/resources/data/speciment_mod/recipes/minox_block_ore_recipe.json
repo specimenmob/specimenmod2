@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "speciment_mod:minox_block"
+    }
+  ],
+  "result": {
+    "id": "speciment_mod:minox",
+    "count": 9
+  }
+}

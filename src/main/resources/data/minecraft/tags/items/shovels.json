@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "speciment_mod:minox_shovel",
+    "speciment_mod:mcqueenium_shovel",
+    "speciment_mod:shyronite_shovel",
+    "speciment_mod:kailonite_shovel",
+    "speciment_mod:femium_shovel"
+  ]
+}

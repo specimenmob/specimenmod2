@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "McQueen",
+    "icon": {
+      "value": "CUSTOM:McQueenManor"
+    },
+    "showSearch": false
+  }
+}
