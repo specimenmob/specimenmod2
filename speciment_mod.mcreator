@@ -4138,6 +4138,99 @@
         ]
       },
       "path": "~/McQueenBois"
+    },
+    {
+      "name": "PneuIntermediaireQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pneu_intermediaire_quand_lentite_meurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/PneuIntermediaireQuandLentiteMeurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/KailonMob"
+    },
+    {
+      "name": "PneuIntermediaireQuandLentiteTombe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pneu_intermediaire_quand_lentite_tombe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/PneuIntermediaireQuandLentiteTombeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/KailonMob"
+    },
+    {
+      "name": "PneuIntermediaireQuandLentiteEstBlessee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pneu_intermediaire_quand_lentite_est_blessee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/PneuIntermediaireQuandLentiteEstBlesseeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/KailonMob"
     }
   ],
   "variable_elements": [
@@ -4945,6 +5038,10 @@
       },
       {
         "name": "FemiMarsBois",
+        "children": []
+      },
+      {
+        "name": "FemiMarsVillage",
         "children": []
       }
     ]

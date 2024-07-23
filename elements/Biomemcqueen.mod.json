@@ -77,13 +77,13 @@
     },
     "treesPerChunk": 1,
     "vanillaTreeType": "Default",
-    "treeType": 0,
+    "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:McqueencifoliaLog"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:McqueencifoliaLeaves"
     },
     "treeVines": {
       "value": ""
