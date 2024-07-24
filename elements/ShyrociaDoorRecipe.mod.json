@@ -4,11 +4,11 @@
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
-    "group": "door_recipe",
+    "group": "wooden_door",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "BUILDING",
+    "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
       {

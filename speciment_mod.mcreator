@@ -2740,19 +2740,6 @@
       "path": "~/FemiMars/FemiMarsBois"
     },
     {
-      "name": "FemirokoStickRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "femiroko_stick_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/speciment_mod/recipes/femiroko_stick_recipe.json"
-        ]
-      },
-      "path": "~/FemiMars/FemiMarsBois"
-    },
-    {
       "name": "KailoneaWood",
       "type": "block",
       "compiles": true,
@@ -3047,19 +3034,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/speciment_mod/recipes/kailonea_button_recipe.json"
-        ]
-      },
-      "path": "~/Kailon/KailonBois"
-    },
-    {
-      "name": "KailoneaStickRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kailonea_stick_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/speciment_mod/recipes/kailonea_stick_recipe.json"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -3431,19 +3405,6 @@
       "path": "~/Shyro/ShyroBois"
     },
     {
-      "name": "ShyrociaStickRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shyrocia_stick_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/speciment_mod/recipes/shyrocia_stick_recipe.json"
-        ]
-      },
-      "path": "~/Shyro/ShyroBois"
-    },
-    {
       "name": "MinoriaWood",
       "type": "block",
       "compiles": true,
@@ -3738,19 +3699,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/speciment_mod/recipes/minoria_button_recipe.json"
-        ]
-      },
-      "path": "~/Mino/MinoBois"
-    },
-    {
-      "name": "MinoriaStickRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "minoria_stick_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/speciment_mod/recipes/minoria_stick_recipe.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -4103,19 +4051,6 @@
       "path": "~/McQueen/McQueenBois"
     },
     {
-      "name": "McqueencifoliaStickRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mcqueencifolia_stick_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_stick_recipe.json"
-        ]
-      },
-      "path": "~/McQueen/McQueenBois"
-    },
-    {
       "name": "McqueencifoliaDoor",
       "type": "block",
       "compiles": true,
@@ -4384,6 +4319,101 @@
         ]
       },
       "path": "~/Shyro/ShyroBois"
+    },
+    {
+      "name": "Craftunlocklog",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlocklog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlocklogProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiMarsBois"
+    },
+    {
+      "name": "Craftunlockkailon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlockkailon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlockkailonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonBois"
+    },
+    {
+      "name": "Craftunlockmcqueen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlockmcqueen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlockmcqueenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/McQueen/McQueenBois"
+    },
+    {
+      "name": "Craftunlockmino",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlockmino",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlockminoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mino/MinoBois"
+    },
+    {
+      "name": "Craftunlockshyro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlockshyro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlockshyroProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shyro/ShyroBois"
     }
   ],
   "variable_elements": [
@@ -4567,6 +4597,7 @@
       "~CUSTOM:KailoneaStairs",
       "~CUSTOM:FemirokoStairs"
     ],
+    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.MOSS_BLOCK",
       "~Blocks.STONE#0",
@@ -4594,6 +4625,7 @@
       "~CUSTOM:KailoniteShovel",
       "~CUSTOM:FemiumShovel"
     ],
+    "BLOCKS:minecraft:dirt": [],
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:MinoxArmor.helmet",
       "~CUSTOM:McqueeniumArmor.helmet",
@@ -4607,6 +4639,13 @@
       "~CUSTOM:ShyroniteArmor.boots",
       "~CUSTOM:KailoniteArmor.boots",
       "~CUSTOM:FemiumArmor.boots"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:FemirokoPlanks",
+      "CUSTOM:KailoneaPlanks",
+      "CUSTOM:ShyrociaPlanks",
+      "CUSTOM:McqueencifoliaPlanks",
+      "CUSTOM:MinoriaPlanks"
     ],
     "ITEMS:minecraft:leg_armor": [
       "~CUSTOM:MinoxArmor.legs",
@@ -5237,6 +5276,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Tag",
+        "children": []
       }
     ]
   },
