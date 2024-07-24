@@ -1,0 +1,9 @@
+{
+  "parent": "speciment_mod:custom/catalyseur",
+  "textures": {
+    "all": "speciment_mod:block/catalyseur_ultime",
+    "particle": "speciment_mod:block/catalyseur_ultime",
+    "0": "speciment_mod:block/catalyseur_ultime"
+  },
+  "render_type": "solid"
+}

@@ -34,6 +34,7 @@ import net.mcreator.specimentmod.item.PierreduKailonKaleidoscopeItem;
 import net.mcreator.specimentmod.item.PierredeshyroskylandItem;
 import net.mcreator.specimentmod.item.PierredeminomysteriaItem;
 import net.mcreator.specimentmod.item.PierredelafemiforestItem;
+import net.mcreator.specimentmod.item.OrdredemissionItem;
 import net.mcreator.specimentmod.item.MinoxSwordItem;
 import net.mcreator.specimentmod.item.MinoxShovelItem;
 import net.mcreator.specimentmod.item.MinoxPickaxeItem;
@@ -227,6 +228,8 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> MCQUEENCIFOLIA_PRESSURE_PLATE = block(SpecimentModModBlocks.MCQUEENCIFOLIA_PRESSURE_PLATE);
 	public static final DeferredHolder<Item, Item> MCQUEENCIFOLIA_BUTTON = block(SpecimentModModBlocks.MCQUEENCIFOLIA_BUTTON);
 	public static final DeferredHolder<Item, Item> MCQUEENCIFOLIA_DOOR = doubleBlock(SpecimentModModBlocks.MCQUEENCIFOLIA_DOOR);
+	public static final DeferredHolder<Item, Item> CATALYSEUR_ULTIME = block(SpecimentModModBlocks.CATALYSEUR_ULTIME);
+	public static final DeferredHolder<Item, Item> ORDREDEMISSION = REGISTRY.register("ordredemission", OrdredemissionItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

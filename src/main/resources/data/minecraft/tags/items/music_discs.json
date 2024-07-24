@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "speciment_mod:ordredemission",
     "speciment_mod:lesspecimen",
     "speciment_mod:lerapdelaf_1"
   ]

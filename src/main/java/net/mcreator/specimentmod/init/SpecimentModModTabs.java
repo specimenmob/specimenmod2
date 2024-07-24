@@ -159,6 +159,8 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.LAFIN.get());
 				tabData.accept(SpecimentModModItems.LESSPECIMEN.get());
 				tabData.accept(SpecimentModModBlocks.MINITEL.get().asItem());
+				tabData.accept(SpecimentModModBlocks.CATALYSEUR_ULTIME.get().asItem());
+				tabData.accept(SpecimentModModItems.ORDREDEMISSION.get());
 			})
 
 					.build());

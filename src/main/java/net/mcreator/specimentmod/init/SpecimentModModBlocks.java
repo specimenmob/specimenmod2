@@ -90,6 +90,7 @@ import net.mcreator.specimentmod.block.FemirokoDoorBlock;
 import net.mcreator.specimentmod.block.FemirokoButtonBlock;
 import net.mcreator.specimentmod.block.FemilisBlock;
 import net.mcreator.specimentmod.block.FemiForestPortalBlock;
+import net.mcreator.specimentmod.block.CatalyseurUltimeBlock;
 import net.mcreator.specimentmod.SpecimentModMod;
 
 public class SpecimentModModBlocks {
@@ -171,6 +172,7 @@ public class SpecimentModModBlocks {
 	public static final DeferredHolder<Block, Block> MCQUEENCIFOLIA_PRESSURE_PLATE = REGISTRY.register("mcqueencifolia_pressure_plate", McqueencifoliaPressurePlateBlock::new);
 	public static final DeferredHolder<Block, Block> MCQUEENCIFOLIA_BUTTON = REGISTRY.register("mcqueencifolia_button", McqueencifoliaButtonBlock::new);
 	public static final DeferredHolder<Block, Block> MCQUEENCIFOLIA_DOOR = REGISTRY.register("mcqueencifolia_door", McqueencifoliaDoorBlock::new);
+	public static final DeferredHolder<Block, Block> CATALYSEUR_ULTIME = REGISTRY.register("catalyseur_ultime", CatalyseurUltimeBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

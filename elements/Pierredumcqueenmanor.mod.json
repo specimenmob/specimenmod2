@@ -4,7 +4,7 @@
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
-    "group": "pierredumcqueenmanorcraft",
+    "group": "pierre_du_mc_queen_manor",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
@@ -42,7 +42,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:Pierredumacqueenmanor"
     },
-    "name": "pierredumcqueenmanor",
+    "name": "pierre_du_mc_queen_manor",
     "namespace": "mod"
   }
 }

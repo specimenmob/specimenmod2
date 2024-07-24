@@ -1,0 +1,26 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Ordre de mission",
+    "rarity": "COMMON",
+    "texture": "les_specimen",
+    "description": "Une mission tendu",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Specimen"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:ordredemisison"
+    },
+    "lengthInTicks": 1420,
+    "analogOutput": 0
+  }
+}

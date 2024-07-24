@@ -55,5 +55,13 @@
         "stream": true
       }
     ]
+  },
+  "ordredemisison": {
+    "sounds": [
+      {
+        "name": "speciment_mod:specimenintro",
+        "stream": false
+      }
+    ]
   }
 }

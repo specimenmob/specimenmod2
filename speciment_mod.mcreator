@@ -38,7 +38,7 @@
           "src/main/java/net/mcreator/specimentmod/item/FemiumItem.java"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumOre",
@@ -58,7 +58,7 @@
           "src/main/resources/data/speciment_mod/worldgen/placed_feature/femium_ore.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumBlock",
@@ -75,7 +75,7 @@
           "src/main/java/net/mcreator/specimentmod/block/FemiumBlockBlock.java"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumOreBlockRecipe",
@@ -88,7 +88,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_ore_block_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumBlockOreRecipe",
@@ -101,7 +101,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_block_ore_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumOreSmelting",
@@ -114,7 +114,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_ore_smelting.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumPickaxe",
@@ -128,7 +128,7 @@
           "src/main/java/net/mcreator/specimentmod/item/FemiumPickaxeItem.java"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumAxe",
@@ -142,7 +142,7 @@
           "src/main/resources/assets/speciment_mod/models/item/femium_axe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumSword",
@@ -156,7 +156,7 @@
           "src/main/resources/assets/speciment_mod/models/item/femium_sword.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumShovel",
@@ -170,7 +170,7 @@
           "src/main/resources/assets/speciment_mod/models/item/femium_shovel.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumHoe",
@@ -184,7 +184,7 @@
           "src/main/java/net/mcreator/specimentmod/item/FemiumHoeItem.java"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumPickaxeRecipe",
@@ -197,7 +197,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_pickaxe_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumAxeRecipe",
@@ -210,7 +210,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_axe_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumSwordRecipe",
@@ -223,7 +223,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_sword_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumShovelRecipe",
@@ -236,7 +236,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_shovel_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumHoeRecipe",
@@ -249,7 +249,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_hoe_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumArmor",
@@ -266,7 +266,7 @@
           "src/main/resources/assets/speciment_mod/models/item/femium_armor_chestplate.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumArmorHelmetRecipe",
@@ -279,7 +279,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumArmorChestplateRecipe",
@@ -292,7 +292,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumArmorLeggingsRecipe",
@@ -305,7 +305,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "FemiumArmorBootsRecipe",
@@ -318,7 +318,7 @@
           "src/main/resources/data/speciment_mod/recipes/femium_armor_boots_recipe.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMinerai"
     },
     {
       "name": "Lerapdelaf1",
@@ -357,7 +357,7 @@
           "src/main/java/net/mcreator/specimentmod/item/KailoniteItem.java"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteOre",
@@ -377,7 +377,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/kailonite_ore.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteBlock",
@@ -394,7 +394,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/kailonite_block.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteOreBlockRecipe",
@@ -407,7 +407,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_ore_block_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteBlockOreRecipe",
@@ -420,7 +420,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_block_ore_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteOreSmelting",
@@ -433,7 +433,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_ore_smelting.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailonitePickaxe",
@@ -447,7 +447,7 @@
           "src/main/java/net/mcreator/specimentmod/item/KailonitePickaxeItem.java"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteAxe",
@@ -461,7 +461,7 @@
           "src/main/resources/assets/speciment_mod/models/item/kailonite_axe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteSword",
@@ -475,7 +475,7 @@
           "src/main/resources/assets/speciment_mod/models/item/kailonite_sword.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteShovel",
@@ -489,7 +489,7 @@
           "src/main/resources/assets/speciment_mod/models/item/kailonite_shovel.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteHoe",
@@ -503,7 +503,7 @@
           "src/main/resources/assets/speciment_mod/models/item/kailonite_hoe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailonitePickaxeRecipe",
@@ -516,7 +516,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteAxeRecipe",
@@ -529,7 +529,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_axe_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteSwordRecipe",
@@ -542,7 +542,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_sword_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteShovelRecipe",
@@ -555,7 +555,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_shovel_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteHoeRecipe",
@@ -568,7 +568,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_hoe_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteArmor",
@@ -585,7 +585,7 @@
           "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_chestplate.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteArmorHelmetRecipe",
@@ -598,7 +598,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteArmorChestplateRecipe",
@@ -611,7 +611,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteArmorLeggingsRecipe",
@@ -624,7 +624,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "KailoniteArmorBootsRecipe",
@@ -637,7 +637,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonite_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMinerai"
     },
     {
       "name": "BiomeKailon",
@@ -871,7 +871,7 @@
           "src/main/java/net/mcreator/specimentmod/item/ShyroniteItem.java"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteOre",
@@ -891,7 +891,7 @@
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/shyronite_ore_biome_modifier.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteBlock",
@@ -908,7 +908,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/shyronite_block.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteOreBlockRecipe",
@@ -921,7 +921,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_ore_block_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteBlockOreRecipe",
@@ -934,7 +934,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_block_ore_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteOreSmelting",
@@ -947,7 +947,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_ore_smelting.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyronitePickaxe",
@@ -961,7 +961,7 @@
           "src/main/resources/assets/speciment_mod/models/item/shyronite_pickaxe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteAxe",
@@ -975,7 +975,7 @@
           "src/main/java/net/mcreator/specimentmod/item/ShyroniteAxeItem.java"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteSword",
@@ -989,7 +989,7 @@
           "src/main/java/net/mcreator/specimentmod/item/ShyroniteSwordItem.java"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteShovel",
@@ -1003,7 +1003,7 @@
           "src/main/resources/assets/speciment_mod/models/item/shyronite_shovel.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteHoe",
@@ -1017,7 +1017,7 @@
           "src/main/java/net/mcreator/specimentmod/item/ShyroniteHoeItem.java"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyronitePickaxeRecipe",
@@ -1030,7 +1030,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteAxeRecipe",
@@ -1043,7 +1043,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_axe_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteSwordRecipe",
@@ -1056,7 +1056,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_sword_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteShovelRecipe",
@@ -1069,7 +1069,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_shovel_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteHoeRecipe",
@@ -1082,7 +1082,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_hoe_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteArmor",
@@ -1099,7 +1099,7 @@
           "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_chestplate.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteArmorHelmetRecipe",
@@ -1112,7 +1112,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteArmorChestplateRecipe",
@@ -1125,7 +1125,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteArmorLeggingsRecipe",
@@ -1138,7 +1138,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "ShyroniteArmorBootsRecipe",
@@ -1151,7 +1151,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyronite_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Shyro"
+      "path": "~/Shyro/ShyroMinerai"
     },
     {
       "name": "Biomeshyro",
@@ -1180,7 +1180,7 @@
           "src/main/resources/assets/speciment_mod/models/item/steakde_mimircrue.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMob"
     },
     {
       "name": "SteakdeMimir",
@@ -1194,7 +1194,7 @@
           "src/main/resources/assets/speciment_mod/models/item/steakde_mimir.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMob"
     },
     {
       "name": "CuissonMimir",
@@ -1207,7 +1207,7 @@
           "src/main/resources/data/speciment_mod/recipes/cuisson_mimir.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/FemiMars/FemiMarsMob"
     },
     {
       "name": "Mimir",
@@ -1223,7 +1223,7 @@
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/mimir_biome_modifier.json"
         ]
       },
-      "path": "~/FemiMarsMob"
+      "path": "~/FemiMars/FemiMarsMob"
     },
     {
       "name": "Mcqueenium",
@@ -1237,7 +1237,7 @@
           "src/main/java/net/mcreator/specimentmod/item/McqueeniumItem.java"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumOre",
@@ -1257,7 +1257,7 @@
           "src/main/resources/data/speciment_mod/worldgen/placed_feature/mcqueenium_ore.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumBlock",
@@ -1274,7 +1274,7 @@
           "src/main/resources/assets/speciment_mod/models/block/mcqueenium_block.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumOreBlockRecipe",
@@ -1287,7 +1287,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_ore_block_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumBlockOreRecipe",
@@ -1300,7 +1300,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_block_ore_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumOreSmelting",
@@ -1313,7 +1313,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_ore_smelting.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumPickaxe",
@@ -1327,7 +1327,7 @@
           "src/main/resources/assets/speciment_mod/models/item/mcqueenium_pickaxe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumAxe",
@@ -1341,7 +1341,7 @@
           "src/main/resources/assets/speciment_mod/models/item/mcqueenium_axe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumSword",
@@ -1355,7 +1355,7 @@
           "src/main/java/net/mcreator/specimentmod/item/McqueeniumSwordItem.java"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumShovel",
@@ -1369,7 +1369,7 @@
           "src/main/java/net/mcreator/specimentmod/item/McqueeniumShovelItem.java"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumHoe",
@@ -1383,7 +1383,7 @@
           "src/main/resources/assets/speciment_mod/models/item/mcqueenium_hoe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumPickaxeRecipe",
@@ -1396,7 +1396,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_pickaxe_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumAxeRecipe",
@@ -1409,7 +1409,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_axe_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumSwordRecipe",
@@ -1422,7 +1422,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_sword_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumShovelRecipe",
@@ -1435,7 +1435,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_shovel_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumHoeRecipe",
@@ -1448,7 +1448,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_hoe_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumArmor",
@@ -1465,7 +1465,7 @@
           "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_boots.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumArmorHelmetRecipe",
@@ -1478,7 +1478,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumArmorChestplateRecipe",
@@ -1491,7 +1491,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumArmorLeggingsRecipe",
@@ -1504,7 +1504,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "McqueeniumArmorBootsRecipe",
@@ -1517,7 +1517,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueenium_armor_boots_recipe.json"
         ]
       },
-      "path": "~/McQueen"
+      "path": "~/McQueen/McQueenMinerai"
     },
     {
       "name": "Minox",
@@ -1531,7 +1531,7 @@
           "src/main/java/net/mcreator/specimentmod/item/MinoxItem.java"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxOre",
@@ -1551,7 +1551,7 @@
           "src/main/resources/data/speciment_mod/loot_tables/blocks/minox_ore.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxBlock",
@@ -1568,7 +1568,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/minox_block.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxOreBlockRecipe",
@@ -1581,7 +1581,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_ore_block_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxBlockOreRecipe",
@@ -1594,7 +1594,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_block_ore_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxOreSmelting",
@@ -1607,7 +1607,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_ore_smelting.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxPickaxe",
@@ -1621,7 +1621,7 @@
           "src/main/resources/assets/speciment_mod/models/item/minox_pickaxe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxAxe",
@@ -1635,7 +1635,7 @@
           "src/main/resources/assets/speciment_mod/models/item/minox_axe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxSword",
@@ -1649,7 +1649,7 @@
           "src/main/java/net/mcreator/specimentmod/item/MinoxSwordItem.java"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxShovel",
@@ -1663,7 +1663,7 @@
           "src/main/resources/assets/speciment_mod/models/item/minox_shovel.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxHoe",
@@ -1677,7 +1677,7 @@
           "src/main/resources/assets/speciment_mod/models/item/minox_hoe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxPickaxeRecipe",
@@ -1690,7 +1690,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxAxeRecipe",
@@ -1703,7 +1703,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_axe_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxSwordRecipe",
@@ -1716,7 +1716,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_sword_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxShovelRecipe",
@@ -1729,7 +1729,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_shovel_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxHoeRecipe",
@@ -1742,7 +1742,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_hoe_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxArmor",
@@ -1759,7 +1759,7 @@
           "src/main/resources/assets/speciment_mod/models/item/minox_armor_chestplate.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxArmorHelmetRecipe",
@@ -1772,7 +1772,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxArmorChestplateRecipe",
@@ -1785,7 +1785,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxArmorLeggingsRecipe",
@@ -1798,7 +1798,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "MinoxArmorBootsRecipe",
@@ -1811,7 +1811,7 @@
           "src/main/resources/data/speciment_mod/recipes/minox_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Mino"
+      "path": "~/Mino/MinoMinerai"
     },
     {
       "name": "McQueen",
@@ -2050,7 +2050,7 @@
           "src/main/java/net/mcreator/specimentmod/item/BidonessenceItem.java"
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "Lesspecimen",
@@ -2083,7 +2083,7 @@
           }
         ]
       },
-      "path": "~/Kailon"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "Cuissonmcqueenelle",
@@ -2336,7 +2336,7 @@
           "src/main/java/net/mcreator/specimentmod/entity/model/RockyModel.java"
         ]
       },
-      "path": "~/McQueenMob"
+      "path": "~/McQueen/McQueenMob"
     },
     {
       "name": "Pneusoft",
@@ -2353,7 +2353,7 @@
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneusoft_biome_modifier.json"
         ]
       },
-      "path": "~/KailonMob"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "Pneumedium",
@@ -2370,7 +2370,7 @@
           "src/main/java/net/mcreator/specimentmod/entity/PneumediumEntity.java"
         ]
       },
-      "path": "~/KailonMob"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "Pneuhard",
@@ -2387,7 +2387,7 @@
           "src/main/java/net/mcreator/specimentmod/client/renderer/PneuhardRenderer.java"
         ]
       },
-      "path": "~/KailonMob"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "PneuIntermediaire",
@@ -2404,7 +2404,7 @@
           "src/main/resources/assets/speciment_mod/models/item/pneu_intermediaire_spawn_egg.json"
         ]
       },
-      "path": "~/KailonMob"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "Pneuwet",
@@ -2421,7 +2421,7 @@
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneuwet_biome_modifier.json"
         ]
       },
-      "path": "~/KailonMob"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "F1",
@@ -2438,7 +2438,7 @@
           "src/main/java/net/mcreator/specimentmod/client/renderer/F1Renderer.java"
         ]
       },
-      "path": "~/KailonMob"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "FemirokoWood",
@@ -2455,7 +2455,7 @@
           "src/main/java/net/mcreator/specimentmod/block/FemirokoWoodBlock.java"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoLog",
@@ -2472,7 +2472,7 @@
           "src/main/java/net/mcreator/specimentmod/block/FemirokoLogBlock.java"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoPlanks",
@@ -2489,7 +2489,7 @@
           "src/main/java/net/mcreator/specimentmod/block/FemirokoPlanksBlock.java"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoLeaves",
@@ -2506,7 +2506,7 @@
           "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_leaves.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoStairs",
@@ -2525,7 +2525,7 @@
           "src/main/resources/assets/speciment_mod/models/block/femiroko_stairs.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoSlab",
@@ -2544,7 +2544,7 @@
           "src/main/resources/assets/speciment_mod/models/block/femiroko_slab.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoFence",
@@ -2563,7 +2563,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/femiroko_fence.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoFenceGate",
@@ -2583,7 +2583,7 @@
           "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoPressurePlate",
@@ -2601,7 +2601,7 @@
           "src/main/resources/assets/speciment_mod/models/block/femiroko_pressure_plate.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoButton",
@@ -2620,7 +2620,7 @@
           "src/main/resources/assets/speciment_mod/models/item/femiroko_button.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoWoodRecipe",
@@ -2633,7 +2633,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_wood_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoPlanksLogRecipe",
@@ -2646,7 +2646,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_planks_log_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoPlanksWoodRecipe",
@@ -2659,7 +2659,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_planks_wood_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoStairsRecipe",
@@ -2672,7 +2672,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_stairs_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoSlabRecipe",
@@ -2685,7 +2685,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_slab_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoFenceRecipe",
@@ -2698,7 +2698,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_fence_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoFenceGateRecipe",
@@ -2711,7 +2711,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_fence_gate_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoPressurePlateRecipe",
@@ -2724,7 +2724,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoButtonRecipe",
@@ -2737,7 +2737,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_button_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "FemirokoStickRecipe",
@@ -2750,7 +2750,7 @@
           "src/main/resources/data/speciment_mod/recipes/femiroko_stick_recipe.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "KailoneaWood",
@@ -2767,7 +2767,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/kailonea_wood.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaLog",
@@ -2784,7 +2784,7 @@
           "src/main/resources/assets/speciment_mod/models/block/kailonea_log.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaPlanks",
@@ -2801,7 +2801,7 @@
           "src/main/resources/assets/speciment_mod/models/item/kailonea_planks.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaLeaves",
@@ -2818,7 +2818,7 @@
           "src/main/resources/assets/speciment_mod/models/block/kailonea_leaves.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaStairs",
@@ -2837,7 +2837,7 @@
           "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaSlab",
@@ -2856,7 +2856,7 @@
           "src/main/resources/assets/speciment_mod/models/block/kailonea_slab.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaFence",
@@ -2875,7 +2875,7 @@
           "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_inventory.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaFenceGate",
@@ -2895,7 +2895,7 @@
           "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaPressurePlate",
@@ -2913,7 +2913,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/kailonea_pressure_plate.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaButton",
@@ -2932,7 +2932,7 @@
           "src/main/resources/assets/speciment_mod/models/item/kailonea_button.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaWoodRecipe",
@@ -2945,7 +2945,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_wood_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaPlanksLogRecipe",
@@ -2958,7 +2958,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_planks_log_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaPlanksWoodRecipe",
@@ -2971,7 +2971,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_planks_wood_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaStairsRecipe",
@@ -2984,7 +2984,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_stairs_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaSlabRecipe",
@@ -2997,7 +2997,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_slab_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaFenceRecipe",
@@ -3010,7 +3010,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_fence_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaFenceGateRecipe",
@@ -3023,7 +3023,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_fence_gate_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaPressurePlateRecipe",
@@ -3036,7 +3036,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaButtonRecipe",
@@ -3049,7 +3049,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_button_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "KailoneaStickRecipe",
@@ -3062,7 +3062,7 @@
           "src/main/resources/data/speciment_mod/recipes/kailonea_stick_recipe.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "Stuffdedepart",
@@ -3105,7 +3105,7 @@
           "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_left_open.json"
         ]
       },
-      "path": "~/FemiMarsBois"
+      "path": "~/FemiMars/FemiMarsBois"
     },
     {
       "name": "KailoneaDoor",
@@ -3129,7 +3129,7 @@
           "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_left_open.json"
         ]
       },
-      "path": "~/KailonBois"
+      "path": "~/Kailon/KailonBois"
     },
     {
       "name": "ShyrociaWood",
@@ -3146,7 +3146,7 @@
           "src/main/resources/assets/speciment_mod/models/item/shyrocia_wood.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaLog",
@@ -3163,7 +3163,7 @@
           "src/main/resources/assets/speciment_mod/models/item/shyrocia_log.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaPlanks",
@@ -3180,7 +3180,7 @@
           "src/main/resources/assets/speciment_mod/models/item/shyrocia_planks.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaLeaves",
@@ -3197,7 +3197,7 @@
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_leaves.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaStairs",
@@ -3216,7 +3216,7 @@
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_stairs_outer.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaSlab",
@@ -3235,7 +3235,7 @@
           "src/main/java/net/mcreator/specimentmod/block/ShyrociaSlabBlock.java"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaFence",
@@ -3254,7 +3254,7 @@
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_inventory.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaFenceGate",
@@ -3274,7 +3274,7 @@
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_wall.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaPressurePlate",
@@ -3292,7 +3292,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/shyrocia_pressure_plate.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaButton",
@@ -3311,7 +3311,7 @@
           "src/main/resources/assets/speciment_mod/models/item/shyrocia_button.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaWoodRecipe",
@@ -3324,7 +3324,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_wood_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaPlanksLogRecipe",
@@ -3337,7 +3337,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_planks_log_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaPlanksWoodRecipe",
@@ -3350,7 +3350,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_planks_wood_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaStairsRecipe",
@@ -3363,7 +3363,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_stairs_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaSlabRecipe",
@@ -3376,7 +3376,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_slab_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaFenceRecipe",
@@ -3389,7 +3389,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_fence_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaFenceGateRecipe",
@@ -3402,7 +3402,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_fence_gate_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaPressurePlateRecipe",
@@ -3415,7 +3415,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaButtonRecipe",
@@ -3428,7 +3428,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_button_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "ShyrociaStickRecipe",
@@ -3441,7 +3441,7 @@
           "src/main/resources/data/speciment_mod/recipes/shyrocia_stick_recipe.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "MinoriaWood",
@@ -3458,7 +3458,7 @@
           "src/main/resources/assets/speciment_mod/models/item/minoria_wood.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaLog",
@@ -3475,7 +3475,7 @@
           "src/main/resources/assets/speciment_mod/models/block/minoria_log.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaPlanks",
@@ -3492,7 +3492,7 @@
           "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_planks.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaLeaves",
@@ -3509,7 +3509,7 @@
           "src/main/resources/assets/speciment_mod/models/block/minoria_leaves.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaStairs",
@@ -3528,7 +3528,7 @@
           "src/main/resources/assets/speciment_mod/models/block/minoria_stairs_inner.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaSlab",
@@ -3547,7 +3547,7 @@
           "src/main/resources/assets/speciment_mod/models/block/minoria_slab_top.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaFence",
@@ -3566,7 +3566,7 @@
           "src/main/resources/assets/speciment_mod/models/block/minoria_fence_inventory.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaFenceGate",
@@ -3586,7 +3586,7 @@
           "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaPressurePlate",
@@ -3604,7 +3604,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/minoria_pressure_plate.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaButton",
@@ -3623,7 +3623,7 @@
           "src/main/resources/assets/speciment_mod/models/item/minoria_button.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaWoodRecipe",
@@ -3636,7 +3636,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_wood_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaPlanksLogRecipe",
@@ -3649,7 +3649,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_planks_log_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaPlanksWoodRecipe",
@@ -3662,7 +3662,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_planks_wood_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaStairsRecipe",
@@ -3675,7 +3675,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_stairs_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaSlabRecipe",
@@ -3688,7 +3688,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_slab_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaFenceRecipe",
@@ -3701,7 +3701,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_fence_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaFenceGateRecipe",
@@ -3714,7 +3714,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_fence_gate_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaPressurePlateRecipe",
@@ -3727,7 +3727,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaButtonRecipe",
@@ -3740,7 +3740,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_button_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "MinoriaStickRecipe",
@@ -3753,7 +3753,7 @@
           "src/main/resources/data/speciment_mod/recipes/minoria_stick_recipe.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "ShyrociaDoor",
@@ -3777,7 +3777,7 @@
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_right_open.json"
         ]
       },
-      "path": "~/ShyroBois"
+      "path": "~/Shyro/ShyroBois"
     },
     {
       "name": "MinoriaDoor",
@@ -3801,7 +3801,7 @@
           "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_left_open.json"
         ]
       },
-      "path": "~/MinoBois"
+      "path": "~/Mino/MinoBois"
     },
     {
       "name": "McqueencifoliaWood",
@@ -3818,7 +3818,7 @@
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_wood.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaLog",
@@ -3835,7 +3835,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_log.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaPlanks",
@@ -3852,7 +3852,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_planks.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaLeaves",
@@ -3869,7 +3869,7 @@
           "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_leaves.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaStairs",
@@ -3888,7 +3888,7 @@
           "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_stairs.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaSlab",
@@ -3907,7 +3907,7 @@
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_slab_top.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaFence",
@@ -3926,7 +3926,7 @@
           "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaFenceBlock.java"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaFenceGate",
@@ -3946,7 +3946,7 @@
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaPressurePlate",
@@ -3964,7 +3964,7 @@
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_pressure_plate.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaButton",
@@ -3983,7 +3983,7 @@
           "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_button.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaWoodRecipe",
@@ -3996,7 +3996,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_wood_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaPlanksLogRecipe",
@@ -4009,7 +4009,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_planks_log_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaPlanksWoodRecipe",
@@ -4022,7 +4022,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_planks_wood_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaStairsRecipe",
@@ -4035,7 +4035,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_stairs_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaSlabRecipe",
@@ -4048,7 +4048,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_slab_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaFenceRecipe",
@@ -4061,7 +4061,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_fence_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaFenceGateRecipe",
@@ -4074,7 +4074,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_fence_gate_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaPressurePlateRecipe",
@@ -4087,7 +4087,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_pressure_plate_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaButtonRecipe",
@@ -4100,7 +4100,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_button_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaStickRecipe",
@@ -4113,7 +4113,7 @@
           "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_stick_recipe.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "McqueencifoliaDoor",
@@ -4137,7 +4137,7 @@
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_left.json"
         ]
       },
-      "path": "~/McQueenBois"
+      "path": "~/McQueen/McQueenBois"
     },
     {
       "name": "PneuIntermediaireQuandLentiteMeurt",
@@ -4168,7 +4168,7 @@
           }
         ]
       },
-      "path": "~/KailonMob"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "PneuIntermediaireQuandLentiteTombe",
@@ -4199,7 +4199,7 @@
           }
         ]
       },
-      "path": "~/KailonMob"
+      "path": "~/Kailon/KailonMob"
     },
     {
       "name": "PneuIntermediaireQuandLentiteEstBlessee",
@@ -4230,7 +4230,95 @@
           }
         ]
       },
-      "path": "~/KailonMob"
+      "path": "~/Kailon/KailonMob"
+    },
+    {
+      "name": "CatalyseurultimeLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyseurultime_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CatalyseurultimeLorsDunClicDroitSurLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "CatalyseurUltime",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyseur_ultime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/block/catalyseur_ultime.json",
+          "src/main/java/net/mcreator/specimentmod/block/CatalyseurUltimeBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/catalyseur_ultime.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/catalyseur_ultime.json",
+          "src/main/resources/assets/speciment_mod/blockstates/catalyseur_ultime.json"
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "Ordredemission",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ordredemission",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/OrdredemissionItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/ordredemission.json"
+        ]
+      },
+      "path": "~/Specimen"
+    },
+    {
+      "name": "PierreDuMcQueenManor",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pierre_du_mc_queen_manor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/pierre_du_mc_queen_manor.json"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "Catalyseurmcqueencraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyseurmcqueencraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/catalyseurmcqueencraft.json"
+        ]
+      },
+      "path": "~/McQueen"
     }
   ],
   "variable_elements": [
@@ -4297,6 +4385,14 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "ordredemisison",
+      "files": [
+        "specimenintro"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -4351,7 +4447,8 @@
       "CUSTOM:FemirokoLog",
       "CUSTOM:KailoneaLog",
       "CUSTOM:ShyrociaLog",
-      "CUSTOM:MinoriaLog"
+      "CUSTOM:MinoriaLog",
+      "CUSTOM:McqueencifoliaLog"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MinoxBlock",
@@ -4394,6 +4491,7 @@
       "~CUSTOM:SteakdeMimircrue"
     ],
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Ordredemission",
       "~CUSTOM:Lesspecimen",
       "~CUSTOM:Lerapdelaf1"
     ],
@@ -4571,7 +4669,9 @@
       "Catalyseurvide",
       "Lafin",
       "Lesspecimen",
-      "Minitel"
+      "Minitel",
+      "CatalyseurUltime",
+      "Ordredemission"
     ],
     "CUSTOM:FemiMars": [
       "FemiForest",
@@ -4680,9 +4780,11 @@
       "item.speciment_mod.poudredekailonisetum": "Poudre de kailonisetum",
       "item.speciment_mod.mcqueenium_sword": "Mcqueenium Sword",
       "item.speciment_mod.lesspecimen": "Les specimen",
+      "item.speciment_mod.ordredemission": "Ordre de mission",
       "block.speciment_mod.shyrocia_button": "Shyrocia Button",
       "item.speciment_mod.pierredeshyroskyland": "Shyro\u0027s Skyland Stone",
       "block.speciment_mod.mcqueencifolia_stairs": "Mcqueencifolia Stairs",
+      "item.speciment_mod.ordredemission.desc": "Une mission tendu",
       "entity.speciment_mod.pneu_intermediaire": "Pneu Intermédiaire",
       "block.speciment_mod.kailonea_pressure_plate": "Kailonea Pressure Plate",
       "block.speciment_mod.shyronite_ore": "Shyronite Ore",
@@ -4718,6 +4820,7 @@
       "subtitles.leclerc": "",
       "block.speciment_mod.minoria_fence_gate": "Minoria Fence Gate",
       "block.speciment_mod.minox_block": "Block of Minox",
+      "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
       "item.speciment_mod.mcqueenium_armor_helmet": "Mcqueenium Helmet",
       "block.speciment_mod.femiroko_leaves": "Femiroko Leaves",
@@ -4769,6 +4872,7 @@
       "block.speciment_mod.shyrocia_fence_gate": "Shyrocia Fence Gate",
       "block.speciment_mod.mcqueencifolia_leaves": "Mcqueencifolia Leaves",
       "block.speciment_mod.femiroko_door": "Femiroko Door",
+      "block.speciment_mod.catalyseur_ultime": "Catalyseur Ultime",
       "item.speciment_mod.kailonite_sword": "Kailonite Sword",
       "subtitles.mimir_death": "",
       "item.speciment_mod.mcqueenium_armor_boots": "Mcqueenium Boots",
@@ -4864,9 +4968,11 @@
       "item.speciment_mod.poudredekailonisetum": "Poudre de kailonisetum",
       "item.speciment_mod.mcqueenium_sword": "Épée en Mcqueenium",
       "item.speciment_mod.lesspecimen": "Les specimen",
+      "item.speciment_mod.ordredemission": "Ordre de mission",
       "block.speciment_mod.shyrocia_button": "Bouton en shyrocia",
       "item.speciment_mod.pierredeshyroskyland": "Pierre de Shyro\u0027s Skyland",
       "block.speciment_mod.mcqueencifolia_stairs": "Escalier en mcqueencifolia",
+      "item.speciment_mod.ordredemission.desc": "Une mission tendu",
       "entity.speciment_mod.pneu_intermediaire": "Pneu intermédiaire",
       "block.speciment_mod.kailonea_pressure_plate": "Plaque de pression en kailonéa",
       "block.speciment_mod.shyronite_ore": "Minerai de Shyronite",
@@ -4902,6 +5008,7 @@
       "subtitles.leclerc": "",
       "block.speciment_mod.minoria_fence_gate": "Portillon en minoria",
       "block.speciment_mod.minox_block": "Bloc de Minox",
+      "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
       "item.speciment_mod.mcqueenium_armor_helmet": "Mcqueenium Helmet",
       "block.speciment_mod.femiroko_leaves": "Feuilles de fémiroko",
@@ -4953,6 +5060,7 @@
       "block.speciment_mod.shyrocia_fence_gate": "Portillon en shyrocia",
       "block.speciment_mod.mcqueencifolia_leaves": "Feuilles de mcqueencifolia",
       "block.speciment_mod.femiroko_door": "Porte en fémiroko",
+      "block.speciment_mod.catalyseur_ultime": "Catalyseur Ultime",
       "item.speciment_mod.kailonite_sword": "Épée en Kailonite",
       "subtitles.mimir_death": "",
       "item.speciment_mod.mcqueenium_armor_boots": "Bottes en Mcqueenium",
@@ -4978,55 +5086,71 @@
     "children": [
       {
         "name": "McQueen",
-        "children": []
-      },
-      {
-        "name": "FemiMarsMob",
-        "children": []
-      },
-      {
-        "name": "McQueenBois",
-        "children": []
-      },
-      {
-        "name": "KailonMob",
-        "children": []
-      },
-      {
-        "name": "ShyroMob",
-        "children": []
-      },
-      {
-        "name": "MinoMob",
-        "children": []
-      },
-      {
-        "name": "MinoBois",
-        "children": []
+        "children": [
+          {
+            "name": "McQueenBois",
+            "children": []
+          },
+          {
+            "name": "McQueenMob",
+            "children": []
+          },
+          {
+            "name": "McQueenMinerai",
+            "children": []
+          }
+        ]
       },
       {
         "name": "FemiMars",
-        "children": []
-      },
-      {
-        "name": "ShyroBois",
-        "children": []
-      },
-      {
-        "name": "KailonBois",
-        "children": []
+        "children": [
+          {
+            "name": "FemiMarsBois",
+            "children": []
+          },
+          {
+            "name": "FemiMarsMob",
+            "children": []
+          },
+          {
+            "name": "FemiMarsMinerai",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Mino",
-        "children": []
-      },
-      {
-        "name": "McQueenMob",
-        "children": []
+        "children": [
+          {
+            "name": "MinoBois",
+            "children": []
+          },
+          {
+            "name": "MinoMob",
+            "children": []
+          },
+          {
+            "name": "MinoMinerai",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Kailon",
-        "children": []
+        "children": [
+          {
+            "name": "KailonBois",
+            "children": []
+          },
+          {
+            "name": "KailonMob",
+            "children": []
+          },
+          {
+            "name": "KailonMinerai",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Specimen",
@@ -5034,15 +5158,20 @@
       },
       {
         "name": "Shyro",
-        "children": []
-      },
-      {
-        "name": "FemiMarsBois",
-        "children": []
-      },
-      {
-        "name": "FemiMarsVillage",
-        "children": []
+        "children": [
+          {
+            "name": "ShyroBois",
+            "children": []
+          },
+          {
+            "name": "ShyroMob",
+            "children": []
+          },
+          {
+            "name": "ShyroMinerai",
+            "children": []
+          }
+        ]
       }
     ]
   },

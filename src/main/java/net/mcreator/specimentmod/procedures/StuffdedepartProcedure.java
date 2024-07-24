@@ -33,7 +33,7 @@ public class StuffdedepartProcedure {
 			return;
 		if (entity.getData(SpecimentModModVariables.PLAYER_VARIABLES).kit == 0) {
 			if (entity instanceof LivingEntity _entity) {
-				ItemStack _setstack = new ItemStack(SpecimentModModItems.LERAPDELAF_1.get()).copy();
+				ItemStack _setstack = new ItemStack(SpecimentModModItems.ORDREDEMISSION.get()).copy();
 				_setstack.setCount(1);
 				_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
 				if (_entity instanceof Player _player)
