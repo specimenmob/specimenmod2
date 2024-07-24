@@ -4414,6 +4414,140 @@
         ]
       },
       "path": "~/Shyro/ShyroBois"
+    },
+    {
+      "name": "PneusoftQuandLentiteEstBlessee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pneusoft_quand_lentite_est_blessee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/PneusoftQuandLentiteEstBlesseeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonMob"
+    },
+    {
+      "name": "Craftunlockmineraifemi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlockmineraifemi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlockmineraifemiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiMarsMinerai"
+    },
+    {
+      "name": "Craftunlockmineraikailon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlockmineraikailon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlockmineraikailonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonMinerai"
+    },
+    {
+      "name": "Craftunlockmineraimcqueen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlockmineraimcqueen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlockmineraimcqueenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/McQueen/McQueenMinerai"
+    },
+    {
+      "name": "Craftunlockmineraimino",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlockmineraimino",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlockmineraiminoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mino/MinoMinerai"
+    },
+    {
+      "name": "Craftunlockmineraishyro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftunlockmineraishyro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftunlockmineraishyroProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shyro/ShyroMinerai"
     }
   ],
   "variable_elements": [
