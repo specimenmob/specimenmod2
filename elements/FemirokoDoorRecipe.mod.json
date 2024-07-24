@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "door_recipe",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FemirokoPlanks"
+      },
+      {
+        "value": "CUSTOM:FemirokoPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FemirokoPlanks"
+      },
+      {
+        "value": "CUSTOM:FemirokoPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FemirokoPlanks"
+      },
+      {
+        "value": "CUSTOM:FemirokoPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FemirokoDoor"
+    },
+    "name": "femiroko_door_recipe",
+    "namespace": "mod"
+  }
+}

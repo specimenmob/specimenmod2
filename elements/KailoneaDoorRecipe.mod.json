@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "door_recipe",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": "CUSTOM:KailoneaPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KailoneaDoor"
+    },
+    "name": "kailonea_door_recipe",
+    "namespace": "mod"
+  }
+}

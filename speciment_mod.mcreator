@@ -4319,6 +4319,71 @@
         ]
       },
       "path": "~/McQueen"
+    },
+    {
+      "name": "FemirokoDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femiroko_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/femiroko_door_recipe.json"
+        ]
+      },
+      "path": "~/FemiMars/FemiMarsBois"
+    },
+    {
+      "name": "KailoneaDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonea_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/kailonea_door_recipe.json"
+        ]
+      },
+      "path": "~/Kailon/KailonBois"
+    },
+    {
+      "name": "MinoriaDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minoria_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/minoria_door_recipe.json"
+        ]
+      },
+      "path": "~/Mino/MinoBois"
+    },
+    {
+      "name": "McqueencifoliaDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueencifolia_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/mcqueencifolia_door_recipe.json"
+        ]
+      },
+      "path": "~/McQueen/McQueenBois"
+    },
+    {
+      "name": "ShyrociaDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrocia_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/recipes/shyrocia_door_recipe.json"
+        ]
+      },
+      "path": "~/Shyro/ShyroBois"
     }
   ],
   "variable_elements": [
