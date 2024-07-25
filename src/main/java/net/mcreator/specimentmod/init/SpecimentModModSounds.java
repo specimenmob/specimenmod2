@@ -23,4 +23,6 @@ public class SpecimentModModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> MIMIR_DEATH = REGISTRY.register("mimir_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("speciment_mod", "mimir_death")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> SPECIMEN = REGISTRY.register("specimen", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("speciment_mod", "specimen")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> ORDREDEMISISON = REGISTRY.register("ordredemisison", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("speciment_mod", "ordredemisison")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> CHAROMANE = REGISTRY.register("charomane", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("speciment_mod", "charomane")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> MINOX_ACTIVATION_ARMOR = REGISTRY.register("minox_activation_armor", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("speciment_mod", "minox_activation_armor")));
 }

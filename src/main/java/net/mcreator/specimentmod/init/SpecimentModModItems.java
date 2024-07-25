@@ -36,12 +36,14 @@ import net.mcreator.specimentmod.item.PierredeminomysteriaItem;
 import net.mcreator.specimentmod.item.PierredelafemiforestItem;
 import net.mcreator.specimentmod.item.OrdredemissionItem;
 import net.mcreator.specimentmod.item.MinoxSwordItem;
+import net.mcreator.specimentmod.item.MinoxSuperArmorItem;
 import net.mcreator.specimentmod.item.MinoxShovelItem;
 import net.mcreator.specimentmod.item.MinoxPickaxeItem;
 import net.mcreator.specimentmod.item.MinoxItem;
 import net.mcreator.specimentmod.item.MinoxHoeItem;
 import net.mcreator.specimentmod.item.MinoxAxeItem;
 import net.mcreator.specimentmod.item.MinoxArmorItem;
+import net.mcreator.specimentmod.item.MinoxActivationCrystalItem;
 import net.mcreator.specimentmod.item.MinoMysteriaItem;
 import net.mcreator.specimentmod.item.McqueeniumSwordItem;
 import net.mcreator.specimentmod.item.McqueeniumShovelItem;
@@ -230,6 +232,12 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> MCQUEENCIFOLIA_DOOR = doubleBlock(SpecimentModModBlocks.MCQUEENCIFOLIA_DOOR);
 	public static final DeferredHolder<Item, Item> CATALYSEUR_ULTIME = block(SpecimentModModBlocks.CATALYSEUR_ULTIME);
 	public static final DeferredHolder<Item, Item> ORDREDEMISSION = REGISTRY.register("ordredemission", OrdredemissionItem::new);
+	public static final DeferredHolder<Item, Item> CHAROMANE_SPAWN_EGG = REGISTRY.register("charomane_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.CHAROMANE, -1, -16711681, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> MINOX_SUPER_ARMOR_HELMET = REGISTRY.register("minox_super_armor_helmet", MinoxSuperArmorItem.Helmet::new);
+	public static final DeferredHolder<Item, Item> MINOX_SUPER_ARMOR_CHESTPLATE = REGISTRY.register("minox_super_armor_chestplate", MinoxSuperArmorItem.Chestplate::new);
+	public static final DeferredHolder<Item, Item> MINOX_SUPER_ARMOR_LEGGINGS = REGISTRY.register("minox_super_armor_leggings", MinoxSuperArmorItem.Leggings::new);
+	public static final DeferredHolder<Item, Item> MINOX_SUPER_ARMOR_BOOTS = REGISTRY.register("minox_super_armor_boots", MinoxSuperArmorItem.Boots::new);
+	public static final DeferredHolder<Item, Item> MINOX_ACTIVATION_CRYSTAL = REGISTRY.register("minox_activation_crystal", MinoxActivationCrystalItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

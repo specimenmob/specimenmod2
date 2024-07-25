@@ -24,6 +24,7 @@ import net.mcreator.specimentmod.entity.PneuhardEntity;
 import net.mcreator.specimentmod.entity.PneuIntermediaireEntity;
 import net.mcreator.specimentmod.entity.MimirEntity;
 import net.mcreator.specimentmod.entity.F1Entity;
+import net.mcreator.specimentmod.entity.CharomaneEntity;
 import net.mcreator.specimentmod.SpecimentModMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -60,6 +61,10 @@ public class SpecimentModModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<F1Entity>> F_1 = register("f_1", EntityType.Builder.<F1Entity>of(F1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 			.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<CharomaneEntity>> CHAROMANE = register("charomane",
+			EntityType.Builder.<CharomaneEntity>of(CharomaneEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -75,6 +80,7 @@ public class SpecimentModModEntities {
 		PneuIntermediaireEntity.init(event);
 		PneuwetEntity.init(event);
 		F1Entity.init(event);
+		CharomaneEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -87,5 +93,6 @@ public class SpecimentModModEntities {
 		event.put(PNEU_INTERMEDIAIRE.get(), PneuIntermediaireEntity.createAttributes().build());
 		event.put(PNEUWET.get(), PneuwetEntity.createAttributes().build());
 		event.put(F_1.get(), F1Entity.createAttributes().build());
+		event.put(CHAROMANE.get(), CharomaneEntity.createAttributes().build());
 	}
 }

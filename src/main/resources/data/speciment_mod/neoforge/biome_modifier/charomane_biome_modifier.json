@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "speciment_mod:biomeshyro",
+  "spawners": {
+    "type": "speciment_mod:charomane",
+    "weight": 4,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

@@ -17,6 +17,7 @@ import net.mcreator.specimentmod.client.renderer.PneuhardRenderer;
 import net.mcreator.specimentmod.client.renderer.PneuIntermediaireRenderer;
 import net.mcreator.specimentmod.client.renderer.MimirRenderer;
 import net.mcreator.specimentmod.client.renderer.F1Renderer;
+import net.mcreator.specimentmod.client.renderer.CharomaneRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class SpecimentModModEntityRenderers {
@@ -30,5 +31,6 @@ public class SpecimentModModEntityRenderers {
 		event.registerEntityRenderer(SpecimentModModEntities.PNEU_INTERMEDIAIRE.get(), PneuIntermediaireRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.PNEUWET.get(), PneuwetRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.F_1.get(), F1Renderer::new);
+		event.registerEntityRenderer(SpecimentModModEntities.CHAROMANE.get(), CharomaneRenderer::new);
 	}
 }

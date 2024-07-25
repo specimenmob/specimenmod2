@@ -63,5 +63,21 @@
         "stream": false
       }
     ]
+  },
+  "charomane": {
+    "sounds": [
+      {
+        "name": "speciment_mod:charomane",
+        "stream": false
+      }
+    ]
+  },
+  "minox_activation_armor": {
+    "sounds": [
+      {
+        "name": "speciment_mod:minox_activation",
+        "stream": false
+      }
+    ]
   }
 }
