@@ -46,7 +46,7 @@ public class ShyroSkylandDimension {
 		double y = entity.getY();
 		double z = entity.getZ();
 		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("speciment_mod:shyro_skyland"))) {
-			ShyroSkylandQuandLeJoueurEntreDansLaDimensionProcedure.execute(entity);
+			ShyroSkylandQuandLeJoueurEntreDansLaDimensionProcedure.execute(world, entity);
 		}
 	}
 }
