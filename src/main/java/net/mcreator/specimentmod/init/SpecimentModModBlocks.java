@@ -89,7 +89,6 @@ import net.mcreator.specimentmod.block.FemirokoFenceBlock;
 import net.mcreator.specimentmod.block.FemirokoDoorBlock;
 import net.mcreator.specimentmod.block.FemirokoButtonBlock;
 import net.mcreator.specimentmod.block.FemilisBlock;
-import net.mcreator.specimentmod.block.FemiForestPortalBlock;
 import net.mcreator.specimentmod.block.CatalyseurUltimeBlock;
 import net.mcreator.specimentmod.SpecimentModMod;
 
@@ -100,7 +99,6 @@ public class SpecimentModModBlocks {
 	public static final DeferredHolder<Block, Block> KAILONITE_ORE = REGISTRY.register("kailonite_ore", KailoniteOreBlock::new);
 	public static final DeferredHolder<Block, Block> KAILONITE_BLOCK = REGISTRY.register("kailonite_block", KailoniteBlockBlock::new);
 	public static final DeferredHolder<Block, Block> FEMILIS = REGISTRY.register("femilis", FemilisBlock::new);
-	public static final DeferredHolder<Block, Block> FEMI_FOREST_PORTAL = REGISTRY.register("femi_forest_portal", FemiForestPortalBlock::new);
 	public static final DeferredHolder<Block, Block> KAILON_KALEIDOSCOPE_PORTAL = REGISTRY.register("kailon_kaleidoscope_portal", KailonKaleidoscopePortalBlock::new);
 	public static final DeferredHolder<Block, Block> SHYRO_SKYLAND_PORTAL = REGISTRY.register("shyro_skyland_portal", ShyroSkylandPortalBlock::new);
 	public static final DeferredHolder<Block, Block> SHYRONITE_ORE = REGISTRY.register("shyronite_ore", ShyroniteOreBlock::new);

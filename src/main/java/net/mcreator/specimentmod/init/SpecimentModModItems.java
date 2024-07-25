@@ -71,7 +71,7 @@ import net.mcreator.specimentmod.item.FemiumItem;
 import net.mcreator.specimentmod.item.FemiumHoeItem;
 import net.mcreator.specimentmod.item.FemiumAxeItem;
 import net.mcreator.specimentmod.item.FemiumArmorItem;
-import net.mcreator.specimentmod.item.FemiForestItem;
+import net.mcreator.specimentmod.item.CatalystOfFemiForestItem;
 import net.mcreator.specimentmod.item.CatalyseurvideItem;
 import net.mcreator.specimentmod.item.BidonessenceItem;
 import net.mcreator.specimentmod.SpecimentModMod;
@@ -105,7 +105,6 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> KAILONITE_ARMOR_BOOTS = REGISTRY.register("kailonite_armor_boots", KailoniteArmorItem.Boots::new);
 	public static final DeferredHolder<Item, Item> FEMILIS = block(SpecimentModModBlocks.FEMILIS);
 	public static final DeferredHolder<Item, Item> CATALYSEURVIDE = REGISTRY.register("catalyseurvide", CatalyseurvideItem::new);
-	public static final DeferredHolder<Item, Item> FEMI_FOREST = REGISTRY.register("femi_forest", FemiForestItem::new);
 	public static final DeferredHolder<Item, Item> KAILON_KALEIDOSCOPE = REGISTRY.register("kailon_kaleidoscope", KailonKaleidoscopeItem::new);
 	public static final DeferredHolder<Item, Item> POUDREDEFEMILIS = REGISTRY.register("poudredefemilis", PoudredefemilisItem::new);
 	public static final DeferredHolder<Item, Item> PIERREDELAFEMIFOREST = REGISTRY.register("pierredelafemiforest", PierredelafemiforestItem::new);
@@ -238,6 +237,7 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> MINOX_SUPER_ARMOR_LEGGINGS = REGISTRY.register("minox_super_armor_leggings", MinoxSuperArmorItem.Leggings::new);
 	public static final DeferredHolder<Item, Item> MINOX_SUPER_ARMOR_BOOTS = REGISTRY.register("minox_super_armor_boots", MinoxSuperArmorItem.Boots::new);
 	public static final DeferredHolder<Item, Item> MINOX_ACTIVATION_CRYSTAL = REGISTRY.register("minox_activation_crystal", MinoxActivationCrystalItem::new);
+	public static final DeferredHolder<Item, Item> CATALYST_OF_FEMI_FOREST = REGISTRY.register("catalyst_of_femi_forest", CatalystOfFemiForestItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

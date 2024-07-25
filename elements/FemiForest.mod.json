@@ -31,8 +31,8 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "enableIgniter": true,
-    "igniterName": "Catalyst of Fémi's Forest",
+    "enableIgniter": false,
+    "igniterName": "Catalyst Of Femi's Forest",
     "igniterRarity": "RARE",
     "specialInformation": {
       "fixedValue": []
@@ -44,6 +44,6 @@
     ],
     "texture": "portal_acti_femi_b",
     "portalTexture": "femi_portal",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

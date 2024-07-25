@@ -175,8 +175,8 @@ public class SpecimentModModTabs {
 
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FEMI_MARS = REGISTRY.register("femi_mars",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.femi_mars")).icon(() -> new ItemStack(SpecimentModModItems.FEMI_FOREST.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(SpecimentModModItems.FEMI_FOREST.get());
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.femi_mars")).icon(() -> new ItemStack(SpecimentModModItems.CATALYST_OF_FEMI_FOREST.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SpecimentModModItems.CATALYST_OF_FEMI_FOREST.get());
 				tabData.accept(SpecimentModModItems.FEMIUM.get());
 				tabData.accept(SpecimentModModBlocks.FEMIUM_ORE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.FEMIUM_BLOCK.get().asItem());

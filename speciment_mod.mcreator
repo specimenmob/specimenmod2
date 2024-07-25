@@ -720,17 +720,9 @@
       "registry_name": "femi_forest",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/FemiForestItem.java",
-          "src/main/resources/assets/speciment_mod/blockstates/femi_forest_portal.json",
-          "src/main/resources/assets/speciment_mod/models/block/femi_forest_portal_ns.json",
-          "src/main/java/net/mcreator/specimentmod/block/FemiForestPortalBlock.java",
           "src/main/java/net/mcreator/specimentmod/world/dimension/FemiForestDimension.java",
           "src/main/resources/data/speciment_mod/dimension/femi_forest.json",
-          "src/main/resources/assets/speciment_mod/models/item/femi_forest.json",
-          "src/main/resources/data/speciment_mod/dimension_type/femi_forest.json",
-          "src/main/java/net/mcreator/specimentmod/world/teleporter/FemiForestTeleporter.java",
-          "src/main/resources/assets/speciment_mod/models/block/femi_forest_portal_ew.json",
-          "src/main/java/net/mcreator/specimentmod/world/teleporter/FemiForestPortalShape.java"
+          "src/main/resources/data/speciment_mod/dimension_type/femi_forest.json"
         ]
       },
       "path": "~/FemiMars"
@@ -4707,6 +4699,116 @@
         ]
       },
       "path": "~/Shyro"
+    },
+    {
+      "name": "Portalfemi",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalfemi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/entity/PortalfemiEntity.java",
+          "src/main/java/net/mcreator/specimentmod/entity/model/PortalfemiModel.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PortalfemiRenderer.java"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "PortalfemiQuandLeJoueurEntreEnCollisionAvecLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalfemi_quand_le_joueur_entre_en_collision_avec_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/PortalfemiQuandLeJoueurEntreEnCollisionAvecLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "CatalystOfFemiForest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyst_of_femi_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/CatalystOfFemiForestItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/catalyst_of_femi_forest.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "CatalystOfFemiForestLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catalyst_of_femi_forest_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CatalystOfFemiForestLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "PortalfemiChaqueMiseAJourDeTickDeLentite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalfemi_chaque_mise_a_jour_de_tick_de_lentite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/PortalfemiChaqueMiseAJourDeTickDeLentiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FemiMars"
     }
   ],
   "variable_elements": [
@@ -4715,6 +4817,18 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "portalfemi",
+      "type": "number",
+      "scope": "map",
+      "value": "1.0"
+    },
+    {
+      "name": "portalfemireset",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
     }
   ],
   "sound_elements": [
@@ -4800,6 +4914,13 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:McqueencifoliaFence",
+      "~CUSTOM:MinoriaFence",
+      "~CUSTOM:ShyrociaFence",
+      "~CUSTOM:KailoneaFence",
+      "~CUSTOM:FemirokoFence"
+    ],
     "ITEMS:minecraft:chest_armor": [
       "~CUSTOM:MinoxSuperArmor.body",
       "~CUSTOM:MinoxArmor.body",
@@ -4807,6 +4928,39 @@
       "~CUSTOM:ShyroniteArmor.body",
       "~CUSTOM:KailoniteArmor.body",
       "~CUSTOM:FemiumArmor.body"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:McqueencifoliaLeaves",
+      "~CUSTOM:MinoriaLeaves",
+      "~CUSTOM:ShyrociaLeaves",
+      "~CUSTOM:KailoneaLeaves",
+      "~CUSTOM:FemirokoLeaves"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MinoxBlock",
+      "~CUSTOM:MinoxOre",
+      "~CUSTOM:McqueeniumBlock",
+      "~CUSTOM:McqueeniumOre",
+      "~CUSTOM:ShyroniteBlock",
+      "~CUSTOM:ShyroniteOre",
+      "~CUSTOM:KailoniteBlock",
+      "~CUSTOM:KailoniteOre",
+      "~CUSTOM:FemiumBlock",
+      "~CUSTOM:FemiumOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:MinoxPickaxe",
+      "~CUSTOM:McqueeniumPickaxe",
+      "~CUSTOM:ShyronitePickaxe",
+      "~CUSTOM:KailonitePickaxe",
+      "~CUSTOM:FemiumPickaxe"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:McqueencifoliaSlab",
+      "~CUSTOM:MinoriaSlab",
+      "~CUSTOM:ShyrociaSlab",
+      "~CUSTOM:KailoneaSlab",
+      "~CUSTOM:FemirokoSlab"
     ],
     "BLOCKS:minecraft:logs": [
       "CUSTOM:FemirokoLog",
@@ -4851,6 +5005,15 @@
       "~CUSTOM:KailoniteHoe",
       "~CUSTOM:FemiumHoe"
     ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:SteakdeMimir",
+      "~CUSTOM:SteakdeMimircrue"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Ordredemission",
+      "~CUSTOM:Lesspecimen",
+      "~CUSTOM:Lerapdelaf1"
+    ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:McqueencifoliaStairs",
       "~CUSTOM:MinoriaStairs",
@@ -4863,6 +5026,9 @@
       "~Blocks.STONE#0",
       "~Blocks.DIRT#0",
       "~Blocks.GRASS"
+    ],
+    "ENTITIES:neoforge:tag": [
+      "CUSTOM:Charomane"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:MinoxAxe",
@@ -4878,7 +5044,13 @@
       "~CUSTOM:KailoniteSword",
       "~CUSTOM:FemiumSword"
     ],
-    "BLOCKS:minecraft:dirt": [],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:MinoxShovel",
+      "~CUSTOM:McqueeniumShovel",
+      "~CUSTOM:ShyroniteShovel",
+      "~CUSTOM:KailoniteShovel",
+      "~CUSTOM:FemiumShovel"
+    ],
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:MinoxSuperArmor.helmet",
       "~CUSTOM:MinoxArmor.helmet",
@@ -4887,73 +5059,6 @@
       "~CUSTOM:KailoniteArmor.helmet",
       "~CUSTOM:FemiumArmor.helmet"
     ],
-    "ITEMS:minecraft:planks": [
-      "CUSTOM:FemirokoPlanks",
-      "CUSTOM:KailoneaPlanks",
-      "CUSTOM:ShyrociaPlanks",
-      "CUSTOM:McqueencifoliaPlanks",
-      "CUSTOM:MinoriaPlanks"
-    ],
-    "BLOCKS:minecraft:fences": [
-      "~CUSTOM:McqueencifoliaFence",
-      "~CUSTOM:MinoriaFence",
-      "~CUSTOM:ShyrociaFence",
-      "~CUSTOM:KailoneaFence",
-      "~CUSTOM:FemirokoFence"
-    ],
-    "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:McqueencifoliaLeaves",
-      "~CUSTOM:MinoriaLeaves",
-      "~CUSTOM:ShyrociaLeaves",
-      "~CUSTOM:KailoneaLeaves",
-      "~CUSTOM:FemirokoLeaves"
-    ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:McqueencifoliaSlab",
-      "~CUSTOM:MinoriaSlab",
-      "~CUSTOM:ShyrociaSlab",
-      "~CUSTOM:KailoneaSlab",
-      "~CUSTOM:FemirokoSlab"
-    ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:MinoxBlock",
-      "~CUSTOM:MinoxOre",
-      "~CUSTOM:McqueeniumBlock",
-      "~CUSTOM:McqueeniumOre",
-      "~CUSTOM:ShyroniteBlock",
-      "~CUSTOM:ShyroniteOre",
-      "~CUSTOM:KailoniteBlock",
-      "~CUSTOM:KailoniteOre",
-      "~CUSTOM:FemiumBlock",
-      "~CUSTOM:FemiumOre"
-    ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:MinoxPickaxe",
-      "~CUSTOM:McqueeniumPickaxe",
-      "~CUSTOM:ShyronitePickaxe",
-      "~CUSTOM:KailonitePickaxe",
-      "~CUSTOM:FemiumPickaxe"
-    ],
-    "ITEMS:minecraft:meat": [
-      "~CUSTOM:SteakdeMimir",
-      "~CUSTOM:SteakdeMimircrue"
-    ],
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:Ordredemission",
-      "~CUSTOM:Lesspecimen",
-      "~CUSTOM:Lerapdelaf1"
-    ],
-    "BIOMES:minecraft:is_overworld": [],
-    "ENTITIES:neoforge:tag": [
-      "CUSTOM:Charomane"
-    ],
-    "ITEMS:minecraft:shovels": [
-      "~CUSTOM:MinoxShovel",
-      "~CUSTOM:McqueeniumShovel",
-      "~CUSTOM:ShyroniteShovel",
-      "~CUSTOM:KailoniteShovel",
-      "~CUSTOM:FemiumShovel"
-    ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:MinoxSuperArmor.boots",
       "~CUSTOM:MinoxArmor.boots",
@@ -4961,6 +5066,13 @@
       "~CUSTOM:ShyroniteArmor.boots",
       "~CUSTOM:KailoniteArmor.boots",
       "~CUSTOM:FemiumArmor.boots"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:FemirokoPlanks",
+      "CUSTOM:KailoneaPlanks",
+      "CUSTOM:ShyrociaPlanks",
+      "CUSTOM:McqueencifoliaPlanks",
+      "CUSTOM:MinoriaPlanks"
     ],
     "ITEMS:minecraft:leg_armor": [
       "~CUSTOM:MinoxSuperArmor.legs",
@@ -5096,7 +5208,7 @@
       "Ordredemission"
     ],
     "CUSTOM:FemiMars": [
-      "FemiForest",
+      "CatalystOfFemiForest",
       "Femium",
       "FemiumOre",
       "FemiumBlock",
@@ -5122,7 +5234,8 @@
       "Pierredelafemiforest",
       "SteakdeMimircrue",
       "SteakdeMimir",
-      "Mimir"
+      "Mimir",
+      "FemiForest"
     ]
   },
   "language_map": {
@@ -5134,7 +5247,6 @@
       "subtitles.degatf1": "",
       "item.speciment_mod.mcqueenium_axe": "Mcqueenium Axe",
       "item.speciment_mod.pneuwet_spawn_egg": "Pneu Pluie Spawn Egg",
-      "item.speciment_mod.femi_forest": "Catalyst of Fémi\u0027s Forest",
       "item.speciment_mod.steakde_mimir": "Steak de Mimir",
       "biome.speciment_mod.biome_femi": "Femiland",
       "entity.speciment_mod.pneumedium": "Pneu Medium",
@@ -5189,11 +5301,12 @@
       "item.speciment_mod.lafin": "Ultimate Catalyst",
       "item.speciment_mod.pierredeminomysteria": "Mino\u0027s Mysteria Stone",
       "block.speciment_mod.kailonea_fence_gate": "Kailonea Fence Gate",
-      "item.speciment_mod.catalyseurultime": "Catalyseur ultime",
+      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
       "block.speciment_mod.femiroko_leaves": "Femiroko Leaves",
+      "item.speciment_mod.portalfemi_spawn_egg": "Portal Femi Spawn Egg",
       "biome.speciment_mod.biomemcqueen": "Biomemcqueen",
       "subtitles.boxbox": "",
       "item.speciment_mod.minox_sword": "Minox Sword",
@@ -5214,7 +5327,7 @@
       "subtitles.minox_activation_armor": "",
       "item.speciment_mod.femium_armor_chestplate": "Femium Chestplate",
       "block.speciment_mod.mcqueencifolia_leaves": "Mcqueencifolia Leaves",
-      "block.speciment_mod.catalyseur_ultime": "Catalyseur Ultime",
+      "block.speciment_mod.catalyseur_ultime": "Catalyseur Ultime Craft",
       "item.speciment_mod.kailonite_sword": "Kailonite Sword",
       "block.speciment_mod.kailonea_button": "Kailonea Button",
       "block.speciment_mod.femilis": "Femilis",
@@ -5232,6 +5345,7 @@
       "item.speciment_mod.pneuhard_spawn_egg": "Pneu Hard Spawn Egg",
       "entity.speciment_mod.pneuwet": "Pneu Pluie",
       "item.speciment_mod.poudredeshyrosa": "Poudre de shyrosa",
+      "item.speciment_mod.catalyst_of_femi_forest": "Catalyst Of Femi Forest",
       "block.speciment_mod.mcqueenium_ore": "Mcqueenium Ore",
       "item.speciment_mod.minox_armor_chestplate": "Minox Chestplate",
       "subtitles.stupid": "",
@@ -5256,6 +5370,7 @@
       "block.speciment_mod.shyrocia_fence": "Shyrocia Fence",
       "block.speciment_mod.mcqueenium_block": "Block of Mcqueenium",
       "item.speciment_mod.shyronite_armor_boots": "Shyronite Boots",
+      "entity.speciment_mod.portalfemi": "Portal Femi",
       "block.speciment_mod.mcqueenelle": "Mcqueenelle",
       "item.speciment_mod.mcqueenium_sword": "Mcqueenium Sword",
       "item.speciment_mod.ordredemission.desc": "Une mission tendu",
@@ -5331,7 +5446,6 @@
       "subtitles.degatf1": "",
       "item.speciment_mod.mcqueenium_axe": "Hache en Mcqueenium",
       "item.speciment_mod.pneuwet_spawn_egg": "Oeuf de pneu pluie",
-      "item.speciment_mod.femi_forest": "Catalyseur de la Femi\u0027s Forest",
       "item.speciment_mod.steakde_mimir": "Steak de Mimir cuit",
       "biome.speciment_mod.biome_femi": "Femiland",
       "entity.speciment_mod.pneumedium": "Pneu moyen",
@@ -5353,8 +5467,8 @@
       "block.speciment_mod.minoria_pressure_plate": "Plaque de pression en minoria",
       "item.speciment_mod.femium_axe": "Hache en Fémium",
       "block.speciment_mod.shyrocia_stairs": "Escalier en shyrocia",
-      "block.speciment_mod.femium_ore": "Minerai de Fémium",
       "item.speciment_mod.catalyseurvide": "Catalyseur vide",
+      "block.speciment_mod.femium_ore": "Minerai de Fémium",
       "block.speciment_mod.minoria_slab": "Dalle en minoria",
       "block.speciment_mod.shyronite_block": "Bloc de Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Oeuf de pneu moyen",
@@ -5385,12 +5499,13 @@
       "block.speciment_mod.mcqueencifolia_slab": "Dalle en mcqueencifolia",
       "item.speciment_mod.lafin": "Catalyseur Ultime",
       "item.speciment_mod.pierredeminomysteria": "Pierre de Mino\u0027s Mysteria",
-      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
+      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
       "block.speciment_mod.femiroko_leaves": "Feuilles de fémiroko",
+      "item.speciment_mod.portalfemi_spawn_egg": "Portal Femi Spawn Egg",
       "biome.speciment_mod.biomemcqueen": "Biomemcqueen",
       "subtitles.boxbox": "",
       "item.speciment_mod.minox_sword": "Épée en Minox",
@@ -5411,7 +5526,7 @@
       "subtitles.minox_activation_armor": "",
       "item.speciment_mod.femium_armor_chestplate": "Plastron en Fémium",
       "block.speciment_mod.mcqueencifolia_leaves": "Feuilles de mcqueencifolia",
-      "block.speciment_mod.catalyseur_ultime": "Catalyseur Ultime",
+      "block.speciment_mod.catalyseur_ultime": "Catalyseur Ultime Craft",
       "item.speciment_mod.kailonite_sword": "Épée en Kailonite",
       "block.speciment_mod.kailonea_button": "Bouton en kailonéa",
       "block.speciment_mod.femilis": "Fémilis",
@@ -5429,6 +5544,7 @@
       "item.speciment_mod.pneuhard_spawn_egg": "Oeuf de pneu dur",
       "entity.speciment_mod.pneuwet": "Pneu pluie",
       "item.speciment_mod.poudredeshyrosa": "Poudre de shyrosa",
+      "item.speciment_mod.catalyst_of_femi_forest": "Catalyst Of Femi Forest",
       "block.speciment_mod.mcqueenium_ore": "Minerai de Mcqueenium",
       "item.speciment_mod.minox_armor_chestplate": "Plastron en Minox",
       "subtitles.stupid": "",
@@ -5453,6 +5569,7 @@
       "block.speciment_mod.shyrocia_fence": "Clôture en shyrocia",
       "block.speciment_mod.mcqueenium_block": "Bloc de Mcqueenium",
       "item.speciment_mod.shyronite_armor_boots": "Bottes en Shyronite",
+      "entity.speciment_mod.portalfemi": "Portal Femi",
       "block.speciment_mod.mcqueenelle": "Mcqueenelle",
       "item.speciment_mod.mcqueenium_sword": "Épée en Mcqueenium",
       "item.speciment_mod.ordredemission.desc": "Une mission tendu",
