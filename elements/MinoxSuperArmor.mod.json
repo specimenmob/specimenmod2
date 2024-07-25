@@ -16,10 +16,10 @@
       }
     ],
     "armorTextureFile": "minox",
-    "helmetName": "Minox Super Helmet",
-    "bodyName": "Minox Super Chestplate",
-    "leggingsName": "Minox Super Leggings",
-    "bootsName": "Minox Super Boots",
+    "helmetName": "Mystic Minox Helmet",
+    "bodyName": "Mystic Minox Chestplate",
+    "leggingsName": "Mystic Minox Leggings",
+    "bootsName": "Mystic Minox Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -85,15 +85,15 @@
       "fixedValue": false
     },
     "maxDamage": 37,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
-    "enchantability": 9,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 15,
+    "toughness": 3.0,
+    "knockbackResistance": 0.1,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_netherite"
     },
     "repairItems": [
       {

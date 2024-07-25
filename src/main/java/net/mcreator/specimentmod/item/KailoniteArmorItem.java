@@ -35,7 +35,7 @@ public abstract class KailoniteArmorItem extends ArmorItem {
 				map.put(ArmorItem.Type.CHESTPLATE, 8);
 				map.put(ArmorItem.Type.HELMET, 3);
 				map.put(ArmorItem.Type.BODY, 8);
-			}), 9, DeferredHolder.create(Registries.SOUND_EVENT, new ResourceLocation("item.armor.equip_netherite")), () -> Ingredient.of(new ItemStack(SpecimentModModItems.KAILONITE.get())),
+			}), 15, DeferredHolder.create(Registries.SOUND_EVENT, new ResourceLocation("item.armor.equip_netherite")), () -> Ingredient.of(new ItemStack(SpecimentModModItems.KAILONITE.get())),
 					List.of(new ArmorMaterial.Layer(new ResourceLocation("speciment_mod:kailonite"))), 3f, 0.1f);
 			registerHelper.register(new ResourceLocation("speciment_mod:kailonite_armor"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
