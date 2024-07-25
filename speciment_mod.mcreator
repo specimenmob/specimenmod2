@@ -4684,6 +4684,25 @@
         ]
       },
       "path": "~/Mino/MinoSuperArmure"
+    },
+    {
+      "name": "ShyroSkylandQuandLeJoueurEntreDansLaDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyro_skyland_quand_le_joueur_entre_dans_la_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ShyroSkylandQuandLeJoueurEntreDansLaDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shyro"
     }
   ],
   "variable_elements": [

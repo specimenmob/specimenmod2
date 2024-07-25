@@ -7,7 +7,7 @@
         "value": "CUSTOM:Biomeshyro"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "End like gen",
     "mainFillerBlock": {
       "value": "Blocks.STONE#0"
     },
@@ -20,7 +20,10 @@
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
-    "imitateOverworldBehaviour": true,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "ShyroSkylandQuandLeJoueurEntreDansLaDimension"
+    },
     "portalFrame": {
       "value": "Blocks.OBSIDIAN"
     },
