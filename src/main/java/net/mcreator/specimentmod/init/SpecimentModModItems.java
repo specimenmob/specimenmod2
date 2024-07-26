@@ -161,7 +161,6 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> SHYROSA = block(SpecimentModModBlocks.SHYROSA);
 	public static final DeferredHolder<Item, Item> POUDREDESHYROSA = REGISTRY.register("poudredeshyrosa", PoudredeshyrosaItem::new);
 	public static final DeferredHolder<Item, Item> LAFIN = REGISTRY.register("lafin", LafinItem::new);
-	public static final DeferredHolder<Item, Item> MINITEL = block(SpecimentModModBlocks.MINITEL);
 	public static final DeferredHolder<Item, Item> ROCKY_SPAWN_EGG = REGISTRY.register("rocky_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.ROCKY, -6710887, -65281, new Item.Properties()));
 	public static final DeferredHolder<Item, Item> PNEUSOFT_SPAWN_EGG = REGISTRY.register("pneusoft_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.PNEUSOFT, -16777216, -65536, new Item.Properties()));
 	public static final DeferredHolder<Item, Item> PNEUMEDIUM_SPAWN_EGG = REGISTRY.register("pneumedium_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.PNEUMEDIUM, -16777216, -256, new Item.Properties()));

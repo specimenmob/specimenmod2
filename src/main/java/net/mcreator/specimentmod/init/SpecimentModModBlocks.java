@@ -43,7 +43,6 @@ import net.mcreator.specimentmod.block.MinoriaButtonBlock;
 import net.mcreator.specimentmod.block.MinoliaBlock;
 import net.mcreator.specimentmod.block.MinoSandstoneBlock;
 import net.mcreator.specimentmod.block.MinoSandBlock;
-import net.mcreator.specimentmod.block.MinitelBlock;
 import net.mcreator.specimentmod.block.McqueeniumOreBlock;
 import net.mcreator.specimentmod.block.McqueeniumBlockBlock;
 import net.mcreator.specimentmod.block.McqueenelleBlock;
@@ -108,7 +107,6 @@ public class SpecimentModModBlocks {
 	public static final DeferredHolder<Block, Block> MCQUEENELLE = REGISTRY.register("mcqueenelle", McqueenelleBlock::new);
 	public static final DeferredHolder<Block, Block> SHYROSA = REGISTRY.register("shyrosa", ShyrosaBlock::new);
 	public static final DeferredHolder<Block, Block> LAFIN_PORTAL = REGISTRY.register("lafin_portal", LafinPortalBlock::new);
-	public static final DeferredHolder<Block, Block> MINITEL = REGISTRY.register("minitel", MinitelBlock::new);
 	public static final DeferredHolder<Block, Block> FEMIROKO_WOOD = REGISTRY.register("femiroko_wood", FemirokoWoodBlock::new);
 	public static final DeferredHolder<Block, Block> FEMIROKO_LOG = REGISTRY.register("femiroko_log", FemirokoLogBlock::new);
 	public static final DeferredHolder<Block, Block> FEMIROKO_PLANKS = REGISTRY.register("femiroko_planks", FemirokoPlanksBlock::new);

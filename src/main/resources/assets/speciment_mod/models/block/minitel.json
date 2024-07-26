@@ -1,9 +1,0 @@
-{
-  "parent": "speciment_mod:custom/minitel",
-  "textures": {
-    "all": "speciment_mod:block/minitel",
-    "particle": "speciment_mod:block/minitel",
-    "0": "speciment_mod:block/minitel"
-  },
-  "render_type": "solid"
-}
