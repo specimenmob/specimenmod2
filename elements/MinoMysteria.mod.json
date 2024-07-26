@@ -9,14 +9,14 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:MinoSandstone"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"
     },
     "canRespawnHere": false,
     "hasFog": false,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
@@ -44,6 +44,6 @@
     ],
     "texture": "portal_acti_mino",
     "portalTexture": "mino_portal",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

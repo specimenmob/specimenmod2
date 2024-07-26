@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ShyroSkyland"
+      "value": "CUSTOM:CatalystOfShyroSkyland"
     },
     "name": "shyrocatalyseurcraft",
     "namespace": "mod"

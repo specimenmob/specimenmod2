@@ -44,6 +44,6 @@
     ],
     "texture": "portal_acti_kailon",
     "portalTexture": "kailon_portal",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

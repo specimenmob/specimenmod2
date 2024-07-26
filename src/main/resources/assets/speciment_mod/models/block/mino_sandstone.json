@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "speciment_mod:block/mino_sandstone_bottom",
+    "up": "speciment_mod:block/mino_sandstone_top",
+    "north": "speciment_mod:block/mino_sandstone",
+    "east": "speciment_mod:block/mino_sandstone",
+    "south": "speciment_mod:block/mino_sandstone",
+    "west": "speciment_mod:block/mino_sandstone",
+    "particle": "speciment_mod:block/mino_sandstone_bottom"
+  },
+  "render_type": "solid"
+}

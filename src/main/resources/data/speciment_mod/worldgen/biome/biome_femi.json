@@ -4,11 +4,11 @@
   "downfall": 0.5,
   "effects": {
     "foliage_color": 10387789,
-    "grass_color": -24454,
+    "grass_color": -10496,
     "sky_color": -23296,
     "fog_color": -23296,
-    "water_color": -40121,
-    "water_fog_color": -24454
+    "water_color": -19641,
+    "water_fog_color": -6732
   },
   "spawners": {
     "monster": [],
@@ -33,7 +33,10 @@
     [
       "minecraft:lake_lava_underground"
     ],
-    [],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:forest_rock"
+    ],
     [],
     [],
     [],
@@ -61,8 +64,17 @@
     [
       "speciment_mod:biome_femi_tree",
       "minecraft:forest_flowers",
-      "minecraft:patch_grass_forest"
+      "minecraft:patch_large_fern",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
+      "minecraft:patch_grass_forest",
+      "minecraft:patch_grass_plain",
+      "minecraft:flower_meadow",
+      "minecraft:trees_meadow"
     ],
-    []
+    [
+      "minecraft:freeze_top_layer"
+    ]
   ]
 }

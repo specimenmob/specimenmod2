@@ -44,6 +44,6 @@
     ],
     "texture": "portal_acti_mcqueen",
     "portalTexture": "mcqueen_portal",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

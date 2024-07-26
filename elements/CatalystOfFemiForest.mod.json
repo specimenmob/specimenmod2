@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Catalyst Of Femi Forest",
+    "name": "Catalyst Of Femi's Forest",
     "rarity": "RARE",
     "creativeTabs": [
       {
@@ -37,8 +37,8 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "CatalystOfFemiForestLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc"
+    "onRightClickedInAir": {
+      "name": "FemiTeleportation"
     },
     "enableRanged": false,
     "shootConstantly": false,

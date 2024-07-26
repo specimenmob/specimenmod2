@@ -27,7 +27,7 @@
       "aquifers_enabled": true,
       "ore_veins_enabled": true,
       "default_block": {
-        "Name": "minecraft:stone"
+        "Name": "speciment_mod:mino_sandstone"
       },
       "default_fluid": {
         "Name": "minecraft:water",
@@ -417,17 +417,14 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:grass_block",
-                              "Properties": {
-                                "snowy": "false"
-                              }
+                              "Name": "speciment_mod:mino_sand"
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:sand"
+                            "Name": "speciment_mod:mino_sand"
                           }
                         }
                       ]
@@ -445,7 +442,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:dirt"
+                        "Name": "speciment_mod:mino_sandstone"
                       }
                     }
                   }

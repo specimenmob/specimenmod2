@@ -22,8 +22,8 @@ import net.mcreator.specimentmod.SpecimentModMod;
 public class SpecimentModModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SpecimentModMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MINO = REGISTRY.register("mino",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.mino")).icon(() -> new ItemStack(SpecimentModModItems.MINO_MYSTERIA.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(SpecimentModModItems.MINO_MYSTERIA.get());
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.mino")).icon(() -> new ItemStack(SpecimentModModItems.CATALYST_OF_MINO_MYSTERIA.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SpecimentModModItems.CATALYST_OF_MINO_MYSTERIA.get());
 				tabData.accept(SpecimentModModItems.MINOX.get());
 				tabData.accept(SpecimentModModBlocks.MINOX_ORE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.MINOX_BLOCK.get().asItem());
@@ -55,12 +55,14 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.MINOX_SUPER_ARMOR_LEGGINGS.get());
 				tabData.accept(SpecimentModModItems.MINOX_SUPER_ARMOR_BOOTS.get());
 				tabData.accept(SpecimentModModItems.MINOX_ACTIVATION_CRYSTAL.get());
+				tabData.accept(SpecimentModModBlocks.MINO_SANDSTONE.get().asItem());
+				tabData.accept(SpecimentModModBlocks.MINO_SAND.get().asItem());
 			})
 
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SHYRO = REGISTRY.register("shyro",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.shyro")).icon(() -> new ItemStack(SpecimentModModItems.SHYRO_SKYLAND.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(SpecimentModModItems.SHYRO_SKYLAND.get());
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.shyro")).icon(() -> new ItemStack(SpecimentModModItems.CATALYST_OF_SHYRO_SKYLAND.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SpecimentModModItems.CATALYST_OF_SHYRO_SKYLAND.get());
 				tabData.accept(SpecimentModModItems.SHYRONITE.get());
 				tabData.accept(SpecimentModModBlocks.SHYRONITE_ORE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.SHYRONITE_BLOCK.get().asItem());
@@ -91,8 +93,8 @@ public class SpecimentModModTabs {
 
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MC_QUEEN = REGISTRY.register("mc_queen",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.mc_queen")).icon(() -> new ItemStack(SpecimentModModItems.MC_QUEEN_MANOR.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(SpecimentModModItems.MC_QUEEN_MANOR.get());
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.mc_queen")).icon(() -> new ItemStack(SpecimentModModItems.CATALYST_OF_MCQUEEN_MANOR.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SpecimentModModItems.CATALYST_OF_MCQUEEN_MANOR.get());
 				tabData.accept(SpecimentModModItems.MCQUEENIUM.get());
 				tabData.accept(SpecimentModModBlocks.MCQUEENIUM_ORE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.MCQUEENIUM_BLOCK.get().asItem());
@@ -124,8 +126,8 @@ public class SpecimentModModTabs {
 
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> KAILON = REGISTRY.register("kailon",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.kailon")).icon(() -> new ItemStack(SpecimentModModItems.KAILON_KALEIDOSCOPE.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(SpecimentModModItems.KAILON_KALEIDOSCOPE.get());
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.speciment_mod.kailon")).icon(() -> new ItemStack(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get());
 				tabData.accept(SpecimentModModItems.KAILONITE.get());
 				tabData.accept(SpecimentModModBlocks.KAILONITE_ORE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.KAILONITE_BLOCK.get().asItem());

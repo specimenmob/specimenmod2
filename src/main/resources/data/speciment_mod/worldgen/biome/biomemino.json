@@ -4,11 +4,11 @@
   "downfall": 0.5,
   "effects": {
     "foliage_color": 10387789,
-    "grass_color": -13676721,
-    "sky_color": -12156236,
-    "fog_color": -12156236,
-    "water_color": -15132304,
-    "water_fog_color": -9404272
+    "grass_color": -16728065,
+    "sky_color": -2031617,
+    "fog_color": -2031617,
+    "water_color": -5383962,
+    "water_fog_color": -3084033
   },
   "spawners": {
     "monster": [],
@@ -35,7 +35,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "minecraft:desert_well"
+    ],
     [],
     [
       "minecraft:ore_coal_upper",
@@ -59,10 +61,9 @@
     [],
     [],
     [
-      "speciment_mod:biomemino_tree"
+      "speciment_mod:biomemino_tree",
+      "minecraft:patch_dead_bush_2"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ]
 }

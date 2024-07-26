@@ -13,19 +13,19 @@
       "value": "Blocks.STONE#0"
     },
     "airColor": {
-      "value": -2031617,
+      "value": -1,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -983056,
+      "value": -983041,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -5185306,
+      "value": -2031617,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -655366,
+      "value": -657931,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -110,7 +110,7 @@
     "spawnNetherBridge": false,
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
-    "spawnEndCity": false,
+    "spawnEndCity": true,
     "spawnRuinedPortal": "NONE",
     "spawnEntries": []
   }

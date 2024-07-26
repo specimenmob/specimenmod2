@@ -17,7 +17,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.specimentmod.entity.RockyEntity;
-import net.mcreator.specimentmod.entity.PortalfemiEntity;
 import net.mcreator.specimentmod.entity.PneuwetEntity;
 import net.mcreator.specimentmod.entity.PneusoftEntity;
 import net.mcreator.specimentmod.entity.PneumediumEntity;
@@ -66,8 +65,6 @@ public class SpecimentModModEntities {
 			EntityType.Builder.<CharomaneEntity>of(CharomaneEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
-	public static final DeferredHolder<EntityType<?>, EntityType<PortalfemiEntity>> PORTALFEMI = register("portalfemi",
-			EntityType.Builder.<PortalfemiEntity>of(PortalfemiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(1f, 0.2f));
 
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -84,7 +81,6 @@ public class SpecimentModModEntities {
 		PneuwetEntity.init(event);
 		F1Entity.init(event);
 		CharomaneEntity.init(event);
-		PortalfemiEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -98,6 +94,5 @@ public class SpecimentModModEntities {
 		event.put(PNEUWET.get(), PneuwetEntity.createAttributes().build());
 		event.put(F_1.get(), F1Entity.createAttributes().build());
 		event.put(CHAROMANE.get(), CharomaneEntity.createAttributes().build());
-		event.put(PORTALFEMI.get(), PortalfemiEntity.createAttributes().build());
 	}
 }

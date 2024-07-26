@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "speciment_mod:mino_sandstone",
     "speciment_mod:minox_block",
     "speciment_mod:minox_ore",
     "speciment_mod:mcqueenium_block",

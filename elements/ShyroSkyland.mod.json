@@ -14,12 +14,16 @@
     "fluidBlock": {
       "value": "Blocks.WATER"
     },
+    "airColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
     "canRespawnHere": false,
     "hasFog": false,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
-    "hasSkyLight": true,
+    "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "onPlayerEntersDimension": {
       "name": "ShyroSkylandQuandLeJoueurEntreDansLaDimension"
@@ -47,6 +51,6 @@
     ],
     "texture": "portal_acti_shyro",
     "portalTexture": "shyro_portal",
-    "enablePortal": true
+    "enablePortal": false
   }
 }

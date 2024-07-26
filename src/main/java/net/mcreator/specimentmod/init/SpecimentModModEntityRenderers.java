@@ -10,7 +10,6 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.specimentmod.client.renderer.RockyRenderer;
-import net.mcreator.specimentmod.client.renderer.PortalfemiRenderer;
 import net.mcreator.specimentmod.client.renderer.PneuwetRenderer;
 import net.mcreator.specimentmod.client.renderer.PneusoftRenderer;
 import net.mcreator.specimentmod.client.renderer.PneumediumRenderer;
@@ -33,6 +32,5 @@ public class SpecimentModModEntityRenderers {
 		event.registerEntityRenderer(SpecimentModModEntities.PNEUWET.get(), PneuwetRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.F_1.get(), F1Renderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.CHAROMANE.get(), CharomaneRenderer::new);
-		event.registerEntityRenderer(SpecimentModModEntities.PORTALFEMI.get(), PortalfemiRenderer::new);
 	}
 }

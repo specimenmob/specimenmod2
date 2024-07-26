@@ -4,28 +4,28 @@
   "definition": {
     "name": "Biomemino",
     "groundBlock": {
-      "value": "Blocks.GRASS"
+      "value": "CUSTOM:MinoSand"
     },
     "undergroundBlock": {
-      "value": "Blocks.DIRT#0"
+      "value": "CUSTOM:MinoSandstone"
     },
     "underwaterBlock": {
-      "value": "Blocks.SAND#0"
+      "value": "CUSTOM:MinoSand"
     },
     "airColor": {
-      "value": -12156236,
+      "value": -2031617,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -13676721,
+      "value": -16728065,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -15132304,
+      "value": -5383962,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -9404272,
+      "value": -3084033,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -72,7 +72,7 @@
       "max": 1.0
     },
     "treesPerChunk": 1,
-    "vanillaTreeType": "Default",
+    "vanillaTreeType": "Savanna trees",
     "treeType": 1,
     "minHeight": 7,
     "treeStem": {
@@ -90,7 +90,8 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "DesertFeatures",
+      "DeadBushes"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

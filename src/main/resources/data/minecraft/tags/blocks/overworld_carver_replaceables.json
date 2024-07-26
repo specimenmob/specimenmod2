@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "speciment_mod:mino_sand",
+    "speciment_mod:mino_sandstone",
     "minecraft:moss_block",
     "minecraft:stone",
     "minecraft:dirt",
