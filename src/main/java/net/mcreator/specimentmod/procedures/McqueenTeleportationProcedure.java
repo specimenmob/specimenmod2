@@ -38,7 +38,15 @@ public class McqueenTeleportationProcedure {
 				}
 			}
 			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MCQUEEN_MANOR.get(), 200);
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MCQUEEN_MANOR.get(), 6000);
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_FEMI_FOREST.get(), 6000);
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get(), 6000);
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MINO_MYSTERIA.get(), 6000);
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_SHYRO_SKYLAND.get(), 6000);
 		} else {
 			if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 				ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, new ResourceLocation("speciment_mod:mc_queen_manor"));
@@ -55,7 +63,15 @@ public class McqueenTeleportationProcedure {
 				}
 			}
 			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MCQUEEN_MANOR.get(), 200);
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MCQUEEN_MANOR.get(), 6000);
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_FEMI_FOREST.get(), 6000);
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get(), 6000);
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MINO_MYSTERIA.get(), 6000);
+			if (entity instanceof Player _player)
+				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_SHYRO_SKYLAND.get(), 6000);
 		}
 	}
 }
