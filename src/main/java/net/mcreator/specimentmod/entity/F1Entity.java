@@ -95,6 +95,11 @@ public class F1Entity extends Monster implements GeoEntity {
 		this.goalSelector.addGoal(5, new FloatGoal(this));
 	}
 
+	@Override
+	protected Vec3 getPassengerAttachmentPoint(Entity entity, EntityDimensions dimensions, float f) {
+		return super.getPassengerAttachmentPoint(entity, dimensions, f).add(0, -0.5f, 0);
+	}
+
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
 		this.spawnAtLocation(new ItemStack(SpecimentModModItems.BIDONESSENCE.get()));
