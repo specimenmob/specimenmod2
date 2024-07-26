@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "animatedentity",
   "definition": {
-    "mobName": "Pneu Hard",
+    "mobName": "Hard Tyre",
     "mobLabel": "",
     "mobModelTexture": "hard.png",
     "mobModelGlowTexture": "",

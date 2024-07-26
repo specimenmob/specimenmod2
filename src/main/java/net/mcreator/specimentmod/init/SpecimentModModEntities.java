@@ -60,7 +60,7 @@ public class SpecimentModModEntities {
 					.sized(1f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<F1Entity>> F_1 = register("f_1", EntityType.Builder.<F1Entity>of(F1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-			.sized(0.6f, 1.8f));
+			.sized(3f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<CharomaneEntity>> CHAROMANE = register("charomane",
 			EntityType.Builder.<CharomaneEntity>of(CharomaneEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 

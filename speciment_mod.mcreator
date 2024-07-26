@@ -4996,6 +4996,37 @@
         ]
       },
       "path": "~/Specimen"
+    },
+    {
+      "name": "F1LorsqueLeTempsDeMortEstAtteint",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_1_lorsque_le_temps_de_mort_est_atteint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/F1LorsqueLeTempsDeMortEstAtteintProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonMob"
     }
   ],
   "variable_elements": [
@@ -5166,6 +5197,9 @@
       "~CUSTOM:FemirokoPlanks",
       "~CUSTOM:FemirokoLog",
       "~CUSTOM:FemirokoWood"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~CUSTOM:F1"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:MinoxHoe",
@@ -5481,14 +5515,14 @@
       "block.speciment_mod.femiroko_fence_gate": "Femiroko Fence Gate",
       "subtitles.degatf1": "",
       "item.speciment_mod.mcqueenium_axe": "Mcqueenium Axe",
-      "item.speciment_mod.pneuwet_spawn_egg": "Pneu Pluie Spawn Egg",
+      "item.speciment_mod.pneuwet_spawn_egg": "Wet Tyre Spawn Egg",
       "item.speciment_mod.steakde_mimir": "Steak de Mimir",
       "biome.speciment_mod.biome_femi": "Femiland",
-      "entity.speciment_mod.pneumedium": "Pneu Medium",
+      "entity.speciment_mod.pneumedium": "Medium Tyre",
       "item.speciment_mod.shyronite_pickaxe": "Shyronite Pickaxe",
       "item.speciment_mod.minox_axe": "Minox Axe",
       "block.speciment_mod.mcqueencifolia_wood": "Mcqueencifolia Wood",
-      "entity.speciment_mod.f_1": "F1",
+      "entity.speciment_mod.f_1": "Formula 1",
       "block.speciment_mod.minoria_wood": "Minoria Wood",
       "item.speciment_mod.mcqueenium": "Mcqueenium",
       "item.speciment_mod.lerapdelaf_1.desc": "Le rap de la F1",
@@ -5506,7 +5540,7 @@
       "item.speciment_mod.catalyseurvide": "Empty catalyst",
       "block.speciment_mod.minoria_slab": "Minoria Slab",
       "block.speciment_mod.shyronite_block": "Block of Shyronite",
-      "item.speciment_mod.pneumedium_spawn_egg": "Pneu Medium Spawn Egg",
+      "item.speciment_mod.pneumedium_spawn_egg": "Medium Tyre Spawn Egg",
       "block.speciment_mod.kailonea_leaves": "Kailonea Leaves",
       "block.speciment_mod.femiroko_slab": "Femiroko Slab",
       "block.speciment_mod.mcqueencifolia_fence_gate": "Mcqueencifolia Fence Gate",
@@ -5518,12 +5552,12 @@
       "block.speciment_mod.shyrocia_button": "Shyrocia Button",
       "item.speciment_mod.pierredeshyroskyland": "Shyro\u0027s Skyland Stone",
       "block.speciment_mod.mcqueencifolia_stairs": "Mcqueencifolia Stairs",
-      "entity.speciment_mod.pneu_intermediaire": "Pneu Intermédiaire",
+      "entity.speciment_mod.pneu_intermediaire": "Intermediate Tyre",
       "block.speciment_mod.shyronite_ore": "Shyronite Ore",
       "item.speciment_mod.minox_armor_helmet": "Minox Helmet",
       "item.speciment_mod.mcqueenium_pickaxe": "Mcqueenium Pickaxe",
       "block.speciment_mod.kailonea_planks": "Kailonea Planks",
-      "item.speciment_mod.pneusoft_spawn_egg": "Pneu Soft Spawn Egg",
+      "item.speciment_mod.pneusoft_spawn_egg": "Soft Tyre Spawn Egg",
       "block.speciment_mod.mcqueencifolia_button": "Mcqueencifolia Button",
       "block.speciment_mod.kailonea_wood": "Kailonea Wood",
       "item_group.speciment_mod.femi_mars": "Fémi-Mars",
@@ -5578,8 +5612,8 @@
       "item_group.speciment_mod.mc_queen": "McQueen",
       "item.speciment_mod.shyronite_armor_helmet": "Shyronite Helmet",
       "block.speciment_mod.kailonea_fence": "Kailonea Fence",
-      "item.speciment_mod.pneuhard_spawn_egg": "Pneu Hard Spawn Egg",
-      "entity.speciment_mod.pneuwet": "Pneu Pluie",
+      "item.speciment_mod.pneuhard_spawn_egg": "Hard Tyre Spawn Egg",
+      "entity.speciment_mod.pneuwet": "Wet Tyre",
       "item.speciment_mod.poudredeshyrosa": "Poudre de shyrosa",
       "item.speciment_mod.catalyst_of_femi_forest": "Catalyst Of Femi\u0027s Forest",
       "block.speciment_mod.mcqueenium_ore": "Mcqueenium Ore",
@@ -5591,7 +5625,7 @@
       "item.speciment_mod.femium_sword": "Femium Sword",
       "block.speciment_mod.femium_block": "Block of Femium",
       "block.speciment_mod.femiroko_button": "Femiroko Button",
-      "entity.speciment_mod.pneuhard": "Pneu Hard",
+      "entity.speciment_mod.pneuhard": "Hard Tyre",
       "item.speciment_mod.shyronite_armor_leggings": "Shyronite Leggings",
       "item.speciment_mod.minox_super_armor_boots": "Mystic Minox Boots",
       "biome.speciment_mod.biome_kailon": "Kailonland",
@@ -5634,7 +5668,7 @@
       "item.speciment_mod.shyronite_hoe": "Shyronite Hoe",
       "block.speciment_mod.femiroko_stairs": "Femiroko Stairs",
       "block.speciment_mod.shyrocia_wood": "Shyrocia Wood",
-      "item.speciment_mod.f_1_spawn_egg": "F1 Spawn Egg",
+      "item.speciment_mod.f_1_spawn_egg": "Formula 1 Spawn Egg",
       "block.speciment_mod.shyrocia_log": "Shyrocia Log",
       "item.speciment_mod.kailonite_armor_helmet": "Kailonite Helmet",
       "biome.speciment_mod.biomeshyro": "Shyroland",
@@ -5651,7 +5685,7 @@
       "item.speciment_mod.kailonite_armor_chestplate": "Kailonite Chestplate",
       "item.speciment_mod.shyronite_shovel": "Shyronite Shovel",
       "item.speciment_mod.minox_pickaxe": "Minox Pickaxe",
-      "item.speciment_mod.pneu_intermediaire_spawn_egg": "Pneu Intermédiaire Spawn Egg",
+      "item.speciment_mod.pneu_intermediaire_spawn_egg": "Intermediate Tyre Spawn Egg",
       "item.speciment_mod.kailonite_axe": "Kailonite Axe",
       "item.speciment_mod.charomane_spawn_egg": "Charomane Spawn Egg",
       "item.speciment_mod.mcqueenium_shovel": "Mcqueenium Shovel",
@@ -5663,7 +5697,7 @@
       "item.speciment_mod.mcqueenium_armor_boots": "Mcqueenium Boots",
       "item.speciment_mod.poudrede_mcqueenium": "Poudre de Mcqueenelle",
       "biome.speciment_mod.biomegrottefemi": "Biomegrottefemi",
-      "entity.speciment_mod.pneusoft": "Pneu Soft",
+      "entity.speciment_mod.pneusoft": "Soft Tyre",
       "item.speciment_mod.poudredeminolia": "Poudre de minolia",
       "item.speciment_mod.pierredelafemiforest": "Femi\u0027s Forest Stone",
       "subtitles.charomane": "",
