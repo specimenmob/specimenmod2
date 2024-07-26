@@ -82,15 +82,30 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 5,
-    "generateFeature": false,
+    "frequencyOnChunks": 4,
+    "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Biomeshyro"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "plains"
       }
     ],
     "generationType": "Flower",
-    "patchSize": 64,
+    "patchSize": 10,
     "generateAtAnyHeight": false
   }
 }

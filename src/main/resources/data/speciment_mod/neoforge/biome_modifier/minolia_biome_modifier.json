@@ -1,13 +1,13 @@
 {
   "type": "neoforge:add_features",
   "biomes": [
-    "speciment_mod:biome_femi",
+    "speciment_mod:biomemino",
     "plains",
     "birch_forest",
     "dark_forest",
-    "forest",
-    "flower_forest"
+    "flower_forest",
+    "forest"
   ],
-  "features": "speciment_mod:femilis",
+  "features": "speciment_mod:minolia",
   "step": "vegetal_decoration"
 }

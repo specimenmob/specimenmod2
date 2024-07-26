@@ -2,7 +2,6 @@ package net.mcreator.specimentmod.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
@@ -17,8 +16,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
-
-import net.mcreator.specimentmod.init.SpecimentModModItems;
 
 public class ShyroTeleportationProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -46,16 +43,6 @@ public class ShyroTeleportationProcedure {
 							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "tp @s 6 250 9");
 				}
 			}
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_SHYRO_SKYLAND.get(), 6000);
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_FEMI_FOREST.get(), 6000);
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MINO_MYSTERIA.get(), 6000);
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MCQUEEN_MANOR.get(), 6000);
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get(), 6000);
 		} else {
 			if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 				ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, new ResourceLocation("speciment_mod:shyro_skyland"));
@@ -71,16 +58,6 @@ public class ShyroTeleportationProcedure {
 					_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_SHYRO_SKYLAND.get(), 6000);
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_FEMI_FOREST.get(), 6000);
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MINO_MYSTERIA.get(), 6000);
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_MCQUEEN_MANOR.get(), 6000);
-			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get(), 6000);
 		}
 	}
 }

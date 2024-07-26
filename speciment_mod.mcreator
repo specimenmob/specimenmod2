@@ -1855,8 +1855,11 @@
           "src/main/java/net/mcreator/specimentmod/block/KailonisetumBlock.java",
           "src/main/resources/assets/speciment_mod/models/block/kailonisetum.json",
           "src/main/resources/assets/speciment_mod/blockstates/kailonisetum.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/kailonisetum.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonisetum.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailonisetum.json"
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/kailonisetum_biome_modifier.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonisetum.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/kailonisetum.json"
         ]
       },
       "path": "~/Kailon"
@@ -1898,6 +1901,9 @@
         "files": [
           "src/main/resources/data/speciment_mod/loot_tables/blocks/minolia.json",
           "src/main/resources/assets/speciment_mod/models/block/minolia.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/minolia.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/minolia.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/minolia_biome_modifier.json",
           "src/main/java/net/mcreator/specimentmod/block/MinoliaBlock.java",
           "src/main/resources/assets/speciment_mod/models/item/minolia.json",
           "src/main/resources/assets/speciment_mod/blockstates/minolia.json"
@@ -2080,7 +2086,10 @@
       "registry_name": "mcqueenelle",
       "metadata": {
         "files": [
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/mcqueenelle.json",
           "src/main/resources/assets/speciment_mod/models/item/mcqueenelle.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/mcqueenelle_biome_modifier.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/mcqueenelle.json",
           "src/main/resources/assets/speciment_mod/models/block/mcqueenelle.json",
           "src/main/java/net/mcreator/specimentmod/block/McqueenelleBlock.java",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueenelle.json",
@@ -2098,9 +2107,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/speciment_mod/models/block/shyrosa.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/shyrosa.json",
           "src/main/resources/assets/speciment_mod/models/item/shyrosa.json",
           "src/main/resources/assets/speciment_mod/blockstates/shyrosa.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrosa.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/shyrosa_biome_modifier.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/shyrosa.json",
           "src/main/java/net/mcreator/specimentmod/block/ShyrosaBlock.java"
         ]
       },
@@ -4965,6 +4977,78 @@
         ]
       },
       "path": "~/Specimen"
+    },
+    {
+      "name": "FemiForestQuandLeJoueurEntreDansLaDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femi_forest_quand_le_joueur_entre_dans_la_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/FemiForestQuandLeJoueurEntreDansLaDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KailonKaleidoscopeQuandLeJoueurEntreDansLaDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailon_kaleidoscope_quand_le_joueur_entre_dans_la_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/KailonKaleidoscopeQuandLeJoueurEntreDansLaDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "McQueenManorQuandLeJoueurEntreDansLaDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_queen_manor_quand_le_joueur_entre_dans_la_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/McQueenManorQuandLeJoueurEntreDansLaDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MinoMysteriaQuandLeJoueurEntreDansLaDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mino_mysteria_quand_le_joueur_entre_dans_la_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/MinoMysteriaQuandLeJoueurEntreDansLaDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -5153,7 +5237,6 @@
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:MinoSand",
       "~CUSTOM:MinoSandstone",
-      "~CUSTOM:Nuage",
       "~Blocks.MOSS_BLOCK",
       "~Blocks.STONE#0",
       "~Blocks.DIRT#0",

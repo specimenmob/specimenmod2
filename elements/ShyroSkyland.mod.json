@@ -18,13 +18,13 @@
       "value": -1,
       "falpha": 0.0
     },
-    "canRespawnHere": false,
+    "canRespawnHere": true,
     "hasFog": false,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
-    "hasSkyLight": false,
-    "imitateOverworldBehaviour": false,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
     "onPlayerEntersDimension": {
       "name": "ShyroSkylandQuandLeJoueurEntreDansLaDimension"
     },

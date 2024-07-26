@@ -14,13 +14,16 @@
     "fluidBlock": {
       "value": "Blocks.WATER"
     },
-    "canRespawnHere": false,
+    "canRespawnHere": true,
     "hasFog": false,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
+    "onPlayerEntersDimension": {
+      "name": "McQueenManorQuandLeJoueurEntreDansLaDimension"
+    },
     "portalFrame": {
       "value": "Blocks.OBSIDIAN"
     },
