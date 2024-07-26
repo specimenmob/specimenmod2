@@ -31,7 +31,7 @@ public class IleoverworldProcedure {
 		if (world instanceof ServerLevel _serverworld) {
 			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("speciment_mod", "ile"));
 			if (template != null) {
-				template.placeInWorld(_serverworld, new BlockPos(0, 100, 0), new BlockPos(0, 100, 0), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
+				template.placeInWorld(_serverworld, new BlockPos(0, 200, 0), new BlockPos(0, 200, 0), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 			}
 		}
 	}

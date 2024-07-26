@@ -4979,14 +4979,14 @@
       "path": "~/Specimen"
     },
     {
-      "name": "FemiForestQuandLeJoueurEntreDansLaDimension",
+      "name": "Iledim",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "femi_forest_quand_le_joueur_entre_dans_la_dimension",
+      "registry_name": "iledim",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/FemiForestQuandLeJoueurEntreDansLaDimensionProcedure.java"
+          "src/main/java/net/mcreator/specimentmod/procedures/IledimProcedure.java"
         ],
         "dependencies": [
           {
@@ -4994,61 +4994,8 @@
             "type": "world"
           }
         ]
-      }
-    },
-    {
-      "name": "KailonKaleidoscopeQuandLeJoueurEntreDansLaDimension",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kailon_kaleidoscope_quand_le_joueur_entre_dans_la_dimension",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/KailonKaleidoscopeQuandLeJoueurEntreDansLaDimensionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "McQueenManorQuandLeJoueurEntreDansLaDimension",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mc_queen_manor_quand_le_joueur_entre_dans_la_dimension",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/McQueenManorQuandLeJoueurEntreDansLaDimensionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "MinoMysteriaQuandLeJoueurEntreDansLaDimension",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mino_mysteria_quand_le_joueur_entre_dans_la_dimension",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/MinoMysteriaQuandLeJoueurEntreDansLaDimensionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      },
+      "path": "~/Specimen"
     }
   ],
   "variable_elements": [
@@ -5244,6 +5191,9 @@
     ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:MinoSand"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:BiomeKailon"
     ],
     "BIOMES:minecraft:has_structure/shipwreck": [
       "~CUSTOM:BiomeFemi"

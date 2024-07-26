@@ -22,7 +22,7 @@
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "onPlayerEntersDimension": {
-      "name": "MinoMysteriaQuandLeJoueurEntreDansLaDimension"
+      "name": "Iledim"
     },
     "portalFrame": {
       "value": "Blocks.OBSIDIAN"

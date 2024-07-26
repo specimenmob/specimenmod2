@@ -9,12 +9,12 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
-public class McQueenManorQuandLeJoueurEntreDansLaDimensionProcedure {
+public class IledimProcedure {
 	public static void execute(LevelAccessor world) {
 		if (world instanceof ServerLevel _serverworld) {
 			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("speciment_mod", "ile"));
 			if (template != null) {
-				template.placeInWorld(_serverworld, new BlockPos(0, 100, 0), new BlockPos(0, 100, 0), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
+				template.placeInWorld(_serverworld, new BlockPos(0, 200, 0), new BlockPos(0, 200, 0), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 			}
 		}
 	}

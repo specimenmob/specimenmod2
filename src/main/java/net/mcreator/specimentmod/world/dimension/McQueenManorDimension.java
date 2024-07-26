@@ -15,7 +15,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.client.renderer.DimensionSpecialEffects;
 
-import net.mcreator.specimentmod.procedures.McQueenManorQuandLeJoueurEntreDansLaDimensionProcedure;
+import net.mcreator.specimentmod.procedures.IledimProcedure;
 
 @EventBusSubscriber
 public class McQueenManorDimension {
@@ -46,7 +46,7 @@ public class McQueenManorDimension {
 		double y = entity.getY();
 		double z = entity.getZ();
 		if (event.getTo() == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("speciment_mod:mc_queen_manor"))) {
-			McQueenManorQuandLeJoueurEntreDansLaDimensionProcedure.execute(world);
+			IledimProcedure.execute(world);
 		}
 	}
 }

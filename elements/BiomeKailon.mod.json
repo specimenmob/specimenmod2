@@ -72,9 +72,9 @@
       "max": 1.0
     },
     "treesPerChunk": 1,
-    "vanillaTreeType": "Default",
+    "vanillaTreeType": "Mega spruce trees",
     "treeType": 1,
-    "minHeight": 4,
+    "minHeight": 15,
     "treeStem": {
       "value": "CUSTOM:KailoneaLog"
     },
@@ -90,7 +90,11 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "FrozenTopLayer",
+      "AmethystGeodes",
+      "Dripstone",
+      "Fossils",
+      "InfestedStone"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -108,7 +112,7 @@
     "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
-    "spawnNetherFossil": false,
+    "spawnNetherFossil": true,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",

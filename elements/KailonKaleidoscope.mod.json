@@ -22,7 +22,7 @@
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "onPlayerEntersDimension": {
-      "name": "KailonKaleidoscopeQuandLeJoueurEntreDansLaDimension"
+      "name": "Iledim"
     },
     "portalFrame": {
       "value": "Blocks.OBSIDIAN"
