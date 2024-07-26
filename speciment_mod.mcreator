@@ -4946,6 +4946,25 @@
         ]
       },
       "path": "~/Shyro"
+    },
+    {
+      "name": "Ileoverworld",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ileoverworld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/IleoverworldProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Specimen"
     }
   ],
   "variable_elements": [

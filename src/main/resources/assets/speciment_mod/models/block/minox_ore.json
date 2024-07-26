@@ -1,8 +1,13 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "speciment_mod:block/minox_ore",
-    "particle": "speciment_mod:block/minox_ore"
+    "down": "speciment_mod:block/minox_bottom",
+    "up": "speciment_mod:block/minox_top",
+    "north": "speciment_mod:block/minox_ore",
+    "east": "speciment_mod:block/minox_ore",
+    "south": "speciment_mod:block/minox_ore",
+    "west": "speciment_mod:block/minox_ore",
+    "particle": "speciment_mod:block/minox_bottom"
   },
   "render_type": "solid"
 }
