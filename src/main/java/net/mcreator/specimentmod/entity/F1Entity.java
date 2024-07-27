@@ -168,7 +168,7 @@ public class F1Entity extends Monster implements GeoEntity {
 			if (entity instanceof LivingEntity passenger) {
 				this.setSpeed((float) this.getAttributeValue(Attributes.MOVEMENT_SPEED));
 				float forward = passenger.zza;
-				float strafe = passenger.xxa;
+				float strafe = 0;
 				super.travel(new Vec3(strafe, 0, forward));
 			}
 			double d1 = this.getX() - this.xo;
