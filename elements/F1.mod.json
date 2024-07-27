@@ -13,7 +13,7 @@
       "fixedValue": 1.0
     },
     "entityDataEntries": [],
-    "modelWidth": 3.0,
+    "modelWidth": 2.5,
     "modelHeight": 1.0,
     "modelShadowSize": 0.5,
     "mountedYOffset": -0.5,
@@ -68,7 +68,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "deathTime": 60,
-    "lerp": 4,
+    "lerp": 0,
     "disableCollisions": false,
     "ridable": true,
     "canControlForward": true,
@@ -93,13 +93,13 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:degatf1"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:leclerc"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:f1engine"
     },
     "raidCelebrationSound": {
       "value": ""

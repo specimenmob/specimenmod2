@@ -14,6 +14,7 @@ import net.neoforged.neoforge.event.entity.SpawnPlacementRegisterEvent;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -43,6 +44,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.BlockPos;
 
 import net.mcreator.specimentmod.procedures.F1LorsqueLeTempsDeMortEstAtteintProcedure;
 import net.mcreator.specimentmod.init.SpecimentModModItems;
@@ -106,13 +108,18 @@ public class F1Entity extends Monster implements GeoEntity {
 	}
 
 	@Override
+	public void playStepSound(BlockPos pos, BlockState blockIn) {
+		this.playSound(BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("speciment_mod:f1engine")), 0.15f, 1);
+	}
+
+	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.generic.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("speciment_mod:degatf1"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.generic.death"));
+		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("speciment_mod:leclerc"));
 	}
 
 	@Override
@@ -247,8 +254,8 @@ public class F1Entity extends Monster implements GeoEntity {
 
 	@Override
 	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
-		data.add(new AnimationController<>(this, "movement", 4, this::movementPredicate));
-		data.add(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
+		data.add(new AnimationController<>(this, "movement", 0, this::movementPredicate));
+		data.add(new AnimationController<>(this, "procedure", 0, this::procedurePredicate));
 	}
 
 	@Override

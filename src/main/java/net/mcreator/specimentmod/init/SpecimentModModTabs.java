@@ -6,19 +6,14 @@ package net.mcreator.specimentmod.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.specimentmod.SpecimentModMod;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class SpecimentModModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SpecimentModMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MINO = REGISTRY.register("mino",
@@ -89,6 +84,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModBlocks.SHYROSA.get().asItem());
 				tabData.accept(SpecimentModModItems.POUDREDESHYROSA.get());
 				tabData.accept(SpecimentModModItems.PIERREDESHYROSKYLAND.get());
+				tabData.accept(SpecimentModModItems.CHAROMANE_SPAWN_EGG.get());
 			})
 
 					.build());
@@ -207,14 +203,8 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.STEAKDE_MIMIRCRUE.get());
 				tabData.accept(SpecimentModModItems.STEAKDE_MIMIR.get());
 				tabData.accept(SpecimentModModItems.MIMIR_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModItems.ZOMBIE_FEMI_SPAWN_EGG.get());
 			})
 
 					.build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(SpecimentModModItems.CHAROMANE_SPAWN_EGG.get());
-		}
-	}
 }

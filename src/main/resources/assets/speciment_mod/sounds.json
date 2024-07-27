@@ -79,5 +79,13 @@
         "stream": false
       }
     ]
+  },
+  "f1engine": {
+    "sounds": [
+      {
+        "name": "speciment_mod:f1engine",
+        "stream": false
+      }
+    ]
   }
 }

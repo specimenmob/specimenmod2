@@ -16,6 +16,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
+import net.mcreator.specimentmod.entity.ZombieFemiEntity;
 import net.mcreator.specimentmod.entity.RockyEntity;
 import net.mcreator.specimentmod.entity.PneuwetEntity;
 import net.mcreator.specimentmod.entity.PneusoftEntity;
@@ -60,9 +61,13 @@ public class SpecimentModModEntities {
 					.sized(1f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<F1Entity>> F_1 = register("f_1", EntityType.Builder.<F1Entity>of(F1Entity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-			.sized(3f, 1f));
+			.sized(2.5f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<CharomaneEntity>> CHAROMANE = register("charomane",
 			EntityType.Builder.<CharomaneEntity>of(CharomaneEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ZombieFemiEntity>> ZOMBIE_FEMI = register("zombie_femi",
+			EntityType.Builder.<ZombieFemiEntity>of(ZombieFemiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
 
@@ -81,6 +86,7 @@ public class SpecimentModModEntities {
 		PneuwetEntity.init(event);
 		F1Entity.init(event);
 		CharomaneEntity.init(event);
+		ZombieFemiEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -94,5 +100,6 @@ public class SpecimentModModEntities {
 		event.put(PNEUWET.get(), PneuwetEntity.createAttributes().build());
 		event.put(F_1.get(), F1Entity.createAttributes().build());
 		event.put(CHAROMANE.get(), CharomaneEntity.createAttributes().build());
+		event.put(ZOMBIE_FEMI.get(), ZombieFemiEntity.createAttributes().build());
 	}
 }

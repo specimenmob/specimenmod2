@@ -2,10 +2,10 @@
   "_fv": 66,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Charomane",
+    "mobName": "Zombie Femi",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "charomane.png",
+    "mobModelName": "Modelzombiecustom",
+    "mobModelTexture": "zombie.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -32,19 +32,19 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16711681,
+      "value": -1,
       "falpha": 0.0
     },
     "creativeTabs": [
       {
-        "value": "CUSTOM:Shyro"
+        "value": "CUSTOM:FemiMars"
       }
     ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "CUSTOM:FemiumSword"
     },
     "equipmentOffHand": {
       "value": ""
@@ -62,7 +62,7 @@
       "value": ""
     },
     "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEFINED",
+    "mobCreatureType": "UNDEAD",
     "attackStrength": 3,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
@@ -120,15 +120,16 @@
       "value": ""
     },
     "entityDataEntries": [],
-    "onRightClickedOn": {
-      "name": "CharomaneQuandLeJoueurFaitUnClicDroitSurLentite"
-    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
-    "breedable": false,
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
     "tameable": false,
-    "breedTriggerItems": [],
+    "breedTriggerItems": [
+      {
+        "value": "Items.SPAWN_EGG#54"
+      }
+    ],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""
@@ -138,15 +139,11 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 4,
-    "mobSpawningType": "creature",
-    "minNumberOfMobsPerGroup": 2,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Biomeshyro"
-      }
-    ],
+    "restrictionBiomes": [],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,
