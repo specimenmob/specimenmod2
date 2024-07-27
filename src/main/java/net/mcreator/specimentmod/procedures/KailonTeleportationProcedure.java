@@ -63,7 +63,7 @@ public class KailonTeleportationProcedure {
 					}
 				}
 				if (entity instanceof Player _player)
-					_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get(), 200);
+					_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get(), 6000);
 				if (entity instanceof Player _player)
 					_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_FEMI_FOREST.get(), 6000);
 				if (entity instanceof Player _player)
@@ -88,7 +88,7 @@ public class KailonTeleportationProcedure {
 					}
 				}
 				if (entity instanceof Player _player)
-					_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get(), 200);
+					_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_KAILON_KALEIDOSCOPE.get(), 6000);
 				if (entity instanceof Player _player)
 					_player.getCooldowns().addCooldown(SpecimentModModItems.CATALYST_OF_FEMI_FOREST.get(), 6000);
 				if (entity instanceof Player _player)

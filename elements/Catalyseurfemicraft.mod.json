@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FemiForest"
+      "value": "CUSTOM:CatalystOfFemiForest"
     },
     "name": "catalyseurfemicraft",
     "namespace": "mod"
