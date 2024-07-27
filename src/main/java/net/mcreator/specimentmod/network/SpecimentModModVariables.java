@@ -60,13 +60,13 @@ public class SpecimentModModVariables {
 		public static void clonePlayer(PlayerEvent.Clone event) {
 			PlayerVariables original = event.getOriginal().getData(PLAYER_VARIABLES);
 			PlayerVariables clone = new PlayerVariables();
+			clone.kit = original.kit;
 			clone.portalfemi = original.portalfemi;
-			clone.portalmino = original.portalmino;
 			clone.portalkailon = original.portalkailon;
 			clone.portalmcqueen = original.portalmcqueen;
+			clone.portalmino = original.portalmino;
 			clone.portalshyro = original.portalshyro;
 			if (!event.isWasDeath()) {
-				clone.kit = original.kit;
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
 		}
@@ -75,9 +75,9 @@ public class SpecimentModModVariables {
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
 		public double kit = 0;
 		public double portalfemi = 1.0;
-		public double portalmino = 1.0;
 		public double portalkailon = 1.0;
 		public double portalmcqueen = 1.0;
+		public double portalmino = 1.0;
 		public double portalshyro = 1.0;
 
 		@Override
@@ -85,9 +85,9 @@ public class SpecimentModModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("kit", kit);
 			nbt.putDouble("portalfemi", portalfemi);
-			nbt.putDouble("portalmino", portalmino);
 			nbt.putDouble("portalkailon", portalkailon);
 			nbt.putDouble("portalmcqueen", portalmcqueen);
+			nbt.putDouble("portalmino", portalmino);
 			nbt.putDouble("portalshyro", portalshyro);
 			return nbt;
 		}
@@ -96,9 +96,9 @@ public class SpecimentModModVariables {
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
 			kit = nbt.getDouble("kit");
 			portalfemi = nbt.getDouble("portalfemi");
-			portalmino = nbt.getDouble("portalmino");
 			portalkailon = nbt.getDouble("portalkailon");
 			portalmcqueen = nbt.getDouble("portalmcqueen");
+			portalmino = nbt.getDouble("portalmino");
 			portalshyro = nbt.getDouble("portalshyro");
 		}
 

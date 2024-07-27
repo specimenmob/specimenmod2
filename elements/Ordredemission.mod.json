@@ -18,9 +18,9 @@
       "fixedValue": false
     },
     "music": {
-      "value": "CUSTOM:ordredemisison"
+      "value": "CUSTOM:ordredemission"
     },
-    "lengthInTicks": 1420,
+    "lengthInTicks": 1860,
     "analogOutput": 0
   }
 }

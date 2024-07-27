@@ -39,26 +39,26 @@ public class SpecimentModModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<PneusoftEntity>> PNEUSOFT = register("pneusoft",
-			EntityType.Builder.<PneusoftEntity>of(PneusoftEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<PneusoftEntity>of(PneusoftEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<PneumediumEntity>> PNEUMEDIUM = register("pneumedium",
-			EntityType.Builder.<PneumediumEntity>of(PneumediumEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<PneumediumEntity>of(PneumediumEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<PneuhardEntity>> PNEUHARD = register("pneuhard",
-			EntityType.Builder.<PneuhardEntity>of(PneuhardEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<PneuhardEntity>of(PneuhardEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<PneuIntermediaireEntity>> PNEU_INTERMEDIAIRE = register("pneu_intermediaire",
-			EntityType.Builder.<PneuIntermediaireEntity>of(PneuIntermediaireEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<PneuIntermediaireEntity>of(PneuIntermediaireEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<PneuwetEntity>> PNEUWET = register("pneuwet",
-			EntityType.Builder.<PneuwetEntity>of(PneuwetEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<PneuwetEntity>of(PneuwetEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 1f));
-	public static final DeferredHolder<EntityType<?>, EntityType<F1Entity>> F_1 = register("f_1", EntityType.Builder.<F1Entity>of(F1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+	public static final DeferredHolder<EntityType<?>, EntityType<F1Entity>> F_1 = register("f_1", EntityType.Builder.<F1Entity>of(F1Entity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 			.sized(3f, 1f));
 	public static final DeferredHolder<EntityType<?>, EntityType<CharomaneEntity>> CHAROMANE = register("charomane",

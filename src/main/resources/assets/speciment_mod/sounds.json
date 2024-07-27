@@ -56,14 +56,6 @@
       }
     ]
   },
-  "ordredemisison": {
-    "sounds": [
-      {
-        "name": "speciment_mod:specimenintro",
-        "stream": false
-      }
-    ]
-  },
   "charomane": {
     "sounds": [
       {
@@ -76,6 +68,14 @@
     "sounds": [
       {
         "name": "speciment_mod:minox_activation",
+        "stream": false
+      }
+    ]
+  },
+  "ordredemission": {
+    "sounds": [
+      {
+        "name": "speciment_mod:ordredemission",
         "stream": false
       }
     ]

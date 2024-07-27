@@ -5010,23 +5010,36 @@
         ]
       },
       "path": "~/Kailon/KailonMob"
+    },
+    {
+      "name": "CraftUnlockSpecimen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_unlock_specimen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/CraftUnlockSpecimenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Specimen"
     }
   ],
   "variable_elements": [
     {
       "name": "kit",
       "type": "number",
-      "scope": "player_lifetime",
+      "scope": "player_persistent",
       "value": "0"
     },
     {
       "name": "portalfemi",
-      "type": "number",
-      "scope": "player_persistent",
-      "value": "1.0"
-    },
-    {
-      "name": "portalmino",
       "type": "number",
       "scope": "player_persistent",
       "value": "1.0"
@@ -5039,6 +5052,12 @@
     },
     {
       "name": "portalmcqueen",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "portalmino",
       "type": "number",
       "scope": "player_persistent",
       "value": "1.0"
@@ -5108,14 +5127,6 @@
       "subtitle": ""
     },
     {
-      "name": "ordredemisison",
-      "files": [
-        "specimenintro"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
       "name": "charomane",
       "files": [
         "charomane"
@@ -5127,6 +5138,14 @@
       "name": "minox_activation_armor",
       "files": [
         "minox_activation"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "ordredemission",
+      "files": [
+        "ordredemission"
       ],
       "category": "voice",
       "subtitle": ""
@@ -5180,9 +5199,6 @@
       "~CUSTOM:FemirokoPlanks",
       "~CUSTOM:FemirokoLog",
       "~CUSTOM:FemirokoWood"
-    ],
-    "ENTITIES:minecraft:undead": [
-      "~CUSTOM:F1"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:MinoxHoe",
@@ -5632,6 +5648,7 @@
       "block.speciment_mod.minoria_stairs": "Minoria Stairs",
       "item.speciment_mod.kailonite_armor_leggings": "Kailonite Leggings",
       "item.speciment_mod.kailonite_shovel": "Kailonite Shovel",
+      "subtitles.ordredemission": "",
       "block.speciment_mod.kailonea_door": "Kailonea Door",
       "item_group.speciment_mod.kailon": "Kailon",
       "item_group.speciment_mod.specimen": "Specimen",
@@ -5830,6 +5847,7 @@
       "block.speciment_mod.minoria_stairs": "Escalier en minoria",
       "item.speciment_mod.kailonite_armor_leggings": "Jambières en Kailonite",
       "item.speciment_mod.kailonite_shovel": "Pelle en Kailonite",
+      "subtitles.ordredemission": "",
       "block.speciment_mod.kailonea_door": "Porte en kailonéa",
       "item_group.speciment_mod.kailon": "Kailon",
       "item_group.speciment_mod.specimen": "Specimen",
@@ -5992,7 +6010,7 @@
   "workspaceSettings": {
     "modid": "speciment_mod",
     "modName": "speciment mod",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Un mod fait pour des specimen",
     "author": "JOYKIX, Pakoro, D3monDark",
     "websiteURL": "https://mcreator.net",
