@@ -5342,13 +5342,6 @@
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:BiomeFemi"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:FemirokoLog",
-      "CUSTOM:KailoneaLog",
-      "CUSTOM:ShyrociaLog",
-      "CUSTOM:MinoriaLog",
-      "CUSTOM:McqueencifoliaLog"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MinoSandstone",
       "~CUSTOM:MinoxBlock",
@@ -5361,6 +5354,13 @@
       "~CUSTOM:KailoniteOre",
       "~CUSTOM:FemiumBlock",
       "~CUSTOM:FemiumOre"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:FemirokoLog",
+      "CUSTOM:KailoneaLog",
+      "CUSTOM:ShyrociaLog",
+      "CUSTOM:MinoriaLog",
+      "CUSTOM:McqueencifoliaLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:McqueencifoliaPlanks",
@@ -5718,8 +5718,8 @@
       "block.speciment_mod.minoria_pressure_plate": "Minoria Pressure Plate",
       "item.speciment_mod.femium_axe": "Femium Axe",
       "block.speciment_mod.shyrocia_stairs": "Shyrocia Stairs",
-      "item.speciment_mod.catalyseurvide": "Empty catalyst",
       "block.speciment_mod.femium_ore": "Femium Ore",
+      "item.speciment_mod.catalyseurvide": "Empty catalyst",
       "block.speciment_mod.minoria_slab": "Minoria Slab",
       "block.speciment_mod.shyronite_block": "Block of Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Medium Tyre Spawn Egg",
@@ -5751,8 +5751,8 @@
       "block.speciment_mod.mcqueencifolia_slab": "Mcqueencifolia Slab",
       "item.speciment_mod.lafin": "Ultimate Catalyst",
       "item.speciment_mod.pierredeminomysteria": "Mino\u0027s Mysteria Stone",
-      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "block.speciment_mod.kailonea_fence_gate": "Kailonea Fence Gate",
+      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
@@ -5920,8 +5920,8 @@
       "block.speciment_mod.minoria_pressure_plate": "Plaque de pression en minoria",
       "item.speciment_mod.femium_axe": "Hache en Fémium",
       "block.speciment_mod.shyrocia_stairs": "Escalier en shyrocia",
-      "item.speciment_mod.catalyseurvide": "Catalyseur vide",
       "block.speciment_mod.femium_ore": "Minerai de Fémium",
+      "item.speciment_mod.catalyseurvide": "Catalyseur vide",
       "block.speciment_mod.minoria_slab": "Dalle en minoria",
       "block.speciment_mod.shyronite_block": "Bloc de Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Oeuf de pneu moyen",
@@ -5953,8 +5953,8 @@
       "block.speciment_mod.mcqueencifolia_slab": "Dalle en mcqueencifolia",
       "item.speciment_mod.lafin": "Catalyseur Ultime",
       "item.speciment_mod.pierredeminomysteria": "Pierre de Mino\u0027s Mysteria",
-      "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
       "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
+      "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
