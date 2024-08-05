@@ -5200,6 +5200,147 @@
         ]
       },
       "path": "~/Shyro/ShyroMob"
+    },
+    {
+      "name": "Blocdarkfemi",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdarkfemi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/blocdarkfemi.json",
+          "src/main/resources/assets/speciment_mod/models/custom/blocdarkfemi_particle.json",
+          "src/main/java/net/mcreator/specimentmod/block/BlocdarkfemiBlock.java",
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkfemiDisplayItemRenderer.java",
+          "src/main/resources/assets/speciment_mod/models/item/blocdarkfemi.json",
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkfemiTileRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkfemiBlockModel.java",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkfemiDisplayModel.java",
+          "src/main/java/net/mcreator/specimentmod/block/display/BlocdarkfemiDisplayItem.java",
+          "src/main/java/net/mcreator/specimentmod/block/entity/BlocdarkfemiTileEntity.java"
+        ]
+      },
+      "path": "~/FemiMars/FemiMarsMob"
+    },
+    {
+      "name": "BlocdarkfemiQuandLeBlocEstPlace",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdarkfemi_quand_le_bloc_est_place",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/BlocdarkfemiQuandLeBlocEstPlaceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiMarsMob"
+    },
+    {
+      "name": "Blocdarkkailon",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdarkkailon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkkailonTileRenderer.java",
+          "src/main/resources/assets/speciment_mod/models/item/blocdarkkailon.json",
+          "src/main/resources/assets/speciment_mod/models/custom/blocdarkkailon_particle.json",
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkkailonDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/block/BlocdarkkailonBlock.java",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkkailonDisplayModel.java",
+          "src/main/java/net/mcreator/specimentmod/block/entity/BlocdarkkailonTileEntity.java",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkkailonBlockModel.java",
+          "src/main/resources/assets/speciment_mod/blockstates/blocdarkkailon.json",
+          "src/main/java/net/mcreator/specimentmod/block/display/BlocdarkkailonDisplayItem.java"
+        ]
+      },
+      "path": "~/Kailon/KailonMob"
+    },
+    {
+      "name": "Blocdarkmcqueen",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdarkmcqueen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/BlocdarkmcqueenBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/blocdarkmcqueen.json",
+          "src/main/resources/assets/speciment_mod/models/custom/blocdarkmcqueen_particle.json",
+          "src/main/resources/assets/speciment_mod/blockstates/blocdarkmcqueen.json",
+          "src/main/java/net/mcreator/specimentmod/block/entity/BlocdarkmcqueenTileEntity.java",
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkmcqueenDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkmcqueenTileRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkmcqueenBlockModel.java",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkmcqueenDisplayModel.java",
+          "src/main/java/net/mcreator/specimentmod/block/display/BlocdarkmcqueenDisplayItem.java"
+        ]
+      },
+      "path": "~/McQueen/McQueenMob"
+    },
+    {
+      "name": "Blocdarkmino",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdarkmino",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/BlocdarkminoBlock.java",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkminoBlockModel.java",
+          "src/main/resources/assets/speciment_mod/models/custom/blocdarkmino_particle.json",
+          "src/main/java/net/mcreator/specimentmod/block/display/BlocdarkminoDisplayItem.java",
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkminoTileRenderer.java",
+          "src/main/resources/assets/speciment_mod/models/item/blocdarkmino.json",
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkminoDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkminoDisplayModel.java",
+          "src/main/resources/assets/speciment_mod/blockstates/blocdarkmino.json",
+          "src/main/java/net/mcreator/specimentmod/block/entity/BlocdarkminoTileEntity.java"
+        ]
+      },
+      "path": "~/Mino/MinoMob"
+    },
+    {
+      "name": "Blocdarkshyro",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdarkshyro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/block/entity/BlocdarkshyroTileEntity.java",
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkshyroTileRenderer.java",
+          "src/main/resources/assets/speciment_mod/blockstates/blocdarkshyro.json",
+          "src/main/java/net/mcreator/specimentmod/block/display/BlocdarkshyroDisplayItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/blocdarkshyro.json",
+          "src/main/resources/assets/speciment_mod/models/custom/blocdarkshyro_particle.json",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkshyroDisplayModel.java",
+          "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkshyroBlockModel.java",
+          "src/main/java/net/mcreator/specimentmod/block/BlocdarkshyroBlock.java",
+          "src/main/java/net/mcreator/specimentmod/block/renderer/BlocdarkshyroDisplayItemRenderer.java"
+        ]
+      },
+      "path": "~/Shyro/ShyroMob"
     }
   ],
   "variable_elements": [
@@ -5342,13 +5483,6 @@
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:BiomeFemi"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:FemirokoLog",
-      "CUSTOM:KailoneaLog",
-      "CUSTOM:ShyrociaLog",
-      "CUSTOM:MinoriaLog",
-      "CUSTOM:McqueencifoliaLog"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MinoSandstone",
       "~CUSTOM:MinoxBlock",
@@ -5361,6 +5495,13 @@
       "~CUSTOM:KailoniteOre",
       "~CUSTOM:FemiumBlock",
       "~CUSTOM:FemiumOre"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:FemirokoLog",
+      "CUSTOM:KailoneaLog",
+      "CUSTOM:ShyrociaLog",
+      "CUSTOM:MinoriaLog",
+      "CUSTOM:McqueencifoliaLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:McqueencifoliaPlanks",
@@ -5557,7 +5698,8 @@
       "MinoxSuperArmor",
       "MinoxActivationCrystal",
       "MinoSandstone",
-      "MinoSand"
+      "MinoSand",
+      "Blocdarkmino"
     ],
     "CUSTOM:Shyro": [
       "CatalystOfShyroSkyland",
@@ -5585,7 +5727,8 @@
       "Shyrosa",
       "Poudredeshyrosa",
       "Pierredeshyroskyland",
-      "Charomane"
+      "Charomane",
+      "Blocdarkshyro"
     ],
     "CUSTOM:McQueen": [
       "CatalystOfMcqueenManor",
@@ -5613,7 +5756,8 @@
       "Mcqueenelle",
       "PoudredeMcqueenium",
       "Pierredumacqueenmanor",
-      "Rocky"
+      "Rocky",
+      "Blocdarkmcqueen"
     ],
     "CUSTOM:Kailon": [
       "CatalystOfKailonKaleidoscope",
@@ -5648,7 +5792,8 @@
       "Pneumedium",
       "Pneuhard",
       "PneuIntermediaire",
-      "Pneuwet"
+      "Pneuwet",
+      "Blocdarkkailon"
     ],
     "CUSTOM:Specimen": [
       "Catalyseurvide",
@@ -5686,7 +5831,8 @@
       "SteakdeMimircrue",
       "SteakdeMimir",
       "Mimir",
-      "ZombieFemi"
+      "ZombieFemi",
+      "Blocdarkfemi"
     ]
   },
   "language_map": {
@@ -5718,12 +5864,13 @@
       "block.speciment_mod.minoria_pressure_plate": "Minoria Pressure Plate",
       "item.speciment_mod.femium_axe": "Femium Axe",
       "block.speciment_mod.shyrocia_stairs": "Shyrocia Stairs",
-      "item.speciment_mod.catalyseurvide": "Empty catalyst",
       "block.speciment_mod.femium_ore": "Femium Ore",
+      "item.speciment_mod.catalyseurvide": "Empty catalyst",
       "block.speciment_mod.minoria_slab": "Minoria Slab",
       "block.speciment_mod.shyronite_block": "Block of Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Medium Tyre Spawn Egg",
       "block.speciment_mod.kailonea_leaves": "Kailonea Leaves",
+      "block.speciment_mod.blocdarkmcqueen": "Blocdarkfemi",
       "block.speciment_mod.femiroko_slab": "Femiroko Slab",
       "block.speciment_mod.mcqueencifolia_fence_gate": "Mcqueencifolia Fence Gate",
       "item.speciment_mod.minox_super_armor_leggings": "Mystic Minox Leggings",
@@ -5751,8 +5898,8 @@
       "block.speciment_mod.mcqueencifolia_slab": "Mcqueencifolia Slab",
       "item.speciment_mod.lafin": "Ultimate Catalyst",
       "item.speciment_mod.pierredeminomysteria": "Mino\u0027s Mysteria Stone",
-      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "block.speciment_mod.kailonea_fence_gate": "Kailonea Fence Gate",
+      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
@@ -5817,6 +5964,7 @@
       "block.speciment_mod.kailonea_log": "Kailonea Log",
       "item.speciment_mod.minox_hoe": "Minox Hoe",
       "subtitles.lerapdelaf1": "Kailon",
+      "block.speciment_mod.blocdarkshyro": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_fence": "Shyrocia Fence",
       "block.speciment_mod.mcqueenium_block": "Block of Mcqueenium",
       "item.speciment_mod.zombie_femi_spawn_egg": "Zombie Femi Spawn Egg",
@@ -5827,6 +5975,7 @@
       "item.speciment_mod.mcqueenium_sword": "Mcqueenium Sword",
       "item.speciment_mod.ordredemission.desc": "Une mission tendu",
       "block.speciment_mod.kailonea_pressure_plate": "Kailonea Pressure Plate",
+      "block.speciment_mod.blocdarkmino": "Blocdarkfemi",
       "block.speciment_mod.mino_sand": "Mino Sand",
       "block.speciment_mod.minoria_button": "Minoria Button",
       "item.speciment_mod.femium_armor_boots": "Femium Boots",
@@ -5850,6 +5999,7 @@
       "block.speciment_mod.femiroko_fence": "Femiroko Fence",
       "block.speciment_mod.minoria_log": "Minoria Log",
       "item.speciment_mod.minox_activation_crystal": "Minox Activation Crystal",
+      "block.speciment_mod.blocdarkfemi": "Blocdarkfemi",
       "item.speciment_mod.shyronite_hoe": "Shyronite Hoe",
       "block.speciment_mod.femiroko_stairs": "Femiroko Stairs",
       "block.speciment_mod.shyrocia_wood": "Shyrocia Wood",
@@ -5864,6 +6014,7 @@
       "block.speciment_mod.mcqueencifolia_pressure_plate": "Mcqueencifolia Pressure Plate",
       "item.speciment_mod.femium_armor_leggings": "Femium Leggings",
       "biome.speciment_mod.biomemino": "Biomemino",
+      "block.speciment_mod.blocdarkkailon": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_pressure_plate": "Shyrocia Pressure Plate",
       "item.speciment_mod.minox_super_armor_helmet": "Mystic Minox Helmet",
       "item.speciment_mod.pierredumacqueenmanor": "Mcqueen\u0027s Manor Stone",
@@ -5920,12 +6071,13 @@
       "block.speciment_mod.minoria_pressure_plate": "Plaque de pression en minoria",
       "item.speciment_mod.femium_axe": "Hache en Fémium",
       "block.speciment_mod.shyrocia_stairs": "Escalier en shyrocia",
-      "item.speciment_mod.catalyseurvide": "Catalyseur vide",
       "block.speciment_mod.femium_ore": "Minerai de Fémium",
+      "item.speciment_mod.catalyseurvide": "Catalyseur vide",
       "block.speciment_mod.minoria_slab": "Dalle en minoria",
       "block.speciment_mod.shyronite_block": "Bloc de Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Oeuf de pneu moyen",
       "block.speciment_mod.kailonea_leaves": "Feuilles de kailonéa",
+      "block.speciment_mod.blocdarkmcqueen": "Blocdarkfemi",
       "block.speciment_mod.femiroko_slab": "Dalle en fémiroko",
       "block.speciment_mod.mcqueencifolia_fence_gate": "Portillon en mcqueencifolia",
       "item.speciment_mod.minox_super_armor_leggings": "Jambières Mystiques en Minox",
@@ -5953,8 +6105,8 @@
       "block.speciment_mod.mcqueencifolia_slab": "Dalle en mcqueencifolia",
       "item.speciment_mod.lafin": "Catalyseur Ultime",
       "item.speciment_mod.pierredeminomysteria": "Pierre de Mino\u0027s Mysteria",
-      "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
       "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
+      "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
@@ -6019,6 +6171,7 @@
       "block.speciment_mod.kailonea_log": "Bûche de kailonéa",
       "item.speciment_mod.minox_hoe": "Houe en Minox",
       "subtitles.lerapdelaf1": "Kailon",
+      "block.speciment_mod.blocdarkshyro": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_fence": "Clôture en shyrocia",
       "block.speciment_mod.mcqueenium_block": "Bloc de Mcqueenium",
       "item.speciment_mod.zombie_femi_spawn_egg": "Zombie Femi Spawn Egg",
@@ -6029,6 +6182,7 @@
       "item.speciment_mod.mcqueenium_sword": "Épée en Mcqueenium",
       "item.speciment_mod.ordredemission.desc": "Une mission tendu",
       "block.speciment_mod.kailonea_pressure_plate": "Plaque de pression en kailonéa",
+      "block.speciment_mod.blocdarkmino": "Blocdarkfemi",
       "block.speciment_mod.mino_sand": "Mino Sand",
       "block.speciment_mod.minoria_button": "Bouton en minoria",
       "block.speciment_mod.kailonite_block": "Bloc de Kailonite",
@@ -6052,6 +6206,7 @@
       "block.speciment_mod.femiroko_fence": "Barrière en fémiroko",
       "block.speciment_mod.minoria_log": "Bûche de minoria",
       "item.speciment_mod.minox_activation_crystal": "Minox Activation Crystal",
+      "block.speciment_mod.blocdarkfemi": "Blocdarkfemi",
       "item.speciment_mod.shyronite_hoe": "Houe en Shyronite",
       "block.speciment_mod.femiroko_stairs": "Escalier en fémiroko",
       "block.speciment_mod.shyrocia_wood": "Bois de shyrocia",
@@ -6066,6 +6221,7 @@
       "block.speciment_mod.mcqueencifolia_pressure_plate": "Plaque de pression en mcqueencifolia",
       "item.speciment_mod.femium_armor_leggings": "Jambières en Fémium",
       "biome.speciment_mod.biomemino": "Biomemino",
+      "block.speciment_mod.blocdarkkailon": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_pressure_plate": "Plaque de pression en shyrocia",
       "item.speciment_mod.minox_super_armor_helmet": "Casque Mystique en Minox",
       "item.speciment_mod.pierredumacqueenmanor": "Pierre du Macqueen\u0027s Manor",

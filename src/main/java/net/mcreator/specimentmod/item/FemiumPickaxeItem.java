@@ -17,12 +17,12 @@ public class FemiumPickaxeItem extends PickaxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 250;
+			return 2032;
 		}
 
 		@Override
 		public float getSpeed() {
-			return 6f;
+			return 12f;
 		}
 
 		@Override
@@ -32,12 +32,12 @@ public class FemiumPickaxeItem extends PickaxeItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_IRON_TOOL;
+			return BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
 		}
 
 		@Override
 		public int getEnchantmentValue() {
-			return 14;
+			return 22;
 		}
 
 		@Override
@@ -47,6 +47,6 @@ public class FemiumPickaxeItem extends PickaxeItem {
 	};
 
 	public FemiumPickaxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 5f, -2.8f)).fireResistant());
 	}
 }

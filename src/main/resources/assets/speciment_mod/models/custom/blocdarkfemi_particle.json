@@ -1,0 +1,7 @@
+
+{
+  "parent": "speciment_mod:displaysettings/blocboss.item",
+  "textures": {
+    "particle": "speciment_mod:block/blocdarkfemi"
+  }
+}

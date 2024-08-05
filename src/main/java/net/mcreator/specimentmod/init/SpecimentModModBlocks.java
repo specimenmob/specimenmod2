@@ -87,6 +87,11 @@ import net.mcreator.specimentmod.block.FemirokoDoorBlock;
 import net.mcreator.specimentmod.block.FemirokoButtonBlock;
 import net.mcreator.specimentmod.block.FemilisBlock;
 import net.mcreator.specimentmod.block.CatalyseurUltimeBlock;
+import net.mcreator.specimentmod.block.BlocdarkshyroBlock;
+import net.mcreator.specimentmod.block.BlocdarkminoBlock;
+import net.mcreator.specimentmod.block.BlocdarkmcqueenBlock;
+import net.mcreator.specimentmod.block.BlocdarkkailonBlock;
+import net.mcreator.specimentmod.block.BlocdarkfemiBlock;
 import net.mcreator.specimentmod.SpecimentModMod;
 
 public class SpecimentModModBlocks {
@@ -165,6 +170,11 @@ public class SpecimentModModBlocks {
 	public static final DeferredHolder<Block, Block> CATALYSEUR_ULTIME = REGISTRY.register("catalyseur_ultime", CatalyseurUltimeBlock::new);
 	public static final DeferredHolder<Block, Block> MINO_SAND = REGISTRY.register("mino_sand", MinoSandBlock::new);
 	public static final DeferredHolder<Block, Block> MINO_SANDSTONE = REGISTRY.register("mino_sandstone", MinoSandstoneBlock::new);
+	public static final DeferredHolder<Block, Block> BLOCDARKFEMI = REGISTRY.register("blocdarkfemi", BlocdarkfemiBlock::new);
+	public static final DeferredHolder<Block, Block> BLOCDARKKAILON = REGISTRY.register("blocdarkkailon", BlocdarkkailonBlock::new);
+	public static final DeferredHolder<Block, Block> BLOCDARKMCQUEEN = REGISTRY.register("blocdarkmcqueen", BlocdarkmcqueenBlock::new);
+	public static final DeferredHolder<Block, Block> BLOCDARKMINO = REGISTRY.register("blocdarkmino", BlocdarkminoBlock::new);
+	public static final DeferredHolder<Block, Block> BLOCDARKSHYRO = REGISTRY.register("blocdarkshyro", BlocdarkshyroBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -52,6 +52,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.MINOX_ACTIVATION_CRYSTAL.get());
 				tabData.accept(SpecimentModModBlocks.MINO_SANDSTONE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.MINO_SAND.get().asItem());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKMINO.get().asItem());
 			})
 
 					.build());
@@ -85,6 +86,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.POUDREDESHYROSA.get());
 				tabData.accept(SpecimentModModItems.PIERREDESHYROSKYLAND.get());
 				tabData.accept(SpecimentModModItems.CHAROMANE_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKSHYRO.get().asItem());
 			})
 
 					.build());
@@ -118,6 +120,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.POUDREDE_MCQUEENIUM.get());
 				tabData.accept(SpecimentModModItems.PIERREDUMACQUEENMANOR.get());
 				tabData.accept(SpecimentModModItems.ROCKY_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKMCQUEEN.get().asItem());
 			})
 
 					.build());
@@ -158,6 +161,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.PNEUHARD_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEU_INTERMEDIAIRE_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEUWET_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKKAILON.get().asItem());
 			})
 
 					.build());
@@ -204,6 +208,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.STEAKDE_MIMIR.get());
 				tabData.accept(SpecimentModModItems.MIMIR_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.ZOMBIE_FEMI_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKFEMI.get().asItem());
 			})
 
 					.build());
