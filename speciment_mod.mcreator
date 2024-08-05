@@ -5045,6 +5045,37 @@
         ]
       },
       "path": "~/FemiMars/FemiMarsMob"
+    },
+    {
+      "name": "Darkfemi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkfemi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/DarkfemiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiMarsMob"
     }
   ],
   "variable_elements": [
