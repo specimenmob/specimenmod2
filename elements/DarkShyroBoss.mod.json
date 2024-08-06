@@ -40,9 +40,9 @@
         "value": "MISC"
       }
     ],
-    "isBoss": false,
-    "bossBarColor": "PINK",
-    "bossBarType": "PROGRESS",
+    "isBoss": true,
+    "bossBarColor": "RED",
+    "bossBarType": "NOTCHED_10",
     "equipmentMainHand": {
       "value": ""
     },
