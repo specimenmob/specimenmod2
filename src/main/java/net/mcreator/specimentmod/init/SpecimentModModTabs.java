@@ -222,6 +222,10 @@ public class SpecimentModModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(SpecimentModModItems.DARK_FEMI_BOSS_SPAWN_EGG.get());
+			tabData.accept(SpecimentModModItems.DARK_KAILON_BOSS_SPAWN_EGG.get());
+			tabData.accept(SpecimentModModItems.DARK_MCQUEEN_BOSS_SPAWN_EGG.get());
+			tabData.accept(SpecimentModModItems.DARK_MINO_BOSS_SPAWN_EGG.get());
+			tabData.accept(SpecimentModModItems.DARK_SHYRO_BOSS_SPAWN_EGG.get());
 		}
 	}
 }

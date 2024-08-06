@@ -19,18 +19,14 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.specimentmod.procedures.DarkFemiBossQuandLentiteMeurtProcedure;
-import net.mcreator.specimentmod.procedures.DarkFemiBossQuandLentiteEstBlesseeProcedure;
+import net.mcreator.specimentmod.procedures.DarkShyroBossQuandLentiteMeurtProcedure;
+import net.mcreator.specimentmod.procedures.DarkShyroBossQuandLentiteEstBlesseeProcedure;
 
-public class DarkFemiBossEntity extends Monster {
-	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.NOTCHED_10);
-
-	public DarkFemiBossEntity(EntityType<DarkFemiBossEntity> type, Level world) {
+public class DarkShyroBossEntity extends Monster {
+	public DarkShyroBossEntity(EntityType<DarkShyroBossEntity> type, Level world) {
 		super(type, world);
 		xpReward = 10;
 		setNoAi(false);
@@ -82,37 +78,14 @@ public class DarkFemiBossEntity extends Monster {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		DarkFemiBossQuandLentiteEstBlesseeProcedure.execute(world, x, y, z, entity);
+		DarkShyroBossQuandLentiteEstBlesseeProcedure.execute(world, x, y, z, entity);
 		return super.hurt(damagesource, amount);
 	}
 
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		DarkFemiBossQuandLentiteMeurtProcedure.execute(this.level());
-	}
-
-	@Override
-	public boolean canChangeDimensions() {
-		return false;
-	}
-
-	@Override
-	public void startSeenByPlayer(ServerPlayer player) {
-		super.startSeenByPlayer(player);
-		this.bossInfo.addPlayer(player);
-	}
-
-	@Override
-	public void stopSeenByPlayer(ServerPlayer player) {
-		super.stopSeenByPlayer(player);
-		this.bossInfo.removePlayer(player);
-	}
-
-	@Override
-	public void customServerAiStep() {
-		super.customServerAiStep();
-		this.bossInfo.setProgress(this.getHealth() / this.getMaxHealth());
+		DarkShyroBossQuandLentiteMeurtProcedure.execute(this.level());
 	}
 
 	public static void init(SpawnPlacementRegisterEvent event) {

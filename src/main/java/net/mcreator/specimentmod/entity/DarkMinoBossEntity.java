@@ -24,13 +24,13 @@ import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.specimentmod.procedures.DarkFemiBossQuandLentiteMeurtProcedure;
-import net.mcreator.specimentmod.procedures.DarkFemiBossQuandLentiteEstBlesseeProcedure;
+import net.mcreator.specimentmod.procedures.DarkMinoBossQuandLentiteMeurtProcedure;
+import net.mcreator.specimentmod.procedures.DarkMinoBossQuandLentiteEstBlesseeProcedure;
 
-public class DarkFemiBossEntity extends Monster {
+public class DarkMinoBossEntity extends Monster {
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.NOTCHED_10);
 
-	public DarkFemiBossEntity(EntityType<DarkFemiBossEntity> type, Level world) {
+	public DarkMinoBossEntity(EntityType<DarkMinoBossEntity> type, Level world) {
 		super(type, world);
 		xpReward = 10;
 		setNoAi(false);
@@ -82,14 +82,14 @@ public class DarkFemiBossEntity extends Monster {
 		Entity sourceentity = damagesource.getEntity();
 		Entity immediatesourceentity = damagesource.getDirectEntity();
 
-		DarkFemiBossQuandLentiteEstBlesseeProcedure.execute(world, x, y, z, entity);
+		DarkMinoBossQuandLentiteEstBlesseeProcedure.execute(world, x, y, z, entity);
 		return super.hurt(damagesource, amount);
 	}
 
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		DarkFemiBossQuandLentiteMeurtProcedure.execute(this.level());
+		DarkMinoBossQuandLentiteMeurtProcedure.execute(this.level());
 	}
 
 	@Override

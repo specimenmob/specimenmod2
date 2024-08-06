@@ -250,7 +250,11 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> BLOCDARKMCQUEEN = REGISTRY.register(SpecimentModModBlocks.BLOCDARKMCQUEEN.getId().getPath(), () -> new BlocdarkmcqueenDisplayItem(SpecimentModModBlocks.BLOCDARKMCQUEEN.get(), new Item.Properties()));
 	public static final DeferredHolder<Item, Item> BLOCDARKMINO = REGISTRY.register(SpecimentModModBlocks.BLOCDARKMINO.getId().getPath(), () -> new BlocdarkminoDisplayItem(SpecimentModModBlocks.BLOCDARKMINO.get(), new Item.Properties()));
 	public static final DeferredHolder<Item, Item> BLOCDARKSHYRO = REGISTRY.register(SpecimentModModBlocks.BLOCDARKSHYRO.getId().getPath(), () -> new BlocdarkshyroDisplayItem(SpecimentModModBlocks.BLOCDARKSHYRO.get(), new Item.Properties()));
-	public static final DeferredHolder<Item, Item> DARK_FEMI_BOSS_SPAWN_EGG = REGISTRY.register("dark_femi_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_FEMI_BOSS, -1, -1, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> DARK_FEMI_BOSS_SPAWN_EGG = REGISTRY.register("dark_femi_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_FEMI_BOSS, -13421773, -24064, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> DARK_KAILON_BOSS_SPAWN_EGG = REGISTRY.register("dark_kailon_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_KAILON_BOSS, -13421773, -2949120, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> DARK_MCQUEEN_BOSS_SPAWN_EGG = REGISTRY.register("dark_mcqueen_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_MCQUEEN_BOSS, -13421773, -5766913, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> DARK_MINO_BOSS_SPAWN_EGG = REGISTRY.register("dark_mino_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_MINO_BOSS, -13421773, -12490271, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> DARK_SHYRO_BOSS_SPAWN_EGG = REGISTRY.register("dark_shyro_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_SHYRO_BOSS, -13421773, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

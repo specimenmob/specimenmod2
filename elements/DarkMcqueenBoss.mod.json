@@ -2,10 +2,10 @@
   "_fv": 66,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Dark Femi",
+    "mobName": "Dark Mcqueen",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "darkfemi.png",
+    "mobModelTexture": "darkmcqueen.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -32,7 +32,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -24064,
+      "value": -5766913,
       "falpha": 0.0
     },
     "creativeTabs": [
@@ -121,10 +121,10 @@
     },
     "entityDataEntries": [],
     "whenMobDies": {
-      "name": "DarkFemiBossQuandLentiteMeurt"
+      "name": "DarkMcqueenBossQuandLentiteMeurt"
     },
     "whenMobIsHurt": {
-      "name": "DarkFemiBossQuandLentiteEstBlessee"
+      "name": "DarkMcqueenBossQuandLentiteEstBlessee"
     },
     "hasAI": true,
     "aiBase": "(none)",
