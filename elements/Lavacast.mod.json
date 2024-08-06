@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Stafflave"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.firework.blast"
+    },
+    "igniteFire": true,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "ModelBoule",
+    "customModelTexture": "boule.png",
+    "onHitsBlock": {
+      "name": "LavacastLorsqueLeProjectileToucheUnBloc"
+    },
+    "onHitsEntity": {
+      "name": "LavacastLorsqueLeProjectileToucheUnBloc"
+    }
+  }
+}

@@ -93,6 +93,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.CHAROMANE_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKSHYRO.get().asItem());
 				tabData.accept(SpecimentModModItems.SHYRO_ACTIVATION_CRYSTAL.get());
+				tabData.accept(SpecimentModModItems.BATONDEVENT.get());
 			})
 
 					.build());

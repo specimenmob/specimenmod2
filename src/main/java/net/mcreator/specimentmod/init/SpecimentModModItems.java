@@ -85,6 +85,7 @@ import net.mcreator.specimentmod.item.CatalystOfKailonKaleidoscopeItem;
 import net.mcreator.specimentmod.item.CatalystOfFemiForestItem;
 import net.mcreator.specimentmod.item.CatalyseurvideItem;
 import net.mcreator.specimentmod.item.BidonessenceItem;
+import net.mcreator.specimentmod.item.BatondeventItem;
 import net.mcreator.specimentmod.block.display.BlocdarkshyroDisplayItem;
 import net.mcreator.specimentmod.block.display.BlocdarkminoDisplayItem;
 import net.mcreator.specimentmod.block.display.BlocdarkmcqueenDisplayItem;
@@ -289,6 +290,7 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> SHYRO_SUPER_ARMOR_BOOTS = REGISTRY.register("shyro_super_armor_boots", ShyroSuperArmorItem.Boots::new);
 	public static final DeferredHolder<Item, Item> KAILON_ACTIVATION_CRYSTAL = REGISTRY.register("kailon_activation_crystal", KailonActivationCrystalItem::new);
 	public static final DeferredHolder<Item, Item> SHYRO_ACTIVATION_CRYSTAL = REGISTRY.register("shyro_activation_crystal", ShyroActivationCrystalItem::new);
+	public static final DeferredHolder<Item, Item> BATONDEVENT = REGISTRY.register("batondevent", BatondeventItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

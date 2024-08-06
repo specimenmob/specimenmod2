@@ -3,15 +3,15 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "stafffeu",
+    "texture": "batonlave",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Baton_Incandescent",
+    "name": "Baton_de Magma",
     "rarity": "EPIC",
     "creativeTabs": [
       {
-        "value": "CUSTOM:FemiMars"
+        "value": "CUSTOM:Kailon"
       }
     ],
     "stackSize": 64,
@@ -38,7 +38,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "StafffeuEvenementAuClicDroitDansLair"
+      "name": "StafflaveEvenementAuClicDroitDansLair"
     },
     "enableRanged": false,
     "shootConstantly": false,
