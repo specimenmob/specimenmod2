@@ -1,8 +1,12 @@
 package net.mcreator.specimentmod.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+
+import net.mcreator.specimentmod.network.SpecimentModModVariables;
 
 public class DarkMcqueenBossQuandLentiteMeurtProcedure {
-	public static void execute() {
+	public static void execute(LevelAccessor world) {
+		SpecimentModModVariables.WorldVariables.get(world).darkmcqueenphase2 = 0;
+		SpecimentModModVariables.WorldVariables.get(world).syncData(world);
 	}
 }

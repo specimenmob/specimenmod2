@@ -1,6 +1,12 @@
 package net.mcreator.specimentmod.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.specimentmod.init.SpecimentModModItems;
 
 public class KailonActiCryProProcedure {
 	public static void execute(Entity entity) {
