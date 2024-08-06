@@ -1,12 +1,6 @@
 package net.mcreator.specimentmod.procedures;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.projectile.Projectile;
-import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.Entity;
-
-import net.mcreator.specimentmod.init.SpecimentModModEntities;
-import net.mcreator.specimentmod.entity.ProjectventEntity;
+import net.neoforged.bus.api.Event;
 
 public class BatondeventEvenementAuClicDroitDansLairProcedure {
 	public static void execute(Entity entity) {

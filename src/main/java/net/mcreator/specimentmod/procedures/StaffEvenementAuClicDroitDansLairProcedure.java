@@ -1,13 +1,6 @@
 package net.mcreator.specimentmod.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.ClipContext;
-import net.minecraft.world.entity.LightningBolt;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.BlockPos;
+import net.neoforged.bus.api.Event;
 
 public class StaffEvenementAuClicDroitDansLairProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
