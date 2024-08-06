@@ -126,6 +126,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.PIERREDUMACQUEENMANOR.get());
 				tabData.accept(SpecimentModModItems.ROCKY_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKMCQUEEN.get().asItem());
+				tabData.accept(SpecimentModModItems.STAFF.get());
 			})
 
 					.build());
@@ -214,6 +215,8 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.MIMIR_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.ZOMBIE_FEMI_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKFEMI.get().asItem());
+				tabData.accept(SpecimentModModItems.STAFFFEU.get());
+				tabData.accept(SpecimentModModItems.STAFFLAVE.get());
 			})
 
 					.build());
@@ -222,9 +225,9 @@ public class SpecimentModModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(SpecimentModModItems.DARK_FEMI_BOSS_SPAWN_EGG.get());
+			tabData.accept(SpecimentModModItems.DARK_MINO_BOSS_SPAWN_EGG.get());
 			tabData.accept(SpecimentModModItems.DARK_KAILON_BOSS_SPAWN_EGG.get());
 			tabData.accept(SpecimentModModItems.DARK_MCQUEEN_BOSS_SPAWN_EGG.get());
-			tabData.accept(SpecimentModModItems.DARK_MINO_BOSS_SPAWN_EGG.get());
 			tabData.accept(SpecimentModModItems.DARK_SHYRO_BOSS_SPAWN_EGG.get());
 		}
 	}

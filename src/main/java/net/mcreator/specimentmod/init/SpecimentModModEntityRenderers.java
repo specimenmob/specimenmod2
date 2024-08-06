@@ -40,9 +40,9 @@ public class SpecimentModModEntityRenderers {
 		event.registerEntityRenderer(SpecimentModModEntities.CHAROMANE.get(), CharomaneRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.ZOMBIE_FEMI.get(), ZombieFemiRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.DARK_FEMI_BOSS.get(), DarkFemiBossRenderer::new);
+		event.registerEntityRenderer(SpecimentModModEntities.DARK_MINO_BOSS.get(), DarkMinoBossRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.DARK_KAILON_BOSS.get(), DarkKailonBossRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.DARK_MCQUEEN_BOSS.get(), DarkMcqueenBossRenderer::new);
-		event.registerEntityRenderer(SpecimentModModEntities.DARK_MINO_BOSS.get(), DarkMinoBossRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.DARK_SHYRO_BOSS.get(), DarkShyroBossRenderer::new);
 	}
 }

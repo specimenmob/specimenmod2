@@ -16,6 +16,9 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.specimentmod.item.SteakdeMimircrueItem;
 import net.mcreator.specimentmod.item.SteakdeMimirItem;
+import net.mcreator.specimentmod.item.StafflaveItem;
+import net.mcreator.specimentmod.item.StafffeuItem;
+import net.mcreator.specimentmod.item.StaffItem;
 import net.mcreator.specimentmod.item.ShyroniteSwordItem;
 import net.mcreator.specimentmod.item.ShyroniteShovelItem;
 import net.mcreator.specimentmod.item.ShyronitePickaxeItem;
@@ -251,10 +254,13 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> BLOCDARKMINO = REGISTRY.register(SpecimentModModBlocks.BLOCDARKMINO.getId().getPath(), () -> new BlocdarkminoDisplayItem(SpecimentModModBlocks.BLOCDARKMINO.get(), new Item.Properties()));
 	public static final DeferredHolder<Item, Item> BLOCDARKSHYRO = REGISTRY.register(SpecimentModModBlocks.BLOCDARKSHYRO.getId().getPath(), () -> new BlocdarkshyroDisplayItem(SpecimentModModBlocks.BLOCDARKSHYRO.get(), new Item.Properties()));
 	public static final DeferredHolder<Item, Item> DARK_FEMI_BOSS_SPAWN_EGG = REGISTRY.register("dark_femi_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_FEMI_BOSS, -13421773, -24064, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> DARK_MINO_BOSS_SPAWN_EGG = REGISTRY.register("dark_mino_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_MINO_BOSS, -13421773, -12490271, new Item.Properties()));
 	public static final DeferredHolder<Item, Item> DARK_KAILON_BOSS_SPAWN_EGG = REGISTRY.register("dark_kailon_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_KAILON_BOSS, -13421773, -2949120, new Item.Properties()));
 	public static final DeferredHolder<Item, Item> DARK_MCQUEEN_BOSS_SPAWN_EGG = REGISTRY.register("dark_mcqueen_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_MCQUEEN_BOSS, -13421773, -5766913, new Item.Properties()));
-	public static final DeferredHolder<Item, Item> DARK_MINO_BOSS_SPAWN_EGG = REGISTRY.register("dark_mino_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_MINO_BOSS, -13421773, -12490271, new Item.Properties()));
 	public static final DeferredHolder<Item, Item> DARK_SHYRO_BOSS_SPAWN_EGG = REGISTRY.register("dark_shyro_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_SHYRO_BOSS, -13421773, -1, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> STAFFFEU = REGISTRY.register("stafffeu", StafffeuItem::new);
+	public static final DeferredHolder<Item, Item> STAFF = REGISTRY.register("staff", StaffItem::new);
+	public static final DeferredHolder<Item, Item> STAFFLAVE = REGISTRY.register("stafflave", StafflaveItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

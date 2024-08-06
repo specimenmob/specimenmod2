@@ -1,11 +1,5 @@
 package net.mcreator.specimentmod.block.model;
 
-import software.bernie.geckolib.model.GeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.specimentmod.block.display.BlocdarkshyroDisplayItem;
-
 public class BlocdarkshyroDisplayModel extends GeoModel<BlocdarkshyroDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(BlocdarkshyroDisplayItem animatable) {

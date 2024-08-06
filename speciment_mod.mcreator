@@ -5358,6 +5358,70 @@
       "path": "~/FemiMars/FemiMarsMob"
     },
     {
+      "name": "DarkMinoBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mino_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/dark_mino_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/DarkMinoBossRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/entity/DarkMinoBossEntity.java"
+        ]
+      },
+      "path": "~/Mino/MinoMob"
+    },
+    {
+      "name": "DarkKailonBossQuandLentiteEstBlessee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_kailon_boss_quand_lentite_est_blessee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/DarkKailonBossQuandLentiteEstBlesseeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shyro/ShyroMob"
+    },
+    {
+      "name": "DarkFemiBossQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_femi_boss_quand_lentite_meurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/DarkFemiBossQuandLentiteMeurtProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Mino/MinoSuperArmure"
+    },
+    {
       "name": "DarkFemiBossQuandLentiteEstBlessee",
       "type": "procedure",
       "compiles": true,
@@ -5393,93 +5457,14 @@
       "path": "~/FemiMars/FemiMarsMob"
     },
     {
-      "name": "DarkFemiBossQuandLentiteMeurt",
+      "name": "DarkShyroBossQuandLentiteEstBlessee",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_femi_boss_quand_lentite_meurt",
+      "registry_name": "dark_shyro_boss_quand_lentite_est_blessee",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/DarkFemiBossQuandLentiteMeurtProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mino/MinoSuperArmure"
-    },
-    {
-      "name": "DarkKailonBoss",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_kailon_boss",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/speciment_mod/models/item/dark_kailon_boss_spawn_egg.json",
-          "src/main/java/net/mcreator/specimentmod/entity/DarkKailonBossEntity.java",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/DarkKailonBossRenderer.java"
-        ]
-      },
-      "path": "~/Kailon/KailonMob"
-    },
-    {
-      "name": "DarkMcqueenBoss",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_mcqueen_boss",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/speciment_mod/models/item/dark_mcqueen_boss_spawn_egg.json",
-          "src/main/java/net/mcreator/specimentmod/entity/DarkMcqueenBossEntity.java",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/DarkMcqueenBossRenderer.java"
-        ]
-      },
-      "path": "~/McQueen/McQueenMob"
-    },
-    {
-      "name": "DarkMinoBoss",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_mino_boss",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/speciment_mod/models/item/dark_mino_boss_spawn_egg.json",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/DarkMinoBossRenderer.java",
-          "src/main/java/net/mcreator/specimentmod/entity/DarkMinoBossEntity.java"
-        ]
-      },
-      "path": "~/Mino/MinoMob"
-    },
-    {
-      "name": "DarkShyroBoss",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_shyro_boss",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/speciment_mod/models/item/dark_shyro_boss_spawn_egg.json",
-          "src/main/java/net/mcreator/specimentmod/entity/DarkShyroBossEntity.java",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/DarkShyroBossRenderer.java"
-        ]
-      },
-      "path": "~/Shyro/ShyroMob"
-    },
-    {
-      "name": "DarkKailonBossQuandLentiteEstBlessee",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_kailon_boss_quand_lentite_est_blessee",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/DarkKailonBossQuandLentiteEstBlesseeProcedure.java"
+          "src/main/java/net/mcreator/specimentmod/procedures/DarkShyroBossQuandLentiteEstBlesseeProcedure.java"
         ],
         "dependencies": [
           {
@@ -5542,6 +5527,62 @@
       "path": "~/Shyro/ShyroMob"
     },
     {
+      "name": "DarkShyroBossQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_shyro_boss_quand_lentite_meurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/DarkShyroBossQuandLentiteMeurtProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Shyro/ShyroMob"
+    },
+    {
+      "name": "DarkKailonBossQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_kailon_boss_quand_lentite_meurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/DarkKailonBossQuandLentiteMeurtProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Shyro/ShyroMob"
+    },
+    {
+      "name": "DarkMinoBossQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mino_boss_quand_lentite_meurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/DarkMinoBossQuandLentiteMeurtProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Shyro/ShyroMob"
+    },
+    {
+      "name": "DarkMcqueenBossQuandLentiteMeurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mcqueen_boss_quand_lentite_meurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/DarkMcqueenBossQuandLentiteMeurtProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Shyro/ShyroMob"
+    },
+    {
       "name": "DarkMinoBossQuandLentiteEstBlessee",
       "type": "procedure",
       "compiles": true,
@@ -5577,14 +5618,120 @@
       "path": "~/Shyro/ShyroMob"
     },
     {
-      "name": "DarkShyroBossQuandLentiteEstBlessee",
+      "name": "DarkKailonBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_kailon_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/dark_kailon_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/entity/DarkKailonBossEntity.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/DarkKailonBossRenderer.java"
+        ]
+      },
+      "path": "~/Kailon/KailonMob"
+    },
+    {
+      "name": "DarkMcqueenBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_mcqueen_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/dark_mcqueen_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/entity/DarkMcqueenBossEntity.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/DarkMcqueenBossRenderer.java"
+        ]
+      },
+      "path": "~/McQueen/McQueenMob"
+    },
+    {
+      "name": "DarkShyroBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_shyro_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/dark_shyro_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/entity/DarkShyroBossEntity.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/DarkShyroBossRenderer.java"
+        ]
+      },
+      "path": "~/Shyro/ShyroMob"
+    },
+    {
+      "name": "Stafffeu",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stafffeu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/stafffeu.json",
+          "src/main/java/net/mcreator/specimentmod/item/StafffeuItem.java"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "StafffeuEvenementAuClicDroitDansLair",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_shyro_boss_quand_lentite_est_blessee",
+      "registry_name": "stafffeu_evenement_au_clic_droit_dans_lair",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/DarkShyroBossQuandLentiteEstBlesseeProcedure.java"
+          "src/main/java/net/mcreator/specimentmod/procedures/StafffeuEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "Staff",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/staff.json",
+          "src/main/java/net/mcreator/specimentmod/item/StaffItem.java"
+        ]
+      },
+      "path": "~/McQueen"
+    },
+    {
+      "name": "Stafflave",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stafflave",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/StafflaveItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/stafflave.json"
+        ]
+      },
+      "path": "~/FemiMars"
+    },
+    {
+      "name": "StaffEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/StaffEvenementAuClicDroitDansLairProcedure.java"
         ],
         "dependencies": [
           {
@@ -5592,100 +5739,12 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
-    },
-    {
-      "name": "DarkKailonBossQuandLentiteMeurt",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_kailon_boss_quand_lentite_meurt",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/DarkKailonBossQuandLentiteMeurtProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Shyro/ShyroMob"
-    },
-    {
-      "name": "DarkMcqueenBossQuandLentiteMeurt",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_mcqueen_boss_quand_lentite_meurt",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/DarkMcqueenBossQuandLentiteMeurtProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Shyro/ShyroMob"
-    },
-    {
-      "name": "DarkMinoBossQuandLentiteMeurt",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_mino_boss_quand_lentite_meurt",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/DarkMinoBossQuandLentiteMeurtProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Shyro/ShyroMob"
-    },
-    {
-      "name": "DarkShyroBossQuandLentiteMeurt",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_shyro_boss_quand_lentite_meurt",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/DarkShyroBossQuandLentiteMeurtProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/McQueen"
     }
   ],
   "variable_elements": [
@@ -5726,7 +5785,7 @@
       "value": "1.0"
     },
     {
-      "name": "darkfemiphase2",
+      "name": "darkshyrophase2",
       "type": "number",
       "scope": "world",
       "value": "0.0"
@@ -5738,19 +5797,19 @@
       "value": "0.0"
     },
     {
-      "name": "darkmcqueenphase2",
-      "type": "number",
-      "scope": "world",
-      "value": "0.0"
-    },
-    {
       "name": "darkminophase2",
       "type": "number",
       "scope": "world",
       "value": "0.0"
     },
     {
-      "name": "darkshyrophase2",
+      "name": "darkmcqueenphase2",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "darkfemiphase2",
       "type": "number",
       "scope": "world",
       "value": "0.0"
@@ -5854,6 +5913,11 @@
       "~CUSTOM:ShyroniteArmor.body",
       "~CUSTOM:KailoniteArmor.body",
       "~CUSTOM:FemiumArmor.body"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Stafflave",
+      "~CUSTOM:Staff",
+      "~CUSTOM:Stafffeu"
     ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:BiomeFemi"
@@ -6132,7 +6196,8 @@
       "PoudredeMcqueenium",
       "Pierredumacqueenmanor",
       "Rocky",
-      "Blocdarkmcqueen"
+      "Blocdarkmcqueen",
+      "Staff"
     ],
     "CUSTOM:Kailon": [
       "CatalystOfKailonKaleidoscope",
@@ -6207,7 +6272,9 @@
       "SteakdeMimir",
       "Mimir",
       "ZombieFemi",
-      "Blocdarkfemi"
+      "Blocdarkfemi",
+      "Stafffeu",
+      "Stafflave"
     ]
   },
   "language_map": {
@@ -6216,7 +6283,6 @@
       "item.speciment_mod.lerapdelaf_1": "Disque",
       "item.speciment_mod.mcqueenium_armor_chestplate": "Mcqueenium Chestplate",
       "block.speciment_mod.femiroko_fence_gate": "Femiroko Fence Gate",
-      "entity.speciment_mod.dark_shyro_boss": "Dark Shyro",
       "subtitles.degatf1": "",
       "item.speciment_mod.mcqueenium_axe": "Mcqueenium Axe",
       "item.speciment_mod.pneuwet_spawn_egg": "Wet Tyre Spawn Egg",
@@ -6246,7 +6312,6 @@
       "block.speciment_mod.shyronite_block": "Block of Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Medium Tyre Spawn Egg",
       "block.speciment_mod.kailonea_leaves": "Kailonea Leaves",
-      "block.speciment_mod.blocdarkmcqueen": "Blocdarkfemi",
       "block.speciment_mod.femiroko_slab": "Femiroko Slab",
       "block.speciment_mod.mcqueencifolia_fence_gate": "Mcqueencifolia Fence Gate",
       "item.speciment_mod.minox_super_armor_leggings": "Mystic Minox Leggings",
@@ -6267,12 +6332,10 @@
       "block.speciment_mod.kailonea_wood": "Kailonea Wood",
       "item_group.speciment_mod.femi_mars": "Fémi-Mars",
       "block.speciment_mod.kailonisetum": "Kailonisetum",
-      "item.speciment_mod.dark_shyro_boss_spawn_egg": "Dark Shyro Spawn Egg",
       "item.speciment_mod.minox_shovel": "Minox Shovel",
       "block.speciment_mod.kailonite_ore": "Kailonite Ore",
       "block.speciment_mod.shyrocia_door": "Shyrocia Door",
       "entity.speciment_mod.zombie_femi": "Zombie Femi",
-      "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Mcqueencifolia Slab",
       "item.speciment_mod.lafin": "Ultimate Catalyst",
       "item.speciment_mod.pierredeminomysteria": "Mino\u0027s Mysteria Stone",
@@ -6285,8 +6348,6 @@
       "biome.speciment_mod.biomemcqueen": "Biomemcqueen",
       "subtitles.boxbox": "",
       "item.speciment_mod.minox_sword": "Minox Sword",
-      "entity.speciment_mod.dark_mcqueen_boss": "Dark Mcqueen",
-      "entity.speciment_mod.dark_mino_boss": "Dark Mino",
       "item.speciment_mod.catalyst_of_mino_mysteria": "Catalyst Of Mino\u0027s Mysteria",
       "item.speciment_mod.femium_pickaxe": "Femium Pickaxe",
       "item_group.speciment_mod.mino": "Mino",
@@ -6344,7 +6405,6 @@
       "block.speciment_mod.kailonea_log": "Kailonea Log",
       "item.speciment_mod.minox_hoe": "Minox Hoe",
       "subtitles.lerapdelaf1": "Kailon",
-      "block.speciment_mod.blocdarkshyro": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_fence": "Shyrocia Fence",
       "block.speciment_mod.mcqueenium_block": "Block of Mcqueenium",
       "item.speciment_mod.zombie_femi_spawn_egg": "Zombie Femi Spawn Egg",
@@ -6355,7 +6415,6 @@
       "item.speciment_mod.mcqueenium_sword": "Mcqueenium Sword",
       "item.speciment_mod.ordredemission.desc": "Une mission tendu",
       "block.speciment_mod.kailonea_pressure_plate": "Kailonea Pressure Plate",
-      "block.speciment_mod.blocdarkmino": "Blocdarkfemi",
       "block.speciment_mod.mino_sand": "Mino Sand",
       "block.speciment_mod.minoria_button": "Minoria Button",
       "item.speciment_mod.femium_armor_boots": "Femium Boots",
@@ -6366,9 +6425,6 @@
       "item.speciment_mod.kailonite_shovel": "Kailonite Shovel",
       "subtitles.ordredemission": "",
       "block.speciment_mod.kailonea_door": "Kailonea Door",
-      "item.speciment_mod.dark_femi_boss_spawn_egg": "Dark Femi Spawn Egg",
-      "item.speciment_mod.dark_mcqueen_boss_spawn_egg": "Dark Mcqueen Spawn Egg",
-      "item.speciment_mod.dark_mino_boss_spawn_egg": "Dark Mino Spawn Egg",
       "item_group.speciment_mod.kailon": "Kailon",
       "item_group.speciment_mod.specimen": "Specimen",
       "item.speciment_mod.femium_hoe": "Femium Hoe",
@@ -6379,12 +6435,9 @@
       "item.speciment_mod.mcqueenium_armor_helmet": "Mcqueenium Helmet",
       "block.speciment_mod.femiroko_pressure_plate": "Femiroko Pressure Plate",
       "item.speciment_mod.kailonite_armor_boots": "Kailonite Boots",
-      "entity.speciment_mod.dark_kailon_boss": "Dark Kailon",
       "block.speciment_mod.femiroko_fence": "Femiroko Fence",
       "block.speciment_mod.minoria_log": "Minoria Log",
       "item.speciment_mod.minox_activation_crystal": "Minox Activation Crystal",
-      "block.speciment_mod.blocdarkfemi": "Blocdarkfemi",
-      "item.speciment_mod.dark_kailon_boss_spawn_egg": "Dark Kailon Spawn Egg",
       "item.speciment_mod.shyronite_hoe": "Shyronite Hoe",
       "block.speciment_mod.femiroko_stairs": "Femiroko Stairs",
       "block.speciment_mod.shyrocia_wood": "Shyrocia Wood",
@@ -6399,7 +6452,6 @@
       "block.speciment_mod.mcqueencifolia_pressure_plate": "Mcqueencifolia Pressure Plate",
       "item.speciment_mod.femium_armor_leggings": "Femium Leggings",
       "biome.speciment_mod.biomemino": "Biomemino",
-      "block.speciment_mod.blocdarkkailon": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_pressure_plate": "Shyrocia Pressure Plate",
       "item.speciment_mod.minox_super_armor_helmet": "Mystic Minox Helmet",
       "item.speciment_mod.pierredumacqueenmanor": "Mcqueen\u0027s Manor Stone",
@@ -6657,28 +6709,11 @@
             "children": []
           },
           {
-            "name": "McQueenMob",
-            "children": []
-          },
-          {
             "name": "McQueenMinerai",
             "children": []
-          }
-        ]
-      },
-      {
-        "name": "FemiMars",
-        "children": [
-          {
-            "name": "FemiMarsBois",
-            "children": []
           },
           {
-            "name": "FemiMarsMob",
-            "children": []
-          },
-          {
-            "name": "FemiMarsMinerai",
+            "name": "McQueenMob",
             "children": []
           }
         ]
@@ -6687,11 +6722,11 @@
         "name": "Mino",
         "children": [
           {
-            "name": "MinoBois",
+            "name": "MinoMob",
             "children": []
           },
           {
-            "name": "MinoMob",
+            "name": "MinoBois",
             "children": []
           },
           {
@@ -6712,11 +6747,11 @@
             "children": []
           },
           {
-            "name": "KailonMob",
+            "name": "KailonMinerai",
             "children": []
           },
           {
-            "name": "KailonMinerai",
+            "name": "KailonMob",
             "children": []
           }
         ]
@@ -6729,15 +6764,32 @@
         "name": "Shyro",
         "children": [
           {
-            "name": "ShyroBois",
-            "children": []
-          },
-          {
             "name": "ShyroMob",
             "children": []
           },
           {
+            "name": "ShyroBois",
+            "children": []
+          },
+          {
             "name": "ShyroMinerai",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "FemiMars",
+        "children": [
+          {
+            "name": "FemiMarsMinerai",
+            "children": []
+          },
+          {
+            "name": "FemiMarsBois",
+            "children": []
+          },
+          {
+            "name": "FemiMarsMob",
             "children": []
           }
         ]

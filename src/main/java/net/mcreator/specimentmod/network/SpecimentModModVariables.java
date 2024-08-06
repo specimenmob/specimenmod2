@@ -101,11 +101,11 @@ public class SpecimentModModVariables {
 
 	public static class WorldVariables extends SavedData {
 		public static final String DATA_NAME = "speciment_mod_worldvars";
-		public double darkfemiphase2 = 0.0;
-		public double darkkailonphase2 = 0.0;
-		public double darkmcqueenphase2 = 0.0;
-		public double darkminophase2 = 0.0;
 		public double darkshyrophase2 = 0.0;
+		public double darkkailonphase2 = 0.0;
+		public double darkminophase2 = 0.0;
+		public double darkmcqueenphase2 = 0.0;
+		public double darkfemiphase2 = 0.0;
 
 		public static WorldVariables load(CompoundTag tag, HolderLookup.Provider lookupProvider) {
 			WorldVariables data = new WorldVariables();
@@ -114,20 +114,20 @@ public class SpecimentModModVariables {
 		}
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			darkfemiphase2 = nbt.getDouble("darkfemiphase2");
-			darkkailonphase2 = nbt.getDouble("darkkailonphase2");
-			darkmcqueenphase2 = nbt.getDouble("darkmcqueenphase2");
-			darkminophase2 = nbt.getDouble("darkminophase2");
 			darkshyrophase2 = nbt.getDouble("darkshyrophase2");
+			darkkailonphase2 = nbt.getDouble("darkkailonphase2");
+			darkminophase2 = nbt.getDouble("darkminophase2");
+			darkmcqueenphase2 = nbt.getDouble("darkmcqueenphase2");
+			darkfemiphase2 = nbt.getDouble("darkfemiphase2");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
-			nbt.putDouble("darkfemiphase2", darkfemiphase2);
-			nbt.putDouble("darkkailonphase2", darkkailonphase2);
-			nbt.putDouble("darkmcqueenphase2", darkmcqueenphase2);
-			nbt.putDouble("darkminophase2", darkminophase2);
 			nbt.putDouble("darkshyrophase2", darkshyrophase2);
+			nbt.putDouble("darkkailonphase2", darkkailonphase2);
+			nbt.putDouble("darkminophase2", darkminophase2);
+			nbt.putDouble("darkmcqueenphase2", darkmcqueenphase2);
+			nbt.putDouble("darkfemiphase2", darkfemiphase2);
 			return nbt;
 		}
 
