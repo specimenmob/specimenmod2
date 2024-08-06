@@ -1,25 +1,6 @@
 package net.mcreator.specimentmod.procedures;
 
-import net.neoforged.neoforge.event.level.BlockEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.LightningBolt;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.specimentmod.init.SpecimentModModEntities;
-import net.mcreator.specimentmod.init.SpecimentModModBlocks;
-
-import javax.annotation.Nullable;
 
 @EventBusSubscriber
 public class DarkfemiProcedure {
@@ -33,26 +14,30 @@ public class DarkfemiProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
-		if ((world.getBlockState(BlockPos.containing(x + 0, y + 0, z + 0))).getBlock() == SpecimentModModBlocks.FEMIROKO_PLANKS.get()
-				&& (world.getBlockState(BlockPos.containing(x + 0, y - 1, z + 0))).getBlock() == SpecimentModModBlocks.FEMIUM_BLOCK.get()
-				&& (world.getBlockState(BlockPos.containing(x + 0, y - 2, z + 0))).getBlock() == SpecimentModModBlocks.FEMIUM_BLOCK.get()) {
-			if (world instanceof ServerLevel _level) {
-				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
-				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
-				entityToSpawn.setVisualOnly(true);
-				_level.addFreshEntity(entityToSpawn);
+		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("speciment_mod:biome_femi"))) {
+			if ((world.getBlockState(BlockPos.containing(x + 0, y + 0, z + 0))).getBlock() == SpecimentModModBlocks.BLOCDARKFEMI.get()
+					&& (world.getBlockState(BlockPos.containing(x + 0, y - 1, z + 0))).getBlock() == SpecimentModModBlocks.FEMIUM_BLOCK.get()
+					&& (world.getBlockState(BlockPos.containing(x + 0, y - 2, z + 0))).getBlock() == SpecimentModModBlocks.FEMIUM_BLOCK.get()) {
+				SpecimentModMod.queueServerWork(100, () -> {
+					if (world instanceof ServerLevel _level) {
+						LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+						entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(x, y, z)));
+						entityToSpawn.setVisualOnly(true);
+						_level.addFreshEntity(entityToSpawn);
+					}
+					if (world instanceof ServerLevel _level)
+						_level.sendParticles(ParticleTypes.SOUL_FIRE_FLAME, x, y, z, 1000, 5, 5, 3, 1);
+					if (world instanceof ServerLevel _level) {
+						Entity entityToSpawn = SpecimentModModEntities.DARK_FEMI_BOSS.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
+						if (entityToSpawn != null) {
+							entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+						}
+					}
+					world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
+					world.setBlock(BlockPos.containing(x, y - 1, z), Blocks.AIR.defaultBlockState(), 3);
+					world.setBlock(BlockPos.containing(x, y - 2, z), Blocks.AIR.defaultBlockState(), 3);
+				});
 			}
-			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = SpecimentModModEntities.MIMIR.get().spawn(_level, BlockPos.containing(x, y, z), MobSpawnType.MOB_SUMMONED);
-				if (entityToSpawn != null) {
-					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
-				}
-			}
-			if (world instanceof ServerLevel _level)
-				_level.sendParticles(ParticleTypes.SOUL_FIRE_FLAME, x, y, z, 1000, 5, 5, 3, 1);
-			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
-			world.setBlock(BlockPos.containing(x, y - 1, z), Blocks.AIR.defaultBlockState(), 3);
-			world.setBlock(BlockPos.containing(x, y - 2, z), Blocks.AIR.defaultBlockState(), 3);
 		}
 	}
 }

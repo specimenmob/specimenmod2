@@ -87,5 +87,13 @@
         "stream": false
       }
     ]
+  },
+  "mcqueenium_activation_armor": {
+    "sounds": [
+      {
+        "name": "speciment_mod:mcqueenium_activation_armor",
+        "stream": false
+      }
+    ]
   }
 }

@@ -93,6 +93,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.CHAROMANE_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKSHYRO.get().asItem());
 				tabData.accept(SpecimentModModItems.BATONDEVENT.get());
+				tabData.accept(SpecimentModModItems.SHYRO_ACTIVATION_CRYSTAL.get());
 			})
 
 					.build());
@@ -128,6 +129,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.ROCKY_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.STAFF.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKMCQUEEN.get().asItem());
+				tabData.accept(SpecimentModModItems.MCQUEEN_ACTIVATION_CRYSTAL.get());
 			})
 
 					.build());
@@ -169,6 +171,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.PNEU_INTERMEDIAIRE_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEUWET_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKKAILON.get().asItem());
+				tabData.accept(SpecimentModModItems.KAILON_ACTIVATION_CRYSTAL.get());
 				tabData.accept(SpecimentModModItems.STAFFLAVE.get());
 			})
 
@@ -218,6 +221,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.ZOMBIE_FEMI_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.STAFFFEU.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKFEMI.get().asItem());
+				tabData.accept(SpecimentModModItems.FEMI_ACTIVATION_CRYSTAL.get());
 			})
 
 					.build());
@@ -226,6 +230,10 @@ public class SpecimentModModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(SpecimentModModItems.DARK_FEMI_BOSS_SPAWN_EGG.get());
+			tabData.accept(SpecimentModModItems.DARK_KAILON_BOSS_SPAWN_EGG.get());
+			tabData.accept(SpecimentModModItems.DARK_MINO_BOSS_SPAWN_EGG.get());
+			tabData.accept(SpecimentModModItems.DARK_MCQUEEN_BOSS_SPAWN_EGG.get());
+			tabData.accept(SpecimentModModItems.DARK_SHYRO_BOSS_SPAWN_EGG.get());
 		}
 	}
 }

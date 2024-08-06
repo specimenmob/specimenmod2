@@ -1,12 +1,6 @@
 package net.mcreator.specimentmod.procedures;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.projectile.Projectile;
-import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.Entity;
-
-import net.mcreator.specimentmod.init.SpecimentModModEntities;
-import net.mcreator.specimentmod.entity.ProjectventEntity;
+import net.neoforged.bus.api.Event;
 
 public class BatondeventEvenementAuClicDroitDansLairProcedure {
 	public static void execute(Entity entity) {
@@ -18,7 +12,7 @@ public class BatondeventEvenementAuClicDroitDansLairProcedure {
 			if (!projectileLevel.isClientSide()) {
 				Projectile _entityToSpawn = new Object() {
 					public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
-						AbstractArrow entityToSpawn = new ProjectventEntity(SpecimentModModEntities.PROJECTVENT.get(), level);
+						AbstractArrow entityToSpawn = new ProjectventEntity(SpecimentModModEntities.DELETED_MOD_ELEMENT.get(), level);
 						entityToSpawn.setOwner(shooter);
 						entityToSpawn.setBaseDamage(damage);
 						entityToSpawn.setKnockback(knockback);

@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "speciment_mod:kailon_super_armor_leggings",
+    "speciment_mod:shyro_super_armor_leggings",
+    "speciment_mod:mcqueen_super_armor_leggings",
+    "speciment_mod:femi_super_armor_leggings",
     "speciment_mod:minox_super_armor_leggings",
     "speciment_mod:minox_armor_leggings",
     "speciment_mod:mcqueenium_armor_leggings",

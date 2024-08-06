@@ -27,6 +27,10 @@ import net.mcreator.specimentmod.entity.PneuIntermediaireEntity;
 import net.mcreator.specimentmod.entity.MimirEntity;
 import net.mcreator.specimentmod.entity.LavacastEntity;
 import net.mcreator.specimentmod.entity.F1Entity;
+import net.mcreator.specimentmod.entity.DarkShyroBossEntity;
+import net.mcreator.specimentmod.entity.DarkMinoBossEntity;
+import net.mcreator.specimentmod.entity.DarkMcqueenBossEntity;
+import net.mcreator.specimentmod.entity.DarkKailonBossEntity;
 import net.mcreator.specimentmod.entity.DarkFemiBossEntity;
 import net.mcreator.specimentmod.entity.CharomaneEntity;
 import net.mcreator.specimentmod.SpecimentModMod;
@@ -81,6 +85,22 @@ public class SpecimentModModEntities {
 			EntityType.Builder.<LavacastEntity>of(LavacastEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<ProjectventEntity>> PROJECTVENT = register("projectvent",
 			EntityType.Builder.<ProjectventEntity>of(ProjectventEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<DarkKailonBossEntity>> DARK_KAILON_BOSS = register("dark_kailon_boss",
+			EntityType.Builder.<DarkKailonBossEntity>of(DarkKailonBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<DarkMinoBossEntity>> DARK_MINO_BOSS = register("dark_mino_boss",
+			EntityType.Builder.<DarkMinoBossEntity>of(DarkMinoBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<DarkMcqueenBossEntity>> DARK_MCQUEEN_BOSS = register("dark_mcqueen_boss",
+			EntityType.Builder.<DarkMcqueenBossEntity>of(DarkMcqueenBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<DarkShyroBossEntity>> DARK_SHYRO_BOSS = register("dark_shyro_boss",
+			EntityType.Builder.<DarkShyroBossEntity>of(DarkShyroBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -99,6 +119,10 @@ public class SpecimentModModEntities {
 		CharomaneEntity.init(event);
 		ZombieFemiEntity.init(event);
 		DarkFemiBossEntity.init(event);
+		DarkKailonBossEntity.init(event);
+		DarkMinoBossEntity.init(event);
+		DarkMcqueenBossEntity.init(event);
+		DarkShyroBossEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -114,5 +138,9 @@ public class SpecimentModModEntities {
 		event.put(CHAROMANE.get(), CharomaneEntity.createAttributes().build());
 		event.put(ZOMBIE_FEMI.get(), ZombieFemiEntity.createAttributes().build());
 		event.put(DARK_FEMI_BOSS.get(), DarkFemiBossEntity.createAttributes().build());
+		event.put(DARK_KAILON_BOSS.get(), DarkKailonBossEntity.createAttributes().build());
+		event.put(DARK_MINO_BOSS.get(), DarkMinoBossEntity.createAttributes().build());
+		event.put(DARK_MCQUEEN_BOSS.get(), DarkMcqueenBossEntity.createAttributes().build());
+		event.put(DARK_SHYRO_BOSS.get(), DarkShyroBossEntity.createAttributes().build());
 	}
 }
