@@ -172,6 +172,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.PNEUWET_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKKAILON.get().asItem());
 				tabData.accept(SpecimentModModItems.KAILON_ACTIVATION_CRYSTAL.get());
+				tabData.accept(SpecimentModModItems.STAFFLAVE.get());
 			})
 
 					.build());
@@ -220,7 +221,6 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.ZOMBIE_FEMI_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKFEMI.get().asItem());
 				tabData.accept(SpecimentModModItems.STAFFFEU.get());
-				tabData.accept(SpecimentModModItems.STAFFLAVE.get());
 				tabData.accept(SpecimentModModItems.FEMI_ACTIVATION_CRYSTAL.get());
 			})
 
