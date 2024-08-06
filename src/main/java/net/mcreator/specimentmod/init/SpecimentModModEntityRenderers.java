@@ -11,12 +11,14 @@ import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.specimentmod.client.renderer.ZombieFemiRenderer;
 import net.mcreator.specimentmod.client.renderer.RockyRenderer;
+import net.mcreator.specimentmod.client.renderer.ProjectventRenderer;
 import net.mcreator.specimentmod.client.renderer.PneuwetRenderer;
 import net.mcreator.specimentmod.client.renderer.PneusoftRenderer;
 import net.mcreator.specimentmod.client.renderer.PneumediumRenderer;
 import net.mcreator.specimentmod.client.renderer.PneuhardRenderer;
 import net.mcreator.specimentmod.client.renderer.PneuIntermediaireRenderer;
 import net.mcreator.specimentmod.client.renderer.MimirRenderer;
+import net.mcreator.specimentmod.client.renderer.LavacastRenderer;
 import net.mcreator.specimentmod.client.renderer.F1Renderer;
 import net.mcreator.specimentmod.client.renderer.DarkFemiBossRenderer;
 import net.mcreator.specimentmod.client.renderer.CharomaneRenderer;
@@ -36,5 +38,7 @@ public class SpecimentModModEntityRenderers {
 		event.registerEntityRenderer(SpecimentModModEntities.CHAROMANE.get(), CharomaneRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.ZOMBIE_FEMI.get(), ZombieFemiRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.DARK_FEMI_BOSS.get(), DarkFemiBossRenderer::new);
+		event.registerEntityRenderer(SpecimentModModEntities.LAVACAST.get(), LavacastRenderer::new);
+		event.registerEntityRenderer(SpecimentModModEntities.PROJECTVENT.get(), ProjectventRenderer::new);
 	}
 }

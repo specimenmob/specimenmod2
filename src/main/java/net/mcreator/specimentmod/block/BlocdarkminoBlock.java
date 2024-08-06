@@ -1,13 +1,36 @@
 
 package net.mcreator.specimentmod.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.RenderShape;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.BaseEntityBlock;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.specimentmod.procedures.BlocdarkfemiQuandLeBlocEstPlaceProcedure;
+import net.mcreator.specimentmod.init.SpecimentModModBlockEntities;
 
 import javax.annotation.Nullable;
 
+import java.util.List;
+import java.util.Collections;
+
+import com.mojang.serialization.MapCodec;
+
 public class BlocdarkminoBlock extends BaseEntityBlock implements EntityBlock {
 	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
-
 	public static final MapCodec<BlocdarkminoBlock> CODEC = simpleCodec(properties -> new BlocdarkminoBlock());
 
 	public MapCodec<BlocdarkminoBlock> codec() {
@@ -16,7 +39,6 @@ public class BlocdarkminoBlock extends BaseEntityBlock implements EntityBlock {
 
 	public BlocdarkminoBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-
 	}
 
 	@Override
@@ -52,7 +74,6 @@ public class BlocdarkminoBlock extends BaseEntityBlock implements EntityBlock {
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -64,5 +85,4 @@ public class BlocdarkminoBlock extends BaseEntityBlock implements EntityBlock {
 		super.setPlacedBy(world, pos, blockstate, entity, itemstack);
 		BlocdarkfemiQuandLeBlocEstPlaceProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
-
 }

@@ -18,12 +18,14 @@ import net.minecraft.core.registries.Registries;
 
 import net.mcreator.specimentmod.entity.ZombieFemiEntity;
 import net.mcreator.specimentmod.entity.RockyEntity;
+import net.mcreator.specimentmod.entity.ProjectventEntity;
 import net.mcreator.specimentmod.entity.PneuwetEntity;
 import net.mcreator.specimentmod.entity.PneusoftEntity;
 import net.mcreator.specimentmod.entity.PneumediumEntity;
 import net.mcreator.specimentmod.entity.PneuhardEntity;
 import net.mcreator.specimentmod.entity.PneuIntermediaireEntity;
 import net.mcreator.specimentmod.entity.MimirEntity;
+import net.mcreator.specimentmod.entity.LavacastEntity;
 import net.mcreator.specimentmod.entity.F1Entity;
 import net.mcreator.specimentmod.entity.DarkFemiBossEntity;
 import net.mcreator.specimentmod.entity.CharomaneEntity;
@@ -75,6 +77,10 @@ public class SpecimentModModEntities {
 			EntityType.Builder.<DarkFemiBossEntity>of(DarkFemiBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<LavacastEntity>> LAVACAST = register("lavacast",
+			EntityType.Builder.<LavacastEntity>of(LavacastEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ProjectventEntity>> PROJECTVENT = register("projectvent",
+			EntityType.Builder.<ProjectventEntity>of(ProjectventEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

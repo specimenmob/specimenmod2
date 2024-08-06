@@ -48,14 +48,14 @@
       "registry_name": "femium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/femium_ore.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/femium_ore_biome_modifier.json",
           "src/main/resources/data/speciment_mod/worldgen/configured_feature/femium_ore.json",
+          "src/main/resources/assets/speciment_mod/models/item/femium_ore.json",
           "src/main/resources/assets/speciment_mod/models/block/femium_ore.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/femium_ore.json",
-          "src/main/resources/assets/speciment_mod/models/item/femium_ore.json",
           "src/main/java/net/mcreator/specimentmod/block/FemiumOreBlock.java",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/femium_ore_biome_modifier.json",
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/femium_ore.json"
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/femium_ore.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femium_ore.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsMinerai"
@@ -68,10 +68,10 @@
       "registry_name": "femium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/femium_block.json",
-          "src/main/resources/assets/speciment_mod/models/item/femium_block.json",
-          "src/main/resources/assets/speciment_mod/blockstates/femium_block.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/femium_block.json",
+          "src/main/resources/assets/speciment_mod/models/item/femium_block.json",
+          "src/main/resources/assets/speciment_mod/models/block/femium_block.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femium_block.json",
           "src/main/java/net/mcreator/specimentmod/block/FemiumBlockBlock.java"
         ]
       },
@@ -138,8 +138,8 @@
       "registry_name": "femium_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/FemiumAxeItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/femium_axe.json"
+          "src/main/resources/assets/speciment_mod/models/item/femium_axe.json",
+          "src/main/java/net/mcreator/specimentmod/item/FemiumAxeItem.java"
         ]
       },
       "path": "~/FemiMars/FemiMarsMinerai"
@@ -152,8 +152,8 @@
       "registry_name": "femium_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/FemiumSwordItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/femium_sword.json"
+          "src/main/resources/assets/speciment_mod/models/item/femium_sword.json",
+          "src/main/java/net/mcreator/specimentmod/item/FemiumSwordItem.java"
         ]
       },
       "path": "~/FemiMars/FemiMarsMinerai"
@@ -259,11 +259,11 @@
       "registry_name": "femium_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/femium_armor_boots.json",
           "src/main/java/net/mcreator/specimentmod/item/FemiumArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/femium_armor_chestplate.json",
+          "src/main/resources/assets/speciment_mod/models/item/femium_armor_boots.json",
           "src/main/resources/assets/speciment_mod/models/item/femium_armor_helmet.json",
-          "src/main/resources/assets/speciment_mod/models/item/femium_armor_leggings.json",
-          "src/main/resources/assets/speciment_mod/models/item/femium_armor_chestplate.json"
+          "src/main/resources/assets/speciment_mod/models/item/femium_armor_leggings.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsMinerai"
@@ -328,8 +328,8 @@
       "registry_name": "lerapdelaf_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/Lerapdelaf1Item.java",
-          "src/main/resources/assets/speciment_mod/models/item/lerapdelaf_1.json"
+          "src/main/resources/assets/speciment_mod/models/item/lerapdelaf_1.json",
+          "src/main/java/net/mcreator/specimentmod/item/Lerapdelaf1Item.java"
         ]
       },
       "path": "~/Kailon"
@@ -367,14 +367,14 @@
       "registry_name": "kailonite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/kailonite_ore.json",
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/kailonite_ore.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonite_ore.json",
           "src/main/java/net/mcreator/specimentmod/block/KailoniteOreBlock.java",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonite_ore.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailonite_ore.json",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/kailonite_ore_biome_modifier.json",
-          "src/main/resources/assets/speciment_mod/blockstates/kailonite_ore.json"
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/kailonite_ore.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonite_ore.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonite_ore.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/kailonite_ore.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_ore.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonite_ore.json"
         ]
       },
       "path": "~/Kailon/KailonMinerai"
@@ -387,11 +387,11 @@
       "registry_name": "kailonite_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/kailonite_block.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonite_block.json",
-          "src/main/java/net/mcreator/specimentmod/block/KailoniteBlockBlock.java",
           "src/main/resources/assets/speciment_mod/models/block/kailonite_block.json",
-          "src/main/resources/assets/speciment_mod/blockstates/kailonite_block.json"
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_block.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonite_block.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonite_block.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoniteBlockBlock.java"
         ]
       },
       "path": "~/Kailon/KailonMinerai"
@@ -443,8 +443,8 @@
       "registry_name": "kailonite_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/kailonite_pickaxe.json",
-          "src/main/java/net/mcreator/specimentmod/item/KailonitePickaxeItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/KailonitePickaxeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_pickaxe.json"
         ]
       },
       "path": "~/Kailon/KailonMinerai"
@@ -457,8 +457,8 @@
       "registry_name": "kailonite_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/KailoniteAxeItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/kailonite_axe.json"
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_axe.json",
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteAxeItem.java"
         ]
       },
       "path": "~/Kailon/KailonMinerai"
@@ -485,8 +485,8 @@
       "registry_name": "kailonite_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/KailoniteShovelItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/kailonite_shovel.json"
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_shovel.json",
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteShovelItem.java"
         ]
       },
       "path": "~/Kailon/KailonMinerai"
@@ -499,8 +499,8 @@
       "registry_name": "kailonite_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/KailoniteHoeItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/kailonite_hoe.json"
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_hoe.json",
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteHoeItem.java"
         ]
       },
       "path": "~/Kailon/KailonMinerai"
@@ -578,11 +578,11 @@
       "registry_name": "kailonite_armor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_chestplate.json",
           "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_helmet.json",
           "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_leggings.json",
           "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_boots.json",
-          "src/main/java/net/mcreator/specimentmod/item/KailoniteArmorItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/kailonite_armor_chestplate.json"
+          "src/main/java/net/mcreator/specimentmod/item/KailoniteArmorItem.java"
         ]
       },
       "path": "~/Kailon/KailonMinerai"
@@ -647,9 +647,9 @@
       "registry_name": "biome_kailon",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biome_kailon_tree.json",
           "src/main/resources/data/speciment_mod/worldgen/biome/biome_kailon.json",
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biome_kailon_tree.json"
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biome_kailon_tree.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biome_kailon_tree.json"
         ]
       },
       "path": "~/Kailon"
@@ -662,14 +662,14 @@
       "registry_name": "femilis",
       "metadata": {
         "files": [
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/femilis.json",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/femilis_biome_modifier.json",
           "src/main/resources/data/speciment_mod/worldgen/placed_feature/femilis.json",
-          "src/main/resources/assets/speciment_mod/models/block/femilis.json",
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/femilis.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/femilis.json",
           "src/main/java/net/mcreator/specimentmod/block/FemilisBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/femilis.json",
+          "src/main/resources/assets/speciment_mod/models/item/femilis.json",
           "src/main/resources/assets/speciment_mod/blockstates/femilis.json",
-          "src/main/resources/assets/speciment_mod/models/item/femilis.json"
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femilis.json"
         ]
       },
       "path": "~/FemiMars"
@@ -721,8 +721,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/specimentmod/world/dimension/FemiForestDimension.java",
-          "src/main/resources/data/speciment_mod/dimension/femi_forest.json",
-          "src/main/resources/data/speciment_mod/dimension_type/femi_forest.json"
+          "src/main/resources/data/speciment_mod/dimension_type/femi_forest.json",
+          "src/main/resources/data/speciment_mod/dimension/femi_forest.json"
         ]
       },
       "path": "~/FemiMars"
@@ -828,8 +828,8 @@
       "registry_name": "shyro_skyland",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/dimension/shyro_skyland.json",
           "src/main/resources/data/speciment_mod/dimension_type/shyro_skyland.json",
+          "src/main/resources/data/speciment_mod/dimension/shyro_skyland.json",
           "src/main/java/net/mcreator/specimentmod/world/dimension/ShyroSkylandDimension.java"
         ]
       },
@@ -857,14 +857,14 @@
       "registry_name": "shyronite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/shyronite_ore.json",
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/shyronite_ore.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyroniteOreBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyronite_ore.json",
           "src/main/resources/data/speciment_mod/worldgen/configured_feature/shyronite_ore.json",
           "src/main/resources/assets/speciment_mod/models/block/shyronite_ore.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyronite_ore.json",
-          "src/main/java/net/mcreator/specimentmod/block/ShyroniteOreBlock.java",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/shyronite_ore.json",
           "src/main/resources/assets/speciment_mod/models/item/shyronite_ore.json",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/shyronite_ore_biome_modifier.json"
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/shyronite_ore_biome_modifier.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyronite_ore.json"
         ]
       },
       "path": "~/Shyro/ShyroMinerai"
@@ -878,10 +878,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/specimentmod/block/ShyroniteBlockBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/shyronite_block.json",
-          "src/main/resources/assets/speciment_mod/models/item/shyronite_block.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/shyronite_block.json",
-          "src/main/resources/assets/speciment_mod/blockstates/shyronite_block.json"
+          "src/main/resources/assets/speciment_mod/models/block/shyronite_block.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyronite_block.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_block.json"
         ]
       },
       "path": "~/Shyro/ShyroMinerai"
@@ -975,8 +975,8 @@
       "registry_name": "shyronite_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/ShyroniteShovelItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/shyronite_shovel.json"
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_shovel.json",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroniteShovelItem.java"
         ]
       },
       "path": "~/Shyro/ShyroMinerai"
@@ -989,8 +989,8 @@
       "registry_name": "shyronite_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/shyronite_hoe.json",
-          "src/main/java/net/mcreator/specimentmod/item/ShyroniteHoeItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/ShyroniteHoeItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_hoe.json"
         ]
       },
       "path": "~/Shyro/ShyroMinerai"
@@ -1068,11 +1068,11 @@
       "registry_name": "shyronite_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_helmet.json",
           "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_boots.json",
           "src/main/java/net/mcreator/specimentmod/item/ShyroniteArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_chestplate.json",
           "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_leggings.json",
-          "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_chestplate.json"
+          "src/main/resources/assets/speciment_mod/models/item/shyronite_armor_helmet.json"
         ]
       },
       "path": "~/Shyro/ShyroMinerai"
@@ -1137,9 +1137,9 @@
       "registry_name": "biomeshyro",
       "metadata": {
         "files": [
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biomeshyro_tree.json",
           "src/main/resources/data/speciment_mod/worldgen/placed_feature/biomeshyro_tree.json",
-          "src/main/resources/data/speciment_mod/worldgen/biome/biomeshyro.json",
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biomeshyro_tree.json"
+          "src/main/resources/data/speciment_mod/worldgen/biome/biomeshyro.json"
         ]
       },
       "path": "~/Shyro"
@@ -1152,8 +1152,8 @@
       "registry_name": "steakde_mimircrue",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/SteakdeMimircrueItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/steakde_mimircrue.json"
+          "src/main/resources/assets/speciment_mod/models/item/steakde_mimircrue.json",
+          "src/main/java/net/mcreator/specimentmod/item/SteakdeMimircrueItem.java"
         ]
       },
       "path": "~/FemiMars/FemiMarsMob"
@@ -1166,8 +1166,8 @@
       "registry_name": "steakde_mimir",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/SteakdeMimirItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/steakde_mimir.json"
+          "src/main/resources/assets/speciment_mod/models/item/steakde_mimir.json",
+          "src/main/java/net/mcreator/specimentmod/item/SteakdeMimirItem.java"
         ]
       },
       "path": "~/FemiMars/FemiMarsMob"
@@ -1193,9 +1193,9 @@
       "registry_name": "mimir",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/mimir_spawn_egg.json",
           "src/main/java/net/mcreator/specimentmod/entity/MimirEntity.java",
           "src/main/java/net/mcreator/specimentmod/client/renderer/MimirRenderer.java",
+          "src/main/resources/assets/speciment_mod/models/item/mimir_spawn_egg.json",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/mimir_biome_modifier.json"
         ]
       },
@@ -1224,13 +1224,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueenium_ore.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueenium_ore.json",
           "src/main/resources/assets/speciment_mod/blockstates/mcqueenium_ore.json",
           "src/main/java/net/mcreator/specimentmod/block/McqueeniumOreBlock.java",
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/mcqueenium_ore.json",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/mcqueenium_ore_biome_modifier.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/mcqueenium_ore.json",
           "src/main/resources/assets/speciment_mod/models/item/mcqueenium_ore.json",
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/mcqueenium_ore.json"
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/mcqueenium_ore_biome_modifier.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/mcqueenium_ore.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueenium_ore.json"
         ]
       },
       "path": "~/McQueen/McQueenMinerai"
@@ -1243,11 +1243,11 @@
       "registry_name": "mcqueenium_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueenium_block.json",
-          "src/main/java/net/mcreator/specimentmod/block/McqueeniumBlockBlock.java",
           "src/main/resources/assets/speciment_mod/models/item/mcqueenium_block.json",
           "src/main/resources/assets/speciment_mod/blockstates/mcqueenium_block.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueenium_block.json"
+          "src/main/resources/assets/speciment_mod/models/block/mcqueenium_block.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueenium_block.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueeniumBlockBlock.java"
         ]
       },
       "path": "~/McQueen/McQueenMinerai"
@@ -1327,8 +1327,8 @@
       "registry_name": "mcqueenium_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_sword.json",
-          "src/main/java/net/mcreator/specimentmod/item/McqueeniumSwordItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/McqueeniumSwordItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_sword.json"
         ]
       },
       "path": "~/McQueen/McQueenMinerai"
@@ -1341,8 +1341,8 @@
       "registry_name": "mcqueenium_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_shovel.json",
-          "src/main/java/net/mcreator/specimentmod/item/McqueeniumShovelItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/McqueeniumShovelItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_shovel.json"
         ]
       },
       "path": "~/McQueen/McQueenMinerai"
@@ -1435,9 +1435,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/specimentmod/item/McqueeniumArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_helmet.json",
           "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_chestplate.json",
           "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_leggings.json",
-          "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_helmet.json",
           "src/main/resources/assets/speciment_mod/models/item/mcqueenium_armor_boots.json"
         ]
       },
@@ -1517,14 +1517,14 @@
       "registry_name": "minox_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/minox_ore.json",
-          "src/main/resources/assets/speciment_mod/models/item/minox_ore.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minox_ore.json",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/minox_ore_biome_modifier.json",
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/minox_ore.json",
           "src/main/resources/data/speciment_mod/worldgen/configured_feature/minox_ore.json",
           "src/main/resources/assets/speciment_mod/models/block/minox_ore.json",
+          "src/main/resources/assets/speciment_mod/models/item/minox_ore.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minox_ore.json",
           "src/main/java/net/mcreator/specimentmod/block/MinoxOreBlock.java",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minox_ore.json"
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/minox_ore.json"
         ]
       },
       "path": "~/Mino/MinoMinerai"
@@ -1537,10 +1537,10 @@
       "registry_name": "minox_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/minox_block.json",
-          "src/main/java/net/mcreator/specimentmod/block/MinoxBlockBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/minox_block.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/minox_block.json",
+          "src/main/resources/assets/speciment_mod/models/item/minox_block.json",
+          "src/main/resources/assets/speciment_mod/models/block/minox_block.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoxBlockBlock.java",
           "src/main/resources/assets/speciment_mod/blockstates/minox_block.json"
         ]
       },
@@ -1621,8 +1621,8 @@
       "registry_name": "minox_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/minox_sword.json",
-          "src/main/java/net/mcreator/specimentmod/item/MinoxSwordItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/MinoxSwordItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/minox_sword.json"
         ]
       },
       "path": "~/Mino/MinoMinerai"
@@ -1728,11 +1728,11 @@
       "registry_name": "minox_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/minox_armor_leggings.json",
-          "src/main/java/net/mcreator/specimentmod/item/MinoxArmorItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/minox_armor_boots.json",
+          "src/main/resources/assets/speciment_mod/models/item/minox_armor_chestplate.json",
           "src/main/resources/assets/speciment_mod/models/item/minox_armor_helmet.json",
-          "src/main/resources/assets/speciment_mod/models/item/minox_armor_chestplate.json"
+          "src/main/resources/assets/speciment_mod/models/item/minox_armor_boots.json",
+          "src/main/java/net/mcreator/specimentmod/item/MinoxArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/minox_armor_leggings.json"
         ]
       },
       "path": "~/Mino/MinoMinerai"
@@ -1808,8 +1808,8 @@
       "registry_name": "mc_queen_manor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/world/dimension/McQueenManorDimension.java",
           "src/main/resources/data/speciment_mod/dimension_type/mc_queen_manor.json",
+          "src/main/java/net/mcreator/specimentmod/world/dimension/McQueenManorDimension.java",
           "src/main/resources/data/speciment_mod/dimension/mc_queen_manor.json"
         ]
       },
@@ -1823,9 +1823,9 @@
       "registry_name": "mino_mysteria",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/dimension_type/mino_mysteria.json",
+          "src/main/resources/data/speciment_mod/dimension/mino_mysteria.json",
           "src/main/java/net/mcreator/specimentmod/world/dimension/MinoMysteriaDimension.java",
-          "src/main/resources/data/speciment_mod/dimension/mino_mysteria.json"
+          "src/main/resources/data/speciment_mod/dimension_type/mino_mysteria.json"
         ]
       },
       "path": "~/Mino"
@@ -1852,13 +1852,13 @@
       "registry_name": "kailonisetum",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/block/KailonisetumBlock.java",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/kailonisetum.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonisetum.json",
           "src/main/resources/assets/speciment_mod/blockstates/kailonisetum.json",
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/kailonisetum.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonisetum.json",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/kailonisetum_biome_modifier.json",
           "src/main/resources/assets/speciment_mod/models/item/kailonisetum.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailonisetumBlock.java",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/kailonisetum_biome_modifier.json",
           "src/main/resources/data/speciment_mod/worldgen/configured_feature/kailonisetum.json"
         ]
       },
@@ -1899,14 +1899,14 @@
       "registry_name": "minolia",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minolia.json",
-          "src/main/resources/assets/speciment_mod/models/block/minolia.json",
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/minolia.json",
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/minolia.json",
+          "src/main/resources/assets/speciment_mod/models/item/minolia.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minolia.json",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/minolia_biome_modifier.json",
           "src/main/java/net/mcreator/specimentmod/block/MinoliaBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/minolia.json",
-          "src/main/resources/assets/speciment_mod/blockstates/minolia.json"
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/minolia.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/minolia.json",
+          "src/main/resources/assets/speciment_mod/models/block/minolia.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minolia.json"
         ]
       },
       "path": "~/Mino"
@@ -1957,8 +1957,8 @@
       "registry_name": "pierredeminomysteria",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/pierredeminomysteria.json",
-          "src/main/java/net/mcreator/specimentmod/item/PierredeminomysteriaItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/PierredeminomysteriaItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/pierredeminomysteria.json"
         ]
       },
       "path": "~/Mino"
@@ -1985,8 +1985,8 @@
       "registry_name": "pierredeshyroskyland",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/PierredeshyroskylandItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/pierredeshyroskyland.json"
+          "src/main/resources/assets/speciment_mod/models/item/pierredeshyroskyland.json",
+          "src/main/java/net/mcreator/specimentmod/item/PierredeshyroskylandItem.java"
         ]
       },
       "path": "~/Shyro"
@@ -2012,8 +2012,8 @@
       "registry_name": "bidonessence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/bidonessence.json",
-          "src/main/java/net/mcreator/specimentmod/item/BidonessenceItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/BidonessenceItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/bidonessence.json"
         ]
       },
       "path": "~/Kailon/KailonMob"
@@ -2086,13 +2086,13 @@
       "registry_name": "mcqueenelle",
       "metadata": {
         "files": [
+          "src/main/resources/assets/speciment_mod/models/block/mcqueenelle.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/mcqueenelle.json",
           "src/main/resources/data/speciment_mod/worldgen/placed_feature/mcqueenelle.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueenelle.json",
           "src/main/resources/assets/speciment_mod/models/item/mcqueenelle.json",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/mcqueenelle_biome_modifier.json",
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/mcqueenelle.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueenelle.json",
           "src/main/java/net/mcreator/specimentmod/block/McqueenelleBlock.java",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueenelle.json",
           "src/main/resources/assets/speciment_mod/blockstates/mcqueenelle.json"
         ]
       },
@@ -2107,13 +2107,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/speciment_mod/models/block/shyrosa.json",
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/shyrosa.json",
-          "src/main/resources/assets/speciment_mod/models/item/shyrosa.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrosaBlock.java",
           "src/main/resources/assets/speciment_mod/blockstates/shyrosa.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrosa.json",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/shyrosa_biome_modifier.json",
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/shyrosa.json",
           "src/main/resources/data/speciment_mod/worldgen/placed_feature/shyrosa.json",
-          "src/main/java/net/mcreator/specimentmod/block/ShyrosaBlock.java"
+          "src/main/resources/assets/speciment_mod/models/item/shyrosa.json",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/shyrosa_biome_modifier.json"
         ]
       },
       "path": "~/Shyro"
@@ -2231,9 +2231,9 @@
       "registry_name": "biomemino",
       "metadata": {
         "files": [
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biomemino_tree.json",
           "src/main/resources/data/speciment_mod/worldgen/biome/biomemino.json",
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biomemino_tree.json",
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biomemino_tree.json"
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biomemino_tree.json"
         ]
       },
       "path": "~/Mino"
@@ -2246,9 +2246,9 @@
       "registry_name": "biomemcqueen",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biomemcqueen_tree.json",
           "src/main/resources/data/speciment_mod/worldgen/biome/biomemcqueen.json",
-          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biomemcqueen_tree.json"
+          "src/main/resources/data/speciment_mod/worldgen/configured_feature/biomemcqueen_tree.json",
+          "src/main/resources/data/speciment_mod/worldgen/placed_feature/biomemcqueen_tree.json"
         ]
       },
       "path": "~/McQueen"
@@ -2261,17 +2261,17 @@
       "registry_name": "lafin",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/dimension/lafin.json",
-          "src/main/java/net/mcreator/specimentmod/world/teleporter/LafinPortalShape.java",
-          "src/main/resources/assets/speciment_mod/blockstates/lafin_portal.json",
           "src/main/java/net/mcreator/specimentmod/block/LafinPortalBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/lafin_portal.json",
+          "src/main/resources/data/speciment_mod/dimension/lafin.json",
+          "src/main/resources/assets/speciment_mod/models/block/lafin_portal_ew.json",
+          "src/main/resources/assets/speciment_mod/models/item/lafin.json",
+          "src/main/java/net/mcreator/specimentmod/world/dimension/LafinDimension.java",
+          "src/main/resources/data/speciment_mod/dimension_type/lafin.json",
           "src/main/java/net/mcreator/specimentmod/item/LafinItem.java",
           "src/main/resources/assets/speciment_mod/models/block/lafin_portal_ns.json",
           "src/main/java/net/mcreator/specimentmod/world/teleporter/LafinTeleporter.java",
-          "src/main/resources/assets/speciment_mod/models/block/lafin_portal_ew.json",
-          "src/main/java/net/mcreator/specimentmod/world/dimension/LafinDimension.java",
-          "src/main/resources/assets/speciment_mod/models/item/lafin.json",
-          "src/main/resources/data/speciment_mod/dimension_type/lafin.json"
+          "src/main/java/net/mcreator/specimentmod/world/teleporter/LafinPortalShape.java"
         ]
       },
       "path": "~/Specimen"
@@ -2284,11 +2284,11 @@
       "registry_name": "rocky",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/entity/RockyEntity.java",
+          "src/main/java/net/mcreator/specimentmod/entity/model/RockyModel.java",
           "src/main/resources/assets/speciment_mod/models/item/rocky_spawn_egg.json",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/rocky_biome_modifier.json",
           "src/main/java/net/mcreator/specimentmod/client/renderer/RockyRenderer.java",
-          "src/main/java/net/mcreator/specimentmod/entity/model/RockyModel.java"
+          "src/main/java/net/mcreator/specimentmod/entity/RockyEntity.java"
         ]
       },
       "path": "~/McQueen/McQueenMob"
@@ -2301,11 +2301,11 @@
       "registry_name": "pneusoft",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/entity/PneusoftEntity.java",
-          "src/main/resources/assets/speciment_mod/models/item/pneusoft_spawn_egg.json",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/PneusoftRenderer.java",
           "src/main/java/net/mcreator/specimentmod/entity/model/PneusoftModel.java",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneusoft_biome_modifier.json"
+          "src/main/java/net/mcreator/specimentmod/entity/PneusoftEntity.java",
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneusoft_biome_modifier.json",
+          "src/main/resources/assets/speciment_mod/models/item/pneusoft_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneusoftRenderer.java"
         ]
       },
       "path": "~/Kailon/KailonMob"
@@ -2318,11 +2318,11 @@
       "registry_name": "pneumedium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/client/renderer/PneumediumRenderer.java",
-          "src/main/resources/assets/speciment_mod/models/item/pneumedium_spawn_egg.json",
-          "src/main/java/net/mcreator/specimentmod/entity/model/PneumediumModel.java",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneumedium_biome_modifier.json",
-          "src/main/java/net/mcreator/specimentmod/entity/PneumediumEntity.java"
+          "src/main/java/net/mcreator/specimentmod/entity/model/PneumediumModel.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneumediumRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/entity/PneumediumEntity.java",
+          "src/main/resources/assets/speciment_mod/models/item/pneumedium_spawn_egg.json"
         ]
       },
       "path": "~/Kailon/KailonMob"
@@ -2335,11 +2335,11 @@
       "registry_name": "pneuhard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/pneuhard_spawn_egg.json",
-          "src/main/java/net/mcreator/specimentmod/entity/model/PneuhardModel.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneuhardRenderer.java",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneuhard_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/entity/model/PneuhardModel.java",
           "src/main/java/net/mcreator/specimentmod/entity/PneuhardEntity.java",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/PneuhardRenderer.java"
+          "src/main/resources/assets/speciment_mod/models/item/pneuhard_spawn_egg.json"
         ]
       },
       "path": "~/Kailon/KailonMob"
@@ -2352,11 +2352,11 @@
       "registry_name": "pneu_intermediaire",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/specimentmod/entity/model/PneuIntermediaireModel.java",
+          "src/main/resources/assets/speciment_mod/models/item/pneu_intermediaire_spawn_egg.json",
           "src/main/java/net/mcreator/specimentmod/entity/PneuIntermediaireEntity.java",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneu_intermediaire_biome_modifier.json",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/PneuIntermediaireRenderer.java",
-          "src/main/java/net/mcreator/specimentmod/entity/model/PneuIntermediaireModel.java",
-          "src/main/resources/assets/speciment_mod/models/item/pneu_intermediaire_spawn_egg.json"
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneuIntermediaireRenderer.java"
         ]
       },
       "path": "~/Kailon/KailonMob"
@@ -2369,11 +2369,11 @@
       "registry_name": "pneuwet",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/entity/model/PneuwetModel.java",
           "src/main/java/net/mcreator/specimentmod/entity/PneuwetEntity.java",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/PneuwetRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/entity/model/PneuwetModel.java",
           "src/main/resources/assets/speciment_mod/models/item/pneuwet_spawn_egg.json",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneuwet_biome_modifier.json"
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/pneuwet_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/PneuwetRenderer.java"
         ]
       },
       "path": "~/Kailon/KailonMob"
@@ -2387,10 +2387,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/speciment_mod/models/item/f_1_spawn_egg.json",
-          "src/main/java/net/mcreator/specimentmod/entity/model/F1Model.java",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/f_1_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/F1Renderer.java",
           "src/main/java/net/mcreator/specimentmod/entity/F1Entity.java",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/F1Renderer.java"
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/f_1_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/entity/model/F1Model.java"
         ]
       },
       "path": "~/Kailon/KailonMob"
@@ -2403,11 +2403,11 @@
       "registry_name": "femiroko_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_wood.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoWoodBlock.java",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_wood.json",
-          "src/main/resources/assets/speciment_mod/blockstates/femiroko_wood.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_wood.json",
           "src/main/resources/assets/speciment_mod/models/item/femiroko_wood.json",
-          "src/main/java/net/mcreator/specimentmod/block/FemirokoWoodBlock.java"
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_wood.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2420,11 +2420,11 @@
       "registry_name": "femiroko_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_log.json",
-          "src/main/resources/assets/speciment_mod/models/item/femiroko_log.json",
           "src/main/resources/assets/speciment_mod/blockstates/femiroko_log.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_log.json",
-          "src/main/java/net/mcreator/specimentmod/block/FemirokoLogBlock.java"
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_log.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_log.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoLogBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_log.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2437,11 +2437,11 @@
       "registry_name": "femiroko_planks",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoPlanksBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_planks.json",
           "src/main/resources/assets/speciment_mod/blockstates/femiroko_planks.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_planks.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_planks.json",
-          "src/main/resources/assets/speciment_mod/models/item/femiroko_planks.json",
-          "src/main/java/net/mcreator/specimentmod/block/FemirokoPlanksBlock.java"
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_planks.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2454,11 +2454,11 @@
       "registry_name": "femiroko_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/block/FemirokoLeavesBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/femiroko_leaves.json",
-          "src/main/resources/assets/speciment_mod/blockstates/femiroko_leaves.json",
           "src/main/resources/assets/speciment_mod/models/block/femiroko_leaves.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_leaves.json"
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_leaves.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoLeavesBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_leaves.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_leaves.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2473,11 +2473,11 @@
         "files": [
           "src/main/resources/assets/speciment_mod/models/block/femiroko_stairs_inner.json",
           "src/main/resources/assets/speciment_mod/models/item/femiroko_stairs.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_stairs_outer.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_stairs.json",
           "src/main/java/net/mcreator/specimentmod/block/FemirokoStairsBlock.java",
-          "src/main/resources/assets/speciment_mod/blockstates/femiroko_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_stairs_outer.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_stairs.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_stairs.json"
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_stairs.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2490,13 +2490,13 @@
       "registry_name": "femiroko_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_slab.json",
           "src/main/resources/assets/speciment_mod/models/item/femiroko_slab.json",
           "src/main/resources/assets/speciment_mod/blockstates/femiroko_slab.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_slab_full.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_slab.json",
           "src/main/java/net/mcreator/specimentmod/block/FemirokoSlabBlock.java",
           "src/main/resources/assets/speciment_mod/models/block/femiroko_slab_top.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_slab.json"
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_slab_full.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_slab.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2509,13 +2509,13 @@
       "registry_name": "femiroko_fence",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/block/FemirokoFenceBlock.java",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_fence.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_post.json",
-          "src/main/resources/assets/speciment_mod/models/item/femiroko_fence.json",
           "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_inventory.json",
-          "src/main/resources/assets/speciment_mod/blockstates/femiroko_fence.json"
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_fence.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoFenceBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_post.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_fence.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2528,14 +2528,14 @@
       "registry_name": "femiroko_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/femiroko_fence_gate.json",
-          "src/main/java/net/mcreator/specimentmod/block/FemirokoFenceGateBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate_wall_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate.json",
           "src/main/resources/assets/speciment_mod/models/item/femiroko_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate_wall.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate_open.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_fence_gate.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate.json"
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate_wall.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoFenceGateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_fence_gate_open.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2548,12 +2548,12 @@
       "registry_name": "femiroko_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_pressure_plate_down.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_pressure_plate.json",
-          "src/main/java/net/mcreator/specimentmod/block/FemirokoPressurePlateBlock.java",
           "src/main/resources/assets/speciment_mod/models/item/femiroko_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_pressure_plate.json",
+          "src/main/java/net/mcreator/specimentmod/block/FemirokoPressurePlateBlock.java",
           "src/main/resources/assets/speciment_mod/blockstates/femiroko_pressure_plate.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_pressure_plate.json"
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_pressure_plate_down.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_pressure_plate.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2566,13 +2566,13 @@
       "registry_name": "femiroko_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/femiroko_button.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_button.json",
+          "src/main/resources/assets/speciment_mod/blockstates/femiroko_button.json",
           "src/main/resources/assets/speciment_mod/models/block/femiroko_button_inventory.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_button.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_button_pressed.json",
           "src/main/java/net/mcreator/specimentmod/block/FemirokoButtonBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/femiroko_button.json"
+          "src/main/resources/assets/speciment_mod/models/item/femiroko_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_button_pressed.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -2702,11 +2702,11 @@
       "registry_name": "kailonea_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_wood.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailonea_wood.json",
           "src/main/java/net/mcreator/specimentmod/block/KailoneaWoodBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_wood.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_wood.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_wood.json",
-          "src/main/resources/assets/speciment_mod/blockstates/kailonea_wood.json"
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_wood.json"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -2719,10 +2719,10 @@
       "registry_name": "kailonea_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/kailonea_log.json",
           "src/main/java/net/mcreator/specimentmod/block/KailoneaLogBlock.java",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_log.json",
           "src/main/resources/assets/speciment_mod/models/item/kailonea_log.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_log.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_log.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonea_log.json"
         ]
       },
@@ -2736,11 +2736,11 @@
       "registry_name": "kailonea_planks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_planks.json",
           "src/main/resources/assets/speciment_mod/blockstates/kailonea_planks.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_planks.json",
           "src/main/java/net/mcreator/specimentmod/block/KailoneaPlanksBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_planks.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailonea_planks.json"
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_planks.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_planks.json"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -2754,10 +2754,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/speciment_mod/models/item/kailonea_leaves.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_leaves.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_leaves.json",
           "src/main/resources/assets/speciment_mod/blockstates/kailonea_leaves.json",
-          "src/main/java/net/mcreator/specimentmod/block/KailoneaLeavesBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_leaves.json"
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaLeavesBlock.java"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -2770,13 +2770,13 @@
       "registry_name": "kailonea_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs_outer.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailonea_stairs.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs_inner.json",
-          "src/main/resources/assets/speciment_mod/blockstates/kailonea_stairs.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_stairs.json",
           "src/main/java/net/mcreator/specimentmod/block/KailoneaStairsBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs.json"
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs_inner.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_stairs_outer.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_stairs.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_stairs.json"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -2789,13 +2789,13 @@
       "registry_name": "kailonea_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/kailonea_slab.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_slab_top.json",
-          "src/main/java/net/mcreator/specimentmod/block/KailoneaSlabBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/kailonea_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_slab.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonea_slab_full.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_slab.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_slab.json"
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_slab.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaSlabBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_slab_top.json"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -2808,13 +2808,13 @@
       "registry_name": "kailonea_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/kailonea_fence.json",
-          "src/main/resources/assets/speciment_mod/blockstates/kailonea_fence.json",
-          "src/main/java/net/mcreator/specimentmod/block/KailoneaFenceBlock.java",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_inventory.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonea_fence.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_post.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_inventory.json"
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaFenceBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_fence.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_fence.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_fence.json"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -2827,14 +2827,14 @@
       "registry_name": "kailonea_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/blockstates/kailonea_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_wall.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailonea_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_open.json",
           "src/main/java/net/mcreator/specimentmod/block/KailoneaFenceGateBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_wall_open.json"
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_wall_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_wall.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_fence_gate.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_fence_gate_open.json"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -2847,12 +2847,12 @@
       "registry_name": "kailonea_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_pressure_plate.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_pressure_plate.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_pressure_plate_down.json",
-          "src/main/java/net/mcreator/specimentmod/block/KailoneaPressurePlateBlock.java",
           "src/main/resources/assets/speciment_mod/models/item/kailonea_pressure_plate.json",
-          "src/main/resources/assets/speciment_mod/blockstates/kailonea_pressure_plate.json"
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_pressure_plate_down.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_pressure_plate.json",
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaPressurePlateBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_pressure_plate.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_pressure_plate.json"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -2865,13 +2865,13 @@
       "registry_name": "kailonea_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/kailonea_button.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_button_inventory.json",
-          "src/main/java/net/mcreator/specimentmod/block/KailoneaButtonBlock.java",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_button.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_button.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_button.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonea_button.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonea_button_pressed.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailonea_button.json"
+          "src/main/java/net/mcreator/specimentmod/block/KailoneaButtonBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_button_inventory.json"
         ]
       },
       "path": "~/Kailon/KailonBois"
@@ -3020,18 +3020,18 @@
       "registry_name": "femiroko_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_right_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_right.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_left_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_right.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/femiroko_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_left.json",
           "src/main/java/net/mcreator/specimentmod/block/FemirokoDoorBlock.java",
           "src/main/resources/assets/speciment_mod/blockstates/femiroko_door.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_right.json",
           "src/main/resources/assets/speciment_mod/models/item/femiroko_door.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_left.json",
           "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_right_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_left_open.json"
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_bottom_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/femiroko_door_top_right.json"
         ]
       },
       "path": "~/FemiMars/FemiMarsBois"
@@ -3044,17 +3044,17 @@
       "registry_name": "kailonea_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_right.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailonea_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_left.json",
           "src/main/java/net/mcreator/specimentmod/block/KailoneaDoorBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailonea_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_left.json",
+          "src/main/resources/assets/speciment_mod/blockstates/kailonea_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_right_open.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_right_open.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_left_open.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/kailonea_door.json",
-          "src/main/resources/assets/speciment_mod/blockstates/kailonea_door.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_right_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_right.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_left.json",
-          "src/main/resources/assets/speciment_mod/models/block/kailonea_door_top_left.json",
           "src/main/resources/assets/speciment_mod/models/block/kailonea_door_bottom_left_open.json"
         ]
       },
@@ -3068,11 +3068,11 @@
       "registry_name": "shyrocia_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_wood.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_wood.json",
           "src/main/java/net/mcreator/specimentmod/block/ShyrociaWoodBlock.java",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_wood.json",
-          "src/main/resources/assets/speciment_mod/models/item/shyrocia_wood.json"
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_wood.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_wood.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_wood.json"
         ]
       },
       "path": "~/Shyro/ShyroBois"
@@ -3085,11 +3085,11 @@
       "registry_name": "shyrocia_log",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/block/ShyrociaLogBlock.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_log.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_log.json",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_log.json",
           "src/main/resources/assets/speciment_mod/blockstates/shyrocia_log.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_log.json",
-          "src/main/resources/assets/speciment_mod/models/item/shyrocia_log.json"
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaLogBlock.java"
         ]
       },
       "path": "~/Shyro/ShyroBois"
@@ -3102,11 +3102,11 @@
       "registry_name": "shyrocia_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_planks.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_planks.json",
           "src/main/resources/assets/speciment_mod/blockstates/shyrocia_planks.json",
-          "src/main/java/net/mcreator/specimentmod/block/ShyrociaPlanksBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/shyrocia_planks.json"
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_planks.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_planks.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_planks.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaPlanksBlock.java"
         ]
       },
       "path": "~/Shyro/ShyroBois"
@@ -3119,11 +3119,11 @@
       "registry_name": "shyrocia_leaves",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaLeavesBlock.java",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_leaves.json",
           "src/main/resources/assets/speciment_mod/models/item/shyrocia_leaves.json",
-          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_leaves.json",
-          "src/main/java/net/mcreator/specimentmod/block/ShyrociaLeavesBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_leaves.json"
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_leaves.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_leaves.json"
         ]
       },
       "path": "~/Shyro/ShyroBois"
@@ -3136,12 +3136,12 @@
       "registry_name": "shyrocia_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_stairs_inner.json",
           "src/main/resources/assets/speciment_mod/models/item/shyrocia_stairs.json",
           "src/main/java/net/mcreator/specimentmod/block/ShyrociaStairsBlock.java",
-          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_stairs.json",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_stairs.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_stairs_inner.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_stairs.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_stairs.json",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_stairs_outer.json"
         ]
       },
@@ -3155,13 +3155,13 @@
       "registry_name": "shyrocia_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_slab.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_slab_top.json",
-          "src/main/resources/assets/speciment_mod/models/item/shyrocia_slab.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_slab_full.json",
-          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_slab.json",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_slab.json",
-          "src/main/java/net/mcreator/specimentmod/block/ShyrociaSlabBlock.java"
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_slab.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_slab_top.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaSlabBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_slab_full.json"
         ]
       },
       "path": "~/Shyro/ShyroBois"
@@ -3174,12 +3174,12 @@
       "registry_name": "shyrocia_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_fence.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence.json",
-          "src/main/java/net/mcreator/specimentmod/block/ShyrociaFenceBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_post.json",
           "src/main/resources/assets/speciment_mod/models/item/shyrocia_fence.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_fence.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_fence.json",
+          "src/main/java/net/mcreator/specimentmod/block/ShyrociaFenceBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_post.json",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_inventory.json"
         ]
       },
@@ -3193,14 +3193,14 @@
       "registry_name": "shyrocia_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/shyrocia_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_wall_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_wall.json",
           "src/main/java/net/mcreator/specimentmod/block/ShyrociaFenceGateBlock.java",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_fence_gate.json",
           "src/main/resources/assets/speciment_mod/blockstates/shyrocia_fence_gate.json",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_wall.json"
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_fence_gate_wall_open.json"
         ]
       },
       "path": "~/Shyro/ShyroBois"
@@ -3214,11 +3214,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/speciment_mod/models/item/shyrocia_pressure_plate.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_pressure_plate.json",
           "src/main/java/net/mcreator/specimentmod/block/ShyrociaPressurePlateBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_pressure_plate.json",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_pressure_plate_down.json",
-          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_pressure_plate.json"
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_pressure_plate.json"
         ]
       },
       "path": "~/Shyro/ShyroBois"
@@ -3232,12 +3232,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/speciment_mod/blockstates/shyrocia_button.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_button.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_button.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_button_inventory.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_button_pressed.json",
           "src/main/java/net/mcreator/specimentmod/block/ShyrociaButtonBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/shyrocia_button.json"
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_button_inventory.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_button.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_button_pressed.json"
         ]
       },
       "path": "~/Shyro/ShyroBois"
@@ -3367,11 +3367,11 @@
       "registry_name": "minoria_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_wood.json",
-          "src/main/resources/assets/speciment_mod/blockstates/minoria_wood.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_wood.json",
           "src/main/java/net/mcreator/specimentmod/block/MinoriaWoodBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/minoria_wood.json"
+          "src/main/resources/assets/speciment_mod/models/item/minoria_wood.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_wood.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_wood.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_wood.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3384,11 +3384,11 @@
       "registry_name": "minoria_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_log.json",
-          "src/main/resources/assets/speciment_mod/blockstates/minoria_log.json",
-          "src/main/java/net/mcreator/specimentmod/block/MinoriaLogBlock.java",
           "src/main/resources/assets/speciment_mod/models/item/minoria_log.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_log.json"
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaLogBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_log.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_log.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_log.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3401,11 +3401,11 @@
       "registry_name": "minoria_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/minoria_planks.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_planks.json",
-          "src/main/java/net/mcreator/specimentmod/block/MinoriaPlanksBlock.java",
           "src/main/resources/assets/speciment_mod/models/item/minoria_planks.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_planks.json"
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_planks.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_planks.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaPlanksBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_planks.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3418,11 +3418,11 @@
       "registry_name": "minoria_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_leaves.json",
           "src/main/resources/assets/speciment_mod/blockstates/minoria_leaves.json",
-          "src/main/java/net/mcreator/specimentmod/block/MinoriaLeavesBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_leaves.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_leaves.json",
           "src/main/resources/assets/speciment_mod/models/item/minoria_leaves.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_leaves.json"
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaLeavesBlock.java"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3435,13 +3435,13 @@
       "registry_name": "minoria_stairs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/block/MinoriaStairsBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/minoria_stairs.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_stairs_outer.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_stairs.json",
-          "src/main/resources/assets/speciment_mod/blockstates/minoria_stairs.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_stairs.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_stairs_inner.json"
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_stairs.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaStairsBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_stairs_inner.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_stairs_outer.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_stairs.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3455,12 +3455,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_slab.json",
-          "src/main/java/net/mcreator/specimentmod/block/MinoriaSlabBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/minoria_slab.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_slab.json",
-          "src/main/resources/assets/speciment_mod/blockstates/minoria_slab.json",
           "src/main/resources/assets/speciment_mod/models/block/minoria_slab_full.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_slab_top.json"
+          "src/main/resources/assets/speciment_mod/models/block/minoria_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_slab_top.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaSlabBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_slab.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_slab.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3473,13 +3473,13 @@
       "registry_name": "minoria_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/minoria_fence.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_fence.json",
-          "src/main/resources/assets/speciment_mod/models/item/minoria_fence.json",
-          "src/main/java/net/mcreator/specimentmod/block/MinoriaFenceBlock.java",
           "src/main/resources/assets/speciment_mod/models/block/minoria_fence.json",
           "src/main/resources/assets/speciment_mod/models/block/minoria_fence_post.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_inventory.json"
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_fence.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_fence.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_inventory.json",
+          "src/main/java/net/mcreator/specimentmod/block/MinoriaFenceBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_fence.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3493,13 +3493,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_wall.json",
           "src/main/java/net/mcreator/specimentmod/block/MinoriaFenceGateBlock.java",
           "src/main/resources/assets/speciment_mod/blockstates/minoria_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_wall.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_open.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/item/minoria_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_wall_open.json"
+          "src/main/resources/assets/speciment_mod/models/block/minoria_fence_gate_wall_open.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_fence_gate.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3514,10 +3514,10 @@
         "files": [
           "src/main/resources/assets/speciment_mod/models/block/minoria_pressure_plate_down.json",
           "src/main/java/net/mcreator/specimentmod/block/MinoriaPressurePlateBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_pressure_plate.json",
           "src/main/resources/assets/speciment_mod/models/item/minoria_pressure_plate.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_pressure_plate.json",
-          "src/main/resources/assets/speciment_mod/blockstates/minoria_pressure_plate.json"
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_pressure_plate.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3531,12 +3531,12 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/specimentmod/block/MinoriaButtonBlock.java",
-          "src/main/resources/assets/speciment_mod/blockstates/minoria_button.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_button.json",
           "src/main/resources/assets/speciment_mod/models/block/minoria_button_inventory.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_button.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_button.json",
           "src/main/resources/assets/speciment_mod/models/block/minoria_button_pressed.json",
-          "src/main/resources/assets/speciment_mod/models/item/minoria_button.json"
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_button.json",
+          "src/main/resources/assets/speciment_mod/blockstates/minoria_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_button.json"
         ]
       },
       "path": "~/Mino/MinoBois"
@@ -3666,18 +3666,18 @@
       "registry_name": "shyrocia_door",
       "metadata": {
         "files": [
+          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_right_open.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyrocia_door.json",
           "src/main/java/net/mcreator/specimentmod/block/ShyrociaDoorBlock.java",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_left_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_left_open.json",
-          "src/main/resources/assets/speciment_mod/blockstates/shyrocia_door.json",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_right.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/shyrocia_door.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_left.json",
-          "src/main/resources/assets/speciment_mod/models/item/shyrocia_door.json",
           "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_left.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_right_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_bottom_right.json",
-          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_right_open.json"
+          "src/main/resources/assets/speciment_mod/models/block/shyrocia_door_top_left.json"
         ]
       },
       "path": "~/Shyro/ShyroBois"
@@ -3690,17 +3690,17 @@
       "registry_name": "minoria_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/minoria_door.json",
           "src/main/resources/assets/speciment_mod/blockstates/minoria_door.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_left_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_right.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_door.json",
           "src/main/java/net/mcreator/specimentmod/block/MinoriaDoorBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_right_open.json",
+          "src/main/resources/assets/speciment_mod/models/item/minoria_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_right.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/minoria_door.json",
           "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_right_open.json",
           "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_left.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_right_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_left.json",
-          "src/main/resources/assets/speciment_mod/models/block/minoria_door_top_right.json",
           "src/main/resources/assets/speciment_mod/models/block/minoria_door_bottom_left_open.json"
         ]
       },
@@ -3714,11 +3714,11 @@
       "registry_name": "mcqueencifolia_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaWoodBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_wood.json",
-          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_wood.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_wood.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_wood.json"
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaWoodBlock.java",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_wood.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_wood.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_wood.json"
         ]
       },
       "path": "~/McQueen/McQueenBois"
@@ -3731,11 +3731,11 @@
       "registry_name": "mcqueencifolia_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_log.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_log.json",
           "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaLogBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_log.json",
-          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_log.json"
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_log.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_log.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_log.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_log.json"
         ]
       },
       "path": "~/McQueen/McQueenBois"
@@ -3748,9 +3748,9 @@
       "registry_name": "mcqueencifolia_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaPlanksBlock.java",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_planks.json",
           "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_planks.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaPlanksBlock.java",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_planks.json",
           "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_planks.json"
         ]
@@ -3765,11 +3765,11 @@
       "registry_name": "mcqueencifolia_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_leaves.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_leaves.json",
           "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaLeavesBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_leaves.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_leaves.json",
           "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_leaves.json",
-          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_leaves.json"
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_leaves.json"
         ]
       },
       "path": "~/McQueen/McQueenBois"
@@ -3783,12 +3783,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_stairs.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_stairs.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_stairs_inner.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_stairs.json",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_stairs_outer.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_stairs.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_stairs.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_stairs.json",
           "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaStairsBlock.java",
-          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_stairs.json"
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_stairs_inner.json"
         ]
       },
       "path": "~/McQueen/McQueenBois"
@@ -3801,13 +3801,13 @@
       "registry_name": "mcqueencifolia_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_slab.json",
-          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_slab.json",
-          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_slab.json",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_slab.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_slab_top.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_slab.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_slab.json",
           "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaSlabBlock.java",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_slab_full.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_slab_top.json"
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_slab.json"
         ]
       },
       "path": "~/McQueen/McQueenBois"
@@ -3821,12 +3821,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_fence.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_inventory.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence.json",
-          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_fence.json",
-          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_fence.json",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_post.json",
-          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaFenceBlock.java"
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_inventory.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaFenceBlock.java",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_fence.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_fence.json"
         ]
       },
       "path": "~/McQueen/McQueenBois"
@@ -3839,13 +3839,13 @@
       "registry_name": "mcqueencifolia_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_fence_gate.json",
-          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaFenceGateBlock.java",
           "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_fence_gate.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_fence_gate.json",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate_wall.json",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate_wall.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_fence_gate.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaFenceGateBlock.java",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_fence_gate_wall_open.json"
         ]
       },
@@ -3859,12 +3859,12 @@
       "registry_name": "mcqueencifolia_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_pressure_plate_down.json",
-          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_pressure_plate.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_pressure_plate.json",
-          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaPressurePlateBlock.java",
           "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_pressure_plate.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_pressure_plate.json"
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_pressure_plate.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_pressure_plate_down.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_pressure_plate.json",
+          "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaPressurePlateBlock.java"
         ]
       },
       "path": "~/McQueen/McQueenBois"
@@ -3878,12 +3878,12 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaButtonBlock.java",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_button.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_button.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_button_pressed.json",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_button_inventory.json",
           "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_button.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_button_pressed.json",
-          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_button.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_button.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_button.json"
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_button.json"
         ]
       },
       "path": "~/McQueen/McQueenBois"
@@ -4013,18 +4013,18 @@
       "registry_name": "mcqueencifolia_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_left_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_right.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_left.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_right.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_right_open.json",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_left_open.json",
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_door.json",
-          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_door.json",
-          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_door.json",
           "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_right_open.json",
           "src/main/java/net/mcreator/specimentmod/block/McqueencifoliaDoorBlock.java",
-          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_left.json"
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_right.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mcqueencifolia_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_left_open.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_left.json",
+          "src/main/resources/assets/speciment_mod/blockstates/mcqueencifolia_door.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueencifolia_door.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_left.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_top_right.json",
+          "src/main/resources/assets/speciment_mod/models/block/mcqueencifolia_door_bottom_right_open.json"
         ]
       },
       "path": "~/McQueen/McQueenBois"
@@ -4161,11 +4161,11 @@
       "registry_name": "catalyseur_ultime",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/block/catalyseur_ultime.json",
-          "src/main/java/net/mcreator/specimentmod/block/CatalyseurUltimeBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/catalyseur_ultime.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/catalyseur_ultime.json",
-          "src/main/resources/assets/speciment_mod/blockstates/catalyseur_ultime.json"
+          "src/main/resources/assets/speciment_mod/models/item/catalyseur_ultime.json",
+          "src/main/resources/assets/speciment_mod/blockstates/catalyseur_ultime.json",
+          "src/main/resources/assets/speciment_mod/models/block/catalyseur_ultime.json",
+          "src/main/java/net/mcreator/specimentmod/block/CatalyseurUltimeBlock.java"
         ]
       },
       "path": "~/Specimen"
@@ -4178,8 +4178,8 @@
       "registry_name": "ordredemission",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/item/OrdredemissionItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/ordredemission.json"
+          "src/main/resources/assets/speciment_mod/models/item/ordredemission.json",
+          "src/main/java/net/mcreator/specimentmod/item/OrdredemissionItem.java"
         ]
       },
       "path": "~/Specimen"
@@ -4512,10 +4512,10 @@
       "registry_name": "charomane",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/entity/CharomaneEntity.java",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/CharomaneRenderer.java",
           "src/main/resources/assets/speciment_mod/models/item/charomane_spawn_egg.json",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/charomane_biome_modifier.json"
+          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/charomane_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/CharomaneRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/entity/CharomaneEntity.java"
         ]
       },
       "path": "~/Shyro/ShyroMob"
@@ -4564,10 +4564,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/specimentmod/item/MinoxSuperArmorItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_helmet.json",
           "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_chestplate.json",
           "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_boots.json",
-          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_chestplate.json"
+          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_helmet.json"
         ]
       },
       "path": "~/Mino/MinoSuperArmure"
@@ -4687,8 +4687,8 @@
         "files": [
           "src/main/java/net/mcreator/specimentmod/block/MinoSandBlock.java",
           "src/main/resources/assets/speciment_mod/blockstates/mino_sand.json",
-          "src/main/resources/assets/speciment_mod/models/item/mino_sand.json",
           "src/main/resources/data/speciment_mod/loot_tables/blocks/mino_sand.json",
+          "src/main/resources/assets/speciment_mod/models/item/mino_sand.json",
           "src/main/resources/assets/speciment_mod/models/block/mino_sand.json"
         ]
       },
@@ -4702,10 +4702,10 @@
       "registry_name": "mino_sandstone",
       "metadata": {
         "files": [
-          "src/main/resources/data/speciment_mod/loot_tables/blocks/mino_sandstone.json",
+          "src/main/resources/assets/speciment_mod/models/item/mino_sandstone.json",
           "src/main/resources/assets/speciment_mod/models/block/mino_sandstone.json",
           "src/main/java/net/mcreator/specimentmod/block/MinoSandstoneBlock.java",
-          "src/main/resources/assets/speciment_mod/models/item/mino_sandstone.json",
+          "src/main/resources/data/speciment_mod/loot_tables/blocks/mino_sandstone.json",
           "src/main/resources/assets/speciment_mod/blockstates/mino_sandstone.json"
         ]
       },
@@ -4733,8 +4733,8 @@
       "registry_name": "catalyst_of_mino_mysteria",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/catalyst_of_mino_mysteria.json",
-          "src/main/java/net/mcreator/specimentmod/item/CatalystOfMinoMysteriaItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/CatalystOfMinoMysteriaItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/catalyst_of_mino_mysteria.json"
         ]
       },
       "path": "~/Mino"
@@ -4747,8 +4747,8 @@
       "registry_name": "catalyst_of_mcqueen_manor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/catalyst_of_mcqueen_manor.json",
-          "src/main/java/net/mcreator/specimentmod/item/CatalystOfMcqueenManorItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/CatalystOfMcqueenManorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/catalyst_of_mcqueen_manor.json"
         ]
       },
       "path": "~/McQueen"
@@ -4761,8 +4761,8 @@
       "registry_name": "catalyst_of_shyro_skyland",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/catalyst_of_shyro_skyland.json",
-          "src/main/java/net/mcreator/specimentmod/item/CatalystOfShyroSkylandItem.java"
+          "src/main/java/net/mcreator/specimentmod/item/CatalystOfShyroSkylandItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/catalyst_of_shyro_skyland.json"
         ]
       },
       "path": "~/Shyro"
@@ -5038,9 +5038,9 @@
       "registry_name": "zombie_femi",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/entity/ZombieFemiEntity.java",
           "src/main/java/net/mcreator/specimentmod/client/renderer/ZombieFemiRenderer.java",
           "src/main/resources/data/speciment_mod/neoforge/biome_modifier/zombie_femi_biome_modifier.json",
+          "src/main/java/net/mcreator/specimentmod/entity/ZombieFemiEntity.java",
           "src/main/resources/assets/speciment_mod/models/item/zombie_femi_spawn_egg.json"
         ]
       },
@@ -5260,7 +5260,7 @@
           "src/main/resources/assets/speciment_mod/models/item/stafflave.json"
         ]
       },
-      "path": "~/FemiMars"
+      "path": "~/Kailon"
     },
     {
       "name": "StaffEvenementAuClicDroitDansLair",
@@ -5440,6 +5440,117 @@
         ]
       },
       "path": "~/McQueen/McQueenMob"
+    },
+    {
+      "name": "LavacastLorsqueLeProjectileToucheUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavacast_lorsque_le_projectile_touche_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/LavacastLorsqueLeProjectileToucheUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "Lavacast",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavacast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/client/renderer/LavacastRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/entity/LavacastEntity.java"
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "StafflaveEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stafflave_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/StafflaveEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kailon"
+    },
+    {
+      "name": "BatondeventEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batondevent_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/BatondeventEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Batondevent",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batondevent",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/batondevent.json",
+          "src/main/java/net/mcreator/specimentmod/item/BatondeventItem.java"
+        ]
+      },
+      "path": "~/Shyro"
+    },
+    {
+      "name": "Projectvent",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectvent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/entity/ProjectventEntity.java",
+          "src/main/java/net/mcreator/specimentmod/client/renderer/ProjectventRenderer.java"
+        ]
+      },
+      "path": "~/Shyro"
     }
   ],
   "variable_elements": [
@@ -5701,13 +5812,6 @@
       "~CUSTOM:KailoneaLeaves",
       "~CUSTOM:FemirokoLeaves"
     ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:McqueencifoliaSlab",
-      "~CUSTOM:MinoriaSlab",
-      "~CUSTOM:ShyrociaSlab",
-      "~CUSTOM:KailoneaSlab",
-      "~CUSTOM:FemirokoSlab"
-    ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:MinoxBlock",
       "~CUSTOM:MinoxOre",
@@ -5726,6 +5830,13 @@
       "~CUSTOM:ShyronitePickaxe",
       "~CUSTOM:KailonitePickaxe",
       "~CUSTOM:FemiumPickaxe"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:McqueencifoliaSlab",
+      "~CUSTOM:MinoriaSlab",
+      "~CUSTOM:ShyrociaSlab",
+      "~CUSTOM:KailoneaSlab",
+      "~CUSTOM:FemirokoSlab"
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:BiomeFemi"
@@ -5832,7 +5943,8 @@
       "Poudredeshyrosa",
       "Pierredeshyroskyland",
       "Charomane",
-      "Blocdarkshyro"
+      "Blocdarkshyro",
+      "Batondevent"
     ],
     "CUSTOM:McQueen": [
       "CatalystOfMcqueenManor",
@@ -5898,7 +6010,8 @@
       "Pneuhard",
       "PneuIntermediaire",
       "Pneuwet",
-      "Blocdarkkailon"
+      "Blocdarkkailon",
+      "Stafflave"
     ],
     "CUSTOM:Specimen": [
       "Catalyseurvide",
@@ -5938,7 +6051,6 @@
       "Mimir",
       "ZombieFemi",
       "Stafffeu",
-      "Stafflave",
       "Blocdarkfemi"
     ]
   },
@@ -5971,12 +6083,13 @@
       "block.speciment_mod.minoria_pressure_plate": "Minoria Pressure Plate",
       "item.speciment_mod.femium_axe": "Femium Axe",
       "block.speciment_mod.shyrocia_stairs": "Shyrocia Stairs",
-      "item.speciment_mod.catalyseurvide": "Empty catalyst",
       "block.speciment_mod.femium_ore": "Femium Ore",
+      "item.speciment_mod.catalyseurvide": "Empty catalyst",
       "block.speciment_mod.minoria_slab": "Minoria Slab",
       "block.speciment_mod.shyronite_block": "Block of Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Medium Tyre Spawn Egg",
       "block.speciment_mod.kailonea_leaves": "Kailonea Leaves",
+      "block.speciment_mod.blocdarkmcqueen": "Blocdarkfemi",
       "block.speciment_mod.femiroko_slab": "Femiroko Slab",
       "block.speciment_mod.mcqueencifolia_fence_gate": "Mcqueencifolia Fence Gate",
       "item.speciment_mod.minox_super_armor_leggings": "Mystic Minox Leggings",
@@ -5990,6 +6103,7 @@
       "entity.speciment_mod.pneu_intermediaire": "Intermediate Tyre",
       "block.speciment_mod.shyronite_ore": "Shyronite Ore",
       "item.speciment_mod.minox_armor_helmet": "Minox Helmet",
+      "item.speciment_mod.staff": "Baton electrique",
       "item.speciment_mod.mcqueenium_pickaxe": "Mcqueenium Pickaxe",
       "block.speciment_mod.kailonea_planks": "Kailonea Planks",
       "item.speciment_mod.pneusoft_spawn_egg": "Soft Tyre Spawn Egg",
@@ -6001,11 +6115,13 @@
       "block.speciment_mod.kailonite_ore": "Kailonite Ore",
       "block.speciment_mod.shyrocia_door": "Shyrocia Door",
       "entity.speciment_mod.zombie_femi": "Zombie Femi",
+      "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Mcqueencifolia Slab",
       "item.speciment_mod.lafin": "Ultimate Catalyst",
       "item.speciment_mod.pierredeminomysteria": "Mino\u0027s Mysteria Stone",
-      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "block.speciment_mod.kailonea_fence_gate": "Kailonea Fence Gate",
+      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
+      "item.speciment_mod.stafffeu": "Baton Incandescent",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
@@ -6037,9 +6153,11 @@
       "block.speciment_mod.kailonea_button": "Kailonea Button",
       "block.speciment_mod.femilis": "Femilis",
       "block.speciment_mod.kailonea_slab": "Kailonea Slab",
+      "item.speciment_mod.batondevent": "Batondevent",
       "item.speciment_mod.shyronite_armor_chestplate": "Shyronite Chestplate",
       "item.speciment_mod.shyronite": "Shyronite",
       "block.speciment_mod.shyrocia_slab": "Shyrocia Slab",
+      "item.speciment_mod.stafflave": "Baton_de Magma",
       "item.speciment_mod.catalyst_of_shyro_skyland": "Catalyst Of Shyro\u0027s Skyland",
       "block.speciment_mod.mcqueencifolia_door": "Mcqueencifolia Door",
       "item.speciment_mod.steakde_mimircrue": "Steak de Mimir crue",
@@ -6070,6 +6188,7 @@
       "block.speciment_mod.kailonea_log": "Kailonea Log",
       "item.speciment_mod.minox_hoe": "Minox Hoe",
       "subtitles.lerapdelaf1": "Kailon",
+      "block.speciment_mod.blocdarkshyro": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_fence": "Shyrocia Fence",
       "block.speciment_mod.mcqueenium_block": "Block of Mcqueenium",
       "item.speciment_mod.zombie_femi_spawn_egg": "Zombie Femi Spawn Egg",
@@ -6080,6 +6199,7 @@
       "item.speciment_mod.mcqueenium_sword": "Mcqueenium Sword",
       "item.speciment_mod.ordredemission.desc": "Une mission tendu",
       "block.speciment_mod.kailonea_pressure_plate": "Kailonea Pressure Plate",
+      "block.speciment_mod.blocdarkmino": "Blocdarkfemi",
       "block.speciment_mod.mino_sand": "Mino Sand",
       "block.speciment_mod.minoria_button": "Minoria Button",
       "item.speciment_mod.femium_armor_boots": "Femium Boots",
@@ -6090,6 +6210,7 @@
       "item.speciment_mod.kailonite_shovel": "Kailonite Shovel",
       "subtitles.ordredemission": "",
       "block.speciment_mod.kailonea_door": "Kailonea Door",
+      "item.speciment_mod.dark_femi_boss_spawn_egg": "Dark Femi Spawn Egg",
       "item_group.speciment_mod.kailon": "Kailon",
       "item_group.speciment_mod.specimen": "Specimen",
       "item.speciment_mod.femium_hoe": "Femium Hoe",
@@ -6103,6 +6224,7 @@
       "block.speciment_mod.femiroko_fence": "Femiroko Fence",
       "block.speciment_mod.minoria_log": "Minoria Log",
       "item.speciment_mod.minox_activation_crystal": "Minox Activation Crystal",
+      "block.speciment_mod.blocdarkfemi": "Blocdarkfemi",
       "item.speciment_mod.shyronite_hoe": "Shyronite Hoe",
       "block.speciment_mod.femiroko_stairs": "Femiroko Stairs",
       "block.speciment_mod.shyrocia_wood": "Shyrocia Wood",
@@ -6117,6 +6239,7 @@
       "block.speciment_mod.mcqueencifolia_pressure_plate": "Mcqueencifolia Pressure Plate",
       "item.speciment_mod.femium_armor_leggings": "Femium Leggings",
       "biome.speciment_mod.biomemino": "Biomemino",
+      "block.speciment_mod.blocdarkkailon": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_pressure_plate": "Shyrocia Pressure Plate",
       "item.speciment_mod.minox_super_armor_helmet": "Mystic Minox Helmet",
       "item.speciment_mod.pierredumacqueenmanor": "Mcqueen\u0027s Manor Stone",
@@ -6173,8 +6296,8 @@
       "block.speciment_mod.minoria_pressure_plate": "Plaque de pression en minoria",
       "item.speciment_mod.femium_axe": "Hache en Fémium",
       "block.speciment_mod.shyrocia_stairs": "Escalier en shyrocia",
-      "item.speciment_mod.catalyseurvide": "Catalyseur vide",
       "block.speciment_mod.femium_ore": "Minerai de Fémium",
+      "item.speciment_mod.catalyseurvide": "Catalyseur vide",
       "block.speciment_mod.minoria_slab": "Dalle en minoria",
       "block.speciment_mod.shyronite_block": "Bloc de Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Oeuf de pneu moyen",
@@ -6192,8 +6315,8 @@
       "block.speciment_mod.mcqueencifolia_stairs": "Escalier en mcqueencifolia",
       "entity.speciment_mod.pneu_intermediaire": "Pneu intermédiaire",
       "block.speciment_mod.shyronite_ore": "Minerai de Shyronite",
-      "item.speciment_mod.minox_armor_helmet": "Casque en Minox",
       "item.speciment_mod.staff": "Staffelec",
+      "item.speciment_mod.minox_armor_helmet": "Casque en Minox",
       "item.speciment_mod.mcqueenium_pickaxe": "Pioche en Mcqueenium",
       "block.speciment_mod.kailonea_planks": "Planches en kailonéa",
       "item.speciment_mod.pneusoft_spawn_egg": "Oeuf de pneu tendre",
@@ -6204,13 +6327,13 @@
       "item.speciment_mod.minox_shovel": "Minox Shovel",
       "block.speciment_mod.kailonite_ore": "Minerai de Kailonite",
       "block.speciment_mod.shyrocia_door": "Porte en shyrocia",
-      "entity.speciment_mod.zombie_femi": "Zombie Femi",
       "entity.speciment_mod.dark_femi_boss": "Dark Femi",
+      "entity.speciment_mod.zombie_femi": "Zombie Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Dalle en mcqueencifolia",
       "item.speciment_mod.lafin": "Catalyseur Ultime",
       "item.speciment_mod.pierredeminomysteria": "Pierre de Mino\u0027s Mysteria",
-      "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
       "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
+      "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
       "item.speciment_mod.stafffeu": "Staffelec",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
@@ -6243,6 +6366,7 @@
       "block.speciment_mod.kailonea_button": "Bouton en kailonéa",
       "block.speciment_mod.femilis": "Fémilis",
       "block.speciment_mod.kailonea_slab": "Dalle en kailonéa",
+      "item.speciment_mod.batondevent": "Batondevent",
       "item.speciment_mod.shyronite_armor_chestplate": "Plastron en Shyronite",
       "item.speciment_mod.shyronite": "Shyronite",
       "block.speciment_mod.shyrocia_slab": "Dalle en shyrocia",
