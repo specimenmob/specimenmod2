@@ -5341,6 +5341,21 @@
         ]
       },
       "path": "~/Shyro/ShyroMob"
+    },
+    {
+      "name": "DarkFemiBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_femi_boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/client/renderer/DarkFemiBossRenderer.java",
+          "src/main/resources/assets/speciment_mod/models/item/dark_femi_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/entity/DarkFemiBossEntity.java"
+        ]
+      },
+      "path": "~/FemiMars/FemiMarsMob"
     }
   ],
   "variable_elements": [
@@ -5483,13 +5498,6 @@
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:BiomeFemi"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:FemirokoLog",
-      "CUSTOM:KailoneaLog",
-      "CUSTOM:ShyrociaLog",
-      "CUSTOM:MinoriaLog",
-      "CUSTOM:McqueencifoliaLog"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MinoSandstone",
       "~CUSTOM:MinoxBlock",
@@ -5502,6 +5510,13 @@
       "~CUSTOM:KailoniteOre",
       "~CUSTOM:FemiumBlock",
       "~CUSTOM:FemiumOre"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:FemirokoLog",
+      "CUSTOM:KailoneaLog",
+      "CUSTOM:ShyrociaLog",
+      "CUSTOM:MinoriaLog",
+      "CUSTOM:McqueencifoliaLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:McqueencifoliaPlanks",
@@ -5597,13 +5612,6 @@
       "~CUSTOM:KailoneaLeaves",
       "~CUSTOM:FemirokoLeaves"
     ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:McqueencifoliaSlab",
-      "~CUSTOM:MinoriaSlab",
-      "~CUSTOM:ShyrociaSlab",
-      "~CUSTOM:KailoneaSlab",
-      "~CUSTOM:FemirokoSlab"
-    ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:MinoxBlock",
       "~CUSTOM:MinoxOre",
@@ -5622,6 +5630,13 @@
       "~CUSTOM:ShyronitePickaxe",
       "~CUSTOM:KailonitePickaxe",
       "~CUSTOM:FemiumPickaxe"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:McqueencifoliaSlab",
+      "~CUSTOM:MinoriaSlab",
+      "~CUSTOM:ShyrociaSlab",
+      "~CUSTOM:KailoneaSlab",
+      "~CUSTOM:FemirokoSlab"
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:BiomeFemi"
@@ -5864,8 +5879,8 @@
       "block.speciment_mod.minoria_pressure_plate": "Minoria Pressure Plate",
       "item.speciment_mod.femium_axe": "Femium Axe",
       "block.speciment_mod.shyrocia_stairs": "Shyrocia Stairs",
-      "item.speciment_mod.catalyseurvide": "Empty catalyst",
       "block.speciment_mod.femium_ore": "Femium Ore",
+      "item.speciment_mod.catalyseurvide": "Empty catalyst",
       "block.speciment_mod.minoria_slab": "Minoria Slab",
       "block.speciment_mod.shyronite_block": "Block of Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Medium Tyre Spawn Egg",
@@ -5894,12 +5909,13 @@
       "item.speciment_mod.minox_shovel": "Minox Shovel",
       "block.speciment_mod.kailonite_ore": "Kailonite Ore",
       "block.speciment_mod.shyrocia_door": "Shyrocia Door",
+      "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "entity.speciment_mod.zombie_femi": "Zombie Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Mcqueencifolia Slab",
       "item.speciment_mod.lafin": "Ultimate Catalyst",
       "item.speciment_mod.pierredeminomysteria": "Mino\u0027s Mysteria Stone",
-      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "block.speciment_mod.kailonea_fence_gate": "Kailonea Fence Gate",
+      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
@@ -5986,6 +6002,7 @@
       "item.speciment_mod.kailonite_shovel": "Kailonite Shovel",
       "subtitles.ordredemission": "",
       "block.speciment_mod.kailonea_door": "Kailonea Door",
+      "item.speciment_mod.dark_femi_boss_spawn_egg": "Dark Femi Spawn Egg",
       "item_group.speciment_mod.kailon": "Kailon",
       "item_group.speciment_mod.specimen": "Specimen",
       "item.speciment_mod.femium_hoe": "Femium Hoe",
@@ -6071,8 +6088,8 @@
       "block.speciment_mod.minoria_pressure_plate": "Plaque de pression en minoria",
       "item.speciment_mod.femium_axe": "Hache en Fémium",
       "block.speciment_mod.shyrocia_stairs": "Escalier en shyrocia",
-      "item.speciment_mod.catalyseurvide": "Catalyseur vide",
       "block.speciment_mod.femium_ore": "Minerai de Fémium",
+      "item.speciment_mod.catalyseurvide": "Catalyseur vide",
       "block.speciment_mod.minoria_slab": "Dalle en minoria",
       "block.speciment_mod.shyronite_block": "Bloc de Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Oeuf de pneu moyen",
@@ -6101,12 +6118,13 @@
       "item.speciment_mod.minox_shovel": "Minox Shovel",
       "block.speciment_mod.kailonite_ore": "Minerai de Kailonite",
       "block.speciment_mod.shyrocia_door": "Porte en shyrocia",
+      "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "entity.speciment_mod.zombie_femi": "Zombie Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Dalle en mcqueencifolia",
       "item.speciment_mod.lafin": "Catalyseur Ultime",
       "item.speciment_mod.pierredeminomysteria": "Pierre de Mino\u0027s Mysteria",
-      "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
       "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
+      "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
@@ -6193,6 +6211,7 @@
       "item.speciment_mod.kailonite_shovel": "Pelle en Kailonite",
       "subtitles.ordredemission": "",
       "block.speciment_mod.kailonea_door": "Porte en kailonéa",
+      "item.speciment_mod.dark_femi_boss_spawn_egg": "Dark Femi Spawn Egg",
       "item_group.speciment_mod.kailon": "Kailon",
       "item_group.speciment_mod.specimen": "Specimen",
       "item.speciment_mod.poudredefemilis": "Poudre de fémilis",
@@ -6373,5 +6392,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.specimentmod"
   },
-  "mcreatorVersion": 202400229712
+  "mcreatorVersion": 202400232117
 }

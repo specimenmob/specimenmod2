@@ -18,6 +18,7 @@ import net.mcreator.specimentmod.client.renderer.PneuhardRenderer;
 import net.mcreator.specimentmod.client.renderer.PneuIntermediaireRenderer;
 import net.mcreator.specimentmod.client.renderer.MimirRenderer;
 import net.mcreator.specimentmod.client.renderer.F1Renderer;
+import net.mcreator.specimentmod.client.renderer.DarkFemiBossRenderer;
 import net.mcreator.specimentmod.client.renderer.CharomaneRenderer;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -34,5 +35,6 @@ public class SpecimentModModEntityRenderers {
 		event.registerEntityRenderer(SpecimentModModEntities.F_1.get(), F1Renderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.CHAROMANE.get(), CharomaneRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.ZOMBIE_FEMI.get(), ZombieFemiRenderer::new);
+		event.registerEntityRenderer(SpecimentModModEntities.DARK_FEMI_BOSS.get(), DarkFemiBossRenderer::new);
 	}
 }

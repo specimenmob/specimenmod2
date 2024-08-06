@@ -250,6 +250,7 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> BLOCDARKMCQUEEN = REGISTRY.register(SpecimentModModBlocks.BLOCDARKMCQUEEN.getId().getPath(), () -> new BlocdarkmcqueenDisplayItem(SpecimentModModBlocks.BLOCDARKMCQUEEN.get(), new Item.Properties()));
 	public static final DeferredHolder<Item, Item> BLOCDARKMINO = REGISTRY.register(SpecimentModModBlocks.BLOCDARKMINO.getId().getPath(), () -> new BlocdarkminoDisplayItem(SpecimentModModBlocks.BLOCDARKMINO.get(), new Item.Properties()));
 	public static final DeferredHolder<Item, Item> BLOCDARKSHYRO = REGISTRY.register(SpecimentModModBlocks.BLOCDARKSHYRO.getId().getPath(), () -> new BlocdarkshyroDisplayItem(SpecimentModModBlocks.BLOCDARKSHYRO.get(), new Item.Properties()));
+	public static final DeferredHolder<Item, Item> DARK_FEMI_BOSS_SPAWN_EGG = REGISTRY.register("dark_femi_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_FEMI_BOSS, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

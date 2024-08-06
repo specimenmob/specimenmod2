@@ -6,14 +6,19 @@ package net.mcreator.specimentmod.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.specimentmod.SpecimentModMod;
 
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class SpecimentModModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SpecimentModMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MINO = REGISTRY.register("mino",
@@ -212,4 +217,11 @@ public class SpecimentModModTabs {
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(SpecimentModModItems.DARK_FEMI_BOSS_SPAWN_EGG.get());
+		}
+	}
 }
