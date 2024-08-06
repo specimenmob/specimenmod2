@@ -5,6 +5,7 @@ import net.neoforged.neoforge.event.entity.SpawnPlacementRegisterEvent;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -26,6 +27,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.specimentmod.procedures.DarkShyroBossQuandLentiteMeurtProcedure;
 import net.mcreator.specimentmod.procedures.DarkShyroBossQuandLentiteEstBlesseeProcedure;
+import net.mcreator.specimentmod.init.SpecimentModModItems;
 
 public class DarkShyroBossEntity extends Monster {
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.NOTCHED_10);
@@ -62,6 +64,11 @@ public class DarkShyroBossEntity extends Monster {
 		return super.getPassengerRidingPosition(entity).add(0, -0.35F, 0);
 	}
 
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(SpecimentModModItems.SHYRO_ACTIVATION_CRYSTAL.get()));
+	}
+
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
 		return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("entity.generic.hurt"));
@@ -89,7 +96,7 @@ public class DarkShyroBossEntity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		DarkShyroBossQuandLentiteMeurtProcedure.execute();
+		DarkShyroBossQuandLentiteMeurtProcedure.execute(this.level());
 	}
 
 	@Override

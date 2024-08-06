@@ -5417,9 +5417,14 @@
         "files": [
           "src/main/java/net/mcreator/specimentmod/procedures/DarkFemiBossQuandLentiteMeurtProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
-      "path": "~/Mino/MinoSuperArmure"
+      "path": "~/FemiMars/FemiMarsMob"
     },
     {
       "name": "DarkFemiBossQuandLentiteEstBlessee",
@@ -5536,7 +5541,12 @@
         "files": [
           "src/main/java/net/mcreator/specimentmod/procedures/DarkShyroBossQuandLentiteMeurtProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Shyro/ShyroMob"
     },
@@ -5550,7 +5560,12 @@
         "files": [
           "src/main/java/net/mcreator/specimentmod/procedures/DarkKailonBossQuandLentiteMeurtProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Shyro/ShyroMob"
     },
@@ -5564,7 +5579,12 @@
         "files": [
           "src/main/java/net/mcreator/specimentmod/procedures/DarkMinoBossQuandLentiteMeurtProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Shyro/ShyroMob"
     },
@@ -5578,7 +5598,12 @@
         "files": [
           "src/main/java/net/mcreator/specimentmod/procedures/DarkMcqueenBossQuandLentiteMeurtProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Shyro/ShyroMob"
     },
@@ -5745,6 +5770,298 @@
         ]
       },
       "path": "~/McQueen"
+    },
+    {
+      "name": "McqueenSuperArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueen_super_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_boots.json",
+          "src/main/java/net/mcreator/specimentmod/item/McqueenSuperArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_chestplate.json"
+        ]
+      },
+      "path": "~/McQueen/McQueenSuperArmure"
+    },
+    {
+      "name": "McqueenActivationCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueen_activation_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/McqueenActivationCrystalItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueen_activation_crystal.json"
+        ]
+      },
+      "path": "~/McQueen/McQueenSuperArmure"
+    },
+    {
+      "name": "McqueenActivationCrystalEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueen_activation_crystal_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/McqueenActivationCrystalEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/McQueen/McQueenSuperArmure"
+    },
+    {
+      "name": "Applyenchmcqueen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "applyenchmcqueen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ApplyenchmcqueenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/McQueen/McQueenSuperArmure"
+    },
+    {
+      "name": "Applyenchfemi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "applyenchfemi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ApplyenchfemiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiSuperArmor"
+    },
+    {
+      "name": "FemiActivationCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femi_activation_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/FemiActivationCrystalItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/femi_activation_crystal.json"
+        ]
+      },
+      "path": "~/FemiMars/FemiSuperArmor"
+    },
+    {
+      "name": "FemiActiCryPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femi_acti_cry_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/FemiActiCryProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiSuperArmor"
+    },
+    {
+      "name": "FemiSuperArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femi_super_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_chestplate.json",
+          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_helmet.json",
+          "src/main/java/net/mcreator/specimentmod/item/FemiSuperArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_boots.json"
+        ]
+      },
+      "path": "~/FemiMars/FemiSuperArmor"
+    },
+    {
+      "name": "KailonSuperArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailon_super_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_boots.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_chestplate.json",
+          "src/main/java/net/mcreator/specimentmod/item/KailonSuperArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_leggings.json"
+        ]
+      },
+      "path": "~/Kailon/KailonSuperArmor"
+    },
+    {
+      "name": "ShyroSuperArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyro_super_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_boots.json",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroSuperArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Shyro/ShyroSuperArmor"
+    },
+    {
+      "name": "Applyenchkailon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "applyenchkailon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ApplyenchkailonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonSuperArmor"
+    },
+    {
+      "name": "Applyenchshyro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "applyenchshyro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ApplyenchshyroProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shyro/ShyroSuperArmor"
+    },
+    {
+      "name": "KailonActivationCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailon_activation_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/item/KailonActivationCrystalItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailon_activation_crystal.json"
+        ]
+      },
+      "path": "~/Kailon/KailonSuperArmor"
+    },
+    {
+      "name": "ShyroActivationCrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyro_activation_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/shyro_activation_crystal.json",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroActivationCrystalItem.java"
+        ]
+      },
+      "path": "~/Shyro/ShyroSuperArmor"
+    },
+    {
+      "name": "KailonActiCryPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailon_acti_cry_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/KailonActiCryProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonSuperArmor"
+    },
+    {
+      "name": "ShyroActiCryPro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyro_acti_cry_pro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ShyroActiCryProProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shyro/ShyroSuperArmor"
     }
   ],
   "variable_elements": [
@@ -5903,10 +6220,22 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "mcqueenium_activation_armor",
+      "files": [
+        "mcqueenium_activation_armor"
+      ],
+      "category": "voice",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:ShyroSuperArmor.body",
+      "~CUSTOM:KailonSuperArmor.body",
+      "~CUSTOM:FemiSuperArmor.body",
+      "~CUSTOM:McqueenSuperArmor.body",
       "~CUSTOM:MinoxSuperArmor.body",
       "~CUSTOM:MinoxArmor.body",
       "~CUSTOM:McqueeniumArmor.body",
@@ -6008,6 +6337,10 @@
       "~CUSTOM:FemiumSword"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:ShyroSuperArmor.helmet",
+      "~CUSTOM:KailonSuperArmor.helmet",
+      "~CUSTOM:FemiSuperArmor.helmet",
+      "~CUSTOM:McqueenSuperArmor.helmet",
       "~CUSTOM:MinoxSuperArmor.helmet",
       "~CUSTOM:MinoxArmor.helmet",
       "~CUSTOM:McqueeniumArmor.helmet",
@@ -6091,6 +6424,10 @@
       "~CUSTOM:FemiumShovel"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:ShyroSuperArmor.boots",
+      "~CUSTOM:KailonSuperArmor.boots",
+      "~CUSTOM:FemiSuperArmor.boots",
+      "~CUSTOM:McqueenSuperArmor.boots",
       "~CUSTOM:MinoxSuperArmor.boots",
       "~CUSTOM:MinoxArmor.boots",
       "~CUSTOM:McqueeniumArmor.boots",
@@ -6099,6 +6436,10 @@
       "~CUSTOM:FemiumArmor.boots"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:ShyroSuperArmor.legs",
+      "~CUSTOM:KailonSuperArmor.legs",
+      "~CUSTOM:FemiSuperArmor.legs",
+      "~CUSTOM:McqueenSuperArmor.legs",
       "~CUSTOM:MinoxSuperArmor.legs",
       "~CUSTOM:MinoxArmor.legs",
       "~CUSTOM:McqueeniumArmor.legs",
@@ -6167,7 +6508,8 @@
       "Poudredeshyrosa",
       "Pierredeshyroskyland",
       "Charomane",
-      "Blocdarkshyro"
+      "Blocdarkshyro",
+      "ShyroActivationCrystal"
     ],
     "CUSTOM:McQueen": [
       "CatalystOfMcqueenManor",
@@ -6197,7 +6539,8 @@
       "Pierredumacqueenmanor",
       "Rocky",
       "Blocdarkmcqueen",
-      "Staff"
+      "Staff",
+      "McqueenActivationCrystal"
     ],
     "CUSTOM:Kailon": [
       "CatalystOfKailonKaleidoscope",
@@ -6233,7 +6576,8 @@
       "Pneuhard",
       "PneuIntermediaire",
       "Pneuwet",
-      "Blocdarkkailon"
+      "Blocdarkkailon",
+      "KailonActivationCrystal"
     ],
     "CUSTOM:Specimen": [
       "Catalyseurvide",
@@ -6274,26 +6618,30 @@
       "ZombieFemi",
       "Blocdarkfemi",
       "Stafffeu",
-      "Stafflave"
+      "Stafflave",
+      "FemiActivationCrystal"
     ]
   },
   "language_map": {
     "en_us": {
       "subtitles.twitch": "",
       "item.speciment_mod.lerapdelaf_1": "Disque",
-      "item.speciment_mod.mcqueenium_armor_chestplate": "Mcqueenium Chestplate",
       "block.speciment_mod.femiroko_fence_gate": "Femiroko Fence Gate",
+      "item.speciment_mod.mcqueenium_armor_chestplate": "Mcqueenium Chestplate",
       "entity.speciment_mod.dark_shyro_boss": "Dark Shyro",
+      "item.speciment_mod.mcqueen_super_armor_helmet": "Mystic Mcqueenium Helmet",
       "subtitles.degatf1": "",
       "item.speciment_mod.mcqueenium_axe": "Mcqueenium Axe",
       "item.speciment_mod.pneuwet_spawn_egg": "Wet Tyre Spawn Egg",
       "item.speciment_mod.steakde_mimir": "Steak de Mimir",
       "biome.speciment_mod.biome_femi": "Femiland",
+      "item.speciment_mod.kailon_super_armor_chestplate": "Mystic Kailonite Chestplate",
       "entity.speciment_mod.pneumedium": "Medium Tyre",
       "item.speciment_mod.shyronite_pickaxe": "Shyronite Pickaxe",
       "item.speciment_mod.minox_axe": "Minox Axe",
       "block.speciment_mod.mcqueencifolia_wood": "Mcqueencifolia Wood",
       "entity.speciment_mod.f_1": "Formula 1",
+      "item.speciment_mod.femi_activation_crystal": "Femi Activation Crystal",
       "block.speciment_mod.minoria_wood": "Minoria Wood",
       "item.speciment_mod.mcqueenium": "Mcqueenium",
       "item.speciment_mod.lerapdelaf_1.desc": "Le rap de la F1",
@@ -6313,6 +6661,7 @@
       "block.speciment_mod.shyronite_block": "Block of Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Medium Tyre Spawn Egg",
       "block.speciment_mod.kailonea_leaves": "Kailonea Leaves",
+      "block.speciment_mod.blocdarkmcqueen": "Blocdarkfemi",
       "block.speciment_mod.femiroko_slab": "Femiroko Slab",
       "block.speciment_mod.mcqueencifolia_fence_gate": "Mcqueencifolia Fence Gate",
       "item.speciment_mod.minox_super_armor_leggings": "Mystic Minox Leggings",
@@ -6325,11 +6674,14 @@
       "block.speciment_mod.mcqueencifolia_stairs": "Mcqueencifolia Stairs",
       "entity.speciment_mod.pneu_intermediaire": "Intermediate Tyre",
       "block.speciment_mod.shyronite_ore": "Shyronite Ore",
+      "item.speciment_mod.staff": "Staffelec",
       "item.speciment_mod.minox_armor_helmet": "Minox Helmet",
       "item.speciment_mod.mcqueenium_pickaxe": "Mcqueenium Pickaxe",
+      "item.speciment_mod.kailon_super_armor_helmet": "Mystic Kailonite Helmet",
       "block.speciment_mod.kailonea_planks": "Kailonea Planks",
       "item.speciment_mod.pneusoft_spawn_egg": "Soft Tyre Spawn Egg",
       "block.speciment_mod.mcqueencifolia_button": "Mcqueencifolia Button",
+      "item.speciment_mod.shyro_super_armor_helmet": "Mystic Shyronite Helmet",
       "block.speciment_mod.kailonea_wood": "Kailonea Wood",
       "item_group.speciment_mod.femi_mars": "Fémi-Mars",
       "block.speciment_mod.kailonisetum": "Kailonisetum",
@@ -6337,25 +6689,33 @@
       "item.speciment_mod.minox_shovel": "Minox Shovel",
       "block.speciment_mod.kailonite_ore": "Kailonite Ore",
       "block.speciment_mod.shyrocia_door": "Shyrocia Door",
+      "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "entity.speciment_mod.zombie_femi": "Zombie Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Mcqueencifolia Slab",
+      "item.speciment_mod.shyro_super_armor_chestplate": "Mystic Shyronite Chestplate",
       "item.speciment_mod.lafin": "Ultimate Catalyst",
       "item.speciment_mod.pierredeminomysteria": "Mino\u0027s Mysteria Stone",
       "block.speciment_mod.kailonea_fence_gate": "Kailonea Fence Gate",
       "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
+      "item.speciment_mod.stafffeu": "Baton_Incandescent",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
       "block.speciment_mod.femiroko_leaves": "Femiroko Leaves",
+      "item.speciment_mod.kailon_super_armor_boots": "Mystic Kailonite Boots",
       "biome.speciment_mod.biomemcqueen": "Biomemcqueen",
       "subtitles.boxbox": "",
       "item.speciment_mod.minox_sword": "Minox Sword",
+      "entity.speciment_mod.dark_mcqueen_boss": "Dark Mcqueen",
+      "entity.speciment_mod.dark_mino_boss": "Dark Mino",
       "item.speciment_mod.catalyst_of_mino_mysteria": "Catalyst Of Mino\u0027s Mysteria",
       "item.speciment_mod.femium_pickaxe": "Femium Pickaxe",
       "item_group.speciment_mod.mino": "Mino",
       "entity.speciment_mod.mimir": "Mimir",
       "block.speciment_mod.mcqueencifolia_fence": "Mcqueencifolia Fence",
       "item.speciment_mod.shyronite_sword": "Shyronite Sword",
+      "item.speciment_mod.kailon_super_armor_leggings": "Mystic Kailonite Leggings",
+      "item.speciment_mod.femi_super_armor_chestplate": "Mystic Femium Chestplate",
       "block.speciment_mod.minoria_leaves": "Minoria Leaves",
       "block.speciment_mod.femiroko_wood": "Femiroko Wood",
       "item.speciment_mod.kailonite": "Kailonite",
@@ -6365,30 +6725,38 @@
       "item.speciment_mod.mcqueenium_hoe": "Mcqueenium Hoe",
       "block.speciment_mod.kailonea_stairs": "Kailonea Stairs",
       "block.speciment_mod.shyrocia_planks": "Shyrocia Planks",
+      "item.speciment_mod.mcqueen_super_armor_chestplate": "Mystic Mcqueenium Chestplate",
       "subtitles.minox_activation_armor": "",
       "item.speciment_mod.catalyst_of_mcqueen_manor": "Catalyst Of McQueen\u0027s Manor",
       "item.speciment_mod.femium_armor_chestplate": "Femium Chestplate",
       "block.speciment_mod.mcqueencifolia_leaves": "Mcqueencifolia Leaves",
       "block.speciment_mod.catalyseur_ultime": "Catalyseur Ultime Craft",
       "item.speciment_mod.kailonite_sword": "Kailonite Sword",
+      "item.speciment_mod.mcqueen_activation_crystal": "Mcqueen Activation Crystal",
       "block.speciment_mod.kailonea_button": "Kailonea Button",
       "block.speciment_mod.femilis": "Femilis",
       "block.speciment_mod.kailonea_slab": "Kailonea Slab",
       "item.speciment_mod.shyronite_armor_chestplate": "Shyronite Chestplate",
       "item.speciment_mod.shyronite": "Shyronite",
       "block.speciment_mod.shyrocia_slab": "Shyrocia Slab",
+      "item.speciment_mod.stafflave": "Baton_Incandescent",
       "item.speciment_mod.catalyst_of_shyro_skyland": "Catalyst Of Shyro\u0027s Skyland",
       "block.speciment_mod.mcqueencifolia_door": "Mcqueencifolia Door",
       "item.speciment_mod.steakde_mimircrue": "Steak de Mimir crue",
       "item.speciment_mod.kailonite_hoe": "Kailonite Hoe",
       "item.speciment_mod.femium": "Femium",
+      "item.speciment_mod.femi_super_armor_helmet": "Mystic Femium Helmet",
       "item_group.speciment_mod.mc_queen": "McQueen",
       "item.speciment_mod.shyronite_armor_helmet": "Shyronite Helmet",
       "block.speciment_mod.kailonea_fence": "Kailonea Fence",
+      "item.speciment_mod.shyro_activation_crystal": "Shyro Activation Crystal",
       "item.speciment_mod.pneuhard_spawn_egg": "Hard Tyre Spawn Egg",
+      "item.speciment_mod.kailon_activation_crystal": "Kailon Activation Crystal",
       "entity.speciment_mod.pneuwet": "Wet Tyre",
+      "item.speciment_mod.mcqueen_super_armor_leggings": "Mystic Mcqueenium Leggings",
       "item.speciment_mod.poudredeshyrosa": "Poudre de shyrosa",
       "item.speciment_mod.catalyst_of_femi_forest": "Catalyst Of Femi\u0027s Forest",
+      "item.speciment_mod.mcqueen_super_armor_boots": "Mystic Mcqueenium Boots",
       "block.speciment_mod.mcqueenium_ore": "Mcqueenium Ore",
       "item.speciment_mod.minox_armor_chestplate": "Minox Chestplate",
       "subtitles.stupid": "",
@@ -6407,6 +6775,7 @@
       "block.speciment_mod.kailonea_log": "Kailonea Log",
       "item.speciment_mod.minox_hoe": "Minox Hoe",
       "subtitles.lerapdelaf1": "Kailon",
+      "block.speciment_mod.blocdarkshyro": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_fence": "Shyrocia Fence",
       "block.speciment_mod.mcqueenium_block": "Block of Mcqueenium",
       "item.speciment_mod.zombie_femi_spawn_egg": "Zombie Femi Spawn Egg",
@@ -6417,6 +6786,7 @@
       "item.speciment_mod.mcqueenium_sword": "Mcqueenium Sword",
       "item.speciment_mod.ordredemission.desc": "Une mission tendu",
       "block.speciment_mod.kailonea_pressure_plate": "Kailonea Pressure Plate",
+      "block.speciment_mod.blocdarkmino": "Blocdarkfemi",
       "block.speciment_mod.mino_sand": "Mino Sand",
       "block.speciment_mod.minoria_button": "Minoria Button",
       "item.speciment_mod.femium_armor_boots": "Femium Boots",
@@ -6425,27 +6795,36 @@
       "block.speciment_mod.minoria_stairs": "Minoria Stairs",
       "item.speciment_mod.kailonite_armor_leggings": "Kailonite Leggings",
       "item.speciment_mod.kailonite_shovel": "Kailonite Shovel",
+      "item.speciment_mod.femi_super_armor_boots": "Mystic Femium Boots",
       "subtitles.ordredemission": "",
       "block.speciment_mod.kailonea_door": "Kailonea Door",
+      "item.speciment_mod.dark_femi_boss_spawn_egg": "Dark Femi Spawn Egg",
+      "item.speciment_mod.dark_mcqueen_boss_spawn_egg": "Dark Mcqueen Spawn Egg",
+      "item.speciment_mod.dark_mino_boss_spawn_egg": "Dark Mino Spawn Egg",
       "item_group.speciment_mod.kailon": "Kailon",
       "item_group.speciment_mod.specimen": "Specimen",
       "item.speciment_mod.femium_hoe": "Femium Hoe",
       "item.speciment_mod.poudredefemilis": "Femilis powder",
       "entity.speciment_mod.charomane": "Charomane",
+      "subtitles.mcqueenium_activation_armor": "",
       "block.speciment_mod.minoria_fence_gate": "Minoria Fence Gate",
       "block.speciment_mod.minox_block": "Block of Minox",
       "item.speciment_mod.mcqueenium_armor_helmet": "Mcqueenium Helmet",
       "block.speciment_mod.femiroko_pressure_plate": "Femiroko Pressure Plate",
       "item.speciment_mod.kailonite_armor_boots": "Kailonite Boots",
+      "entity.speciment_mod.dark_kailon_boss": "Dark Kailon",
       "block.speciment_mod.femiroko_fence": "Femiroko Fence",
       "block.speciment_mod.minoria_log": "Minoria Log",
       "item.speciment_mod.minox_activation_crystal": "Minox Activation Crystal",
+      "block.speciment_mod.blocdarkfemi": "Blocdarkfemi",
+      "item.speciment_mod.dark_kailon_boss_spawn_egg": "Dark Kailon Spawn Egg",
       "item.speciment_mod.shyronite_hoe": "Shyronite Hoe",
       "block.speciment_mod.femiroko_stairs": "Femiroko Stairs",
       "block.speciment_mod.shyrocia_wood": "Shyrocia Wood",
       "item.speciment_mod.f_1_spawn_egg": "Formula 1 Spawn Egg",
       "block.speciment_mod.shyrocia_log": "Shyrocia Log",
       "item.speciment_mod.kailonite_armor_helmet": "Kailonite Helmet",
+      "item.speciment_mod.shyro_super_armor_boots": "Mystic Shyronite Boots",
       "biome.speciment_mod.biomeshyro": "Shyroland",
       "item.speciment_mod.minox_armor_leggings": "Minox Leggings",
       "item.speciment_mod.pierredu_kailon_kaleidoscope": "Kailon\u0027s Kaleidoscope Stone",
@@ -6454,11 +6833,14 @@
       "block.speciment_mod.mcqueencifolia_pressure_plate": "Mcqueencifolia Pressure Plate",
       "item.speciment_mod.femium_armor_leggings": "Femium Leggings",
       "biome.speciment_mod.biomemino": "Biomemino",
+      "block.speciment_mod.blocdarkkailon": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_pressure_plate": "Shyrocia Pressure Plate",
       "item.speciment_mod.minox_super_armor_helmet": "Mystic Minox Helmet",
       "item.speciment_mod.pierredumacqueenmanor": "Mcqueen\u0027s Manor Stone",
+      "item.speciment_mod.shyro_super_armor_leggings": "Mystic Shyronite Leggings",
       "item.speciment_mod.kailonite_armor_chestplate": "Kailonite Chestplate",
       "item.speciment_mod.shyronite_shovel": "Shyronite Shovel",
+      "item.speciment_mod.femi_super_armor_leggings": "Mystic Femium Leggings",
       "item.speciment_mod.minox_pickaxe": "Minox Pickaxe",
       "item.speciment_mod.pneu_intermediaire_spawn_egg": "Intermediate Tyre Spawn Egg",
       "item.speciment_mod.kailonite_axe": "Kailonite Axe",
@@ -6485,19 +6867,22 @@
     "fr_fr": {
       "subtitles.twitch": "",
       "item.speciment_mod.lerapdelaf_1": "Disque",
-      "block.speciment_mod.femiroko_fence_gate": "Portillon en fémiroko",
       "item.speciment_mod.mcqueenium_armor_chestplate": "Plastron en Mcqueenium",
+      "block.speciment_mod.femiroko_fence_gate": "Portillon en fémiroko",
       "entity.speciment_mod.dark_shyro_boss": "Dark Shyro",
+      "item.speciment_mod.mcqueen_super_armor_helmet": "Mystic Minox Helmet",
       "subtitles.degatf1": "",
       "item.speciment_mod.mcqueenium_axe": "Hache en Mcqueenium",
       "item.speciment_mod.pneuwet_spawn_egg": "Oeuf de pneu pluie",
       "item.speciment_mod.steakde_mimir": "Steak de Mimir cuit",
       "biome.speciment_mod.biome_femi": "Femiland",
+      "item.speciment_mod.kailon_super_armor_chestplate": "Mystic Mcqueenium Chestplate",
       "entity.speciment_mod.pneumedium": "Pneu moyen",
       "item.speciment_mod.shyronite_pickaxe": "Pioche en Shyronite",
       "item.speciment_mod.minox_axe": "Hache en Minox",
       "block.speciment_mod.mcqueencifolia_wood": "Bois de mcqueencifolia",
       "entity.speciment_mod.f_1": "Formule 1",
+      "item.speciment_mod.femi_activation_crystal": "Mcqueen Activation Crystal",
       "block.speciment_mod.minoria_wood": "Bois de minoria",
       "item.speciment_mod.mcqueenium": "Mcqueenium",
       "item.speciment_mod.lerapdelaf_1.desc": "Le rap de la F1",
@@ -6530,11 +6915,14 @@
       "block.speciment_mod.mcqueencifolia_stairs": "Escalier en mcqueencifolia",
       "entity.speciment_mod.pneu_intermediaire": "Pneu intermédiaire",
       "block.speciment_mod.shyronite_ore": "Minerai de Shyronite",
+      "item.speciment_mod.staff": "Staffelec",
       "item.speciment_mod.minox_armor_helmet": "Casque en Minox",
       "item.speciment_mod.mcqueenium_pickaxe": "Pioche en Mcqueenium",
+      "item.speciment_mod.kailon_super_armor_helmet": "Mystic Mcqueenium Helmet",
       "block.speciment_mod.kailonea_planks": "Planches en kailonéa",
       "item.speciment_mod.pneusoft_spawn_egg": "Oeuf de pneu tendre",
       "block.speciment_mod.mcqueencifolia_button": "Bouton en mcqueencifolia",
+      "item.speciment_mod.shyro_super_armor_helmet": "Mystic Mcqueenium Helmet",
       "block.speciment_mod.kailonea_wood": "Bois de kailonéa",
       "item_group.speciment_mod.femi_mars": "Fémi-Mars",
       "block.speciment_mod.kailonisetum": "Kailonisetum",
@@ -6545,14 +6933,17 @@
       "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "entity.speciment_mod.zombie_femi": "Zombie Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Dalle en mcqueencifolia",
+      "item.speciment_mod.shyro_super_armor_chestplate": "Mystic Mcqueenium Chestplate",
       "item.speciment_mod.lafin": "Catalyseur Ultime",
       "item.speciment_mod.pierredeminomysteria": "Pierre de Mino\u0027s Mysteria",
       "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
+      "item.speciment_mod.stafffeu": "Baton_Incandescent",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
       "item_group.speciment_mod.shyro": "Shyro",
       "block.speciment_mod.femiroko_leaves": "Feuilles de fémiroko",
+      "item.speciment_mod.kailon_super_armor_boots": "Mystic Mcqueenium Boots",
       "biome.speciment_mod.biomemcqueen": "Biomemcqueen",
       "subtitles.boxbox": "",
       "item.speciment_mod.minox_sword": "Épée en Minox",
@@ -6564,6 +6955,8 @@
       "entity.speciment_mod.mimir": "Mimir",
       "block.speciment_mod.mcqueencifolia_fence": "Barrière en mcqueencifolia",
       "item.speciment_mod.shyronite_sword": "Épée en Shyronite",
+      "item.speciment_mod.kailon_super_armor_leggings": "Mystic Mcqueenium Leggings",
+      "item.speciment_mod.femi_super_armor_chestplate": "Mystic Mcqueen Chestplate",
       "block.speciment_mod.minoria_leaves": "Feuilles de minoria",
       "block.speciment_mod.femiroko_wood": "Bois de fémiroko",
       "item.speciment_mod.kailonite": "Kailonite",
@@ -6573,30 +6966,38 @@
       "item.speciment_mod.mcqueenium_hoe": "Houe en Mcqueenium",
       "block.speciment_mod.kailonea_stairs": "Escalier en kailonéa",
       "block.speciment_mod.shyrocia_planks": "Planches en shyrocia",
+      "item.speciment_mod.mcqueen_super_armor_chestplate": "Mystic Minox Chestplate",
       "subtitles.minox_activation_armor": "",
       "item.speciment_mod.catalyst_of_mcqueen_manor": "Catalyseur du McQueen\u0027s Manor",
       "item.speciment_mod.femium_armor_chestplate": "Plastron en Fémium",
       "block.speciment_mod.mcqueencifolia_leaves": "Feuilles de mcqueencifolia",
       "block.speciment_mod.catalyseur_ultime": "Catalyseur Ultime Craft",
       "item.speciment_mod.kailonite_sword": "Épée en Kailonite",
+      "item.speciment_mod.mcqueen_activation_crystal": "Minox Activation Crystal",
       "block.speciment_mod.kailonea_button": "Bouton en kailonéa",
       "block.speciment_mod.femilis": "Fémilis",
       "block.speciment_mod.kailonea_slab": "Dalle en kailonéa",
       "item.speciment_mod.shyronite_armor_chestplate": "Plastron en Shyronite",
       "item.speciment_mod.shyronite": "Shyronite",
       "block.speciment_mod.shyrocia_slab": "Dalle en shyrocia",
+      "item.speciment_mod.stafflave": "Baton_Incandescent",
       "item.speciment_mod.catalyst_of_shyro_skyland": "Catalyseur de Shyro\u0027s Skyland",
       "block.speciment_mod.mcqueencifolia_door": "Porte en mcqueencifolia",
       "item.speciment_mod.steakde_mimircrue": "Steak de Mimir cru",
       "item.speciment_mod.kailonite_hoe": "Houe en Kailonite",
       "item.speciment_mod.femium": "Fémium",
+      "item.speciment_mod.femi_super_armor_helmet": "Mystic Mcqueen Helmet",
       "item_group.speciment_mod.mc_queen": "McQueen",
       "item.speciment_mod.shyronite_armor_helmet": "Casque en Shyronite",
       "block.speciment_mod.kailonea_fence": "Barrière en kailonéa",
+      "item.speciment_mod.shyro_activation_crystal": "Mcqueen Activation Crystal",
       "item.speciment_mod.pneuhard_spawn_egg": "Oeuf de pneu dur",
+      "item.speciment_mod.kailon_activation_crystal": "Mcqueen Activation Crystal",
       "entity.speciment_mod.pneuwet": "Pneu pluie",
+      "item.speciment_mod.mcqueen_super_armor_leggings": "Mystic Minox Leggings",
       "item.speciment_mod.poudredeshyrosa": "Poudre de shyrosa",
       "item.speciment_mod.catalyst_of_femi_forest": "Catalyseur de la Femi Forest",
+      "item.speciment_mod.mcqueen_super_armor_boots": "Mystic Minox Boots",
       "block.speciment_mod.mcqueenium_ore": "Minerai de Mcqueenium",
       "item.speciment_mod.minox_armor_chestplate": "Plastron en Minox",
       "subtitles.stupid": "",
@@ -6635,6 +7036,7 @@
       "block.speciment_mod.minoria_stairs": "Escalier en minoria",
       "item.speciment_mod.kailonite_armor_leggings": "Jambières en Kailonite",
       "item.speciment_mod.kailonite_shovel": "Pelle en Kailonite",
+      "item.speciment_mod.femi_super_armor_boots": "Mystic Mcqueen Boots",
       "subtitles.ordredemission": "",
       "block.speciment_mod.kailonea_door": "Porte en kailonéa",
       "item.speciment_mod.dark_femi_boss_spawn_egg": "Dark Femi Spawn Egg",
@@ -6645,6 +7047,7 @@
       "item.speciment_mod.poudredefemilis": "Poudre de fémilis",
       "item.speciment_mod.femium_hoe": "Houe en Fémium",
       "entity.speciment_mod.charomane": "Charomane",
+      "subtitles.mcqueenium_activation_armor": "",
       "block.speciment_mod.minoria_fence_gate": "Portillon en minoria",
       "block.speciment_mod.minox_block": "Bloc de Minox",
       "item.speciment_mod.mcqueenium_armor_helmet": "Casque en Mcqueenium",
@@ -6662,6 +7065,7 @@
       "item.speciment_mod.f_1_spawn_egg": "Oeuf de Formule 1",
       "block.speciment_mod.shyrocia_log": "Bûche de shyrocia",
       "item.speciment_mod.kailonite_armor_helmet": "Casque en Kailonite",
+      "item.speciment_mod.shyro_super_armor_boots": "Mystic Mcqueenium Boots",
       "biome.speciment_mod.biomeshyro": "Shyroland",
       "item.speciment_mod.minox_armor_leggings": "Jambières en Minox",
       "item.speciment_mod.pierredu_kailon_kaleidoscope": "Pierre du Kailon\u0027s Kaleidoscope",
@@ -6674,8 +7078,10 @@
       "block.speciment_mod.shyrocia_pressure_plate": "Plaque de pression en shyrocia",
       "item.speciment_mod.minox_super_armor_helmet": "Casque Mystique en Minox",
       "item.speciment_mod.pierredumacqueenmanor": "Pierre du Macqueen\u0027s Manor",
+      "item.speciment_mod.shyro_super_armor_leggings": "Mystic Mcqueenium Leggings",
       "item.speciment_mod.kailonite_armor_chestplate": "Plastron en Kailonite",
       "item.speciment_mod.shyronite_shovel": "Pelle en Shyronite",
+      "item.speciment_mod.femi_super_armor_leggings": "Mystic Mcqueen Leggings",
       "item.speciment_mod.minox_pickaxe": "Pioche en Minox",
       "item.speciment_mod.pneu_intermediaire_spawn_egg": "Oeuf de pneu intermédiaire",
       "item.speciment_mod.kailonite_axe": "Hache en Kailonite",
@@ -6717,6 +7123,10 @@
           {
             "name": "McQueenMob",
             "children": []
+          },
+          {
+            "name": "McQueenSuperArmure",
+            "children": []
           }
         ]
       },
@@ -6755,6 +7165,10 @@
           {
             "name": "KailonMob",
             "children": []
+          },
+          {
+            "name": "KailonSuperArmor",
+            "children": []
           }
         ]
       },
@@ -6776,6 +7190,10 @@
           {
             "name": "ShyroMinerai",
             "children": []
+          },
+          {
+            "name": "ShyroSuperArmor",
+            "children": []
           }
         ]
       },
@@ -6792,6 +7210,10 @@
           },
           {
             "name": "FemiMarsMob",
+            "children": []
+          },
+          {
+            "name": "FemiSuperArmor",
             "children": []
           }
         ]

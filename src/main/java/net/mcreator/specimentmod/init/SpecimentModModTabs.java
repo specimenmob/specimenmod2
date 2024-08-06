@@ -92,6 +92,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.PIERREDESHYROSKYLAND.get());
 				tabData.accept(SpecimentModModItems.CHAROMANE_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKSHYRO.get().asItem());
+				tabData.accept(SpecimentModModItems.SHYRO_ACTIVATION_CRYSTAL.get());
 			})
 
 					.build());
@@ -127,6 +128,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.ROCKY_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKMCQUEEN.get().asItem());
 				tabData.accept(SpecimentModModItems.STAFF.get());
+				tabData.accept(SpecimentModModItems.MCQUEEN_ACTIVATION_CRYSTAL.get());
 			})
 
 					.build());
@@ -168,6 +170,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.PNEU_INTERMEDIAIRE_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEUWET_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKKAILON.get().asItem());
+				tabData.accept(SpecimentModModItems.KAILON_ACTIVATION_CRYSTAL.get());
 			})
 
 					.build());
@@ -217,6 +220,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModBlocks.BLOCDARKFEMI.get().asItem());
 				tabData.accept(SpecimentModModItems.STAFFFEU.get());
 				tabData.accept(SpecimentModModItems.STAFFLAVE.get());
+				tabData.accept(SpecimentModModItems.FEMI_ACTIVATION_CRYSTAL.get());
 			})
 
 					.build());

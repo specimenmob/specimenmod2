@@ -1,5 +1,11 @@
 package net.mcreator.specimentmod.block.model;
 
+import software.bernie.geckolib.model.GeoModel;
+
+import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.specimentmod.block.entity.BlocdarkminoTileEntity;
+
 public class BlocdarkminoBlockModel extends GeoModel<BlocdarkminoTileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(BlocdarkminoTileEntity animatable) {

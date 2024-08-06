@@ -1,6 +1,9 @@
 package net.mcreator.specimentmod.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.core.BlockPos;
 
 public class BlocdarkfemiQuandLeBlocEstPlaceProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
