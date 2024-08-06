@@ -16,6 +16,9 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.specimentmod.item.SteakdeMimircrueItem;
 import net.mcreator.specimentmod.item.SteakdeMimirItem;
+import net.mcreator.specimentmod.item.StafflaveItem;
+import net.mcreator.specimentmod.item.StafffeuItem;
+import net.mcreator.specimentmod.item.StaffItem;
 import net.mcreator.specimentmod.item.ShyroniteSwordItem;
 import net.mcreator.specimentmod.item.ShyroniteShovelItem;
 import net.mcreator.specimentmod.item.ShyronitePickaxeItem;
@@ -240,6 +243,9 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> CATALYST_OF_MCQUEEN_MANOR = REGISTRY.register("catalyst_of_mcqueen_manor", CatalystOfMcqueenManorItem::new);
 	public static final DeferredHolder<Item, Item> CATALYST_OF_SHYRO_SKYLAND = REGISTRY.register("catalyst_of_shyro_skyland", CatalystOfShyroSkylandItem::new);
 	public static final DeferredHolder<Item, Item> ZOMBIE_FEMI_SPAWN_EGG = REGISTRY.register("zombie_femi_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.ZOMBIE_FEMI, -13408768, -26368, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> STAFF = REGISTRY.register("staff", StaffItem::new);
+	public static final DeferredHolder<Item, Item> STAFFFEU = REGISTRY.register("stafffeu", StafffeuItem::new);
+	public static final DeferredHolder<Item, Item> STAFFLAVE = REGISTRY.register("stafflave", StafflaveItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

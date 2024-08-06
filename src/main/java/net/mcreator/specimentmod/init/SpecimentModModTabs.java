@@ -118,6 +118,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.POUDREDE_MCQUEENIUM.get());
 				tabData.accept(SpecimentModModItems.PIERREDUMACQUEENMANOR.get());
 				tabData.accept(SpecimentModModItems.ROCKY_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModItems.STAFF.get());
 			})
 
 					.build());
@@ -204,6 +205,8 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.STEAKDE_MIMIR.get());
 				tabData.accept(SpecimentModModItems.MIMIR_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.ZOMBIE_FEMI_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModItems.STAFFFEU.get());
+				tabData.accept(SpecimentModModItems.STAFFLAVE.get());
 			})
 
 					.build());
