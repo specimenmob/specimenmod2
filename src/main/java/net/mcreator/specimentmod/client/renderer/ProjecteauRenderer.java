@@ -8,24 +8,24 @@ import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.MultiBufferSource;
 
-import net.mcreator.specimentmod.entity.LavacastEntity;
-import net.mcreator.specimentmod.client.model.ModelBoule;
+import net.mcreator.specimentmod.entity.ProjecteauEntity;
+import net.mcreator.specimentmod.client.model.Modelprojecteau;
 
 import com.mojang.math.Axis;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
-public class LavacastRenderer extends EntityRenderer<LavacastEntity> {
-	private static final ResourceLocation texture = new ResourceLocation("speciment_mod:textures/entities/boule.png");
-	private final ModelBoule model;
+public class ProjecteauRenderer extends EntityRenderer<ProjecteauEntity> {
+	private static final ResourceLocation texture = new ResourceLocation("speciment_mod:textures/entities/texture.png");
+	private final Modelprojecteau model;
 
-	public LavacastRenderer(EntityRendererProvider.Context context) {
+	public ProjecteauRenderer(EntityRendererProvider.Context context) {
 		super(context);
-		model = new ModelBoule(context.bakeLayer(ModelBoule.LAYER_LOCATION));
+		model = new Modelprojecteau(context.bakeLayer(Modelprojecteau.LAYER_LOCATION));
 	}
 
 	@Override
-	public void render(LavacastEntity entityIn, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource bufferIn, int packedLightIn) {
+	public void render(ProjecteauEntity entityIn, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource bufferIn, int packedLightIn) {
 		VertexConsumer vb = bufferIn.getBuffer(RenderType.entityCutout(this.getTextureLocation(entityIn)));
 		poseStack.pushPose();
 		poseStack.mulPose(Axis.YP.rotationDegrees(Mth.lerp(partialTicks, entityIn.yRotO, entityIn.getYRot()) - 90));
@@ -36,7 +36,7 @@ public class LavacastRenderer extends EntityRenderer<LavacastEntity> {
 	}
 
 	@Override
-	public ResourceLocation getTextureLocation(LavacastEntity entity) {
+	public ResourceLocation getTextureLocation(ProjecteauEntity entity) {
 		return texture;
 	}
 }

@@ -86,6 +86,7 @@ import net.mcreator.specimentmod.item.CatalystOfFemiForestItem;
 import net.mcreator.specimentmod.item.CatalyseurvideItem;
 import net.mcreator.specimentmod.item.BidonessenceItem;
 import net.mcreator.specimentmod.item.BatondeventItem;
+import net.mcreator.specimentmod.item.BatondesEauItem;
 import net.mcreator.specimentmod.block.display.BlocdarkshyroDisplayItem;
 import net.mcreator.specimentmod.block.display.BlocdarkminoDisplayItem;
 import net.mcreator.specimentmod.block.display.BlocdarkmcqueenDisplayItem;
@@ -291,6 +292,7 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> MCQUEEN_ACTIVATION_CRYSTAL = REGISTRY.register("mcqueen_activation_crystal", McqueenActivationCrystalItem::new);
 	public static final DeferredHolder<Item, Item> DARK_MCQUEEN_BOSS_SPAWN_EGG = REGISTRY.register("dark_mcqueen_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_MCQUEEN_BOSS, -13421773, -5766913, new Item.Properties()));
 	public static final DeferredHolder<Item, Item> DARK_SHYRO_BOSS_SPAWN_EGG = REGISTRY.register("dark_shyro_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_SHYRO_BOSS, -13421773, -1, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> BATONDES_EAU = REGISTRY.register("batondes_eau", BatondesEauItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

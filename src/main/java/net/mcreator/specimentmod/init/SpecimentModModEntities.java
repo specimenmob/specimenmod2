@@ -19,6 +19,7 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.specimentmod.entity.ZombieFemiEntity;
 import net.mcreator.specimentmod.entity.RockyEntity;
 import net.mcreator.specimentmod.entity.ProjectventEntity;
+import net.mcreator.specimentmod.entity.ProjecteauEntity;
 import net.mcreator.specimentmod.entity.PneuwetEntity;
 import net.mcreator.specimentmod.entity.PneusoftEntity;
 import net.mcreator.specimentmod.entity.PneumediumEntity;
@@ -101,6 +102,8 @@ public class SpecimentModModEntities {
 			EntityType.Builder.<DarkShyroBossEntity>of(DarkShyroBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ProjecteauEntity>> PROJECTEAU = register("projecteau",
+			EntityType.Builder.<ProjecteauEntity>of(ProjecteauEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

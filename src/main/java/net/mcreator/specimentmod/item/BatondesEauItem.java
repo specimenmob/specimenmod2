@@ -9,17 +9,17 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
-import net.mcreator.specimentmod.procedures.BatondeventEvenementAuClicDroitDansLairProcedure;
+import net.mcreator.specimentmod.procedures.BatondesEauEvenementAuClicDroitDansLairProcedure;
 
-public class BatondeventItem extends Item {
-	public BatondeventItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+public class BatondesEauItem extends Item {
+	public BatondesEauItem() {
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));
 	}
 
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		BatondeventEvenementAuClicDroitDansLairProcedure.execute(entity);
+		BatondesEauEvenementAuClicDroitDansLairProcedure.execute(entity);
 		return ar;
 	}
 }

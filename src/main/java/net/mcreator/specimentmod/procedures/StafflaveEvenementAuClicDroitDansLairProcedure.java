@@ -1,6 +1,12 @@
 package net.mcreator.specimentmod.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.projectile.Projectile;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.specimentmod.init.SpecimentModModEntities;
+import net.mcreator.specimentmod.entity.LavacastEntity;
 
 public class StafflaveEvenementAuClicDroitDansLairProcedure {
 	public static void execute(Entity entity) {

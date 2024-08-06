@@ -6,9 +6,9 @@ import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.specimentmod.init.SpecimentModModEntities;
-import net.mcreator.specimentmod.entity.ProjectventEntity;
+import net.mcreator.specimentmod.entity.ProjecteauEntity;
 
-public class BatondeventEvenementAuClicDroitDansLairProcedure {
+public class BatondesEauEvenementAuClicDroitDansLairProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
@@ -18,14 +18,14 @@ public class BatondeventEvenementAuClicDroitDansLairProcedure {
 			if (!projectileLevel.isClientSide()) {
 				Projectile _entityToSpawn = new Object() {
 					public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
-						AbstractArrow entityToSpawn = new ProjectventEntity(SpecimentModModEntities.PROJECTVENT.get(), level);
+						AbstractArrow entityToSpawn = new ProjecteauEntity(SpecimentModModEntities.PROJECTEAU.get(), level);
 						entityToSpawn.setOwner(shooter);
 						entityToSpawn.setBaseDamage(damage);
 						entityToSpawn.setKnockback(knockback);
 						entityToSpawn.setSilent(true);
 						return entityToSpawn;
 					}
-				}.getArrow(projectileLevel, entity, 2, 20);
+				}.getArrow(projectileLevel, entity, 0, 0);
 				_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 				_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 1, 0);
 				projectileLevel.addFreshEntity(_entityToSpawn);

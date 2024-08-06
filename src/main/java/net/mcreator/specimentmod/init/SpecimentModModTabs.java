@@ -58,6 +58,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModBlocks.MINO_SANDSTONE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.MINO_SAND.get().asItem());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKMINO.get().asItem());
+				tabData.accept(SpecimentModModItems.BATONDES_EAU.get());
 			})
 
 					.build());
