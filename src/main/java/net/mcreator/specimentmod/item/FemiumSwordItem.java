@@ -16,12 +16,12 @@ public class FemiumSwordItem extends SwordItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 250;
+			return 2032;
 		}
 
 		@Override
 		public float getSpeed() {
-			return 6f;
+			return 12f;
 		}
 
 		@Override
@@ -31,12 +31,12 @@ public class FemiumSwordItem extends SwordItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_IRON_TOOL;
+			return BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
 		}
 
 		@Override
 		public int getEnchantmentValue() {
-			return 14;
+			return 22;
 		}
 
 		@Override
@@ -46,6 +46,6 @@ public class FemiumSwordItem extends SwordItem {
 	};
 
 	public FemiumSwordItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 5f, -2f)));
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 7f, -2.4f)).fireResistant());
 	}
 }

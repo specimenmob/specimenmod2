@@ -6,14 +6,19 @@ package net.mcreator.specimentmod.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.specimentmod.SpecimentModMod;
 
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class SpecimentModModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SpecimentModMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MINO = REGISTRY.register("mino",
@@ -52,6 +57,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.MINOX_ACTIVATION_CRYSTAL.get());
 				tabData.accept(SpecimentModModBlocks.MINO_SANDSTONE.get().asItem());
 				tabData.accept(SpecimentModModBlocks.MINO_SAND.get().asItem());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKMINO.get().asItem());
 			})
 
 					.build());
@@ -85,6 +91,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.POUDREDESHYROSA.get());
 				tabData.accept(SpecimentModModItems.PIERREDESHYROSKYLAND.get());
 				tabData.accept(SpecimentModModItems.CHAROMANE_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKSHYRO.get().asItem());
 			})
 
 					.build());
@@ -119,6 +126,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.PIERREDUMACQUEENMANOR.get());
 				tabData.accept(SpecimentModModItems.ROCKY_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.STAFF.get());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKMCQUEEN.get().asItem());
 			})
 
 					.build());
@@ -159,6 +167,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.PNEUHARD_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEU_INTERMEDIAIRE_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.PNEUWET_SPAWN_EGG.get());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKKAILON.get().asItem());
 			})
 
 					.build());
@@ -207,7 +216,15 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.ZOMBIE_FEMI_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModItems.STAFFFEU.get());
 				tabData.accept(SpecimentModModItems.STAFFLAVE.get());
+				tabData.accept(SpecimentModModBlocks.BLOCDARKFEMI.get().asItem());
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(SpecimentModModItems.DARK_FEMI_BOSS_SPAWN_EGG.get());
+		}
+	}
 }

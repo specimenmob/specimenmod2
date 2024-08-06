@@ -17,7 +17,7 @@ public class FemiumHoeItem extends HoeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 250;
+			return 2032;
 		}
 
 		@Override
@@ -32,12 +32,12 @@ public class FemiumHoeItem extends HoeItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_IRON_TOOL;
+			return BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
 		}
 
 		@Override
 		public int getEnchantmentValue() {
-			return 14;
+			return 22;
 		}
 
 		@Override
@@ -47,6 +47,6 @@ public class FemiumHoeItem extends HoeItem {
 	};
 
 	public FemiumHoeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 0f, -1f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 0f, 0f)).fireResistant());
 	}
 }

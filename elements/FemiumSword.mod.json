@@ -17,11 +17,11 @@
         "value": "CUSTOM:FemiMars"
       }
     ],
-    "efficiency": 6.0,
-    "attackSpeed": 2.0,
-    "enchantability": 14,
-    "damageVsEntity": 6.0,
-    "usageCount": 250,
+    "efficiency": 12.0,
+    "attackSpeed": 1.6,
+    "enchantability": 22,
+    "damageVsEntity": 8.0,
+    "usageCount": 2032,
     "glowCondition": {
       "fixedValue": false
     },
@@ -30,8 +30,8 @@
         "value": "CUSTOM:Femium"
       }
     ],
-    "immuneToFire": false,
-    "blockDropsTier": "IRON",
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

@@ -77,6 +77,11 @@ import net.mcreator.specimentmod.item.CatalystOfKailonKaleidoscopeItem;
 import net.mcreator.specimentmod.item.CatalystOfFemiForestItem;
 import net.mcreator.specimentmod.item.CatalyseurvideItem;
 import net.mcreator.specimentmod.item.BidonessenceItem;
+import net.mcreator.specimentmod.block.display.BlocdarkshyroDisplayItem;
+import net.mcreator.specimentmod.block.display.BlocdarkminoDisplayItem;
+import net.mcreator.specimentmod.block.display.BlocdarkmcqueenDisplayItem;
+import net.mcreator.specimentmod.block.display.BlocdarkkailonDisplayItem;
+import net.mcreator.specimentmod.block.display.BlocdarkfemiDisplayItem;
 import net.mcreator.specimentmod.SpecimentModMod;
 
 public class SpecimentModModItems {
@@ -243,9 +248,15 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> CATALYST_OF_MCQUEEN_MANOR = REGISTRY.register("catalyst_of_mcqueen_manor", CatalystOfMcqueenManorItem::new);
 	public static final DeferredHolder<Item, Item> CATALYST_OF_SHYRO_SKYLAND = REGISTRY.register("catalyst_of_shyro_skyland", CatalystOfShyroSkylandItem::new);
 	public static final DeferredHolder<Item, Item> ZOMBIE_FEMI_SPAWN_EGG = REGISTRY.register("zombie_femi_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.ZOMBIE_FEMI, -13408768, -26368, new Item.Properties()));
-	public static final DeferredHolder<Item, Item> STAFF = REGISTRY.register("staff", StaffItem::new);
 	public static final DeferredHolder<Item, Item> STAFFFEU = REGISTRY.register("stafffeu", StafffeuItem::new);
+	public static final DeferredHolder<Item, Item> STAFF = REGISTRY.register("staff", StaffItem::new);
 	public static final DeferredHolder<Item, Item> STAFFLAVE = REGISTRY.register("stafflave", StafflaveItem::new);
+	public static final DeferredHolder<Item, Item> BLOCDARKSHYRO = REGISTRY.register(SpecimentModModBlocks.BLOCDARKSHYRO.getId().getPath(), () -> new BlocdarkshyroDisplayItem(SpecimentModModBlocks.BLOCDARKSHYRO.get(), new Item.Properties()));
+	public static final DeferredHolder<Item, Item> BLOCDARKKAILON = REGISTRY.register(SpecimentModModBlocks.BLOCDARKKAILON.getId().getPath(), () -> new BlocdarkkailonDisplayItem(SpecimentModModBlocks.BLOCDARKKAILON.get(), new Item.Properties()));
+	public static final DeferredHolder<Item, Item> BLOCDARKMINO = REGISTRY.register(SpecimentModModBlocks.BLOCDARKMINO.getId().getPath(), () -> new BlocdarkminoDisplayItem(SpecimentModModBlocks.BLOCDARKMINO.get(), new Item.Properties()));
+	public static final DeferredHolder<Item, Item> BLOCDARKFEMI = REGISTRY.register(SpecimentModModBlocks.BLOCDARKFEMI.getId().getPath(), () -> new BlocdarkfemiDisplayItem(SpecimentModModBlocks.BLOCDARKFEMI.get(), new Item.Properties()));
+	public static final DeferredHolder<Item, Item> DARK_FEMI_BOSS_SPAWN_EGG = REGISTRY.register("dark_femi_boss_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.DARK_FEMI_BOSS, -1, -1, new Item.Properties()));
+	public static final DeferredHolder<Item, Item> BLOCDARKMCQUEEN = REGISTRY.register(SpecimentModModBlocks.BLOCDARKMCQUEEN.getId().getPath(), () -> new BlocdarkmcqueenDisplayItem(SpecimentModModBlocks.BLOCDARKMCQUEEN.get(), new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

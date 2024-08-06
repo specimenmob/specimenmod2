@@ -24,6 +24,7 @@ import net.mcreator.specimentmod.init.SpecimentModModSounds;
 import net.mcreator.specimentmod.init.SpecimentModModItems;
 import net.mcreator.specimentmod.init.SpecimentModModEntities;
 import net.mcreator.specimentmod.init.SpecimentModModBlocks;
+import net.mcreator.specimentmod.init.SpecimentModModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -44,7 +45,7 @@ public class SpecimentModMod {
 		modEventBus.addListener(this::registerNetworking);
 		SpecimentModModSounds.REGISTRY.register(modEventBus);
 		SpecimentModModBlocks.REGISTRY.register(modEventBus);
-
+		SpecimentModModBlockEntities.REGISTRY.register(modEventBus);
 		SpecimentModModItems.REGISTRY.register(modEventBus);
 		SpecimentModModEntities.REGISTRY.register(modEventBus);
 		SpecimentModModTabs.REGISTRY.register(modEventBus);

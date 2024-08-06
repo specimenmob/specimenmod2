@@ -17,7 +17,7 @@ public class FemiumAxeItem extends AxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 250;
+			return 2032;
 		}
 
 		@Override
@@ -32,7 +32,7 @@ public class FemiumAxeItem extends AxeItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_IRON_TOOL;
+			return BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
 		}
 
 		@Override
@@ -47,6 +47,6 @@ public class FemiumAxeItem extends AxeItem {
 	};
 
 	public FemiumAxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 8f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 9f, -3f)).fireResistant());
 	}
 }
