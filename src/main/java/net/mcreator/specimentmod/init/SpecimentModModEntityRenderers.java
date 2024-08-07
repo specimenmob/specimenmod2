@@ -12,6 +12,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.mcreator.specimentmod.client.renderer.ZombieFemiRenderer;
 import net.mcreator.specimentmod.client.renderer.RockyRenderer;
 import net.mcreator.specimentmod.client.renderer.ProjectventRenderer;
+import net.mcreator.specimentmod.client.renderer.ProjecteauRenderer;
 import net.mcreator.specimentmod.client.renderer.PneuwetRenderer;
 import net.mcreator.specimentmod.client.renderer.PneusoftRenderer;
 import net.mcreator.specimentmod.client.renderer.PneumediumRenderer;
@@ -48,5 +49,6 @@ public class SpecimentModModEntityRenderers {
 		event.registerEntityRenderer(SpecimentModModEntities.DARK_SHYRO_BOSS.get(), DarkShyroBossRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.LAVACAST.get(), LavacastRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.PROJECTVENT.get(), ProjectventRenderer::new);
+		event.registerEntityRenderer(SpecimentModModEntities.PROJECTEAU.get(), ProjecteauRenderer::new);
 	}
 }

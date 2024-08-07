@@ -6173,6 +6173,84 @@
         ]
       },
       "path": "~/Shyro"
+    },
+    {
+      "name": "ProjecteauLorsqueLeProjectileToucheUneEntiteVivante",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projecteau_lorsque_le_projectile_touche_une_entite_vivante",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ProjecteauLorsqueLeProjectileToucheUneEntiteVivanteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "BatondesEauEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batondes_eau_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/BatondesEauEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "Projecteau",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projecteau",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/client/renderer/ProjecteauRenderer.java",
+          "src/main/java/net/mcreator/specimentmod/entity/ProjecteauEntity.java"
+        ]
+      },
+      "path": "~/Mino"
+    },
+    {
+      "name": "BatondesEau",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batondes_eau",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/speciment_mod/models/item/batondes_eau.json",
+          "src/main/java/net/mcreator/specimentmod/item/BatondesEauItem.java"
+        ]
+      },
+      "path": "~/Mino"
     }
   ],
   "variable_elements": [
@@ -6590,7 +6668,8 @@
       "MinoxActivationCrystal",
       "MinoSandstone",
       "MinoSand",
-      "Blocdarkmino"
+      "Blocdarkmino",
+      "BatondesEau"
     ],
     "CUSTOM:Shyro": [
       "CatalystOfShyroSkyland",
@@ -6986,6 +7065,7 @@
       "subtitles.degatf1": "",
       "item.speciment_mod.mcqueenium_axe": "Hache en Mcqueenium",
       "item.speciment_mod.pneuwet_spawn_egg": "Oeuf de pneu pluie",
+      "item.speciment_mod.batondes_eau": "Batondes Eau",
       "item.speciment_mod.steakde_mimir": "Steak de Mimir cuit",
       "biome.speciment_mod.biome_femi": "Femiland",
       "item.speciment_mod.kailon_super_armor_chestplate": "Mystic Mcqueenium Chestplate",
