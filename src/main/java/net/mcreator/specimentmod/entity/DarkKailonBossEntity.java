@@ -127,7 +127,7 @@ public class DarkKailonBossEntity extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.6);
 		builder = builder.add(Attributes.MAX_HEALTH, 500);
 		builder = builder.add(Attributes.ARMOR, 2);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
