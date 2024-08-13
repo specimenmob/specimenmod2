@@ -1,9 +1,29 @@
 
 package net.mcreator.specimentmod.entity;
 
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
+
+import net.minecraft.world.phys.EntityHitResult;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.projectile.ItemSupplier;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.util.RandomSource;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
+
+import net.mcreator.specimentmod.procedures.ProjecteauLorsqueLeProjectileToucheUneEntiteVivanteProcedure;
+import net.mcreator.specimentmod.init.SpecimentModModItems;
+import net.mcreator.specimentmod.init.SpecimentModModEntities;
+
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class ProjecteauEntity extends AbstractArrow implements ItemSupplier {
-	public static final ItemStack PROJECTILE_ITEM = new ItemStack(SpecimentModModItems.DELETED_MOD_ELEMENT.get());
+	public static final ItemStack PROJECTILE_ITEM = new ItemStack(SpecimentModModItems.BATONDES_EAU.get());
 
 	public ProjecteauEntity(EntityType<? extends ProjecteauEntity> type, Level world) {
 		super(type, world, PROJECTILE_ITEM);
@@ -25,7 +45,7 @@ public class ProjecteauEntity extends AbstractArrow implements ItemSupplier {
 
 	@Override
 	protected ItemStack getDefaultPickupItem() {
-		return new ItemStack(SpecimentModModItems.DELETED_MOD_ELEMENT.get());
+		return new ItemStack(SpecimentModModItems.BATONDES_EAU.get());
 	}
 
 	@Override

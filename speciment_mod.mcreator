@@ -6824,6 +6824,7 @@
       "subtitles.degatf1": "",
       "item.speciment_mod.mcqueenium_axe": "Mcqueenium Axe",
       "item.speciment_mod.pneuwet_spawn_egg": "Wet Tyre Spawn Egg",
+      "item.speciment_mod.batondes_eau": "Baton des Eau",
       "item.speciment_mod.steakde_mimir": "Steak de Mimir",
       "biome.speciment_mod.biome_femi": "Femiland",
       "item.speciment_mod.kailon_super_armor_chestplate": "Mystic Kailonite Chestplate",
@@ -7407,7 +7408,12 @@
           },
           {
             "name": "FemiMarsMob",
-            "children": []
+            "children": [
+              {
+                "name": "DarkFemi",
+                "children": []
+              }
+            ]
           }
         ]
       },
