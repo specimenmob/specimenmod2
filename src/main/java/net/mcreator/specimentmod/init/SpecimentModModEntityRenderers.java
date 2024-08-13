@@ -10,7 +10,6 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.specimentmod.client.renderer.ZombieFemiRenderer;
-import net.mcreator.specimentmod.client.renderer.TourbillonRenderer;
 import net.mcreator.specimentmod.client.renderer.RockyRenderer;
 import net.mcreator.specimentmod.client.renderer.ProjectventRenderer;
 import net.mcreator.specimentmod.client.renderer.ProjecteauRenderer;
@@ -51,6 +50,5 @@ public class SpecimentModModEntityRenderers {
 		event.registerEntityRenderer(SpecimentModModEntities.LAVACAST.get(), LavacastRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.PROJECTVENT.get(), ProjectventRenderer::new);
 		event.registerEntityRenderer(SpecimentModModEntities.PROJECTEAU.get(), ProjecteauRenderer::new);
-		event.registerEntityRenderer(SpecimentModModEntities.TOURBILLON.get(), TourbillonRenderer::new);
 	}
 }

@@ -293,7 +293,6 @@ public class SpecimentModModItems {
 	public static final DeferredHolder<Item, Item> SHYRO_ACTIVATION_CRYSTAL = REGISTRY.register("shyro_activation_crystal", ShyroActivationCrystalItem::new);
 	public static final DeferredHolder<Item, Item> BATONDEVENT = REGISTRY.register("batondevent", BatondeventItem::new);
 	public static final DeferredHolder<Item, Item> BATONDES_EAU = REGISTRY.register("batondes_eau", BatondesEauItem::new);
-	public static final DeferredHolder<Item, Item> TOURBILLON_SPAWN_EGG = REGISTRY.register("tourbillon_spawn_egg", () -> new DeferredSpawnEggItem(SpecimentModModEntities.TOURBILLON, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -4,7 +4,6 @@ import net.neoforged.neoforge.event.tick.EntityTickEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
-import net.mcreator.specimentmod.entity.TourbillonEntity;
 import net.mcreator.specimentmod.entity.RockyEntity;
 import net.mcreator.specimentmod.entity.PneuwetEntity;
 import net.mcreator.specimentmod.entity.PneusoftEntity;
@@ -61,13 +60,6 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof F1Entity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof TourbillonEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
