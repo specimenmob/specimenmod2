@@ -10,6 +10,18 @@
     "textureLeggings": "mcqueenium_leggings",
     "enableBoots": true,
     "textureBoots": "mcqueenium_boots",
+    "onHelmetTick": {
+      "name": "Mcqueensuperhelmet"
+    },
+    "onBodyTick": {
+      "name": "Mcqueensuperchestplate"
+    },
+    "onLeggingsTick": {
+      "name": "Mcqueensuperleggings"
+    },
+    "onBootsTick": {
+      "name": "Mcqueensuperboots"
+    },
     "creativeTabs": [],
     "armorTextureFile": "mcqueenium",
     "helmetName": "Mystic Mcqueenium Helmet",

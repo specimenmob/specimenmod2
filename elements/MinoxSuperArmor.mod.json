@@ -10,6 +10,18 @@
     "textureLeggings": "minox_leggings",
     "enableBoots": true,
     "textureBoots": "minox_boots",
+    "onHelmetTick": {
+      "name": "Minosuperhelmet"
+    },
+    "onBodyTick": {
+      "name": "Minosuperchestplate"
+    },
+    "onLeggingsTick": {
+      "name": "Minosuperleggings"
+    },
+    "onBootsTick": {
+      "name": "Minosuperboots"
+    },
     "creativeTabs": [
       {
         "value": "CUSTOM:Mino"

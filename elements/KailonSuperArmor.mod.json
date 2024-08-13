@@ -10,6 +10,18 @@
     "textureLeggings": "kailonite_leggings",
     "enableBoots": true,
     "textureBoots": "kailonite_boots",
+    "onHelmetTick": {
+      "name": "Kailonsuperhelmet"
+    },
+    "onBodyTick": {
+      "name": "Kailonsuperchestplate"
+    },
+    "onLeggingsTick": {
+      "name": "Kailonsuperleggings"
+    },
+    "onBootsTick": {
+      "name": "Kailonsuperboots"
+    },
     "creativeTabs": [],
     "armorTextureFile": "kailonite",
     "helmetName": "Mystic Kailonite Helmet",

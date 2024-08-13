@@ -4563,11 +4563,11 @@
       "registry_name": "minox_super_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_chestplate.json",
-          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_boots.json",
           "src/main/java/net/mcreator/specimentmod/item/MinoxSuperArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_helmet.json",
           "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_leggings.json",
-          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_helmet.json"
+          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_boots.json",
+          "src/main/resources/assets/speciment_mod/models/item/minox_super_armor_chestplate.json"
         ]
       },
       "path": "~/Mino/MinoSuperArmure"
@@ -4616,25 +4616,6 @@
           {
             "name": "world",
             "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mino/MinoSuperArmure"
-    },
-    {
-      "name": "ApplyEnchMino",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "apply_ench_mino",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/ApplyEnchMinoProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
           }
         ]
       },
@@ -5075,7 +5056,7 @@
           }
         ]
       },
-      "path": "~/FemiMars/FemiMarsMob"
+      "path": "~/FemiMars/DarkFemi"
     },
     {
       "name": "McDarkQueen",
@@ -5106,7 +5087,7 @@
           }
         ]
       },
-      "path": "~/McQueen/McQueenMob"
+      "path": "~/McQueen/DarkMcqueen"
     },
     {
       "name": "DarkMino",
@@ -5137,7 +5118,7 @@
           }
         ]
       },
-      "path": "~/Mino/MinoMob"
+      "path": "~/Mino/DarkMino"
     },
     {
       "name": "DarkKailon",
@@ -5168,7 +5149,7 @@
           }
         ]
       },
-      "path": "~/Kailon/KailonMob"
+      "path": "~/Kailon/DarkKailon"
     },
     {
       "name": "DarkShyro",
@@ -5199,7 +5180,7 @@
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/Shyro/DarkShyro"
     },
     {
       "name": "Blocdarkfemi",
@@ -5221,7 +5202,7 @@
           "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkfemiDisplayModel.java"
         ]
       },
-      "path": "~/FemiMars/FemiMarsMob"
+      "path": "~/FemiMars/DarkFemi"
     },
     {
       "name": "BlocdarkfemiQuandLeBlocEstPlace",
@@ -5252,7 +5233,7 @@
           }
         ]
       },
-      "path": "~/FemiMars/FemiMarsMob"
+      "path": "~/FemiMars/DarkFemi"
     },
     {
       "name": "Blocdarkkailon",
@@ -5274,7 +5255,7 @@
           "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkkailonDisplayModel.java"
         ]
       },
-      "path": "~/Kailon/KailonMob"
+      "path": "~/Kailon/DarkKailon"
     },
     {
       "name": "Blocdarkmcqueen",
@@ -5296,7 +5277,7 @@
           "src/main/java/net/mcreator/specimentmod/block/model/BlocdarkmcqueenBlockModel.java"
         ]
       },
-      "path": "~/McQueen/McQueenMob"
+      "path": "~/McQueen/DarkMcqueen"
     },
     {
       "name": "Blocdarkmino",
@@ -5318,7 +5299,7 @@
           "src/main/resources/assets/speciment_mod/models/custom/blocdarkmino_particle.json"
         ]
       },
-      "path": "~/Mino/MinoMob"
+      "path": "~/Mino/DarkMino"
     },
     {
       "name": "Blocdarkshyro",
@@ -5340,7 +5321,7 @@
           "src/main/java/net/mcreator/specimentmod/block/entity/BlocdarkshyroTileEntity.java"
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/Shyro/DarkShyro"
     },
     {
       "name": "DarkFemiBoss",
@@ -5350,12 +5331,12 @@
       "registry_name": "dark_femi_boss",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/specimentmod/entity/DarkFemiBossEntity.java",
           "src/main/java/net/mcreator/specimentmod/client/renderer/DarkFemiBossRenderer.java",
-          "src/main/resources/assets/speciment_mod/models/item/dark_femi_boss_spawn_egg.json"
+          "src/main/resources/assets/speciment_mod/models/item/dark_femi_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/specimentmod/entity/DarkFemiBossEntity.java"
         ]
       },
-      "path": "~/FemiMars/FemiMarsMob"
+      "path": "~/FemiMars/DarkFemi"
     },
     {
       "name": "DarkMinoBoss",
@@ -5370,7 +5351,7 @@
           "src/main/java/net/mcreator/specimentmod/entity/DarkMinoBossEntity.java"
         ]
       },
-      "path": "~/Mino/MinoMob"
+      "path": "~/Mino/DarkMino"
     },
     {
       "name": "DarkKailonBossQuandLentiteEstBlessee",
@@ -5405,7 +5386,7 @@
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/Kailon/DarkKailon"
     },
     {
       "name": "DarkFemiBossQuandLentiteMeurt",
@@ -5424,7 +5405,7 @@
           }
         ]
       },
-      "path": "~/FemiMars/FemiMarsMob"
+      "path": "~/FemiMars/DarkFemi"
     },
     {
       "name": "DarkFemiBossQuandLentiteEstBlessee",
@@ -5459,7 +5440,7 @@
           }
         ]
       },
-      "path": "~/FemiMars/FemiMarsMob"
+      "path": "~/FemiMars/DarkFemi"
     },
     {
       "name": "DarkShyroBossQuandLentiteEstBlessee",
@@ -5494,7 +5475,7 @@
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/Shyro/DarkShyro"
     },
     {
       "name": "DarkMcqueenBossQuandLentiteEstBlessee",
@@ -5529,7 +5510,7 @@
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/McQueen/DarkMcqueen"
     },
     {
       "name": "DarkShyroBossQuandLentiteMeurt",
@@ -5548,7 +5529,7 @@
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/Shyro/DarkShyro"
     },
     {
       "name": "DarkKailonBossQuandLentiteMeurt",
@@ -5567,7 +5548,7 @@
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/Kailon/DarkKailon"
     },
     {
       "name": "DarkMinoBossQuandLentiteMeurt",
@@ -5586,7 +5567,7 @@
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/Mino/DarkMino"
     },
     {
       "name": "DarkMcqueenBossQuandLentiteMeurt",
@@ -5605,7 +5586,7 @@
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/McQueen/DarkMcqueen"
     },
     {
       "name": "DarkMinoBossQuandLentiteEstBlessee",
@@ -5640,7 +5621,7 @@
           }
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/Mino/DarkMino"
     },
     {
       "name": "DarkKailonBoss",
@@ -5655,7 +5636,7 @@
           "src/main/java/net/mcreator/specimentmod/client/renderer/DarkKailonBossRenderer.java"
         ]
       },
-      "path": "~/Kailon/KailonMob"
+      "path": "~/Kailon/DarkKailon"
     },
     {
       "name": "DarkMcqueenBoss",
@@ -5670,7 +5651,7 @@
           "src/main/resources/assets/speciment_mod/models/item/dark_mcqueen_boss_spawn_egg.json"
         ]
       },
-      "path": "~/McQueen/McQueenMob"
+      "path": "~/McQueen/DarkMcqueen"
     },
     {
       "name": "DarkShyroBoss",
@@ -5685,7 +5666,7 @@
           "src/main/resources/assets/speciment_mod/models/item/dark_shyro_boss_spawn_egg.json"
         ]
       },
-      "path": "~/Shyro/ShyroMob"
+      "path": "~/Shyro/DarkShyro"
     },
     {
       "name": "Stafffeu",
@@ -5779,11 +5760,11 @@
       "registry_name": "mcqueen_super_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_chestplate.json",
           "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_leggings.json",
           "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_boots.json",
           "src/main/java/net/mcreator/specimentmod/item/McqueenSuperArmorItem.java",
-          "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_helmet.json"
+          "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/mcqueen_super_armor_chestplate.json"
         ]
       },
       "path": "~/McQueen/McQueenSuperArmure"
@@ -5838,44 +5819,6 @@
       "path": "~/McQueen/McQueenSuperArmure"
     },
     {
-      "name": "Applyenchmcqueen",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "applyenchmcqueen",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/ApplyenchmcqueenProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/McQueen/McQueenSuperArmure"
-    },
-    {
-      "name": "Applyenchfemi",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "applyenchfemi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/ApplyenchfemiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/FemiMars/FemiSuperArmor"
-    },
-    {
       "name": "FemiActivationCrystal",
       "type": "item",
       "compiles": true,
@@ -5916,11 +5859,11 @@
       "registry_name": "femi_super_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_boots.json",
-          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_helmet.json",
-          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_leggings.json",
           "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_chestplate.json",
-          "src/main/java/net/mcreator/specimentmod/item/FemiSuperArmorItem.java"
+          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_helmet.json",
+          "src/main/java/net/mcreator/specimentmod/item/FemiSuperArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/femi_super_armor_boots.json"
         ]
       },
       "path": "~/FemiMars/FemiSuperArmor"
@@ -5933,11 +5876,11 @@
       "registry_name": "kailon_super_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_helmet.json",
-          "src/main/java/net/mcreator/specimentmod/item/KailonSuperArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_boots.json",
           "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_chestplate.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_leggings.json",
-          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_boots.json"
+          "src/main/java/net/mcreator/specimentmod/item/KailonSuperArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_helmet.json",
+          "src/main/resources/assets/speciment_mod/models/item/kailon_super_armor_leggings.json"
         ]
       },
       "path": "~/Kailon/KailonSuperArmor"
@@ -5950,49 +5893,11 @@
       "registry_name": "shyro_super_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_leggings.json",
-          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_chestplate.json",
-          "src/main/java/net/mcreator/specimentmod/item/ShyroSuperArmorItem.java",
           "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_helmet.json",
-          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_boots.json"
-        ]
-      },
-      "path": "~/Shyro/ShyroSuperArmor"
-    },
-    {
-      "name": "Applyenchkailon",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "applyenchkailon",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/ApplyenchkailonProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Kailon/KailonSuperArmor"
-    },
-    {
-      "name": "Applyenchshyro",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "applyenchshyro",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/procedures/ApplyenchshyroProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_boots.json",
+          "src/main/java/net/mcreator/specimentmod/item/ShyroSuperArmorItem.java",
+          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_leggings.json",
+          "src/main/resources/assets/speciment_mod/models/item/shyro_super_armor_chestplate.json"
         ]
       },
       "path": "~/Shyro/ShyroSuperArmor"
@@ -6269,6 +6174,399 @@
         ]
       },
       "path": "~/Mino/MinoMob"
+    },
+    {
+      "name": "DarkFemiDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_femi_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/speciment_mod/loot_tables/entities/dark_femi_drop.json"
+        ]
+      },
+      "path": "~/FemiMars/DarkFemi"
+    },
+    {
+      "name": "Femisuperhelmet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femisuperhelmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/FemisuperhelmetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiSuperArmor"
+    },
+    {
+      "name": "Femisuperchestplate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femisuperchestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/FemisuperchestplateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiSuperArmor"
+    },
+    {
+      "name": "Femisuperleggings",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femisuperleggings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/FemisuperleggingsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiSuperArmor"
+    },
+    {
+      "name": "Femisuperboots",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "femisuperboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/FemisuperbootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/FemiMars/FemiSuperArmor"
+    },
+    {
+      "name": "Kailonsuperhelmet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonsuperhelmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/KailonsuperhelmetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonSuperArmor"
+    },
+    {
+      "name": "Kailonsuperboots",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonsuperboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/KailonsuperbootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonSuperArmor"
+    },
+    {
+      "name": "Kailonsuperleggings",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonsuperleggings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/KailonsuperleggingsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonSuperArmor"
+    },
+    {
+      "name": "Kailonsuperchestplate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kailonsuperchestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/KailonsuperchestplateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Kailon/KailonSuperArmor"
+    },
+    {
+      "name": "Mcqueensuperboots",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueensuperboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/McqueensuperbootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/McQueen/McQueenSuperArmure"
+    },
+    {
+      "name": "Mcqueensuperleggings",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueensuperleggings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/McqueensuperleggingsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/McQueen/McQueenSuperArmure"
+    },
+    {
+      "name": "Mcqueensuperchestplate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueensuperchestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/McqueensuperchestplateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/McQueen/McQueenSuperArmure"
+    },
+    {
+      "name": "Mcqueensuperhelmet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcqueensuperhelmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/McqueensuperhelmetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/McQueen/McQueenSuperArmure"
+    },
+    {
+      "name": "Minosuperboots",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minosuperboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/MinosuperbootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Mino/MinoSuperArmure"
+    },
+    {
+      "name": "Minosuperleggings",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minosuperleggings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/MinosuperleggingsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Mino/MinoSuperArmure"
+    },
+    {
+      "name": "Minosuperchestplate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minosuperchestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/MinosuperchestplateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Mino/MinoSuperArmure"
+    },
+    {
+      "name": "Minosuperhelmet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minosuperhelmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/MinosuperhelmetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Mino/MinoSuperArmure"
+    },
+    {
+      "name": "Shyrosuperhelmet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrosuperhelmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ShyrosuperhelmetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Shyro/ShyroSuperArmor"
+    },
+    {
+      "name": "Shyrosuperchestplate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrosuperchestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ShyrosuperchestplateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Shyro/ShyroSuperArmor"
+    },
+    {
+      "name": "Shyrosuperleggings",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrosuperleggings",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ShyrosuperleggingsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Shyro/ShyroSuperArmor"
+    },
+    {
+      "name": "Shyrosuperboots",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shyrosuperboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/specimentmod/procedures/ShyrosuperbootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Shyro/ShyroSuperArmor"
     }
   ],
   "variable_elements": [
@@ -6458,13 +6756,6 @@
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:BiomeFemi"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:FemirokoLog",
-      "CUSTOM:KailoneaLog",
-      "CUSTOM:ShyrociaLog",
-      "CUSTOM:MinoriaLog",
-      "CUSTOM:McqueencifoliaLog"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MinoSandstone",
       "~CUSTOM:MinoxBlock",
@@ -6477,6 +6768,13 @@
       "~CUSTOM:KailoniteOre",
       "~CUSTOM:FemiumBlock",
       "~CUSTOM:FemiumOre"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:FemirokoLog",
+      "CUSTOM:KailoneaLog",
+      "CUSTOM:ShyrociaLog",
+      "CUSTOM:MinoriaLog",
+      "CUSTOM:McqueencifoliaLog"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:McqueencifoliaPlanks",
@@ -6836,8 +7134,8 @@
     "en_us": {
       "subtitles.twitch": "",
       "item.speciment_mod.lerapdelaf_1": "Disque",
-      "item.speciment_mod.mcqueenium_armor_chestplate": "Mcqueenium Chestplate",
       "block.speciment_mod.femiroko_fence_gate": "Femiroko Fence Gate",
+      "item.speciment_mod.mcqueenium_armor_chestplate": "Mcqueenium Chestplate",
       "entity.speciment_mod.dark_shyro_boss": "Dark Shyro",
       "item.speciment_mod.mcqueen_super_armor_helmet": "Mystic Mcqueenium Helmet",
       "subtitles.degatf1": "",
@@ -6852,8 +7150,8 @@
       "item.speciment_mod.minox_axe": "Minox Axe",
       "block.speciment_mod.mcqueencifolia_wood": "Mcqueencifolia Wood",
       "entity.speciment_mod.f_1": "Formula 1",
-      "block.speciment_mod.minoria_wood": "Minoria Wood",
       "item.speciment_mod.femi_activation_crystal": "Femi Activation Crystal",
+      "block.speciment_mod.minoria_wood": "Minoria Wood",
       "item.speciment_mod.mcqueenium": "Mcqueenium",
       "item.speciment_mod.lerapdelaf_1.desc": "Le rap de la F1",
       "item.speciment_mod.kailonite_pickaxe": "Kailonite Pickaxe",
@@ -6866,8 +7164,8 @@
       "block.speciment_mod.minoria_pressure_plate": "Minoria Pressure Plate",
       "item.speciment_mod.femium_axe": "Femium Axe",
       "block.speciment_mod.shyrocia_stairs": "Shyrocia Stairs",
-      "block.speciment_mod.femium_ore": "Femium Ore",
       "item.speciment_mod.catalyseurvide": "Empty catalyst",
+      "block.speciment_mod.femium_ore": "Femium Ore",
       "block.speciment_mod.minoria_slab": "Minoria Slab",
       "block.speciment_mod.shyronite_block": "Block of Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Medium Tyre Spawn Egg",
@@ -6886,8 +7184,8 @@
       "entity.speciment_mod.tourbillon": "Tourbillon",
       "entity.speciment_mod.pneu_intermediaire": "Intermediate Tyre",
       "block.speciment_mod.shyronite_ore": "Shyronite Ore",
-      "item.speciment_mod.staff": "Baton electrique",
       "item.speciment_mod.minox_armor_helmet": "Minox Helmet",
+      "item.speciment_mod.staff": "Baton electrique",
       "item.speciment_mod.mcqueenium_pickaxe": "Mcqueenium Pickaxe",
       "item.speciment_mod.kailon_super_armor_helmet": "Mystic Kailonite Helmet",
       "block.speciment_mod.kailonea_planks": "Kailonea Planks",
@@ -6901,14 +7199,14 @@
       "item.speciment_mod.minox_shovel": "Minox Shovel",
       "block.speciment_mod.kailonite_ore": "Kailonite Ore",
       "block.speciment_mod.shyrocia_door": "Shyrocia Door",
-      "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "entity.speciment_mod.zombie_femi": "Zombie Femi",
+      "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Mcqueencifolia Slab",
       "item.speciment_mod.shyro_super_armor_chestplate": "Mystic Shyronite Chestplate",
       "item.speciment_mod.lafin": "Ultimate Catalyst",
       "item.speciment_mod.pierredeminomysteria": "Mino\u0027s Mysteria Stone",
-      "block.speciment_mod.kailonea_fence_gate": "Kailonea Fence Gate",
       "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
+      "block.speciment_mod.kailonea_fence_gate": "Kailonea Fence Gate",
       "item.speciment_mod.stafffeu": "Baton Incandescent",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
@@ -7080,8 +7378,8 @@
     "fr_fr": {
       "subtitles.twitch": "",
       "item.speciment_mod.lerapdelaf_1": "Disque",
-      "item.speciment_mod.mcqueenium_armor_chestplate": "Plastron en Mcqueenium",
       "block.speciment_mod.femiroko_fence_gate": "Portillon en fémiroko",
+      "item.speciment_mod.mcqueenium_armor_chestplate": "Plastron en Mcqueenium",
       "entity.speciment_mod.dark_shyro_boss": "Dark Shyro",
       "item.speciment_mod.mcqueen_super_armor_helmet": "Mystic Minox Helmet",
       "subtitles.degatf1": "",
@@ -7096,8 +7394,8 @@
       "item.speciment_mod.minox_axe": "Hache en Minox",
       "block.speciment_mod.mcqueencifolia_wood": "Bois de mcqueencifolia",
       "entity.speciment_mod.f_1": "Formule 1",
-      "item.speciment_mod.femi_activation_crystal": "Mcqueen Activation Crystal",
       "block.speciment_mod.minoria_wood": "Bois de minoria",
+      "item.speciment_mod.femi_activation_crystal": "Mcqueen Activation Crystal",
       "item.speciment_mod.mcqueenium": "Mcqueenium",
       "item.speciment_mod.lerapdelaf_1.desc": "Le rap de la F1",
       "item.speciment_mod.kailonite_pickaxe": "Pioche en Kailonite",
@@ -7110,8 +7408,8 @@
       "block.speciment_mod.minoria_pressure_plate": "Plaque de pression en minoria",
       "item.speciment_mod.femium_axe": "Hache en Fémium",
       "block.speciment_mod.shyrocia_stairs": "Escalier en shyrocia",
-      "block.speciment_mod.femium_ore": "Minerai de Fémium",
       "item.speciment_mod.catalyseurvide": "Catalyseur vide",
+      "block.speciment_mod.femium_ore": "Minerai de Fémium",
       "block.speciment_mod.minoria_slab": "Dalle en minoria",
       "block.speciment_mod.shyronite_block": "Bloc de Shyronite",
       "item.speciment_mod.pneumedium_spawn_egg": "Oeuf de pneu moyen",
@@ -7130,8 +7428,8 @@
       "entity.speciment_mod.tourbillon": "Tourbillon",
       "entity.speciment_mod.pneu_intermediaire": "Pneu intermédiaire",
       "block.speciment_mod.shyronite_ore": "Minerai de Shyronite",
-      "item.speciment_mod.staff": "Staffelec",
       "item.speciment_mod.minox_armor_helmet": "Casque en Minox",
+      "item.speciment_mod.staff": "Staffelec",
       "item.speciment_mod.mcqueenium_pickaxe": "Pioche en Mcqueenium",
       "item.speciment_mod.kailon_super_armor_helmet": "Mystic Mcqueenium Helmet",
       "block.speciment_mod.kailonea_planks": "Planches en kailonéa",
@@ -7145,14 +7443,14 @@
       "item.speciment_mod.minox_shovel": "Minox Shovel",
       "block.speciment_mod.kailonite_ore": "Minerai de Kailonite",
       "block.speciment_mod.shyrocia_door": "Porte en shyrocia",
-      "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "entity.speciment_mod.zombie_femi": "Zombie Femi",
+      "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Dalle en mcqueencifolia",
       "item.speciment_mod.shyro_super_armor_chestplate": "Mystic Mcqueenium Chestplate",
       "item.speciment_mod.lafin": "Catalyseur Ultime",
       "item.speciment_mod.pierredeminomysteria": "Pierre de Mino\u0027s Mysteria",
-      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "block.speciment_mod.kailonea_fence_gate": "Portillon en kailonéa",
+      "item.speciment_mod.catalyseurultime": "Catalyseur Ultime",
       "item.speciment_mod.stafffeu": "Baton_Incandescent",
       "subtitles.leclerc": "",
       "subtitles.ordredemisison": "",
@@ -7344,6 +7642,10 @@
           {
             "name": "McQueenMob",
             "children": []
+          },
+          {
+            "name": "DarkMcqueen",
+            "children": []
           }
         ]
       },
@@ -7365,6 +7667,10 @@
           {
             "name": "MinoSuperArmure",
             "children": []
+          },
+          {
+            "name": "DarkMino",
+            "children": []
           }
         ]
       },
@@ -7385,6 +7691,10 @@
           },
           {
             "name": "KailonSuperArmor",
+            "children": []
+          },
+          {
+            "name": "DarkKailon",
             "children": []
           }
         ]
@@ -7411,6 +7721,10 @@
           {
             "name": "ShyroMinerai",
             "children": []
+          },
+          {
+            "name": "DarkShyro",
+            "children": []
           }
         ]
       },
@@ -7431,12 +7745,11 @@
           },
           {
             "name": "FemiMarsMob",
-            "children": [
-              {
-                "name": "DarkFemi",
-                "children": []
-              }
-            ]
+            "children": []
+          },
+          {
+            "name": "DarkFemi",
+            "children": []
           }
         ]
       },

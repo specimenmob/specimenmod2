@@ -10,6 +10,18 @@
     "textureLeggings": "shyronite_leggings",
     "enableBoots": true,
     "textureBoots": "shyronite_boots",
+    "onHelmetTick": {
+      "name": "Shyrosuperhelmet"
+    },
+    "onBodyTick": {
+      "name": "Shyrosuperchestplate"
+    },
+    "onLeggingsTick": {
+      "name": "Shyrosuperleggings"
+    },
+    "onBootsTick": {
+      "name": "Shyrosuperboots"
+    },
     "creativeTabs": [],
     "armorTextureFile": "shyronite",
     "helmetName": "Mystic Shyronite Helmet",

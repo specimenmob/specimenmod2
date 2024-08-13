@@ -10,6 +10,18 @@
     "textureLeggings": "femium_leggings",
     "enableBoots": true,
     "textureBoots": "femium_boots",
+    "onHelmetTick": {
+      "name": "Femisuperhelmet"
+    },
+    "onBodyTick": {
+      "name": "Femisuperchestplate"
+    },
+    "onLeggingsTick": {
+      "name": "Femisuperleggings"
+    },
+    "onBootsTick": {
+      "name": "Femisuperboots"
+    },
     "creativeTabs": [],
     "armorTextureFile": "femium",
     "helmetName": "Mystic Femium Helmet",

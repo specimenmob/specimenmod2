@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.AMETHYST_SHARD"
+        "value": ""
       },
       {
         "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "Items.AMETHYST_SHARD"
+        "value": ""
       },
       {
         "value": "Items.AMETHYST_SHARD"
@@ -30,13 +30,13 @@
         "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "Items.AMETHYST_SHARD"
+        "value": ""
       },
       {
         "value": "Items.AMETHYST_SHARD"
       },
       {
-        "value": "Items.AMETHYST_SHARD"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
