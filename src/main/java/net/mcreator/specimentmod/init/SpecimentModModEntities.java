@@ -17,6 +17,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.specimentmod.entity.ZombieFemiEntity;
+import net.mcreator.specimentmod.entity.TourbillonEntity;
 import net.mcreator.specimentmod.entity.RockyEntity;
 import net.mcreator.specimentmod.entity.ProjectventEntity;
 import net.mcreator.specimentmod.entity.ProjecteauEntity;
@@ -104,6 +105,10 @@ public class SpecimentModModEntities {
 			EntityType.Builder.<ProjectventEntity>of(ProjectventEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<ProjecteauEntity>> PROJECTEAU = register("projecteau",
 			EntityType.Builder.<ProjecteauEntity>of(ProjecteauEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<TourbillonEntity>> TOURBILLON = register("tourbillon",
+			EntityType.Builder.<TourbillonEntity>of(TourbillonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -126,6 +131,7 @@ public class SpecimentModModEntities {
 		DarkKailonBossEntity.init(event);
 		DarkMcqueenBossEntity.init(event);
 		DarkShyroBossEntity.init(event);
+		TourbillonEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -145,5 +151,6 @@ public class SpecimentModModEntities {
 		event.put(DARK_KAILON_BOSS.get(), DarkKailonBossEntity.createAttributes().build());
 		event.put(DARK_MCQUEEN_BOSS.get(), DarkMcqueenBossEntity.createAttributes().build());
 		event.put(DARK_SHYRO_BOSS.get(), DarkShyroBossEntity.createAttributes().build());
+		event.put(TOURBILLON.get(), TourbillonEntity.createAttributes().build());
 	}
 }

@@ -59,6 +59,7 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModBlocks.MINO_SAND.get().asItem());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKMINO.get().asItem());
 				tabData.accept(SpecimentModModItems.BATONDES_EAU.get());
+				tabData.accept(SpecimentModModItems.TOURBILLON_SPAWN_EGG.get());
 			})
 
 					.build());

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "speciment_mod:biomemino",
+  "spawners": {
+    "type": "speciment_mod:tourbillon",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
