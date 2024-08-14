@@ -16,7 +16,6 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
-import net.mcreator.specimentmod.entity.ZombieFemiEntity;
 import net.mcreator.specimentmod.entity.TourbillonEntity;
 import net.mcreator.specimentmod.entity.RockyEntity;
 import net.mcreator.specimentmod.entity.ProjectventEntity;
@@ -75,10 +74,6 @@ public class SpecimentModModEntities {
 			EntityType.Builder.<CharomaneEntity>of(CharomaneEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
-	public static final DeferredHolder<EntityType<?>, EntityType<ZombieFemiEntity>> ZOMBIE_FEMI = register("zombie_femi",
-			EntityType.Builder.<ZombieFemiEntity>of(ZombieFemiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<DarkFemiBossEntity>> DARK_FEMI_BOSS = register("dark_femi_boss",
 			EntityType.Builder.<DarkFemiBossEntity>of(DarkFemiBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -125,7 +120,6 @@ public class SpecimentModModEntities {
 		PneuwetEntity.init(event);
 		F1Entity.init(event);
 		CharomaneEntity.init(event);
-		ZombieFemiEntity.init(event);
 		DarkFemiBossEntity.init(event);
 		DarkMinoBossEntity.init(event);
 		DarkKailonBossEntity.init(event);
@@ -145,7 +139,6 @@ public class SpecimentModModEntities {
 		event.put(PNEUWET.get(), PneuwetEntity.createAttributes().build());
 		event.put(F_1.get(), F1Entity.createAttributes().build());
 		event.put(CHAROMANE.get(), CharomaneEntity.createAttributes().build());
-		event.put(ZOMBIE_FEMI.get(), ZombieFemiEntity.createAttributes().build());
 		event.put(DARK_FEMI_BOSS.get(), DarkFemiBossEntity.createAttributes().build());
 		event.put(DARK_MINO_BOSS.get(), DarkMinoBossEntity.createAttributes().build());
 		event.put(DARK_KAILON_BOSS.get(), DarkKailonBossEntity.createAttributes().build());

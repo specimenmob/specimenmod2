@@ -220,7 +220,6 @@ public class SpecimentModModTabs {
 				tabData.accept(SpecimentModModItems.STEAKDE_MIMIRCRUE.get());
 				tabData.accept(SpecimentModModItems.STEAKDE_MIMIR.get());
 				tabData.accept(SpecimentModModItems.MIMIR_SPAWN_EGG.get());
-				tabData.accept(SpecimentModModItems.ZOMBIE_FEMI_SPAWN_EGG.get());
 				tabData.accept(SpecimentModModBlocks.BLOCDARKFEMI.get().asItem());
 				tabData.accept(SpecimentModModItems.STAFFFEU.get());
 				tabData.accept(SpecimentModModItems.FEMI_ACTIVATION_CRYSTAL.get());

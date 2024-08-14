@@ -5012,22 +5012,6 @@
       "path": "~/Specimen"
     },
     {
-      "name": "ZombieFemi",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "zombie_femi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/specimentmod/entity/ZombieFemiEntity.java",
-          "src/main/resources/data/speciment_mod/neoforge/biome_modifier/zombie_femi_biome_modifier.json",
-          "src/main/java/net/mcreator/specimentmod/client/renderer/ZombieFemiRenderer.java",
-          "src/main/resources/assets/speciment_mod/models/item/zombie_femi_spawn_egg.json"
-        ]
-      },
-      "path": "~/FemiMars/FemiMarsMob"
-    },
-    {
       "name": "Darkfemi",
       "type": "procedure",
       "compiles": true,
@@ -6793,9 +6777,6 @@
       "~CUSTOM:FemirokoLog",
       "~CUSTOM:FemirokoWood"
     ],
-    "ENTITIES:minecraft:undead": [
-      "~CUSTOM:ZombieFemi"
-    ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:MinoxHoe",
       "~CUSTOM:McqueeniumHoe",
@@ -7124,7 +7105,6 @@
       "SteakdeMimircrue",
       "SteakdeMimir",
       "Mimir",
-      "ZombieFemi",
       "Blocdarkfemi",
       "Stafffeu",
       "FemiActivationCrystal"
@@ -7199,7 +7179,6 @@
       "item.speciment_mod.minox_shovel": "Minox Shovel",
       "block.speciment_mod.kailonite_ore": "Kailonite Ore",
       "block.speciment_mod.shyrocia_door": "Shyrocia Door",
-      "entity.speciment_mod.zombie_femi": "Zombie Femi",
       "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Mcqueencifolia Slab",
       "item.speciment_mod.shyro_super_armor_chestplate": "Mystic Shyronite Chestplate",
@@ -7290,7 +7269,6 @@
       "block.speciment_mod.blocdarkshyro": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_fence": "Shyrocia Fence",
       "block.speciment_mod.mcqueenium_block": "Block of Mcqueenium",
-      "item.speciment_mod.zombie_femi_spawn_egg": "Zombie Femi Spawn Egg",
       "item.speciment_mod.shyronite_armor_boots": "Shyronite Boots",
       "subtitles.f1engine": "",
       "block.speciment_mod.mino_sandstone": "Mino Sandstone",
@@ -7443,7 +7421,6 @@
       "item.speciment_mod.minox_shovel": "Minox Shovel",
       "block.speciment_mod.kailonite_ore": "Minerai de Kailonite",
       "block.speciment_mod.shyrocia_door": "Porte en shyrocia",
-      "entity.speciment_mod.zombie_femi": "Zombie Femi",
       "entity.speciment_mod.dark_femi_boss": "Dark Femi",
       "block.speciment_mod.mcqueencifolia_slab": "Dalle en mcqueencifolia",
       "item.speciment_mod.shyro_super_armor_chestplate": "Mystic Mcqueenium Chestplate",
@@ -7534,7 +7511,6 @@
       "block.speciment_mod.blocdarkshyro": "Blocdarkfemi",
       "block.speciment_mod.shyrocia_fence": "Clôture en shyrocia",
       "block.speciment_mod.mcqueenium_block": "Bloc de Mcqueenium",
-      "item.speciment_mod.zombie_femi_spawn_egg": "Zombie Femi Spawn Egg",
       "item.speciment_mod.shyronite_armor_boots": "Bottes en Shyronite",
       "subtitles.f1engine": "",
       "block.speciment_mod.mino_sandstone": "Mino Sandstone",
